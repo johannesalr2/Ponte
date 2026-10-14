@@ -1,0 +1,551 @@
+{
+  "area": "organisation",
+  "terms": [
+    {
+      "id": "ko-mise-en-place",
+      "level": "B1",
+      "de": {
+        "word": "Mise en place",
+        "article": "die",
+        "plural": null,
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-posten"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Bis 17 Uhr muss die Mise en place fertig sein.",
+          "tr": {
+            "pt-BR": "Até as 17 horas a mise en place precisa estar pronta."
+          }
+        },
+        {
+          "de": "Ohne gute Mise en place gehst du im Service unter.",
+          "tr": {
+            "pt-BR": "Sem uma boa mise en place você se afoga no serviço."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "mise en place",
+          "technical": "Preparação e organização prévia de ingredientes e utensílios na praça antes do serviço.",
+          "simple": "Deixar tudo cortado, separado e no lugar antes de começar a cozinhar."
+        }
+      }
+    },
+    {
+      "id": "ko-posten",
+      "level": "B1",
+      "de": {
+        "word": "Posten",
+        "article": "der",
+        "plural": "Posten",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-mise-en-place", "ko-kuechenchef"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Heute stehst du auf dem Beilagenposten.",
+          "tr": {
+            "pt-BR": "Hoje você fica na praça de guarnições."
+          }
+        },
+        {
+          "de": "Jeder Posten ist für seine eigene Mise en place verantwortlich.",
+          "tr": {
+            "pt-BR": "Cada praça é responsável pela própria mise en place."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "praça (estação da cozinha)",
+          "technical": "Setor da brigada de cozinha com responsabilidade própria: Saucier (molhos), Entremetier (guarnições), Gardemanger (frios), Pâtissier (confeitaria).",
+          "simple": "O \"cantinho\" da cozinha onde cada cozinheiro cuida de uma parte do cardápio."
+        }
+      }
+    },
+    {
+      "id": "ko-kuechenchef",
+      "level": "A2",
+      "de": {
+        "word": "Küchenchef",
+        "article": "der",
+        "plural": "Küchenchefs",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Küche",
+          "tr": {
+            "pt-BR": "cozinha"
+          }
+        },
+        {
+          "de": "n",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "chef",
+          "tr": {
+            "pt-BR": "chefe"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ko-souschef", "ko-posten"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Küchenchef stellt die neue Karte vor.",
+          "tr": {
+            "pt-BR": "O chef de cozinha apresenta o novo cardápio."
+          }
+        },
+        {
+          "de": "Frag den Küchenchef, ob wir die Beilage ändern dürfen.",
+          "tr": {
+            "pt-BR": "Pergunte ao chef se podemos mudar a guarnição."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "chef de cozinha",
+          "technical": "Responsável pela cozinha: cardápio, equipe, compras e custos; forma feminina \"Küchenchefin\".",
+          "simple": "O chefe da cozinha."
+        }
+      }
+    },
+    {
+      "id": "ko-souschef",
+      "level": "B1",
+      "de": {
+        "word": "Souschef",
+        "article": "der",
+        "plural": "Souschefs",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-kuechenchef", "ko-pass"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Souschef macht heute den Pass.",
+          "tr": {
+            "pt-BR": "O subchefe comanda o passe hoje."
+          }
+        },
+        {
+          "de": "Ich bin seit einem Jahr Souschef in einem Hotelrestaurant.",
+          "tr": {
+            "pt-BR": "Sou subchefe num restaurante de hotel há um ano."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "subchefe",
+          "technical": "Substituto direto do chef de cozinha; coordena o serviço e a equipe.",
+          "simple": "O braço direito do chef."
+        }
+      }
+    },
+    {
+      "id": "ko-bon",
+      "level": "B1",
+      "de": {
+        "word": "Bon",
+        "article": "der",
+        "plural": "Bons",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-pass", "ko-bestellung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Neuer Bon: zweimal Schnitzel, einmal Fisch!",
+          "tr": {
+            "pt-BR": "Nova comanda: dois schnitzels, um peixe!"
+          }
+        },
+        {
+          "de": "Der Bon für Tisch 7 ist verloren gegangen.",
+          "tr": {
+            "pt-BR": "A comanda da mesa 7 se perdeu."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "comanda (pedido)",
+          "technical": "Pedido impresso que chega do salão à cozinha; o chef \"anuncia\" (ansagen) os bons.",
+          "simple": "O papelzinho com o pedido do cliente que chega na cozinha."
+        }
+      }
+    },
+    {
+      "id": "ko-bestellung",
+      "level": "A2",
+      "de": {
+        "word": "Bestellung",
+        "article": "die",
+        "plural": "Bestellungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-bon", "ko-lieferschein"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Bestellung beim Gemüsehändler muss bis 14 Uhr raus.",
+          "tr": {
+            "pt-BR": "O pedido ao fornecedor de legumes precisa sair até as 14 horas."
+          }
+        },
+        {
+          "de": "Tisch 4 hat die Bestellung geändert.",
+          "tr": {
+            "pt-BR": "A mesa 4 mudou o pedido."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "pedido",
+          "technical": "Pedido de cliente ou encomenda a fornecedor (Warenbestellung).",
+          "simple": "Quando alguém pede algo: o cliente ao garçom ou a cozinha ao fornecedor."
+        }
+      }
+    },
+    {
+      "id": "ko-lieferschein",
+      "level": "B1",
+      "de": {
+        "word": "Lieferschein",
+        "article": "der",
+        "plural": "Lieferscheine",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Liefer",
+          "tr": {
+            "pt-BR": "entregar"
+          }
+        },
+        {
+          "de": "schein",
+          "tr": {
+            "pt-BR": "comprovante"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ko-bestellung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Vergleich die Ware mit dem Lieferschein.",
+          "tr": {
+            "pt-BR": "Compare a mercadoria com a nota de entrega."
+          }
+        },
+        {
+          "de": "Auf dem Lieferschein fehlen zwei Kisten Tomaten.",
+          "tr": {
+            "pt-BR": "Faltam duas caixas de tomate na nota de entrega."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "nota de entrega",
+          "variants": {
+            "pt-PT": "guia de remessa"
+          },
+          "technical": "Documento que acompanha a mercadoria e lista o que foi entregue; conferido no recebimento.",
+          "simple": "O papel que vem com a entrega dizendo o que chegou."
+        }
+      }
+    },
+    {
+      "id": "ko-rezept",
+      "level": "A2",
+      "de": {
+        "word": "Rezept",
+        "article": "das",
+        "plural": "Rezepte",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-portion"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Halte dich genau an das Rezept.",
+          "tr": {
+            "pt-BR": "Siga exatamente a receita."
+          }
+        },
+        {
+          "de": "Das Rezept ist auf 20 Portionen berechnet.",
+          "tr": {
+            "pt-BR": "A receita está calculada para 20 porções."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "receita",
+          "technical": "Ficha de preparo com ingredientes, quantidades e modo de fazer; na cozinha profissional, ficha técnica com rendimento e custo.",
+          "simple": "A receita de um prato.",
+          "falseFriends": [
+            {
+              "word": "Rezept (médico)",
+              "note": "\"Rezept\" também é a receita médica. Mesma palavra, como em português."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ko-portion",
+      "level": "A2",
+      "de": {
+        "word": "Portion",
+        "article": "die",
+        "plural": "Portionen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-rezept", "ko-kelle"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Eine Portion Fleisch hat 180 Gramm.",
+          "tr": {
+            "pt-BR": "Uma porção de carne tem 180 gramas."
+          }
+        },
+        {
+          "de": "Wie viele Portionen sind noch da?",
+          "tr": {
+            "pt-BR": "Quantas porções ainda temos?"
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "porção",
+          "technical": "Quantidade definida servida por pessoa, controlada por peso ou utensílio.",
+          "simple": "A quantidade de comida para uma pessoa."
+        }
+      }
+    },
+    {
+      "id": "ko-anrichten",
+      "level": "B1",
+      "de": {
+        "word": "anrichten",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["ko-pass"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Richte das Fleisch auf dem warmen Teller an.",
+          "tr": {
+            "pt-BR": "Emprate a carne no prato aquecido."
+          }
+        },
+        {
+          "de": "Wir richten alle Teller gleich an, schau aufs Foto.",
+          "tr": {
+            "pt-BR": "Empratamos todos os pratos igual; olhe a foto."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "empratar",
+          "technical": "Dispor a comida no prato segundo o padrão da casa antes de servir.",
+          "simple": "Montar o prato bonito antes de levar ao cliente.",
+          "falseFriends": [
+            {
+              "word": "Schaden anrichten",
+              "note": "\"Schaden anrichten\" significa causar dano, outro sentido de \"anrichten\"."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ko-pass",
+      "level": "B2",
+      "de": {
+        "word": "Pass",
+        "article": "der",
+        "plural": "Pässe",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-souschef", "ko-bon"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Alles für Tisch 12 an den Pass, bitte!",
+          "tr": {
+            "pt-BR": "Tudo da mesa 12 para o passe, por favor!"
+          }
+        },
+        {
+          "de": "Am Pass wird jeder Teller kontrolliert.",
+          "tr": {
+            "pt-BR": "No passe, cada prato é conferido."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "passe",
+          "technical": "Balcão onde os pratos prontos são conferidos pelo chef e entregues ao salão.",
+          "simple": "O balcão onde o chef confere o prato antes de o garçom levar.",
+          "falseFriends": [
+            {
+              "word": "Pass (passaporte)",
+              "note": "\"Der Pass\" também é o passaporte (Reisepass)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ko-speisekarte",
+      "level": "A2",
+      "de": {
+        "word": "Speisekarte",
+        "article": "die",
+        "plural": "Speisekarten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Speise",
+          "tr": {
+            "pt-BR": "prato, comida"
+          }
+        },
+        {
+          "de": "karte",
+          "tr": {
+            "pt-BR": "cartão"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ko-menue", "ko-gericht"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Ab Montag gilt die neue Speisekarte.",
+          "tr": {
+            "pt-BR": "A partir de segunda vale o novo cardápio."
+          }
+        },
+        {
+          "de": "Das Gericht steht nicht mehr auf der Speisekarte.",
+          "tr": {
+            "pt-BR": "O prato não está mais no cardápio."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "cardápio",
+          "variants": {
+            "pt-PT": "ementa"
+          },
+          "technical": "Lista de pratos oferecidos com preços; a \"Tageskarte\" muda diariamente.",
+          "simple": "A lista de comidas do restaurante."
+        }
+      }
+    },
+    {
+      "id": "ko-menue",
+      "level": "A2",
+      "de": {
+        "word": "Menü",
+        "article": "das",
+        "plural": "Menüs",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-speisekarte"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Menü hat heute vier Gänge.",
+          "tr": {
+            "pt-BR": "O menu hoje tem quatro tempos."
+          }
+        },
+        {
+          "de": "Mittags bieten wir ein Menü für 14,50 Euro an.",
+          "tr": {
+            "pt-BR": "No almoço oferecemos um menu por 14,50 euros."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "menu (refeição com vários pratos)",
+          "technical": "Sequência fixa de pratos (entrada, principal, sobremesa) a preço único.",
+          "simple": "Uma refeição completa com entrada, prato principal e sobremesa.",
+          "falseFriends": [
+            {
+              "word": "menu (cardápio)",
+              "note": "A lista completa de pratos é a \"Speisekarte\". \"Menü\" é a refeição de vários tempos."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

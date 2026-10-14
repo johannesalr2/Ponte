@@ -1,0 +1,706 @@
+{
+  "area": "netzwerk-systeme",
+  "terms": [
+    {
+      "id": "fi-netzwerk",
+      "level": "A2",
+      "de": {
+        "word": "Netzwerk",
+        "article": "das",
+        "plural": "Netzwerke",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Netz",
+          "tr": {
+            "pt-BR": "rede"
+          }
+        },
+        {
+          "de": "werk",
+          "tr": {
+            "pt-BR": "obra, conjunto"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["fi-router", "fi-switch", "fi-ip-adresse"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Drucker ist nicht im Netzwerk erreichbar.",
+          "tr": {
+            "pt-BR": "A impressora não está acessível na rede."
+          }
+        },
+        {
+          "de": "Wir trennen das Gästenetzwerk vom Firmennetzwerk.",
+          "tr": {
+            "pt-BR": "Separamos a rede de visitantes da rede da empresa."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "rede",
+          "technical": "Conjunto de dispositivos interligados que trocam dados (LAN, WLAN, WAN), com endereçamento e protocolos comuns.",
+          "simple": "Os computadores ligados entre si para conversar e compartilhar coisas."
+        }
+      }
+    },
+    {
+      "id": "fi-router",
+      "level": "A2",
+      "de": {
+        "word": "Router",
+        "article": "der",
+        "plural": "Router",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["fi-switch", "fi-netzwerk"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Starte den Router neu, dann sollte die Verbindung wieder gehen.",
+          "tr": {
+            "pt-BR": "Reinicie o roteador; depois a conexão deve voltar."
+          }
+        },
+        {
+          "de": "Der Router vergibt die IP-Adressen per DHCP.",
+          "tr": {
+            "pt-BR": "O roteador distribui os endereços IP via DHCP."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "roteador",
+          "variants": {
+            "pt-PT": "router"
+          },
+          "technical": "Equipamento que encaminha pacotes entre redes diferentes com base no endereço IP; costuma fazer NAT e conexão com a internet.",
+          "simple": "A caixinha que liga a rede da empresa ou de casa à internet."
+        }
+      }
+    },
+    {
+      "id": "fi-switch",
+      "level": "B1",
+      "de": {
+        "word": "Switch",
+        "article": "der",
+        "plural": "Switches",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["fi-router", "fi-kabel"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Port 12 am Switch ist defekt.",
+          "tr": {
+            "pt-BR": "A porta 12 do switch está com defeito."
+          }
+        },
+        {
+          "de": "Für die Kameras richten wir am Switch ein eigenes VLAN ein.",
+          "tr": {
+            "pt-BR": "Para as câmeras configuramos uma VLAN própria no switch."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "switch (comutador)",
+          "variants": {
+            "pt-PT": "comutador (switch)"
+          },
+          "technical": "Equipamento de camada 2 que conecta dispositivos numa mesma rede local e encaminha quadros pelo endereço MAC; switches gerenciáveis suportam VLANs.",
+          "simple": "O aparelho com várias tomadas de rede onde se ligam os cabos dos computadores."
+        }
+      }
+    },
+    {
+      "id": "fi-schnittstelle",
+      "level": "B1",
+      "de": {
+        "word": "Schnittstelle",
+        "article": "die",
+        "plural": "Schnittstellen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Schnitt",
+          "tr": {
+            "pt-BR": "corte"
+          }
+        },
+        {
+          "de": "stelle",
+          "tr": {
+            "pt-BR": "ponto, lugar"
+          }
+        }
+      ],
+      "synonyms": ["Interface"],
+      "related": ["fi-anwendung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Schnittstelle zum ERP-System liefert die Daten im JSON-Format.",
+          "tr": {
+            "pt-BR": "A interface com o sistema ERP entrega os dados em formato JSON."
+          }
+        },
+        {
+          "de": "Welche Schnittstellen hat der Server? Zwei Netzwerkports und USB.",
+          "tr": {
+            "pt-BR": "Quais interfaces o servidor tem? Duas portas de rede e USB."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "interface",
+          "technical": "Ponto de ligação entre sistemas, componentes ou programas: física (USB, porta de rede) ou lógica (API).",
+          "simple": "O \"ponto de encontro\" onde duas coisas se conectam, como um cabo e uma porta, ou dois programas."
+        }
+      }
+    },
+    {
+      "id": "fi-rechner",
+      "level": "A2",
+      "de": {
+        "word": "Rechner",
+        "article": "der",
+        "plural": "Rechner",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": ["Computer", "PC"],
+      "related": ["fi-betriebssystem"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Mein Rechner fährt nicht mehr hoch.",
+          "tr": {
+            "pt-BR": "Meu computador não liga mais (não inicializa)."
+          }
+        },
+        {
+          "de": "Alle Rechner im Büro bekommen heute das Update.",
+          "tr": {
+            "pt-BR": "Todos os computadores do escritório recebem a atualização hoje."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "computador",
+          "technical": "Termo alemão corrente para computador (também \"Computer\"); \"Taschenrechner\" é a calculadora.",
+          "simple": "O computador."
+        }
+      }
+    },
+    {
+      "id": "fi-festplatte",
+      "level": "A2",
+      "de": {
+        "word": "Festplatte",
+        "article": "die",
+        "plural": "Festplatten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Fest",
+          "tr": {
+            "pt-BR": "fixo"
+          }
+        },
+        {
+          "de": "platte",
+          "tr": {
+            "pt-BR": "disco, placa"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["fi-datensicherung", "fi-arbeitsspeicher"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Festplatte ist zu 95 Prozent voll.",
+          "tr": {
+            "pt-BR": "O disco rígido está 95 por cento cheio."
+          }
+        },
+        {
+          "de": "Tausch die defekte Festplatte im RAID aus.",
+          "tr": {
+            "pt-BR": "Troque o disco rígido com defeito no RAID."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "disco rígido (HD)",
+          "technical": "Memória de massa não volátil (HDD magnético ou SSD); em alemão, SSD é muitas vezes chamado só de \"SSD\".",
+          "simple": "O lugar dentro do computador onde os arquivos ficam guardados."
+        }
+      }
+    },
+    {
+      "id": "fi-arbeitsspeicher",
+      "level": "B1",
+      "de": {
+        "word": "Arbeitsspeicher",
+        "article": "der",
+        "plural": "Arbeitsspeicher",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Arbeit",
+          "tr": {
+            "pt-BR": "trabalho"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "speicher",
+          "tr": {
+            "pt-BR": "memória"
+          }
+        }
+      ],
+      "synonyms": ["RAM"],
+      "related": ["fi-festplatte"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Server braucht mehr Arbeitsspeicher, 16 Gigabyte reichen nicht.",
+          "tr": {
+            "pt-BR": "O servidor precisa de mais memória RAM; 16 gigabytes não bastam."
+          }
+        },
+        {
+          "de": "Der Arbeitsspeicher ist voll ausgelastet.",
+          "tr": {
+            "pt-BR": "A memória RAM está totalmente ocupada."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "memória RAM",
+          "technical": "Memória volátil onde ficam os programas e dados em uso; perde o conteúdo ao desligar.",
+          "simple": "A memória \"de trabalho\" do computador, que deixa os programas rápidos."
+        }
+      }
+    },
+    {
+      "id": "fi-betriebssystem",
+      "level": "A2",
+      "de": {
+        "word": "Betriebssystem",
+        "article": "das",
+        "plural": "Betriebssysteme",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Betrieb",
+          "tr": {
+            "pt-BR": "operação"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "system",
+          "tr": {
+            "pt-BR": "sistema"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["fi-rechner", "fi-update"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Auf dem Laptop muss das Betriebssystem neu installiert werden.",
+          "tr": {
+            "pt-BR": "No notebook é preciso reinstalar o sistema operacional."
+          }
+        },
+        {
+          "de": "Welches Betriebssystem läuft auf dem Server?",
+          "tr": {
+            "pt-BR": "Qual sistema operacional roda no servidor?"
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "sistema operacional",
+          "variants": {
+            "pt-PT": "sistema operativo"
+          },
+          "technical": "Software básica que gerencia hardware e recursos e executa os programas (Windows, Linux, macOS).",
+          "simple": "O programa principal que faz o computador funcionar, como Windows ou Linux."
+        }
+      }
+    },
+    {
+      "id": "fi-ip-adresse",
+      "level": "A2",
+      "de": {
+        "word": "IP-Adresse",
+        "article": "die",
+        "plural": "IP-Adressen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["fi-router", "fi-netzwerk"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Drucker bekommt eine feste IP-Adresse.",
+          "tr": {
+            "pt-BR": "A impressora recebe um endereço IP fixo."
+          }
+        },
+        {
+          "de": "Welche IP-Adresse hat dein Rechner?",
+          "tr": {
+            "pt-BR": "Qual é o endereço IP do seu computador?"
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "endereço IP",
+          "technical": "Endereço numérico que identifica um dispositivo numa rede IP (IPv4, ex.: 192.168.1.10; ou IPv6).",
+          "simple": "O \"número de casa\" de cada aparelho na rede."
+        }
+      }
+    },
+    {
+      "id": "fi-firewall",
+      "level": "B1",
+      "de": {
+        "word": "Firewall",
+        "article": "die",
+        "plural": "Firewalls",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["fi-sicherheitsluecke", "fi-netzwerk"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Firewall blockiert Port 3389 von außen.",
+          "tr": {
+            "pt-BR": "O firewall bloqueia a porta 3389 vinda de fora."
+          }
+        },
+        {
+          "de": "Für den neuen Dienst müssen wir eine Firewall-Regel anlegen.",
+          "tr": {
+            "pt-BR": "Para o novo serviço precisamos criar uma regra no firewall."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "firewall",
+          "technical": "Sistema que filtra o tráfego de rede segundo regras (portas, endereços, aplicações) para proteger redes e hosts.",
+          "simple": "Um \"porteiro\" que decide o que pode entrar e sair da rede."
+        }
+      }
+    },
+    {
+      "id": "fi-server",
+      "level": "A2",
+      "de": {
+        "word": "Server",
+        "article": "der",
+        "plural": "Server",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["fi-datensicherung", "fi-ausfallzeit"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Server im Keller wird am Wochenende gewartet.",
+          "tr": {
+            "pt-BR": "O servidor no subsolo passa por manutenção no fim de semana."
+          }
+        },
+        {
+          "de": "Die Anwendung läuft auf einem virtuellen Server.",
+          "tr": {
+            "pt-BR": "O aplicativo roda num servidor virtual."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "servidor",
+          "technical": "Computador ou serviço que fornece recursos a clientes na rede (arquivos, e-mail, banco de dados, web).",
+          "simple": "Um computador forte que fica ligado o tempo todo e \"serve\" os outros."
+        }
+      }
+    },
+    {
+      "id": "fi-datensicherung",
+      "level": "B1",
+      "de": {
+        "word": "Datensicherung",
+        "article": "die",
+        "plural": "Datensicherungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Daten",
+          "tr": {
+            "pt-BR": "dados"
+          }
+        },
+        {
+          "de": "sicherung",
+          "tr": {
+            "pt-BR": "proteção, salvaguarda"
+          }
+        }
+      ],
+      "synonyms": ["Backup"],
+      "related": ["fi-festplatte", "fi-server"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Datensicherung läuft jede Nacht um zwei Uhr.",
+          "tr": {
+            "pt-BR": "O backup roda toda noite às duas horas."
+          }
+        },
+        {
+          "de": "Wir testen einmal im Monat, ob sich die Datensicherung wiederherstellen lässt.",
+          "tr": {
+            "pt-BR": "Uma vez por mês testamos se o backup pode ser restaurado."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "backup (cópia de segurança)",
+          "technical": "Cópia periódica de dados em outro meio ou local para restauração em caso de perda (ex.: regra 3-2-1).",
+          "simple": "Guardar uma cópia dos arquivos em outro lugar, para não perder nada se algo der errado."
+        }
+      }
+    },
+    {
+      "id": "fi-kabel",
+      "level": "A2",
+      "de": {
+        "word": "Kabel",
+        "article": "das",
+        "plural": "Kabel",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["fi-verkabelung", "fi-switch"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Netzwerkkabel ist nicht richtig eingesteckt.",
+          "tr": {
+            "pt-BR": "O cabo de rede não está encaixado direito."
+          }
+        },
+        {
+          "de": "Beschrifte jedes Kabel im Serverschrank.",
+          "tr": {
+            "pt-BR": "Etiquete cada cabo no rack de servidores."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "cabo",
+          "technical": "Condutor isolado para energia ou dados; em redes, cabo de par trançado (ex.: Cat 6) com conector RJ45.",
+          "simple": "O fio que liga os aparelhos."
+        }
+      }
+    },
+    {
+      "id": "fi-verkabelung",
+      "level": "B1",
+      "de": {
+        "word": "Verkabelung",
+        "article": "die",
+        "plural": "Verkabelungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["fi-kabel"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Verkabelung im neuen Büro übernimmt ein Elektriker.",
+          "tr": {
+            "pt-BR": "O cabeamento do novo escritório fica a cargo de um eletricista."
+          }
+        },
+        {
+          "de": "Eine saubere Verkabelung erleichtert die Fehlersuche.",
+          "tr": {
+            "pt-BR": "Um cabeamento organizado facilita a busca de falhas."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "cabeamento",
+          "variants": {
+            "pt-PT": "cablagem"
+          },
+          "technical": "Infraestrutura de cabos de uma instalação (cabeamento estruturado: patch panel, tomadas, cabos de patch).",
+          "simple": "Todos os cabos de um prédio ou de um rack, organizados."
+        }
+      }
+    },
+    {
+      "id": "fi-einrichten",
+      "level": "A2",
+      "de": {
+        "word": "einrichten",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["fi-benutzer"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Kannst du für die neue Kollegin einen Arbeitsplatz einrichten?",
+          "tr": {
+            "pt-BR": "Você pode configurar uma estação de trabalho para a nova colega?"
+          }
+        },
+        {
+          "de": "Ich richte das E-Mail-Konto auf deinem Handy ein.",
+          "tr": {
+            "pt-BR": "Vou configurar a conta de e-mail no seu celular."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "configurar",
+          "technical": "Instalar e configurar um sistema, conta ou equipamento para uso (ex.: einen Arbeitsplatz einrichten).",
+          "simple": "Preparar o computador ou o programa para alguém usar."
+        }
+      }
+    },
+    {
+      "id": "fi-bildschirm",
+      "level": "A2",
+      "de": {
+        "word": "Bildschirm",
+        "article": "der",
+        "plural": "Bildschirme",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Bild",
+          "tr": {
+            "pt-BR": "imagem"
+          }
+        },
+        {
+          "de": "schirm",
+          "tr": {
+            "pt-BR": "tela, anteparo"
+          }
+        }
+      ],
+      "synonyms": ["Monitor"],
+      "related": ["fi-rechner"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der zweite Bildschirm wird nicht erkannt.",
+          "tr": {
+            "pt-BR": "O segundo monitor não é reconhecido."
+          }
+        },
+        {
+          "de": "Schick mir bitte einen Screenshot vom Bildschirm.",
+          "tr": {
+            "pt-BR": "Me mande um print da tela, por favor."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "monitor (tela)",
+          "variants": {
+            "pt-PT": "ecrã"
+          },
+          "technical": "Dispositivo de saída que exibe imagens; também a tela de notebooks e celulares.",
+          "simple": "A tela do computador."
+        }
+      }
+    }
+  ]
+}

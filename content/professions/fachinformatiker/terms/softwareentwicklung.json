@@ -1,0 +1,659 @@
+{
+  "area": "softwareentwicklung",
+  "terms": [
+    {
+      "id": "fi-anwendung",
+      "level": "A2",
+      "de": {
+        "word": "Anwendung",
+        "article": "die",
+        "plural": "Anwendungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": ["Applikation", "Programm"],
+      "related": ["fi-benutzeroberflaeche", "fi-datenbank"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Anwendung stürzt beim Speichern ab.",
+          "tr": {
+            "pt-BR": "A aplicação trava ao salvar."
+          }
+        },
+        {
+          "de": "Wir entwickeln eine Anwendung für die Zeiterfassung.",
+          "tr": {
+            "pt-BR": "Desenvolvemos uma aplicação para registro de ponto."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "aplicação (software)",
+          "technical": "Programa voltado ao usuário final para uma tarefa específica; em alemão \"App\" se usa mais para celular.",
+          "simple": "Um programa de computador que serve para alguma tarefa.",
+          "falseFriends": [
+            {
+              "word": "aplicação (financeira)",
+              "note": "Em alemão, aplicação financeira é \"die Geldanlage\". \"Anwendung\" também é \"uso, aplicação\" de algo."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fi-datenbank",
+      "level": "A2",
+      "de": {
+        "word": "Datenbank",
+        "article": "die",
+        "plural": "Datenbanken",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Daten",
+          "tr": {
+            "pt-BR": "dados"
+          }
+        },
+        {
+          "de": "bank",
+          "tr": {
+            "pt-BR": "banco"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["fi-anwendung", "fi-datensicherung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Kundendaten liegen in einer PostgreSQL-Datenbank.",
+          "tr": {
+            "pt-BR": "Os dados dos clientes ficam num banco de dados PostgreSQL."
+          }
+        },
+        {
+          "de": "Mach vor dem Update eine Sicherung der Datenbank.",
+          "tr": {
+            "pt-BR": "Faça um backup do banco de dados antes da atualização."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "banco de dados",
+          "variants": {
+            "pt-PT": "base de dados"
+          },
+          "technical": "Sistema para armazenar e consultar dados de forma estruturada (relacional com SQL ou NoSQL).",
+          "simple": "Um grande \"arquivo organizado\" onde o programa guarda as informações."
+        }
+      }
+    },
+    {
+      "id": "fi-quellcode",
+      "level": "B1",
+      "de": {
+        "word": "Quellcode",
+        "article": "der",
+        "plural": "Quellcodes",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Quell",
+          "tr": {
+            "pt-BR": "fonte, nascente"
+          }
+        },
+        {
+          "de": "code",
+          "tr": {
+            "pt-BR": "código"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["fi-versionsverwaltung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Quellcode liegt im Git-Repository.",
+          "tr": {
+            "pt-BR": "O código-fonte está no repositório Git."
+          }
+        },
+        {
+          "de": "Kommentiere den Quellcode, damit andere ihn verstehen.",
+          "tr": {
+            "pt-BR": "Comente o código-fonte para que outros o entendam."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "código-fonte",
+          "technical": "Texto do programa escrito numa linguagem de programação, legível por pessoas, antes da compilação ou interpretação.",
+          "simple": "O texto que o programador escreve para criar o programa."
+        }
+      }
+    },
+    {
+      "id": "fi-schleife",
+      "level": "B1",
+      "de": {
+        "word": "Schleife",
+        "article": "die",
+        "plural": "Schleifen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["fi-variable", "fi-funktion"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Schleife läuft endlos, weil der Zähler nie erhöht wird.",
+          "tr": {
+            "pt-BR": "O laço roda infinitamente porque o contador nunca é incrementado."
+          }
+        },
+        {
+          "de": "Mit einer for-Schleife gehst du alle Einträge durch.",
+          "tr": {
+            "pt-BR": "Com um laço for você percorre todos os registros."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "laço (loop)",
+          "variants": {
+            "pt-PT": "ciclo"
+          },
+          "technical": "Estrutura de controle que repete instruções enquanto uma condição for verdadeira (for, while).",
+          "simple": "Uma parte do programa que se repete várias vezes.",
+          "falseFriends": [
+            {
+              "word": "Schleife (laço de fita)",
+              "note": "Fora da programação, \"Schleife\" é um laço de fita ou uma curva."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fi-variable",
+      "level": "B1",
+      "de": {
+        "word": "Variable",
+        "article": "die",
+        "plural": "Variablen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["fi-schleife", "fi-funktion"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Variable ist noch nicht initialisiert.",
+          "tr": {
+            "pt-BR": "A variável ainda não foi inicializada."
+          }
+        },
+        {
+          "de": "Gib den Variablen sprechende Namen.",
+          "tr": {
+            "pt-BR": "Dê nomes descritivos às variáveis."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "variável",
+          "technical": "Nome que referencia um valor armazenado na memória e que pode mudar durante a execução.",
+          "simple": "Uma \"caixinha\" com nome onde o programa guarda um valor."
+        }
+      }
+    },
+    {
+      "id": "fi-funktion",
+      "level": "A2",
+      "de": {
+        "word": "Funktion",
+        "article": "die",
+        "plural": "Funktionen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["fi-variable"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Schreib eine Funktion, die den Bruttopreis berechnet.",
+          "tr": {
+            "pt-BR": "Escreva uma função que calcule o preço bruto."
+          }
+        },
+        {
+          "de": "Die Funktion gibt null zurück, wenn nichts gefunden wird.",
+          "tr": {
+            "pt-BR": "A função retorna null quando nada é encontrado."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "função",
+          "technical": "Bloco de código nomeado que recebe parâmetros, executa uma tarefa e pode retornar um valor.",
+          "simple": "Um pedaço do programa que faz uma tarefa e pode ser usado várias vezes."
+        }
+      }
+    },
+    {
+      "id": "fi-fehler",
+      "level": "A2",
+      "de": {
+        "word": "Fehler",
+        "article": "der",
+        "plural": "Fehler",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": ["Bug"],
+      "related": ["fi-fehlermeldung", "fi-testen"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Ich habe den Fehler im Log gefunden.",
+          "tr": {
+            "pt-BR": "Encontrei o erro no log."
+          }
+        },
+        {
+          "de": "Der Fehler tritt nur unter Windows auf.",
+          "tr": {
+            "pt-BR": "O erro só ocorre no Windows."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "erro (bug)",
+          "technical": "Comportamento incorreto do software ou mensagem de falha; em equipes alemãs também se diz \"Bug\".",
+          "simple": "Quando o programa faz algo errado."
+        }
+      }
+    },
+    {
+      "id": "fi-lastenheft",
+      "level": "C1",
+      "de": {
+        "word": "Lastenheft",
+        "article": "das",
+        "plural": "Lastenhefte",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Lasten",
+          "tr": {
+            "pt-BR": "encargos"
+          }
+        },
+        {
+          "de": "heft",
+          "tr": {
+            "pt-BR": "caderno"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["fi-pflichtenheft", "fi-anforderung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Laut Lastenheft muss die Software mehrsprachig sein.",
+          "tr": {
+            "pt-BR": "Segundo o caderno de requisitos, o software precisa ser multilíngue."
+          }
+        },
+        {
+          "de": "Das Lastenheft wurde vom Kunden freigegeben.",
+          "tr": {
+            "pt-BR": "O caderno de requisitos foi aprovado pelo cliente."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "caderno de requisitos (do cliente)",
+          "technical": "Documento do contratante que descreve o que o sistema deve fazer e sob quais condições; base para o Pflichtenheft.",
+          "simple": "O documento em que o cliente escreve tudo o que ele quer."
+        }
+      }
+    },
+    {
+      "id": "fi-pflichtenheft",
+      "level": "C1",
+      "de": {
+        "word": "Pflichtenheft",
+        "article": "das",
+        "plural": "Pflichtenhefte",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Pflichten",
+          "tr": {
+            "pt-BR": "obrigações"
+          }
+        },
+        {
+          "de": "heft",
+          "tr": {
+            "pt-BR": "caderno"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["fi-lastenheft"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Im Pflichtenheft beschreiben wir die technische Umsetzung.",
+          "tr": {
+            "pt-BR": "Na especificação técnica descrevemos a implementação técnica."
+          }
+        },
+        {
+          "de": "Für die Abschlussprüfung erstellst du ein Pflichtenheft.",
+          "tr": {
+            "pt-BR": "Para o exame final você elabora uma especificação técnica."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "especificação técnica (do fornecedor)",
+          "technical": "Documento do fornecedor que descreve como os requisitos do Lastenheft serão implementados.",
+          "simple": "O documento em que a equipe responde ao cliente explicando como vai fazer o que ele pediu."
+        }
+      }
+    },
+    {
+      "id": "fi-anforderung",
+      "level": "B1",
+      "de": {
+        "word": "Anforderung",
+        "article": "die",
+        "plural": "Anforderungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["fi-lastenheft"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Diese Anforderung ist nicht im Lastenheft enthalten.",
+          "tr": {
+            "pt-BR": "Este requisito não consta no caderno de requisitos."
+          }
+        },
+        {
+          "de": "Die Anforderungen an die Ladezeit sind sehr hoch.",
+          "tr": {
+            "pt-BR": "Os requisitos de tempo de carregamento são muito altos."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "requisito",
+          "technical": "Condição ou capacidade que um sistema deve cumprir (funcional ou não funcional).",
+          "simple": "Algo que o programa precisa fazer ou ter."
+        }
+      }
+    },
+    {
+      "id": "fi-testen",
+      "level": "A2",
+      "de": {
+        "word": "testen",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["fi-fehler"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Hast du die Änderung schon getestet?",
+          "tr": {
+            "pt-BR": "Você já testou a alteração?"
+          }
+        },
+        {
+          "de": "Wir testen jede Funktion automatisch.",
+          "tr": {
+            "pt-BR": "Testamos cada função automaticamente."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "testar",
+          "technical": "Executar o software de forma planejada para encontrar erros (testes unitários, de integração, de aceitação).",
+          "simple": "Experimentar o programa para ver se ele funciona."
+        }
+      }
+    },
+    {
+      "id": "fi-benutzeroberflaeche",
+      "level": "B1",
+      "de": {
+        "word": "Benutzeroberfläche",
+        "article": "die",
+        "plural": "Benutzeroberflächen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Benutzer",
+          "tr": {
+            "pt-BR": "usuário"
+          }
+        },
+        {
+          "de": "oberfläche",
+          "tr": {
+            "pt-BR": "superfície"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["fi-anwendung", "fi-benutzer"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Benutzeroberfläche ist auf Deutsch und Englisch verfügbar.",
+          "tr": {
+            "pt-BR": "A interface de usuário está disponível em alemão e inglês."
+          }
+        },
+        {
+          "de": "Der Kunde findet die Benutzeroberfläche zu kompliziert.",
+          "tr": {
+            "pt-BR": "O cliente acha a interface de usuário complicada demais."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "interface de usuário",
+          "variants": {
+            "pt-PT": "interface do utilizador"
+          },
+          "technical": "Parte do software com que o usuário interage (telas, botões, menus); em inglês, UI.",
+          "simple": "As telas e botões do programa que a pessoa vê e usa."
+        }
+      }
+    },
+    {
+      "id": "fi-versionsverwaltung",
+      "level": "B2",
+      "de": {
+        "word": "Versionsverwaltung",
+        "article": "die",
+        "plural": "Versionsverwaltungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Version",
+          "tr": {
+            "pt-BR": "versão"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "verwaltung",
+          "tr": {
+            "pt-BR": "administração"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["fi-quellcode"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Ohne Versionsverwaltung arbeiten wir hier nicht.",
+          "tr": {
+            "pt-BR": "Aqui não trabalhamos sem controle de versão."
+          }
+        },
+        {
+          "de": "Die Versionsverwaltung zeigt, wer die Zeile geändert hat.",
+          "tr": {
+            "pt-BR": "O controle de versão mostra quem alterou a linha."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "controle de versão",
+          "variants": {
+            "pt-PT": "controlo de versões"
+          },
+          "technical": "Sistema que registra o histórico de alterações do código e permite trabalho em paralelo (Git).",
+          "simple": "Um sistema que guarda todas as versões do código, para poder voltar atrás."
+        }
+      }
+    },
+    {
+      "id": "fi-programmieren",
+      "level": "A2",
+      "de": {
+        "word": "programmieren",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["fi-quellcode"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "In der Ausbildung programmieren wir vor allem in Java.",
+          "tr": {
+            "pt-BR": "Na formação programamos principalmente em Java."
+          }
+        },
+        {
+          "de": "Sie programmiert die Schnittstelle zum Lager.",
+          "tr": {
+            "pt-BR": "Ela programa a interface com o armazém."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "programar",
+          "technical": "Escrever, testar e manter o código-fonte de um software.",
+          "simple": "Escrever as instruções que o computador vai seguir."
+        }
+      }
+    },
+    {
+      "id": "fi-entwickler",
+      "level": "A2",
+      "de": {
+        "word": "Entwickler",
+        "article": "der",
+        "plural": "Entwickler",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": ["Softwareentwickler"],
+      "related": ["fi-programmieren"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Wir suchen einen Entwickler für das Backend.",
+          "tr": {
+            "pt-BR": "Procuramos um desenvolvedor para o backend."
+          }
+        },
+        {
+          "de": "Die Entwickler treffen sich jeden Morgen zum Stand-up.",
+          "tr": {
+            "pt-BR": "Os desenvolvedores se reúnem toda manhã para o stand-up."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "desenvolvedor",
+          "technical": "Profissional que cria software; forma feminina \"die Entwicklerin\", plural \"Entwicklerinnen\".",
+          "simple": "A pessoa que cria programas."
+        }
+      }
+    }
+  ]
+}

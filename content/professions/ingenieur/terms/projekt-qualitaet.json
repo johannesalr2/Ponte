@@ -1,0 +1,589 @@
+{
+  "area": "projekt-qualitaet",
+  "terms": [
+    {
+      "id": "ing-projekt",
+      "level": "A2",
+      "de": {
+        "word": "Projekt",
+        "article": "das",
+        "plural": "Projekte",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-meilenstein", "ing-termin"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Projekt startet im Januar.",
+          "tr": {
+            "pt-BR": "O projeto começa em janeiro."
+          }
+        },
+        {
+          "de": "Ich leite das Projekt seit drei Monaten.",
+          "tr": {
+            "pt-BR": "Lidero o projeto há três meses."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "projeto (empreendimento)",
+          "technical": "Empreendimento temporário com objetivo, prazo, orçamento e equipe definidos.",
+          "simple": "Um trabalho com começo, meio e fim, com equipe e prazo.",
+          "falseFriends": [
+            {
+              "word": "projeto (desenho)",
+              "note": "O projeto técnico de uma máquina, em alemão, é \"Konstruktion\" ou \"Entwurf\"; \"Projekt\" é o empreendimento."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ing-termin",
+      "level": "A2",
+      "de": {
+        "word": "Termin",
+        "article": "der",
+        "plural": "Termine",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-frist", "ing-besprechung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Liefertermin ist nicht zu halten.",
+          "tr": {
+            "pt-BR": "A data de entrega não poderá ser cumprida."
+          }
+        },
+        {
+          "de": "Können wir einen Termin für die Abnahme vereinbaren?",
+          "tr": {
+            "pt-BR": "Podemos marcar uma data para a aceitação?"
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "compromisso / data marcada",
+          "technical": "Data e hora combinadas (reunião, entrega); \"Liefertermin\" é a data de entrega.",
+          "simple": "Um horário marcado.",
+          "falseFriends": [
+            {
+              "word": "término",
+              "note": "\"Termin\" não é término (fim). O fim de algo é \"das Ende\" ou \"der Abschluss\"."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ing-frist",
+      "level": "B1",
+      "de": {
+        "word": "Frist",
+        "article": "die",
+        "plural": "Fristen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-termin"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Frist für das Angebot endet am Freitag.",
+          "tr": {
+            "pt-BR": "O prazo para a proposta termina na sexta-feira."
+          }
+        },
+        {
+          "de": "Wir haben die Frist um zwei Wochen verlängert.",
+          "tr": {
+            "pt-BR": "Prorrogamos o prazo em duas semanas."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "prazo",
+          "technical": "Período limite para cumprir uma obrigação; \"die Frist einhalten\" é cumprir o prazo.",
+          "simple": "O tempo máximo que se tem para fazer algo."
+        }
+      }
+    },
+    {
+      "id": "ing-lastenheft",
+      "level": "C1",
+      "de": {
+        "word": "Lastenheft",
+        "article": "das",
+        "plural": "Lastenhefte",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Lasten",
+          "tr": {
+            "pt-BR": "encargos"
+          }
+        },
+        {
+          "de": "heft",
+          "tr": {
+            "pt-BR": "caderno"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ing-abnahme"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Lastenheft fordert eine Lebensdauer von 20 Jahren.",
+          "tr": {
+            "pt-BR": "O caderno de requisitos exige uma vida útil de 20 anos."
+          }
+        },
+        {
+          "de": "Diese Änderung ist nicht im Lastenheft beschrieben.",
+          "tr": {
+            "pt-BR": "Esta alteração não está descrita no caderno de requisitos."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "caderno de requisitos (do cliente)",
+          "technical": "Documento do cliente com todos os requisitos do produto; o fornecedor responde com o Pflichtenheft.",
+          "simple": "O documento em que o cliente escreve tudo o que a máquina precisa fazer."
+        }
+      }
+    },
+    {
+      "id": "ing-qualitaetssicherung",
+      "level": "B1",
+      "de": {
+        "word": "Qualitätssicherung",
+        "article": "die",
+        "plural": null,
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Qualität",
+          "tr": {
+            "pt-BR": "qualidade"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "sicherung",
+          "tr": {
+            "pt-BR": "garantia"
+          }
+        }
+      ],
+      "synonyms": ["QS"],
+      "related": ["ing-pruefung", "ing-fmea"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Qualitätssicherung hat die Charge gesperrt.",
+          "tr": {
+            "pt-BR": "A garantia da qualidade bloqueou o lote."
+          }
+        },
+        {
+          "de": "Ich arbeite in der Qualitätssicherung eines Automobilzulieferers.",
+          "tr": {
+            "pt-BR": "Trabalho na garantia da qualidade de um fornecedor automotivo."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "garantia da qualidade",
+          "technical": "Conjunto de atividades planejadas para assegurar que produtos e processos atendam aos requisitos; também o departamento (QS).",
+          "simple": "Tudo o que se faz para ter certeza de que o produto sai bom."
+        }
+      }
+    },
+    {
+      "id": "ing-pruefung",
+      "level": "A2",
+      "de": {
+        "word": "Prüfung",
+        "article": "die",
+        "plural": "Prüfungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-qualitaetssicherung", "ing-norm"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Prüfung der Schweißnähte erfolgt mit Ultraschall.",
+          "tr": {
+            "pt-BR": "A inspeção dos cordões de solda é feita por ultrassom."
+          }
+        },
+        {
+          "de": "Nach bestandener Prüfung wird das Bauteil freigegeben.",
+          "tr": {
+            "pt-BR": "Depois de aprovado no ensaio, o componente é liberado."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "ensaio / inspeção",
+          "technical": "Verificação de características contra requisitos (inspeção dimensional, ensaio de materiais); também significa \"exame\" (escolar).",
+          "simple": "Testar ou conferir se está tudo certo; também é \"prova\" na escola."
+        }
+      }
+    },
+    {
+      "id": "ing-abnahme",
+      "level": "B2",
+      "de": {
+        "word": "Abnahme",
+        "article": "die",
+        "plural": "Abnahmen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-lastenheft", "ing-pruefung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Abnahme der Anlage findet beim Kunden statt.",
+          "tr": {
+            "pt-BR": "A aceitação da instalação ocorre no cliente."
+          }
+        },
+        {
+          "de": "Ohne unterschriebenes Abnahmeprotokoll keine Schlussrechnung.",
+          "tr": {
+            "pt-BR": "Sem protocolo de aceitação assinado, não há fatura final."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "aceitação (recebimento)",
+          "technical": "Verificação formal pelo cliente de que a entrega cumpre o contrato; com protocolo de aceitação (Abnahmeprotokoll).",
+          "simple": "O momento em que o cliente confere e aceita oficialmente o que foi entregue.",
+          "falseFriends": [
+            {
+              "word": "Abnahme (diminuição)",
+              "note": "\"Abnahme\" também é diminuição (Gewichtsabnahme = perda de peso)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ing-gutachten",
+      "level": "B2",
+      "de": {
+        "word": "Gutachten",
+        "article": "das",
+        "plural": "Gutachten",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-pruefung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Gutachten bestätigt einen Materialfehler.",
+          "tr": {
+            "pt-BR": "O laudo confirma um defeito de material."
+          }
+        },
+        {
+          "de": "Für die Versicherung brauchen wir ein unabhängiges Gutachten.",
+          "tr": {
+            "pt-BR": "Para o seguro precisamos de um laudo independente."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "laudo (parecer técnico)",
+          "technical": "Avaliação escrita de um especialista (Gutachter) sobre um caso técnico, dano ou conformidade.",
+          "simple": "Um documento em que um especialista dá sua opinião oficial sobre um problema."
+        }
+      }
+    },
+    {
+      "id": "ing-besprechung",
+      "level": "A2",
+      "de": {
+        "word": "Besprechung",
+        "article": "die",
+        "plural": "Besprechungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": ["Meeting"],
+      "related": ["ing-termin"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Besprechung wurde auf 14 Uhr verschoben.",
+          "tr": {
+            "pt-BR": "A reunião foi adiada para as 14 horas."
+          }
+        },
+        {
+          "de": "Ich bin bis elf in einer Besprechung.",
+          "tr": {
+            "pt-BR": "Estou em reunião até as onze."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "reunião",
+          "technical": "Encontro de trabalho para discutir temas; \"in einer Besprechung sein\" é estar em reunião.",
+          "simple": "Uma reunião de trabalho."
+        }
+      }
+    },
+    {
+      "id": "ing-ansprechpartner",
+      "level": "B1",
+      "de": {
+        "word": "Ansprechpartner",
+        "article": "der",
+        "plural": "Ansprechpartner",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Ansprech",
+          "tr": {
+            "pt-BR": "dirigir-se a"
+          }
+        },
+        {
+          "de": "partner",
+          "tr": {
+            "pt-BR": "parceiro"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ing-besprechung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Wer ist beim Kunden unser Ansprechpartner?",
+          "tr": {
+            "pt-BR": "Quem é nossa pessoa de contato no cliente?"
+          }
+        },
+        {
+          "de": "Ihr Ansprechpartner für technische Fragen ist Herr Neumann.",
+          "tr": {
+            "pt-BR": "Sua pessoa de contato para questões técnicas é o Sr. Neumann."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "pessoa de contato",
+          "technical": "Pessoa responsável por um tema a quem se deve dirigir; forma feminina \"Ansprechpartnerin\".",
+          "simple": "A pessoa com quem você deve falar sobre um assunto."
+        }
+      }
+    },
+    {
+      "id": "ing-angebot",
+      "level": "A2",
+      "de": {
+        "word": "Angebot",
+        "article": "das",
+        "plural": "Angebote",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-frist"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Angebot ist 30 Tage gültig.",
+          "tr": {
+            "pt-BR": "A proposta é válida por 30 dias."
+          }
+        },
+        {
+          "de": "Wir haben drei Angebote eingeholt.",
+          "tr": {
+            "pt-BR": "Pedimos três orçamentos."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "proposta (orçamento)",
+          "technical": "Oferta formal com escopo, preço e prazo; também \"promoção\" no comércio.",
+          "simple": "O documento com o preço e o que a empresa oferece fazer."
+        }
+      }
+    },
+    {
+      "id": "ing-freigabe",
+      "level": "B2",
+      "de": {
+        "word": "Freigabe",
+        "article": "die",
+        "plural": "Freigaben",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-abnahme", "ing-zeichnung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Ohne Freigabe darf die Zeichnung nicht in die Fertigung.",
+          "tr": {
+            "pt-BR": "Sem liberação o desenho não pode ir para a produção."
+          }
+        },
+        {
+          "de": "Die Freigabe des Erstmusters steht noch aus.",
+          "tr": {
+            "pt-BR": "A liberação da primeira amostra ainda está pendente."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "liberação (aprovação)",
+          "technical": "Aprovação formal de um documento, desenho, lote ou etapa para o próximo passo.",
+          "simple": "O \"pode seguir\" oficial."
+        }
+      }
+    },
+    {
+      "id": "ing-meilenstein",
+      "level": "B1",
+      "de": {
+        "word": "Meilenstein",
+        "article": "der",
+        "plural": "Meilensteine",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Meilen",
+          "tr": {
+            "pt-BR": "milhas"
+          }
+        },
+        {
+          "de": "stein",
+          "tr": {
+            "pt-BR": "pedra"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ing-projekt"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der nächste Meilenstein ist die Konstruktionsfreigabe.",
+          "tr": {
+            "pt-BR": "O próximo marco é a liberação do projeto."
+          }
+        },
+        {
+          "de": "Wir haben den Meilenstein um zwei Wochen verfehlt.",
+          "tr": {
+            "pt-BR": "Perdemos o marco por duas semanas."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "marco (do projeto)",
+          "technical": "Evento significativo no cronograma que marca a conclusão de uma fase.",
+          "simple": "Uma etapa importante do projeto que precisa estar pronta numa data."
+        }
+      }
+    },
+    {
+      "id": "ing-fmea",
+      "level": "B2",
+      "de": {
+        "word": "FMEA",
+        "article": "die",
+        "plural": "FMEAs",
+        "gender": "f",
+        "pos": "abbreviation"
+      },
+      "synonyms": [],
+      "related": ["ing-qualitaetssicherung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Für die neue Baugruppe erstellen wir eine FMEA.",
+          "tr": {
+            "pt-BR": "Para o novo conjunto elaboramos uma FMEA."
+          }
+        },
+        {
+          "de": "In der FMEA wurde das Risiko als hoch bewertet.",
+          "tr": {
+            "pt-BR": "Na FMEA o risco foi avaliado como alto."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "FMEA (análise de modo e efeito de falha)",
+          "technical": "Fehlermöglichkeits- und Einflussanalyse: método preventivo que avalia modos de falha por severidade, ocorrência e detecção.",
+          "simple": "Um método para imaginar antes o que pode dar errado e se preparar."
+        }
+      }
+    }
+  ]
+}

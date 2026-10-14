@@ -1,0 +1,118 @@
+{
+  "id": "koch",
+  "de": "Koch / Köchin",
+  "deTitleCv": "Koch/Köchin",
+  "isco08": "5120",
+  "regulated": false,
+  "order": 5,
+  "areas": [
+    {
+      "id": "kuechengeraete",
+      "de": "Küchengeräte",
+      "tr": {
+        "pt-BR": "Equipamentos de cozinha"
+      }
+    },
+    {
+      "id": "zubereitung",
+      "de": "Zubereitung und Garmethoden",
+      "tr": {
+        "pt-BR": "Preparo e métodos de cocção"
+      }
+    },
+    {
+      "id": "hygiene",
+      "de": "Hygiene und HACCP",
+      "tr": {
+        "pt-BR": "Higiene e HACCP"
+      }
+    },
+    {
+      "id": "organisation",
+      "de": "Küchenorganisation",
+      "tr": {
+        "pt-BR": "Organização da cozinha"
+      }
+    }
+  ],
+  "industries": [
+    {
+      "id": "restaurant",
+      "tr": {
+        "pt-BR": "Restaurante"
+      }
+    },
+    {
+      "id": "hotel",
+      "tr": {
+        "pt-BR": "Hotel"
+      }
+    },
+    {
+      "id": "kantine",
+      "tr": {
+        "pt-BR": "Refeitório / cozinha industrial"
+      }
+    },
+    {
+      "id": "catering",
+      "tr": {
+        "pt-BR": "Catering"
+      }
+    },
+    {
+      "id": "andere",
+      "tr": {
+        "pt-BR": "Outro"
+      }
+    }
+  ],
+  "tr": {
+    "pt-BR": {
+      "name": "Cozinheiro(a)",
+      "summary": "Planeja, prepara e apresenta pratos, cuida da higiene e organiza a cozinha. Formação dual de 3 anos com exame na IHK.",
+      "brazil": [
+        "Cozinheiro(a) (curso livre ou profissionalizante)",
+        "Técnico(a) em Gastronomia",
+        "Tecnólogo(a) em Gastronomia"
+      ],
+      "equivalence": "Cursos técnicos e tecnólogos em gastronomia e a experiência em cozinha profissional comprovada são comparados com a Ausbildung de Koch/Köchin pela IHK FOSA.",
+      "regulation": "Profissão não regulamentada. Para trabalhar com alimentos na Alemanha é obrigatória a orientação de higiene do serviço de saúde (Belehrung nach § 43 Infektionsschutzgesetz), feita antes do primeiro dia de trabalho.",
+      "recognition": {
+        "authority": "IHK FOSA (Foreign Skills Approval).",
+        "steps": [
+          "Use o \"Anerkennungs-Finder\" no portal Anerkennung in Deutschland para confirmar qual órgão é responsável pela sua profissão de referência alemã.",
+          "Reúna os documentos: diploma ou certificado, histórico com conteúdos e carga horária, comprovantes de experiência profissional (carteira de trabalho, declarações de empregadores), documento de identidade e currículo em formato tabular.",
+          "Providencie traduções para o alemão feitas por tradutor juramentado ou reconhecido; confirme com o órgão se são exigidas cópias autenticadas.",
+          "Envie o pedido de \"Gleichwertigkeitsfeststellung\" à IHK FOSA. O pedido pode ser feito também a partir do Brasil.",
+          "Pague a taxa (o valor depende do caso; consulte a tabela atual da IHK FOSA).",
+          "Receba o parecer (Bescheid): equivalência total, ou parcial com a lista das diferenças. Com equivalência parcial você pode fazer uma \"Anpassungsqualifizierung\" (qualificação de adaptação) e pedir uma nova avaliação."
+        ],
+        "documents": [
+          "Diploma/certificado de conclusão",
+          "Histórico escolar com carga horária",
+          "Comprovantes de experiência profissional",
+          "Documento de identidade",
+          "Currículo tabular (Lebenslauf) em alemão",
+          "Traduções juramentadas"
+        ],
+        "notes": "Por lei, o órgão decide em até 3 meses depois de receber a documentação completa (pode haver prorrogação). Informações gerais; confira sempre as regras atuais no portal oficial."
+      },
+      "links": [
+        {
+          "label": "Anerkennung in Deutschland (portal oficial)",
+          "url": "https://www.anerkennung-in-deutschland.de/"
+        },
+        {
+          "label": "IHK FOSA – reconhecimento de profissões da IHK",
+          "url": "https://www.ihk-fosa.de/"
+        },
+        {
+          "label": "Make it in Germany (portal oficial de imigração)",
+          "url": "https://www.make-it-in-germany.com/pt/"
+        }
+      ],
+      "cvTitle": "Cozinheira / Cozinheiro"
+    }
+  }
+}

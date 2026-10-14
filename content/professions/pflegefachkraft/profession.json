@@ -1,0 +1,108 @@
+{
+  "id": "pflegefachkraft",
+  "de": "Pflegefachfrau / Pflegefachmann",
+  "deTitleCv": "Pflegefachfrau/Pflegefachmann",
+  "isco08": "2221",
+  "regulated": true,
+  "order": 2,
+  "areas": [
+    {
+      "id": "grundpflege",
+      "de": "Grundpflege",
+      "tr": {
+        "pt-BR": "Cuidados básicos"
+      }
+    },
+    {
+      "id": "medizin",
+      "de": "Medizinische Behandlungspflege",
+      "tr": {
+        "pt-BR": "Cuidados clínicos e medicação"
+      }
+    },
+    {
+      "id": "dokumentation",
+      "de": "Dokumentation und Organisation",
+      "tr": {
+        "pt-BR": "Documentação e organização"
+      }
+    },
+    {
+      "id": "hygiene-notfall",
+      "de": "Hygiene und Notfall",
+      "tr": {
+        "pt-BR": "Higiene e emergência"
+      }
+    }
+  ],
+  "industries": [
+    {
+      "id": "krankenhaus",
+      "tr": {
+        "pt-BR": "Hospital"
+      }
+    },
+    {
+      "id": "altenpflege",
+      "tr": {
+        "pt-BR": "Lar de idosos (Altenpflege)"
+      }
+    },
+    {
+      "id": "ambulant",
+      "tr": {
+        "pt-BR": "Cuidado domiciliar (ambulante Pflege)"
+      }
+    },
+    {
+      "id": "andere",
+      "tr": {
+        "pt-BR": "Outro"
+      }
+    }
+  ],
+  "tr": {
+    "pt-BR": {
+      "name": "Enfermeiro(a) – Pflegefachkraft",
+      "summary": "Planeja, executa e documenta cuidados de enfermagem em hospitais, lares de idosos e atendimento domiciliar. Desde 2020 a formação é generalista (\"Pflegefachfrau/Pflegefachmann\", 3 anos).",
+      "brazil": [
+        "Enfermeiro(a) – bacharelado com registro no COREN",
+        "Técnico(a) de enfermagem (avaliação individual; reconhecimento costuma ser parcial)"
+      ],
+      "equivalence": "Enfermeiros(as) com bacharelado costumam ser comparados à Pflegefachkraft alemã. Técnicos(as) de enfermagem têm formação diferente; o órgão avalia caso a caso e pode exigir complementação. O título alemão protegido só pode ser usado após a autorização (Erlaubnis zum Führen der Berufsbezeichnung).",
+      "regulation": "Profissão regulamentada: para trabalhar como Pflegefachkraft é obrigatório ter o reconhecimento e a autorização do estado (Bundesland). Até lá, é possível trabalhar como auxiliar (Pflegehilfskraft) em muitos casos.",
+      "recognition": {
+        "authority": "Órgão do estado (Bundesland) onde você vai trabalhar, por exemplo o Landesamt ou o Regierungspräsidium. Use o Anerkennungs-Finder para achar o endereço.",
+        "steps": [
+          "Escolha o estado onde pretende trabalhar e encontre o órgão responsável no Anerkennungs-Finder.",
+          "Reúna os documentos e providencie traduções juramentadas para o alemão.",
+          "Comprove conhecimentos de alemão; muitos estados exigem nível B2 (alguns aceitam exames específicos de alemão para enfermagem).",
+          "Envie o pedido de reconhecimento e pague a taxa.",
+          "Se houver diferenças substanciais, você recebe um parecer (Defizitbescheid) e escolhe entre a prova de conhecimentos (Kenntnisprüfung) ou o curso de adaptação (Anpassungslehrgang).",
+          "Depois de aprovado(a), recebe a autorização para usar o título \"Pflegefachfrau/Pflegefachmann\"."
+        ],
+        "documents": [
+          "Diploma e histórico com carga horária teórica e prática",
+          "Registro profissional (COREN) e comprovantes de experiência",
+          "Certificado de alemão",
+          "Documento de identidade e currículo",
+          "Atestado médico de aptidão",
+          "Certidão de antecedentes criminais",
+          "Traduções juramentadas"
+        ],
+        "notes": "As exigências variam entre os estados. Informações gerais; confira sempre as regras atuais no órgão responsável."
+      },
+      "links": [
+        {
+          "label": "Anerkennung in Deutschland (portal oficial)",
+          "url": "https://www.anerkennung-in-deutschland.de/"
+        },
+        {
+          "label": "Make it in Germany (portal oficial de imigração)",
+          "url": "https://www.make-it-in-germany.com/pt/"
+        }
+      ],
+      "cvTitle": "Enfermeira / Enfermeiro"
+    }
+  }
+}

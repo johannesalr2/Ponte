@@ -1,0 +1,647 @@
+{
+  "area": "betrieb-sicherheit",
+  "terms": [
+    {
+      "id": "fi-passwort",
+      "level": "A2",
+      "de": {
+        "word": "Passwort",
+        "article": "das",
+        "plural": "Passwörter",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Pass",
+          "tr": {
+            "pt-BR": "passe"
+          }
+        },
+        {
+          "de": "wort",
+          "tr": {
+            "pt-BR": "palavra"
+          }
+        }
+      ],
+      "synonyms": ["Kennwort"],
+      "related": ["fi-berechtigung", "fi-zugriff"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Ihr Passwort läuft in drei Tagen ab.",
+          "tr": {
+            "pt-BR": "Sua senha expira em três dias."
+          }
+        },
+        {
+          "de": "Schreib das Passwort bitte nicht auf einen Zettel am Bildschirm.",
+          "tr": {
+            "pt-BR": "Por favor, não escreva a senha num papel colado no monitor."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "senha",
+          "variants": {
+            "pt-PT": "palavra-passe"
+          },
+          "technical": "Sequência secreta para autenticação; deve ser longa, única por serviço e guardada num gerenciador de senhas.",
+          "simple": "A palavra secreta para entrar no sistema."
+        }
+      }
+    },
+    {
+      "id": "fi-sicherheitsluecke",
+      "level": "B2",
+      "de": {
+        "word": "Sicherheitslücke",
+        "article": "die",
+        "plural": "Sicherheitslücken",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Sicherheit",
+          "tr": {
+            "pt-BR": "segurança"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "lücke",
+          "tr": {
+            "pt-BR": "lacuna, brecha"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["fi-update", "fi-schadsoftware"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Update schließt eine kritische Sicherheitslücke.",
+          "tr": {
+            "pt-BR": "A atualização corrige uma vulnerabilidade crítica."
+          }
+        },
+        {
+          "de": "Die Sicherheitslücke wird bereits aktiv ausgenutzt.",
+          "tr": {
+            "pt-BR": "A vulnerabilidade já está sendo explorada ativamente."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "vulnerabilidade",
+          "technical": "Falha de software ou configuração que permite a um atacante comprometer um sistema; corrigida com patch/atualização.",
+          "simple": "Um \"buraco\" no programa por onde um invasor pode entrar."
+        }
+      }
+    },
+    {
+      "id": "fi-verschluesselung",
+      "level": "B2",
+      "de": {
+        "word": "Verschlüsselung",
+        "article": "die",
+        "plural": "Verschlüsselungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["fi-datenschutz"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Laptops haben eine vollständige Festplattenverschlüsselung.",
+          "tr": {
+            "pt-BR": "Os notebooks têm criptografia completa do disco."
+          }
+        },
+        {
+          "de": "Ohne Verschlüsselung darf die Datei nicht per E-Mail verschickt werden.",
+          "tr": {
+            "pt-BR": "Sem criptografia o arquivo não pode ser enviado por e-mail."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "criptografia",
+          "variants": {
+            "pt-PT": "encriptação"
+          },
+          "technical": "Transformação de dados com chave para que só pessoas autorizadas possam lê-los (ex.: TLS, AES).",
+          "simple": "Embaralhar os dados com uma senha para que ninguém mais consiga ler."
+        }
+      }
+    },
+    {
+      "id": "fi-ticket",
+      "level": "B1",
+      "de": {
+        "word": "Ticket",
+        "article": "das",
+        "plural": "Tickets",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["fi-fehlermeldung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Mach bitte ein Ticket auf, dann kümmere ich mich darum.",
+          "tr": {
+            "pt-BR": "Abra um chamado, por favor; depois eu cuido disso."
+          }
+        },
+        {
+          "de": "Das Ticket hat Priorität hoch.",
+          "tr": {
+            "pt-BR": "O chamado tem prioridade alta."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "chamado (ticket)",
+          "technical": "Registro de um pedido ou problema no sistema de suporte, com prioridade, responsável e histórico.",
+          "simple": "O pedido de ajuda registrado no sistema do suporte."
+        }
+      }
+    },
+    {
+      "id": "fi-fehlermeldung",
+      "level": "A2",
+      "de": {
+        "word": "Fehlermeldung",
+        "article": "die",
+        "plural": "Fehlermeldungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Fehler",
+          "tr": {
+            "pt-BR": "erro"
+          }
+        },
+        {
+          "de": "meldung",
+          "tr": {
+            "pt-BR": "aviso"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["fi-fehler", "fi-ticket"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Welche Fehlermeldung wird angezeigt?",
+          "tr": {
+            "pt-BR": "Qual mensagem de erro aparece?"
+          }
+        },
+        {
+          "de": "Schick mir einen Screenshot von der Fehlermeldung.",
+          "tr": {
+            "pt-BR": "Me mande um print da mensagem de erro."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "mensagem de erro",
+          "technical": "Aviso exibido pelo sistema quando algo falha; deve ser registrado exatamente (texto e código) no chamado.",
+          "simple": "O aviso que aparece na tela quando dá problema."
+        }
+      }
+    },
+    {
+      "id": "fi-update",
+      "level": "A2",
+      "de": {
+        "word": "Update",
+        "article": "das",
+        "plural": "Updates",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": ["Aktualisierung"],
+      "related": ["fi-sicherheitsluecke", "fi-betriebssystem"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Update wird nach Feierabend eingespielt.",
+          "tr": {
+            "pt-BR": "A atualização é instalada depois do expediente."
+          }
+        },
+        {
+          "de": "Nach dem Update funktioniert der Drucker nicht mehr.",
+          "tr": {
+            "pt-BR": "Depois da atualização a impressora não funciona mais."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "atualização",
+          "technical": "Nova versão de software com correções e melhorias; atualizações de segurança devem ser aplicadas rapidamente.",
+          "simple": "Quando o programa baixa uma versão nova e melhorada."
+        }
+      }
+    },
+    {
+      "id": "fi-zugriff",
+      "level": "B1",
+      "de": {
+        "word": "Zugriff",
+        "article": "der",
+        "plural": "Zugriffe",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["fi-berechtigung", "fi-passwort"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Ich habe keinen Zugriff auf das Laufwerk.",
+          "tr": {
+            "pt-BR": "Não tenho acesso ao drive de rede."
+          }
+        },
+        {
+          "de": "Der Zugriff von außen erfolgt nur über VPN.",
+          "tr": {
+            "pt-BR": "O acesso externo é feito apenas via VPN."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "acesso",
+          "technical": "Possibilidade de ler ou alterar dados ou recursos; controlado por autenticação e permissões.",
+          "simple": "Poder entrar e mexer em um sistema ou pasta."
+        }
+      }
+    },
+    {
+      "id": "fi-berechtigung",
+      "level": "B1",
+      "de": {
+        "word": "Berechtigung",
+        "article": "die",
+        "plural": "Berechtigungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["fi-zugriff", "fi-benutzer"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Für den Ordner brauchst du Schreibberechtigung.",
+          "tr": {
+            "pt-BR": "Para a pasta você precisa de permissão de escrita."
+          }
+        },
+        {
+          "de": "Die Berechtigungen werden über Gruppen vergeben.",
+          "tr": {
+            "pt-BR": "As permissões são atribuídas por grupos."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "permissão",
+          "technical": "Direito atribuído a usuário ou grupo de executar ações sobre um recurso (ler, escrever, administrar).",
+          "simple": "O que cada pessoa tem autorização para fazer no sistema."
+        }
+      }
+    },
+    {
+      "id": "fi-datenschutz",
+      "level": "B1",
+      "de": {
+        "word": "Datenschutz",
+        "article": "der",
+        "plural": null,
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Daten",
+          "tr": {
+            "pt-BR": "dados"
+          }
+        },
+        {
+          "de": "schutz",
+          "tr": {
+            "pt-BR": "proteção"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["fi-verschluesselung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Aus Datenschutzgründen dürfen wir die Adresse nicht weitergeben.",
+          "tr": {
+            "pt-BR": "Por motivos de proteção de dados, não podemos repassar o endereço."
+          }
+        },
+        {
+          "de": "Der Datenschutzbeauftragte muss das neue Tool prüfen.",
+          "tr": {
+            "pt-BR": "O encarregado de proteção de dados precisa avaliar a nova ferramenta."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "proteção de dados",
+          "technical": "Proteção de dados pessoais conforme o RGPD europeu (DSGVO, em alemão); equivale à LGPD no Brasil.",
+          "simple": "As regras que protegem as informações pessoais das pessoas."
+        }
+      }
+    },
+    {
+      "id": "fi-schadsoftware",
+      "level": "B2",
+      "de": {
+        "word": "Schadsoftware",
+        "article": "die",
+        "plural": null,
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Schad",
+          "tr": {
+            "pt-BR": "dano"
+          }
+        },
+        {
+          "de": "software",
+          "tr": {
+            "pt-BR": "software"
+          }
+        }
+      ],
+      "synonyms": ["Malware"],
+      "related": ["fi-sicherheitsluecke"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Anhang enthält Schadsoftware, bitte nicht öffnen.",
+          "tr": {
+            "pt-BR": "O anexo contém malware; por favor, não abra."
+          }
+        },
+        {
+          "de": "Der Virenscanner hat Schadsoftware gefunden.",
+          "tr": {
+            "pt-BR": "O antivírus encontrou malware."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "malware",
+          "technical": "Software malicioso (vírus, trojan, ransomware) que danifica sistemas ou rouba dados.",
+          "simple": "Um programa \"do mal\" que estraga o computador ou rouba informações."
+        }
+      }
+    },
+    {
+      "id": "fi-ausfallzeit",
+      "level": "B2",
+      "de": {
+        "word": "Ausfallzeit",
+        "article": "die",
+        "plural": "Ausfallzeiten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Ausfall",
+          "tr": {
+            "pt-BR": "pane, queda"
+          }
+        },
+        {
+          "de": "zeit",
+          "tr": {
+            "pt-BR": "tempo"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["fi-server"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Wartung verursacht eine Ausfallzeit von zwei Stunden.",
+          "tr": {
+            "pt-BR": "A manutenção causa duas horas de inatividade."
+          }
+        },
+        {
+          "de": "Wir wollen die Ausfallzeit so gering wie möglich halten.",
+          "tr": {
+            "pt-BR": "Queremos manter o tempo de inatividade o menor possível."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "tempo de inatividade (downtime)",
+          "technical": "Período em que um sistema ou serviço não está disponível; limitado em contratos de nível de serviço (SLA).",
+          "simple": "O tempo em que o sistema fica fora do ar."
+        }
+      }
+    },
+    {
+      "id": "fi-benutzer",
+      "level": "A2",
+      "de": {
+        "word": "Benutzer",
+        "article": "der",
+        "plural": "Benutzer",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": ["Nutzer"],
+      "related": ["fi-berechtigung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Benutzer ist gesperrt, weil das Passwort dreimal falsch war.",
+          "tr": {
+            "pt-BR": "O usuário está bloqueado porque a senha foi digitada errada três vezes."
+          }
+        },
+        {
+          "de": "Leg bitte einen neuen Benutzer für den Praktikanten an.",
+          "tr": {
+            "pt-BR": "Crie um novo usuário para o estagiário, por favor."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "usuário",
+          "variants": {
+            "pt-PT": "utilizador"
+          },
+          "technical": "Pessoa (ou conta) que usa um sistema; forma feminina \"die Benutzerin\". Também se diz \"Nutzer\".",
+          "simple": "A pessoa que usa o computador ou o programa."
+        }
+      }
+    },
+    {
+      "id": "fi-herunterfahren",
+      "level": "B1",
+      "de": {
+        "word": "herunterfahren",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": ["runterfahren"],
+      "related": ["fi-neu-starten"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Fahr den Server erst herunter, wenn alle Benutzer abgemeldet sind.",
+          "tr": {
+            "pt-BR": "Só desligue o servidor quando todos os usuários tiverem saído."
+          }
+        },
+        {
+          "de": "Der Rechner fährt sich von selbst herunter.",
+          "tr": {
+            "pt-BR": "O computador desliga sozinho."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "desligar (o sistema)",
+          "technical": "Encerrar o sistema operacional de forma controlada antes de desligar o equipamento.",
+          "simple": "Desligar o computador do jeito certo, pelo menu."
+        }
+      }
+    },
+    {
+      "id": "fi-neu-starten",
+      "level": "A2",
+      "de": {
+        "word": "neu starten",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "phrase"
+      },
+      "synonyms": [],
+      "related": ["fi-herunterfahren"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Hast du den Rechner schon neu gestartet?",
+          "tr": {
+            "pt-BR": "Você já reiniciou o computador?"
+          }
+        },
+        {
+          "de": "Der Dienst muss nach der Änderung neu gestartet werden.",
+          "tr": {
+            "pt-BR": "O serviço precisa ser reiniciado após a alteração."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "reiniciar",
+          "technical": "Desligar e iniciar novamente um sistema ou serviço (reboot/restart).",
+          "simple": "Desligar e ligar de novo."
+        }
+      }
+    },
+    {
+      "id": "fi-speichern",
+      "level": "A2",
+      "de": {
+        "word": "speichern",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["fi-datensicherung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Vergiss nicht, die Datei zu speichern.",
+          "tr": {
+            "pt-BR": "Não esqueça de salvar o arquivo."
+          }
+        },
+        {
+          "de": "Die Einstellungen werden lokal gespeichert.",
+          "tr": {
+            "pt-BR": "As configurações são salvas localmente."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "salvar",
+          "variants": {
+            "pt-PT": "guardar"
+          },
+          "technical": "Gravar dados de forma persistente (arquivo, banco de dados).",
+          "simple": "Guardar o arquivo para não perder o que foi feito."
+        }
+      }
+    }
+  ]
+}

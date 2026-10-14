@@ -1,0 +1,552 @@
+{
+  "area": "dokumentation",
+  "terms": [
+    {
+      "id": "pf-uebergabe",
+      "level": "B1",
+      "de": {
+        "word": "Übergabe",
+        "article": "die",
+        "plural": "Übergaben",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-schicht", "pf-pflegedokumentation"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Übergabe beginnt um 13:45 Uhr im Stationszimmer.",
+          "tr": {
+            "pt-BR": "A passagem de plantão começa às 13h45 na sala da enfermagem."
+          }
+        },
+        {
+          "de": "Bei der Übergabe erwähne ich, dass Herr Arslan nüchtern bleiben muss.",
+          "tr": {
+            "pt-BR": "Na passagem de plantão menciono que o Sr. Arslan precisa ficar em jejum."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "passagem de plantão",
+          "variants": {
+            "pt-PT": "passagem de turno"
+          },
+          "technical": "Troca estruturada de informações sobre os pacientes entre os turnos (ex.: no esquema SBAR/ISBAR), oral e/ou à beira do leito.",
+          "simple": "A conversa em que quem está saindo do turno conta tudo para quem está chegando."
+        }
+      }
+    },
+    {
+      "id": "pf-pflegedokumentation",
+      "level": "B1",
+      "de": {
+        "word": "Pflegedokumentation",
+        "article": "die",
+        "plural": "Pflegedokumentationen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Pflege",
+          "tr": {
+            "pt-BR": "cuidado"
+          }
+        },
+        {
+          "de": "dokumentation",
+          "tr": {
+            "pt-BR": "documentação"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-pflegeplanung", "pf-patientenakte"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Trag die Wundversorgung in die Pflegedokumentation ein.",
+          "tr": {
+            "pt-BR": "Registre o cuidado da ferida no registro de enfermagem."
+          }
+        },
+        {
+          "de": "Die Pflegedokumentation ist ein rechtliches Dokument.",
+          "tr": {
+            "pt-BR": "O registro de enfermagem é um documento legal."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "registro de enfermagem",
+          "technical": "Registro legal e contínuo do processo de enfermagem: anamnese, planejamento, medidas executadas e evolução.",
+          "simple": "Tudo o que se anota sobre o cuidado do paciente; o que não está escrito, juridicamente \"não foi feito\"."
+        }
+      }
+    },
+    {
+      "id": "pf-schicht",
+      "level": "A2",
+      "de": {
+        "word": "Schicht",
+        "article": "die",
+        "plural": "Schichten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": ["Dienst"],
+      "related": ["pf-dienstplan", "pf-uebergabe"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Ich habe diese Woche Nachtschicht.",
+          "tr": {
+            "pt-BR": "Esta semana estou no turno da noite."
+          }
+        },
+        {
+          "de": "Kannst du am Samstag meine Frühschicht übernehmen?",
+          "tr": {
+            "pt-BR": "Você pode assumir meu turno da manhã no sábado?"
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "turno",
+          "technical": "Período de trabalho: Frühschicht (manhã), Spätschicht (tarde) e Nachtschicht (noite).",
+          "simple": "O horário de trabalho: manhã, tarde ou noite.",
+          "falseFriends": [
+            {
+              "word": "Schicht (camada)",
+              "note": "\"Schicht\" também significa camada (ex.: Hautschicht, camada da pele)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pf-dienstplan",
+      "level": "A2",
+      "de": {
+        "word": "Dienstplan",
+        "article": "der",
+        "plural": "Dienstpläne",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Dienst",
+          "tr": {
+            "pt-BR": "serviço"
+          }
+        },
+        {
+          "de": "plan",
+          "tr": {
+            "pt-BR": "plano"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-schicht"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Dienstplan für Dezember hängt im Stationszimmer.",
+          "tr": {
+            "pt-BR": "A escala de dezembro está pendurada na sala da enfermagem."
+          }
+        },
+        {
+          "de": "Ich habe mit Jana getauscht, das muss im Dienstplan geändert werden.",
+          "tr": {
+            "pt-BR": "Troquei com a Jana; isso precisa ser alterado na escala."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "escala de serviço",
+          "technical": "Planejamento dos turnos da equipe para um período; trocas costumam precisar de aprovação da chefia.",
+          "simple": "A tabela que mostra quem trabalha em que dia e em qual turno."
+        }
+      }
+    },
+    {
+      "id": "pf-visite",
+      "level": "B1",
+      "de": {
+        "word": "Visite",
+        "article": "die",
+        "plural": "Visiten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-station"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Visite ist heute um zehn Uhr.",
+          "tr": {
+            "pt-BR": "A visita médica hoje é às dez horas."
+          }
+        },
+        {
+          "de": "Notier die Anordnungen aus der Visite.",
+          "tr": {
+            "pt-BR": "Anote as prescrições da visita médica."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "visita médica (ronda)",
+          "technical": "Ronda da equipe médica (e frequentemente da enfermagem) pelos pacientes para avaliar e definir condutas.",
+          "simple": "Quando os médicos passam de quarto em quarto para ver os pacientes.",
+          "falseFriends": [
+            {
+              "word": "visita",
+              "note": "Visita de parentes é \"der Besuch\" (Besuchszeit = horário de visita). \"Visite\" é só a ronda médica."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pf-station",
+      "level": "A2",
+      "de": {
+        "word": "Station",
+        "article": "die",
+        "plural": "Stationen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-visite", "pf-aufnahme"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Ich arbeite auf der chirurgischen Station.",
+          "tr": {
+            "pt-BR": "Trabalho na unidade de internação cirúrgica."
+          }
+        },
+        {
+          "de": "Der Patient wird von der Intensivstation zu uns verlegt.",
+          "tr": {
+            "pt-BR": "O paciente é transferido da UTI para nós."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "unidade de internação (ala)",
+          "technical": "Unidade do hospital onde os pacientes ficam internados (ex.: Station 3B, Intensivstation = UTI).",
+          "simple": "A parte do hospital onde ficam os quartos dos pacientes.",
+          "falseFriends": [
+            {
+              "word": "estação",
+              "note": "Estação de trem é \"der Bahnhof\". No hospital, \"Station\" é a ala."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pf-pflegeplanung",
+      "level": "B2",
+      "de": {
+        "word": "Pflegeplanung",
+        "article": "die",
+        "plural": "Pflegeplanungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Pflege",
+          "tr": {
+            "pt-BR": "cuidado"
+          }
+        },
+        {
+          "de": "planung",
+          "tr": {
+            "pt-BR": "planejamento"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-pflegedokumentation"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Pflegeplanung wird nach der Aufnahme erstellt.",
+          "tr": {
+            "pt-BR": "O plano de cuidados é elaborado depois da admissão."
+          }
+        },
+        {
+          "de": "Passe die Pflegeplanung an, der Zustand hat sich verändert.",
+          "tr": {
+            "pt-BR": "Ajuste o plano de cuidados; o estado mudou."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "plano de cuidados",
+          "technical": "Etapa do processo de enfermagem em que se definem problemas, recursos, objetivos e intervenções para o paciente.",
+          "simple": "O plano escrito de como cuidar daquele paciente específico."
+        }
+      }
+    },
+    {
+      "id": "pf-angehoeriger",
+      "level": "B1",
+      "de": {
+        "word": "Angehörige",
+        "article": "der",
+        "plural": "Angehörigen",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-entlassung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Angehörigen möchten mit dem Arzt sprechen.",
+          "tr": {
+            "pt-BR": "Os familiares querem falar com o médico."
+          }
+        },
+        {
+          "de": "Darf ich einem Angehörigen Auskunft geben? Nur mit Einverständnis des Patienten.",
+          "tr": {
+            "pt-BR": "Posso dar informações a um familiar? Só com o consentimento do paciente."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "familiar",
+          "technical": "Parente ou pessoa próxima do paciente. Substantivo adjetivado: \"ein Angehöriger\", \"die Angehörigen\".",
+          "simple": "Um parente do paciente."
+        }
+      }
+    },
+    {
+      "id": "pf-patientenakte",
+      "level": "B1",
+      "de": {
+        "word": "Patientenakte",
+        "article": "die",
+        "plural": "Patientenakten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Patient",
+          "tr": {
+            "pt-BR": "paciente"
+          }
+        },
+        {
+          "de": "en",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "akte",
+          "tr": {
+            "pt-BR": "dossiê"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-pflegedokumentation"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Laborwerte sind in der Patientenakte.",
+          "tr": {
+            "pt-BR": "Os resultados de laboratório estão no prontuário."
+          }
+        },
+        {
+          "de": "Die Patientenakte darf nicht offen herumliegen.",
+          "tr": {
+            "pt-BR": "O prontuário não pode ficar aberto à vista."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "prontuário",
+          "technical": "Conjunto de documentos clínicos do paciente (em papel ou eletrônico), sujeito a sigilo.",
+          "simple": "A pasta (ou arquivo no computador) com toda a história do paciente.",
+          "falseFriends": [
+            {
+              "word": "ato",
+              "note": "\"Akte\" é dossiê ou arquivo, não \"ato\"."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pf-aufnahme",
+      "level": "B1",
+      "de": {
+        "word": "Aufnahme",
+        "article": "die",
+        "plural": "Aufnahmen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-entlassung", "pf-station"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Wir bekommen heute Nachmittag noch eine Aufnahme aus der Notaufnahme.",
+          "tr": {
+            "pt-BR": "Ainda vamos receber hoje à tarde uma admissão do pronto-socorro."
+          }
+        },
+        {
+          "de": "Bei der Aufnahme frage ich nach Allergien.",
+          "tr": {
+            "pt-BR": "Na admissão pergunto sobre alergias."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "admissão (internação)",
+          "technical": "Entrada do paciente na unidade, com anamnese de enfermagem, sinais vitais e orientação.",
+          "simple": "Quando o paciente chega para ficar internado.",
+          "falseFriends": [
+            {
+              "word": "Aufnahme (gravação/foto)",
+              "note": "Também significa gravação ou foto (eine Aufnahme machen). \"Notaufnahme\" é o pronto-socorro."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pf-entlassung",
+      "level": "B1",
+      "de": {
+        "word": "Entlassung",
+        "article": "die",
+        "plural": "Entlassungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-aufnahme", "pf-angehoeriger"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Entlassung ist für Freitag geplant.",
+          "tr": {
+            "pt-BR": "A alta está planejada para sexta-feira."
+          }
+        },
+        {
+          "de": "Für die Entlassung braucht Herr Roth noch einen Pflegedienst.",
+          "tr": {
+            "pt-BR": "Para a alta, o Sr. Roth ainda precisa de um serviço de cuidados domiciliares."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "alta (hospitalar)",
+          "technical": "Saída do paciente do hospital, com orientações, receitas e carta de alta (Entlassbrief).",
+          "simple": "Quando o paciente sai do hospital e volta para casa.",
+          "falseFriends": [
+            {
+              "word": "Entlassung (demissão)",
+              "note": "No trabalho, \"Entlassung\" significa demissão. No hospital, é a alta."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pf-pflegekraft",
+      "level": "A2",
+      "de": {
+        "word": "Pflegekraft",
+        "article": "die",
+        "plural": "Pflegekräfte",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Pflege",
+          "tr": {
+            "pt-BR": "cuidado"
+          }
+        },
+        {
+          "de": "kraft",
+          "tr": {
+            "pt-BR": "força (de trabalho)"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-schicht"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Auf der Station fehlen zwei Pflegekräfte.",
+          "tr": {
+            "pt-BR": "Faltam dois profissionais de enfermagem na unidade."
+          }
+        },
+        {
+          "de": "Jede Pflegekraft betreut im Nachtdienst bis zu 25 Patienten.",
+          "tr": {
+            "pt-BR": "Cada profissional de enfermagem cuida de até 25 pacientes no plantão noturno."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "profissional de enfermagem",
+          "technical": "Termo geral para quem trabalha na enfermagem; a \"Pflegefachkraft\" tem formação de 3 anos, a \"Pflegehilfskraft\" é auxiliar.",
+          "simple": "A pessoa que trabalha cuidando dos pacientes."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "area": "instandhaltung",
+  "terms": [
+    {
+      "id": "im-instandhaltung",
+      "level": "B1",
+      "de": {
+        "word": "Instandhaltung",
+        "article": "die",
+        "plural": null,
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Instand",
+          "tr": {
+            "pt-BR": "em bom estado"
+          }
+        },
+        {
+          "de": "haltung",
+          "tr": {
+            "pt-BR": "manter"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-wartung", "im-stoerung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Instandhaltung hat die Anlage für Montag eingeplant.",
+          "tr": {
+            "pt-BR": "A manutenção programou a instalação para segunda-feira."
+          }
+        },
+        {
+          "de": "Ich arbeite in der Instandhaltung im Dreischichtbetrieb.",
+          "tr": {
+            "pt-BR": "Trabalho na manutenção em regime de três turnos."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "manutenção",
+          "technical": "Conjunto de medidas para manter ou restabelecer o estado funcional de uma instalação: inspeção, manutenção preventiva, reparo e melhoria (DIN 31051).",
+          "simple": "Tudo o que se faz para a máquina continuar funcionando: olhar, cuidar e consertar."
+        }
+      }
+    },
+    {
+      "id": "im-wartung",
+      "level": "A2",
+      "de": {
+        "word": "Wartung",
+        "article": "die",
+        "plural": "Wartungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-instandhaltung", "im-schmieren"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Wartung der Presse steht alle 500 Betriebsstunden an.",
+          "tr": {
+            "pt-BR": "A manutenção preventiva da prensa é feita a cada 500 horas de operação."
+          }
+        },
+        {
+          "de": "Trag die Wartung bitte ins Wartungsprotokoll ein.",
+          "tr": {
+            "pt-BR": "Registre a manutenção no protocolo de manutenção, por favor."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "manutenção preventiva",
+          "technical": "Medidas programadas para retardar o desgaste: limpar, lubrificar, trocar filtros e reapertar, conforme plano de manutenção.",
+          "simple": "Os cuidados de rotina, como trocar óleo e limpar, antes de a máquina quebrar.",
+          "falseFriends": [
+            {
+              "word": "Warte!",
+              "note": "\"Warte\" vem de \"warten\" (esperar); \"Wartung\" vem de \"warten\" no sentido de cuidar de uma máquina."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "im-stoerung",
+      "level": "A2",
+      "de": {
+        "word": "Störung",
+        "article": "die",
+        "plural": "Störungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": ["Ausfall"],
+      "related": ["im-instandhaltung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "An Linie 3 gibt es eine Störung, die Anlage steht.",
+          "tr": {
+            "pt-BR": "Há uma falha na linha 3; a instalação está parada."
+          }
+        },
+        {
+          "de": "Quittier die Störung erst, wenn die Ursache behoben ist.",
+          "tr": {
+            "pt-BR": "Só reconheça a falha depois que a causa for eliminada."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "falha",
+          "technical": "Interrupção ou perturbação não planejada da função de uma máquina; costuma gerar uma mensagem de falha no painel.",
+          "simple": "Quando a máquina para ou funciona errado sem ninguém ter mandado."
+        }
+      }
+    },
+    {
+      "id": "im-lager",
+      "level": "B1",
+      "de": {
+        "word": "Lager",
+        "article": "das",
+        "plural": "Lager",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": ["Wälzlager"],
+      "related": ["im-welle", "im-schmieren", "im-passung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Lager macht Geräusche, wir müssen es tauschen.",
+          "tr": {
+            "pt-BR": "O rolamento está fazendo barulho; precisamos trocá-lo."
+          }
+        },
+        {
+          "de": "Das Lager wird mit dem Abzieher von der Welle gezogen.",
+          "tr": {
+            "pt-BR": "O rolamento é tirado do eixo com o sacador."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "rolamento",
+          "technical": "Elemento de máquina que apoia e guia eixos giratórios; rolamento (Wälzlager) ou mancal de deslizamento (Gleitlager).",
+          "simple": "A peça com bolinhas ou roletes que deixa o eixo girar macio.",
+          "falseFriends": [
+            {
+              "word": "Lager (armazém)",
+              "note": "Em logística, \"das Lager\" é o armazém; na mecânica, é o rolamento ou mancal. O contexto decide."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "im-welle",
+      "level": "B1",
+      "de": {
+        "word": "Welle",
+        "article": "die",
+        "plural": "Wellen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-lager", "im-messuhr"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Welle ist eingelaufen und muss nachgeschliffen werden.",
+          "tr": {
+            "pt-BR": "O eixo está gasto e precisa ser retificado."
+          }
+        },
+        {
+          "de": "Prüf den Rundlauf der Welle mit der Messuhr.",
+          "tr": {
+            "pt-BR": "Verifique o batimento do eixo com o relógio comparador."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "eixo",
+          "technical": "Elemento giratório que transmite torque (árvore de transmissão), apoiado em mancais. Diferente de \"Achse\", que só sustenta.",
+          "simple": "A barra redonda que gira e leva a força do motor para a máquina.",
+          "falseFriends": [
+            {
+              "word": "Welle (onda)",
+              "note": "\"Welle\" também significa onda (do mar, de rádio). Na oficina quase sempre é o eixo."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "im-dichtung",
+      "level": "B1",
+      "de": {
+        "word": "Dichtung",
+        "article": "die",
+        "plural": "Dichtungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-wartung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Pumpe leckt, wahrscheinlich ist die Dichtung kaputt.",
+          "tr": {
+            "pt-BR": "A bomba está vazando; provavelmente a vedação está estragada."
+          }
+        },
+        {
+          "de": "Verwende beim Zusammenbau immer eine neue Dichtung.",
+          "tr": {
+            "pt-BR": "Use sempre uma vedação nova na montagem."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "vedação",
+          "technical": "Elemento que impede vazamento de fluidos entre peças: junta plana, anel O-ring, retentor.",
+          "simple": "A borrachinha ou junta que impede o óleo ou a água de vazar."
+        }
+      }
+    },
+    {
+      "id": "im-verschleiss",
+      "level": "B2",
+      "de": {
+        "word": "Verschleiß",
+        "article": "der",
+        "plural": null,
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-wartung", "im-schmieren"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Führungsbahnen zeigen starken Verschleiß.",
+          "tr": {
+            "pt-BR": "As guias mostram forte desgaste."
+          }
+        },
+        {
+          "de": "Keilriemen sind Verschleißteile und liegen im Lager.",
+          "tr": {
+            "pt-BR": "Correias em V são peças de desgaste e ficam no estoque."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "desgaste",
+          "technical": "Perda progressiva de material das superfícies por atrito, abrasão ou fadiga; peças de desgaste são trocadas preventivamente.",
+          "simple": "Quando a peça vai se gastando com o uso, como a sola de um sapato."
+        }
+      }
+    },
+    {
+      "id": "im-schmieren",
+      "level": "A2",
+      "de": {
+        "word": "schmieren",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["im-lager", "im-wartung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Führungen werden einmal pro Schicht geschmiert.",
+          "tr": {
+            "pt-BR": "As guias são lubrificadas uma vez por turno."
+          }
+        },
+        {
+          "de": "Schmier das Lager mit dem vorgeschriebenen Fett.",
+          "tr": {
+            "pt-BR": "Lubrifique o rolamento com a graxa especificada."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "lubrificar",
+          "technical": "Aplicar lubrificante (óleo, graxa) para reduzir atrito e desgaste entre superfícies em movimento.",
+          "simple": "Colocar óleo ou graxa para as peças deslizarem sem raspar."
+        }
+      }
+    },
+    {
+      "id": "im-kuehlschmierstoff",
+      "level": "B2",
+      "de": {
+        "word": "Kühlschmierstoff",
+        "article": "der",
+        "plural": "Kühlschmierstoffe",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Kühl",
+          "tr": {
+            "pt-BR": "resfriar"
+          }
+        },
+        {
+          "de": "schmier",
+          "tr": {
+            "pt-BR": "lubrificar"
+          }
+        },
+        {
+          "de": "stoff",
+          "tr": {
+            "pt-BR": "substância"
+          }
+        }
+      ],
+      "synonyms": ["KSS"],
+      "related": ["im-drehmaschine", "im-schmieren"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Konzentration des Kühlschmierstoffs wird täglich mit dem Refraktometer geprüft.",
+          "tr": {
+            "pt-BR": "A concentração do fluido de corte é verificada diariamente com o refratômetro."
+          }
+        },
+        {
+          "de": "Trag Handschuhe, der Kühlschmierstoff reizt die Haut.",
+          "tr": {
+            "pt-BR": "Use luvas; o fluido de corte irrita a pele."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "fluido de corte",
+          "technical": "Fluido que resfria e lubrifica a zona de corte na usinagem (emulsão ou óleo integral); abreviado KSS. Exige controle de concentração e cuidado com a pele.",
+          "simple": "O líquido branco ou oleoso que cai na peça enquanto a máquina corta, para não esquentar."
+        }
+      }
+    },
+    {
+      "id": "im-drehmaschine",
+      "level": "A2",
+      "de": {
+        "word": "Drehmaschine",
+        "article": "die",
+        "plural": "Drehmaschinen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Dreh",
+          "tr": {
+            "pt-BR": "girar"
+          }
+        },
+        {
+          "de": "maschine",
+          "tr": {
+            "pt-BR": "máquina"
+          }
+        }
+      ],
+      "synonyms": ["Drehbank"],
+      "related": ["im-kuehlschmierstoff", "im-welle"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Spann das Werkstück fest ins Futter der Drehmaschine.",
+          "tr": {
+            "pt-BR": "Prenda bem a peça na placa do torno."
+          }
+        },
+        {
+          "de": "An der Drehmaschine sind Handschuhe verboten.",
+          "tr": {
+            "pt-BR": "No torno é proibido usar luvas."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "torno",
+          "technical": "Máquina-ferramenta em que a peça gira e a ferramenta avança, para tornear superfícies cilíndricas, faces e roscas; CNC ou convencional.",
+          "simple": "A máquina que gira a peça bem rápido enquanto uma ferramenta tira o metal, deixando-a redonda."
+        }
+      }
+    },
+    {
+      "id": "im-bohrmaschine",
+      "level": "A2",
+      "de": {
+        "word": "Bohrmaschine",
+        "article": "die",
+        "plural": "Bohrmaschinen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Bohr",
+          "tr": {
+            "pt-BR": "furar"
+          }
+        },
+        {
+          "de": "maschine",
+          "tr": {
+            "pt-BR": "máquina"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-gewindebohrer"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Spann das Werkstück im Maschinenschraubstock, bevor du die Bohrmaschine einschaltest.",
+          "tr": {
+            "pt-BR": "Prenda a peça na morsa antes de ligar a furadeira."
+          }
+        },
+        {
+          "de": "Die Drehzahl der Bohrmaschine hängt vom Bohrerdurchmesser ab.",
+          "tr": {
+            "pt-BR": "A rotação da furadeira depende do diâmetro da broca."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "furadeira",
+          "variants": {
+            "pt-PT": "berbequim"
+          },
+          "technical": "Máquina para fazer furos com broca giratória: furadeira de bancada, de coluna ou manual.",
+          "simple": "A máquina que faz buracos redondos com uma broca."
+        }
+      }
+    }
+  ]
+}

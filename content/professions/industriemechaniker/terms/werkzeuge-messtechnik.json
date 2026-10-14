@@ -1,0 +1,546 @@
+{
+  "area": "werkzeuge-messtechnik",
+  "terms": [
+    {
+      "id": "im-messschieber",
+      "level": "A2",
+      "de": {
+        "word": "Messschieber",
+        "article": "der",
+        "plural": "Messschieber",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Mess",
+          "tr": {
+            "pt-BR": "medir"
+          }
+        },
+        {
+          "de": "schieber",
+          "tr": {
+            "pt-BR": "cursor (o que desliza)"
+          }
+        }
+      ],
+      "synonyms": ["Schieblehre"],
+      "related": ["im-buegelmessschraube", "im-toleranz"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Miss den Außendurchmesser mit dem Messschieber nach.",
+          "tr": {
+            "pt-BR": "Confira o diâmetro externo com o paquímetro."
+          }
+        },
+        {
+          "de": "Der digitale Messschieber muss vor jeder Messung auf null gestellt werden.",
+          "tr": {
+            "pt-BR": "O paquímetro digital precisa ser zerado antes de cada medição."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "paquímetro",
+          "technical": "Instrumento para medir dimensões externas, internas e profundidade, com nônio ou visor digital; resolução típica de 0,05 mm ou 0,01 mm.",
+          "simple": "Uma régua com uma parte que desliza e \"abraça\" a peça para medir o tamanho dela com precisão."
+        }
+      }
+    },
+    {
+      "id": "im-buegelmessschraube",
+      "level": "B1",
+      "de": {
+        "word": "Bügelmessschraube",
+        "article": "die",
+        "plural": "Bügelmessschrauben",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Bügel",
+          "tr": {
+            "pt-BR": "arco"
+          }
+        },
+        {
+          "de": "mess",
+          "tr": {
+            "pt-BR": "medir"
+          }
+        },
+        {
+          "de": "schraube",
+          "tr": {
+            "pt-BR": "parafuso"
+          }
+        }
+      ],
+      "synonyms": ["Mikrometerschraube"],
+      "related": ["im-messschieber", "im-passung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Für die Passung brauchen wir die Bügelmessschraube, der Messschieber ist zu ungenau.",
+          "tr": {
+            "pt-BR": "Para o ajuste precisamos do micrômetro; o paquímetro não é preciso o suficiente."
+          }
+        },
+        {
+          "de": "Dreh die Bügelmessschraube nur an der Ratsche zu.",
+          "tr": {
+            "pt-BR": "Feche o micrômetro só pela catraca."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "micrômetro",
+          "variants": {
+            "pt-PT": "micrómetro"
+          },
+          "technical": "Instrumento de medição por fuso roscado com arco em C; mede com resolução de 0,01 mm ou melhor. A catraca limita a força de medição.",
+          "simple": "Uma ferramenta em forma de \"C\" que aperta a peça devagar e mostra a medida com precisão de centésimos de milímetro."
+        }
+      }
+    },
+    {
+      "id": "im-messuhr",
+      "level": "B1",
+      "de": {
+        "word": "Messuhr",
+        "article": "die",
+        "plural": "Messuhren",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Mess",
+          "tr": {
+            "pt-BR": "medir"
+          }
+        },
+        {
+          "de": "uhr",
+          "tr": {
+            "pt-BR": "relógio"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-welle", "im-toleranz"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Setz die Messuhr an die Welle und prüf den Rundlauf.",
+          "tr": {
+            "pt-BR": "Coloque o relógio comparador no eixo e verifique o batimento."
+          }
+        },
+        {
+          "de": "Die Messuhr zeigt zwei Hundertstel Abweichung.",
+          "tr": {
+            "pt-BR": "O relógio comparador mostra dois centésimos de desvio."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "relógio comparador",
+          "technical": "Instrumento com ponteiro que mostra pequenos deslocamentos de um apalpador; usado para verificar batimento, planicidade e alinhamento.",
+          "simple": "Um \"relógio\" com ponteiro que mostra se uma peça gira torta ou está fora do lugar, mesmo por muito pouco."
+        }
+      }
+    },
+    {
+      "id": "im-drehmomentschluessel",
+      "level": "B1",
+      "de": {
+        "word": "Drehmomentschlüssel",
+        "article": "der",
+        "plural": "Drehmomentschlüssel",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Dreh",
+          "tr": {
+            "pt-BR": "giro"
+          }
+        },
+        {
+          "de": "moment",
+          "tr": {
+            "pt-BR": "momento"
+          }
+        },
+        {
+          "de": "schlüssel",
+          "tr": {
+            "pt-BR": "chave"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-gabelschluessel"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Zieh die Zylinderkopfschrauben mit dem Drehmomentschlüssel auf 25 Newtonmeter an.",
+          "tr": {
+            "pt-BR": "Aperte os parafusos do cabeçote com o torquímetro a 25 newton-metros."
+          }
+        },
+        {
+          "de": "Der Drehmomentschlüssel muss regelmäßig kalibriert werden.",
+          "tr": {
+            "pt-BR": "O torquímetro precisa ser calibrado regularmente."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "torquímetro",
+          "variants": {
+            "pt-PT": "chave dinamométrica"
+          },
+          "technical": "Chave que aplica um torque de aperto definido (em N·m), com estalo ou indicação quando o valor ajustado é atingido.",
+          "simple": "Uma chave que \"avisa\" com um clique quando o parafuso já foi apertado com a força certa."
+        }
+      }
+    },
+    {
+      "id": "im-gabelschluessel",
+      "level": "A2",
+      "de": {
+        "word": "Gabelschlüssel",
+        "article": "der",
+        "plural": "Gabelschlüssel",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Gabel",
+          "tr": {
+            "pt-BR": "garfo"
+          }
+        },
+        {
+          "de": "schlüssel",
+          "tr": {
+            "pt-BR": "chave"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-drehmomentschluessel", "im-innensechskantschluessel"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Gib mir mal den Gabelschlüssel, Schlüsselweite 17.",
+          "tr": {
+            "pt-BR": "Me passa a chave de boca 17, por favor."
+          }
+        },
+        {
+          "de": "Mit dem Gabelschlüssel kommst du da nicht ran, nimm eine Ratsche.",
+          "tr": {
+            "pt-BR": "Com a chave de boca você não alcança aí; pegue uma catraca."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "chave de boca",
+          "variants": {
+            "pt-PT": "chave de bocas"
+          },
+          "technical": "Chave fixa com boca aberta em forma de garfo, para porcas e cabeças sextavadas; identificada pela medida da abertura (ex.: SW 13).",
+          "simple": "A chave comum com a ponta aberta em forma de \"U\", usada para girar porcas."
+        }
+      }
+    },
+    {
+      "id": "im-innensechskantschluessel",
+      "level": "A2",
+      "de": {
+        "word": "Innensechskantschlüssel",
+        "article": "der",
+        "plural": "Innensechskantschlüssel",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Innen",
+          "tr": {
+            "pt-BR": "interno"
+          }
+        },
+        {
+          "de": "sechs",
+          "tr": {
+            "pt-BR": "seis"
+          }
+        },
+        {
+          "de": "kant",
+          "tr": {
+            "pt-BR": "aresta"
+          }
+        },
+        {
+          "de": "schlüssel",
+          "tr": {
+            "pt-BR": "chave"
+          }
+        }
+      ],
+      "synonyms": ["Inbusschlüssel"],
+      "related": ["im-gabelschluessel"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Für die Klemmschraube brauchst du einen Innensechskantschlüssel, Größe 5.",
+          "tr": {
+            "pt-BR": "Para o parafuso de fixação você precisa de uma chave Allen número 5."
+          }
+        },
+        {
+          "de": "Der Innensechskantschlüssel ist rund gedreht, wirf ihn weg.",
+          "tr": {
+            "pt-BR": "A chave Allen está espanada; jogue fora."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "chave Allen",
+          "technical": "Chave em L de seção hexagonal para parafusos com sextavado interno (cabeça cilíndrica, ISO 4762).",
+          "simple": "A chavinha em forma de \"L\" com seis lados que entra no buraco da cabeça do parafuso."
+        }
+      }
+    },
+    {
+      "id": "im-feile",
+      "level": "A2",
+      "de": {
+        "word": "Feile",
+        "article": "die",
+        "plural": "Feilen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-passung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Entgrate die Kante mit der Feile.",
+          "tr": {
+            "pt-BR": "Tire a rebarba da aresta com a lima."
+          }
+        },
+        {
+          "de": "Die Feile wird nur beim Vorwärtshub belastet.",
+          "tr": {
+            "pt-BR": "A lima só é pressionada no movimento para a frente."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "lima",
+          "technical": "Ferramenta manual de corte com dentes no corpo, para desbastar e acabar superfícies e remover rebarbas.",
+          "simple": "Uma barra de aço áspera usada para gastar e alisar o metal à mão."
+        }
+      }
+    },
+    {
+      "id": "im-gewindebohrer",
+      "level": "B1",
+      "de": {
+        "word": "Gewindebohrer",
+        "article": "der",
+        "plural": "Gewindebohrer",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Gewinde",
+          "tr": {
+            "pt-BR": "rosca"
+          }
+        },
+        {
+          "de": "bohrer",
+          "tr": {
+            "pt-BR": "broca"
+          }
+        }
+      ],
+      "synonyms": ["Gewindeschneider"],
+      "related": [],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Bohr zuerst mit 6,8 Millimetern vor, dann schneidest du mit dem Gewindebohrer M8.",
+          "tr": {
+            "pt-BR": "Primeiro fure com 6,8 milímetros, depois abra a rosca com o macho M8."
+          }
+        },
+        {
+          "de": "Der Gewindebohrer ist abgebrochen und steckt noch im Bauteil.",
+          "tr": {
+            "pt-BR": "O macho quebrou e ainda está preso na peça."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "macho de roscar",
+          "technical": "Ferramenta para abrir rosca interna em furo previamente feito; usada em jogo (pré-corte, intermediário e acabamento) ou macho de máquina.",
+          "simple": "Uma ferramenta parecida com um parafuso duro que \"corta\" a rosca dentro de um furo."
+        }
+      }
+    },
+    {
+      "id": "im-toleranz",
+      "level": "B1",
+      "de": {
+        "word": "Toleranz",
+        "article": "die",
+        "plural": "Toleranzen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-passung", "im-messschieber"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Maß liegt außerhalb der Toleranz, das Teil ist Ausschuss.",
+          "tr": {
+            "pt-BR": "A medida está fora da tolerância; a peça é refugo."
+          }
+        },
+        {
+          "de": "Welche Toleranz steht auf der Zeichnung?",
+          "tr": {
+            "pt-BR": "Qual tolerância está no desenho?"
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "tolerância",
+          "technical": "Diferença permitida entre a medida máxima e a mínima de uma cota; indicada no desenho por afastamentos ou classes ISO.",
+          "simple": "O quanto a medida pode ficar um pouquinho maior ou menor e a peça ainda estar boa."
+        }
+      }
+    },
+    {
+      "id": "im-passung",
+      "level": "B2",
+      "de": {
+        "word": "Passung",
+        "article": "die",
+        "plural": "Passungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-toleranz", "im-lager"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Für das Lager ist eine Übermaßpassung vorgesehen.",
+          "tr": {
+            "pt-BR": "Para o rolamento está previsto um ajuste com interferência."
+          }
+        },
+        {
+          "de": "Die Passung H7/g6 ist eine Spielpassung.",
+          "tr": {
+            "pt-BR": "O ajuste H7/g6 é um ajuste com folga."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "ajuste",
+          "technical": "Relação entre as tolerâncias de furo e eixo que se encaixam: ajuste com folga, de transição ou com interferência (ex.: H7/g6).",
+          "simple": "Quão \"justo\" um eixo entra num furo: solto, encaixado ou tão apertado que precisa de prensa."
+        }
+      }
+    },
+    {
+      "id": "im-wasserwaage",
+      "level": "A2",
+      "de": {
+        "word": "Wasserwaage",
+        "article": "die",
+        "plural": "Wasserwaagen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Wasser",
+          "tr": {
+            "pt-BR": "água"
+          }
+        },
+        {
+          "de": "waage",
+          "tr": {
+            "pt-BR": "balança"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-messuhr"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Richte die Maschine mit der Wasserwaage aus.",
+          "tr": {
+            "pt-BR": "Nivele a máquina com o nível de bolha."
+          }
+        },
+        {
+          "de": "Die Blase der Wasserwaage steht genau in der Mitte.",
+          "tr": {
+            "pt-BR": "A bolha do nível está exatamente no meio."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "nível de bolha",
+          "technical": "Instrumento com ampolas de líquido e bolha para verificar horizontalidade e verticalidade.",
+          "simple": "Uma régua com uma bolhinha que mostra se algo está reto, sem pender para nenhum lado."
+        }
+      }
+    }
+  ]
+}

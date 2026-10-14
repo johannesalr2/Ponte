@@ -1,0 +1,511 @@
+{
+  "area": "versand",
+  "terms": [
+    {
+      "id": "ll-versand",
+      "level": "A2",
+      "de": {
+        "word": "Versand",
+        "article": "der",
+        "plural": null,
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ll-verpacken", "ll-rampe"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Ware geht heute noch in den Versand.",
+          "tr": {
+            "pt-BR": "A mercadoria ainda vai para a expedição hoje."
+          }
+        },
+        {
+          "de": "Ich arbeite in der Frühschicht im Versand.",
+          "tr": {
+            "pt-BR": "Trabalho no turno da manhã na expedição."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "expedição",
+          "technical": "Área e processo de preparar, embalar, documentar e despachar mercadorias.",
+          "simple": "O setor que prepara e manda as mercadorias para os clientes."
+        }
+      }
+    },
+    {
+      "id": "ll-verpacken",
+      "level": "A2",
+      "de": {
+        "word": "verpacken",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["ll-verpackung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Verpack die Gläser mit Luftpolsterfolie.",
+          "tr": {
+            "pt-BR": "Embale os copos com plástico bolha."
+          }
+        },
+        {
+          "de": "Die Bestellung ist verpackt und bereit für den Versand.",
+          "tr": {
+            "pt-BR": "O pedido está embalado e pronto para a expedição."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "embalar",
+          "technical": "Acondicionar mercadorias para proteção no transporte e identificação.",
+          "simple": "Colocar o produto na caixa."
+        }
+      }
+    },
+    {
+      "id": "ll-verpackung",
+      "level": "A2",
+      "de": {
+        "word": "Verpackung",
+        "article": "die",
+        "plural": "Verpackungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ll-verpacken", "ll-beschaedigung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Verpackung ist aufgerissen.",
+          "tr": {
+            "pt-BR": "A embalagem está rasgada."
+          }
+        },
+        {
+          "de": "Wir trennen Verpackungen nach Pappe und Folie.",
+          "tr": {
+            "pt-BR": "Separamos as embalagens em papelão e filme plástico."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "embalagem",
+          "technical": "Material que envolve e protege o produto; sujeito a regras de reciclagem (VerpackG).",
+          "simple": "A caixa, o plástico ou o papel em volta do produto."
+        }
+      }
+    },
+    {
+      "id": "ll-packstueck",
+      "level": "B2",
+      "de": {
+        "word": "Packstück",
+        "article": "das",
+        "plural": "Packstücke",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Pack",
+          "tr": {
+            "pt-BR": "embalar"
+          }
+        },
+        {
+          "de": "stück",
+          "tr": {
+            "pt-BR": "peça"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ll-sendung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Sendung besteht aus drei Packstücken.",
+          "tr": {
+            "pt-BR": "A remessa é composta de três volumes."
+          }
+        },
+        {
+          "de": "Jedes Packstück braucht ein Versandetikett.",
+          "tr": {
+            "pt-BR": "Cada volume precisa de uma etiqueta de expedição."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "volume",
+          "technical": "Cada unidade física de uma remessa (caixa, palete, fardo), contada no documento de transporte.",
+          "simple": "Cada caixa ou pacote da entrega."
+        }
+      }
+    },
+    {
+      "id": "ll-ladung",
+      "level": "B1",
+      "de": {
+        "word": "Ladung",
+        "article": "die",
+        "plural": "Ladungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ll-ladungssicherung", "ll-lkw"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Ladung muss bis 15 Uhr fertig sein.",
+          "tr": {
+            "pt-BR": "A carga precisa estar pronta até as 15 horas."
+          }
+        },
+        {
+          "de": "Die Ladung ist verrutscht.",
+          "tr": {
+            "pt-BR": "A carga se deslocou."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "carga",
+          "technical": "Mercadorias transportadas num veículo; \"beladen\" é carregar e \"entladen\" é descarregar.",
+          "simple": "Tudo o que vai dentro do caminhão.",
+          "falseFriends": [
+            {
+              "word": "Ladung (elétrica)",
+              "note": "Em física, \"Ladung\" é carga elétrica."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ll-ladungssicherung",
+      "level": "B2",
+      "de": {
+        "word": "Ladungssicherung",
+        "article": "die",
+        "plural": "Ladungssicherungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Ladung",
+          "tr": {
+            "pt-BR": "carga"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "sicherung",
+          "tr": {
+            "pt-BR": "fixação"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ll-ladung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Ohne Ladungssicherung fährt der Lkw nicht los.",
+          "tr": {
+            "pt-BR": "Sem amarração da carga, o caminhão não sai."
+          }
+        },
+        {
+          "de": "Für die Ladungssicherung brauchen wir noch vier Spanngurte.",
+          "tr": {
+            "pt-BR": "Para a amarração da carga ainda precisamos de quatro cintas de amarração."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "amarração de carga",
+          "technical": "Fixação da carga no veículo (cintas, barras, antiderrapantes) para que não se mova em frenagens e curvas; obrigação legal.",
+          "simple": "Prender bem a carga no caminhão para ela não cair nem escorregar."
+        }
+      }
+    },
+    {
+      "id": "ll-lkw",
+      "level": "A2",
+      "de": {
+        "word": "Lkw",
+        "article": "der",
+        "plural": "Lkws",
+        "gender": "m",
+        "pos": "abbreviation"
+      },
+      "synonyms": ["Lastwagen"],
+      "related": ["ll-rampe", "ll-ladung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Lkw hat zwei Stunden Verspätung.",
+          "tr": {
+            "pt-BR": "O caminhão está duas horas atrasado."
+          }
+        },
+        {
+          "de": "Wir laden den Lkw an Rampe 3.",
+          "tr": {
+            "pt-BR": "Carregamos o caminhão na doca 3."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "caminhão",
+          "variants": {
+            "pt-PT": "camião"
+          },
+          "technical": "Lastkraftwagen: veículo de carga; a carteira para mais de 7,5 t é a categoria C.",
+          "simple": "O caminhão."
+        }
+      }
+    },
+    {
+      "id": "ll-rampe",
+      "level": "B1",
+      "de": {
+        "word": "Rampe",
+        "article": "die",
+        "plural": "Rampen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": ["Laderampe"],
+      "related": ["ll-lkw", "ll-versand"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Fahrer soll an Rampe 5 andocken.",
+          "tr": {
+            "pt-BR": "O motorista deve encostar na doca 5."
+          }
+        },
+        {
+          "de": "An der Rampe gilt Warnwestenpflicht.",
+          "tr": {
+            "pt-BR": "Na doca é obrigatório usar colete refletivo."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "doca (de carga)",
+          "technical": "Plataforma na altura do caminhão para carga e descarga (Laderampe), muitas vezes com nivelador.",
+          "simple": "O lugar onde o caminhão encosta para carregar e descarregar."
+        }
+      }
+    },
+    {
+      "id": "ll-gewicht",
+      "level": "A2",
+      "de": {
+        "word": "Gewicht",
+        "article": "das",
+        "plural": "Gewichte",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ll-tragfaehigkeit"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Gewicht der Palette darf 1000 Kilogramm nicht übersteigen.",
+          "tr": {
+            "pt-BR": "O peso da palete não pode passar de 1000 quilos."
+          }
+        },
+        {
+          "de": "Trag das Bruttogewicht in den Frachtbrief ein.",
+          "tr": {
+            "pt-BR": "Registre o peso bruto no conhecimento de transporte."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "peso",
+          "technical": "Massa da mercadoria (bruto, líquido, tara), relevante para frete, empilhamento e limites de carga.",
+          "simple": "O quanto algo pesa."
+        }
+      }
+    },
+    {
+      "id": "ll-frachtbrief",
+      "level": "B2",
+      "de": {
+        "word": "Frachtbrief",
+        "article": "der",
+        "plural": "Frachtbriefe",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Fracht",
+          "tr": {
+            "pt-BR": "frete"
+          }
+        },
+        {
+          "de": "brief",
+          "tr": {
+            "pt-BR": "carta"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ll-spediteur"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Fahrer braucht den unterschriebenen Frachtbrief.",
+          "tr": {
+            "pt-BR": "O motorista precisa do conhecimento de transporte assinado."
+          }
+        },
+        {
+          "de": "Für Polen erstellen wir einen CMR-Frachtbrief.",
+          "tr": {
+            "pt-BR": "Para a Polônia emitimos um conhecimento de transporte CMR."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "conhecimento de transporte",
+          "technical": "Documento do contrato de transporte com remetente, destinatário, mercadoria e peso; no transporte internacional rodoviário, o CMR.",
+          "simple": "O documento oficial que acompanha a carga no caminhão."
+        }
+      }
+    },
+    {
+      "id": "ll-tour",
+      "level": "B1",
+      "de": {
+        "word": "Tour",
+        "article": "die",
+        "plural": "Touren",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": ["Route"],
+      "related": [],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Tour nach Stuttgart wird zuletzt beladen.",
+          "tr": {
+            "pt-BR": "A rota para Stuttgart é carregada por último."
+          }
+        },
+        {
+          "de": "Welche Kunden sind heute auf der Tour?",
+          "tr": {
+            "pt-BR": "Quais clientes estão na rota hoje?"
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "rota (de entrega)",
+          "technical": "Sequência planejada de entregas de um veículo num dia.",
+          "simple": "O caminho que o caminhão faz para entregar em vários clientes."
+        }
+      }
+    },
+    {
+      "id": "ll-gefahrgut",
+      "level": "B2",
+      "de": {
+        "word": "Gefahrgut",
+        "article": "das",
+        "plural": "Gefahrgüter",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Gefahr",
+          "tr": {
+            "pt-BR": "perigo"
+          }
+        },
+        {
+          "de": "gut",
+          "tr": {
+            "pt-BR": "bem, mercadoria"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ll-unterweisung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Gefahrgut muss nach ADR gekennzeichnet werden.",
+          "tr": {
+            "pt-BR": "Carga perigosa precisa ser identificada conforme o ADR."
+          }
+        },
+        {
+          "de": "Lithiumbatterien gelten als Gefahrgut.",
+          "tr": {
+            "pt-BR": "Baterias de lítio são consideradas carga perigosa."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "carga perigosa",
+          "variants": {
+            "pt-PT": "mercadoria perigosa"
+          },
+          "technical": "Substâncias e objetos classificados (ADR) que exigem embalagem, rotulagem, documentos e veículos especiais.",
+          "simple": "Produtos perigosos, como químicos ou baterias, que têm regras especiais."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "code": "pt-BR",
+  "name": "Português (Brasil)",
+  "dir": "ltr",
+  "speechLang": "pt-BR",
+  "variants": [{ "code": "pt-PT", "label": "Portugal" }],
+  "ui": {}
+}

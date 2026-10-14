@@ -1,0 +1,640 @@
+{
+  "area": "sicherheit-foerderzeuge",
+  "terms": [
+    {
+      "id": "ll-gabelstapler",
+      "level": "A2",
+      "de": {
+        "word": "Gabelstapler",
+        "article": "der",
+        "plural": "Gabelstapler",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Gabel",
+          "tr": {
+            "pt-BR": "garfo"
+          }
+        },
+        {
+          "de": "stapler",
+          "tr": {
+            "pt-BR": "empilhador"
+          }
+        }
+      ],
+      "synonyms": ["Stapler"],
+      "related": ["ll-staplerschein", "ll-flurfoerderzeug"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Mit dem Gabelstapler darfst du nur mit Staplerschein fahren.",
+          "tr": {
+            "pt-BR": "Você só pode dirigir a empilhadeira com habilitação de operador."
+          }
+        },
+        {
+          "de": "Der Gabelstapler muss vor Schichtbeginn geprüft werden.",
+          "tr": {
+            "pt-BR": "A empilhadeira precisa ser verificada antes do início do turno."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "empilhadeira",
+          "variants": {
+            "pt-PT": "empilhador"
+          },
+          "technical": "Veículo industrial com garfos para elevar e transportar cargas; exige formação e autorização escrita do empregador.",
+          "simple": "O veículo com dois \"garfos\" que levanta as paletes."
+        }
+      }
+    },
+    {
+      "id": "ll-hubwagen",
+      "level": "A2",
+      "de": {
+        "word": "Hubwagen",
+        "article": "der",
+        "plural": "Hubwagen",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Hub",
+          "tr": {
+            "pt-BR": "elevação"
+          }
+        },
+        {
+          "de": "wagen",
+          "tr": {
+            "pt-BR": "carrinho"
+          }
+        }
+      ],
+      "synonyms": ["Ameise"],
+      "related": ["ll-palette", "ll-gabelstapler"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Hol den Hubwagen und fahr die Palette zur Rampe.",
+          "tr": {
+            "pt-BR": "Pegue a paleteira e leve a palete até a doca."
+          }
+        },
+        {
+          "de": "Der elektrische Hubwagen ist an der Ladestation.",
+          "tr": {
+            "pt-BR": "A paleteira elétrica está na estação de carga."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "paleteira (transpaleteira)",
+          "variants": {
+            "pt-PT": "porta-paletes"
+          },
+          "technical": "Equipamento manual ou elétrico para levantar e deslocar paletes a pouca altura.",
+          "simple": "O carrinho de puxar paletes."
+        }
+      }
+    },
+    {
+      "id": "ll-flurfoerderzeug",
+      "level": "C1",
+      "de": {
+        "word": "Flurförderzeug",
+        "article": "das",
+        "plural": "Flurförderzeuge",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Flur",
+          "tr": {
+            "pt-BR": "piso"
+          }
+        },
+        {
+          "de": "förder",
+          "tr": {
+            "pt-BR": "transportar"
+          }
+        },
+        {
+          "de": "zeug",
+          "tr": {
+            "pt-BR": "equipamento"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ll-gabelstapler", "ll-hubwagen"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Flurförderzeuge müssen jährlich geprüft werden.",
+          "tr": {
+            "pt-BR": "Equipamentos de movimentação precisam ser inspecionados anualmente."
+          }
+        },
+        {
+          "de": "In der Unterweisung geht es um den sicheren Umgang mit Flurförderzeugen.",
+          "tr": {
+            "pt-BR": "O treinamento trata do uso seguro de equipamentos de movimentação."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "equipamento de movimentação (veículo industrial)",
+          "technical": "Termo técnico-legal para veículos de movimentação no piso (empilhadeiras, paleteiras, rebocadores).",
+          "simple": "O nome oficial para empilhadeiras, paleteiras e veículos parecidos."
+        }
+      }
+    },
+    {
+      "id": "ll-staplerschein",
+      "level": "B1",
+      "de": {
+        "word": "Staplerschein",
+        "article": "der",
+        "plural": "Staplerscheine",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Stapler",
+          "tr": {
+            "pt-BR": "empilhadeira"
+          }
+        },
+        {
+          "de": "schein",
+          "tr": {
+            "pt-BR": "certificado"
+          }
+        }
+      ],
+      "synonyms": ["Fahrausweis für Flurförderzeuge"],
+      "related": ["ll-gabelstapler"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Hast du einen Staplerschein?",
+          "tr": {
+            "pt-BR": "Você tem habilitação de operador de empilhadeira?"
+          }
+        },
+        {
+          "de": "Den Staplerschein macht man in einem Kurs von wenigen Tagen.",
+          "tr": {
+            "pt-BR": "A habilitação de operador se obtém num curso de poucos dias."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "habilitação de operador de empilhadeira",
+          "technical": "Certificado de formação de operador (conforme DGUV Grundsatz 308-001); a empresa ainda precisa dar autorização por escrito.",
+          "simple": "O certificado que mostra que você aprendeu a dirigir empilhadeira."
+        }
+      }
+    },
+    {
+      "id": "ll-sicherheitsschuh",
+      "level": "A2",
+      "de": {
+        "word": "Sicherheitsschuh",
+        "article": "der",
+        "plural": "Sicherheitsschuhe",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Sicherheit",
+          "tr": {
+            "pt-BR": "segurança"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "schuh",
+          "tr": {
+            "pt-BR": "sapato"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ll-warnweste"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Im Lager sind Sicherheitsschuhe Pflicht.",
+          "tr": {
+            "pt-BR": "No armazém o calçado de segurança é obrigatório."
+          }
+        },
+        {
+          "de": "Deine Sicherheitsschuhe sind kaputt, hol dir neue aus dem Magazin.",
+          "tr": {
+            "pt-BR": "Seu calçado de segurança está estragado; pegue um novo no almoxarifado."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "calçado de segurança",
+          "technical": "Calçado com biqueira de proteção e solado antiderrapante (classes S1 a S3).",
+          "simple": "A botina com bico de aço que protege o pé."
+        }
+      }
+    },
+    {
+      "id": "ll-warnweste",
+      "level": "A2",
+      "de": {
+        "word": "Warnweste",
+        "article": "die",
+        "plural": "Warnwesten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Warn",
+          "tr": {
+            "pt-BR": "alerta"
+          }
+        },
+        {
+          "de": "weste",
+          "tr": {
+            "pt-BR": "colete"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ll-sicherheitsschuh"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Zieh die Warnweste an, bevor du auf den Hof gehst.",
+          "tr": {
+            "pt-BR": "Vista o colete refletivo antes de ir para o pátio."
+          }
+        },
+        {
+          "de": "Besucher bekommen am Empfang eine Warnweste.",
+          "tr": {
+            "pt-BR": "Visitantes recebem um colete refletivo na recepção."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "colete refletivo",
+          "variants": {
+            "pt-PT": "colete refletor"
+          },
+          "technical": "Colete de alta visibilidade usado em áreas de tráfego de veículos.",
+          "simple": "O colete amarelo ou laranja que brilha para todo mundo ver você."
+        }
+      }
+    },
+    {
+      "id": "ll-tragfaehigkeit",
+      "level": "B2",
+      "de": {
+        "word": "Tragfähigkeit",
+        "article": "die",
+        "plural": "Tragfähigkeiten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Trag",
+          "tr": {
+            "pt-BR": "carregar"
+          }
+        },
+        {
+          "de": "fähigkeit",
+          "tr": {
+            "pt-BR": "capacidade"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ll-regal", "ll-gewicht"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Tragfähigkeit des Staplers beträgt 2,5 Tonnen.",
+          "tr": {
+            "pt-BR": "A capacidade de carga da empilhadeira é de 2,5 toneladas."
+          }
+        },
+        {
+          "de": "Beachte die Tragfähigkeit auf dem Typenschild.",
+          "tr": {
+            "pt-BR": "Observe a capacidade de carga na placa de identificação."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "capacidade de carga",
+          "technical": "Carga máxima admissível de um equipamento ou estrutura, conforme a placa de identificação (diagrama de carga).",
+          "simple": "O peso máximo que a máquina ou a estante aguenta."
+        }
+      }
+    },
+    {
+      "id": "ll-arbeitsunfall",
+      "level": "B1",
+      "de": {
+        "word": "Arbeitsunfall",
+        "article": "der",
+        "plural": "Arbeitsunfälle",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Arbeit",
+          "tr": {
+            "pt-BR": "trabalho"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "unfall",
+          "tr": {
+            "pt-BR": "acidente"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ll-unterweisung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Jeder Arbeitsunfall muss sofort gemeldet werden.",
+          "tr": {
+            "pt-BR": "Todo acidente de trabalho deve ser comunicado imediatamente."
+          }
+        },
+        {
+          "de": "Nach dem Arbeitsunfall gehst du zum Durchgangsarzt.",
+          "tr": {
+            "pt-BR": "Depois do acidente de trabalho você vai ao médico credenciado do seguro de acidentes."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "acidente de trabalho",
+          "technical": "Acidente durante o trabalho ou no trajeto; deve ser comunicado ao empregador e registrado (Verbandbuch).",
+          "simple": "Quando alguém se machuca trabalhando."
+        }
+      }
+    },
+    {
+      "id": "ll-fluchtweg",
+      "level": "B1",
+      "de": {
+        "word": "Fluchtweg",
+        "article": "der",
+        "plural": "Fluchtwege",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Flucht",
+          "tr": {
+            "pt-BR": "fuga"
+          }
+        },
+        {
+          "de": "weg",
+          "tr": {
+            "pt-BR": "caminho"
+          }
+        }
+      ],
+      "synonyms": ["Rettungsweg"],
+      "related": ["ll-feuerloescher"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Fluchtweg ist mit Paletten zugestellt, räum das sofort weg!",
+          "tr": {
+            "pt-BR": "A rota de fuga está bloqueada por paletes; tire isso imediatamente!"
+          }
+        },
+        {
+          "de": "Fluchtwege müssen immer frei bleiben.",
+          "tr": {
+            "pt-BR": "Rotas de fuga precisam ficar sempre livres."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "rota de fuga",
+          "technical": "Caminho sinalizado (placas verdes) que deve permanecer livre para a evacuação.",
+          "simple": "O caminho marcado de verde para sair rápido em caso de emergência."
+        }
+      }
+    },
+    {
+      "id": "ll-unterweisung",
+      "level": "B2",
+      "de": {
+        "word": "Unterweisung",
+        "article": "die",
+        "plural": "Unterweisungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ll-arbeitsunfall", "ll-staplerschein"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die jährliche Unterweisung ist am Donnerstag.",
+          "tr": {
+            "pt-BR": "A instrução anual de segurança é na quinta-feira."
+          }
+        },
+        {
+          "de": "Ohne Unterweisung darfst du die Maschine nicht bedienen.",
+          "tr": {
+            "pt-BR": "Sem instrução de segurança você não pode operar a máquina."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "instrução de segurança (treinamento)",
+          "technical": "Instrução obrigatória do empregador sobre riscos e medidas de proteção, no mínimo anual, com assinatura do participante.",
+          "simple": "O treinamento de segurança que a empresa precisa dar e que você assina."
+        }
+      }
+    },
+    {
+      "id": "ll-feuerloescher",
+      "level": "A2",
+      "de": {
+        "word": "Feuerlöscher",
+        "article": "der",
+        "plural": "Feuerlöscher",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Feuer",
+          "tr": {
+            "pt-BR": "fogo"
+          }
+        },
+        {
+          "de": "löscher",
+          "tr": {
+            "pt-BR": "apagador"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ll-fluchtweg"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Feuerlöscher hängt neben dem Ausgang.",
+          "tr": {
+            "pt-BR": "O extintor fica ao lado da saída."
+          }
+        },
+        {
+          "de": "Die Feuerlöscher werden alle zwei Jahre geprüft.",
+          "tr": {
+            "pt-BR": "Os extintores são inspecionados a cada dois anos."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "extintor",
+          "technical": "Aparelho portátil para combater princípios de incêndio; classes de fogo indicadas no rótulo.",
+          "simple": "O extintor de incêndio."
+        }
+      }
+    },
+    {
+      "id": "ll-heben",
+      "level": "A2",
+      "de": {
+        "word": "heben",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["ll-last"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Heb die Kiste aus den Knien, nicht aus dem Rücken.",
+          "tr": {
+            "pt-BR": "Levante a caixa com os joelhos, não com as costas."
+          }
+        },
+        {
+          "de": "Über 25 Kilo hebst du nicht allein.",
+          "tr": {
+            "pt-BR": "Acima de 25 quilos você não levanta sozinho."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "levantar",
+          "technical": "Erguer uma carga; manualmente, com as costas retas e a força das pernas.",
+          "simple": "Levantar algo pesado."
+        }
+      }
+    },
+    {
+      "id": "ll-last",
+      "level": "B1",
+      "de": {
+        "word": "Last",
+        "article": "die",
+        "plural": "Lasten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ll-tragfaehigkeit", "ll-heben"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Nie unter schwebenden Lasten stehen!",
+          "tr": {
+            "pt-BR": "Nunca fique embaixo de cargas suspensas!"
+          }
+        },
+        {
+          "de": "Die Last muss mittig auf der Gabel liegen.",
+          "tr": {
+            "pt-BR": "A carga precisa ficar centralizada no garfo."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "carga (peso)",
+          "technical": "Peso ou força que atua sobre um equipamento; \"schwebende Last\" é a carga suspensa.",
+          "simple": "O peso que se carrega ou levanta."
+        }
+      }
+    }
+  ]
+}

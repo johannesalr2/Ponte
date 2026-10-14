@@ -1,0 +1,551 @@
+{
+  "area": "hygiene",
+  "terms": [
+    {
+      "id": "ko-lebensmittelhygiene",
+      "level": "B1",
+      "de": {
+        "word": "Lebensmittelhygiene",
+        "article": "die",
+        "plural": null,
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Lebensmittel",
+          "tr": {
+            "pt-BR": "alimentos"
+          }
+        },
+        {
+          "de": "hygiene",
+          "tr": {
+            "pt-BR": "higiene"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ko-kreuzkontamination", "ko-kuehlkette"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Schulung zur Lebensmittelhygiene ist jedes Jahr Pflicht.",
+          "tr": {
+            "pt-BR": "O treinamento em higiene alimentar é obrigatório todo ano."
+          }
+        },
+        {
+          "de": "Verstöße gegen die Lebensmittelhygiene kontrolliert das Veterinäramt.",
+          "tr": {
+            "pt-BR": "Infrações à higiene alimentar são fiscalizadas pela vigilância veterinária."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "higiene alimentar",
+          "technical": "Medidas para garantir alimentos seguros em todas as etapas, conforme o Regulamento (CE) 852/2004 e o sistema HACCP.",
+          "simple": "Todos os cuidados para a comida não fazer mal a ninguém."
+        }
+      }
+    },
+    {
+      "id": "ko-mindesthaltbarkeitsdatum",
+      "level": "B1",
+      "de": {
+        "word": "Mindesthaltbarkeitsdatum",
+        "article": "das",
+        "plural": "Mindesthaltbarkeitsdaten",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Mindest",
+          "tr": {
+            "pt-BR": "mínimo"
+          }
+        },
+        {
+          "de": "haltbarkeit",
+          "tr": {
+            "pt-BR": "durabilidade"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "datum",
+          "tr": {
+            "pt-BR": "data"
+          }
+        }
+      ],
+      "synonyms": ["MHD"],
+      "related": ["ko-verderblich"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Mindesthaltbarkeitsdatum ist gestern abgelaufen.",
+          "tr": {
+            "pt-BR": "A data de validade venceu ontem."
+          }
+        },
+        {
+          "de": "Kontrollier bei der Lieferung das Mindesthaltbarkeitsdatum.",
+          "tr": {
+            "pt-BR": "Na entrega, confira a data de validade."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "data de validade (consumir de preferência antes de)",
+          "technical": "Data até a qual o fabricante garante as propriedades do alimento (MHD); diferente do \"Verbrauchsdatum\" (consumir até), obrigatório para alimentos muito perecíveis.",
+          "simple": "A data na embalagem até quando o produto está garantido."
+        }
+      }
+    },
+    {
+      "id": "ko-kuehlkette",
+      "level": "B1",
+      "de": {
+        "word": "Kühlkette",
+        "article": "die",
+        "plural": "Kühlketten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Kühl",
+          "tr": {
+            "pt-BR": "frio"
+          }
+        },
+        {
+          "de": "kette",
+          "tr": {
+            "pt-BR": "corrente"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ko-kuehlzelle", "ko-tiefgekuehlt"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Kühlkette darf nicht unterbrochen werden.",
+          "tr": {
+            "pt-BR": "A cadeia de frio não pode ser interrompida."
+          }
+        },
+        {
+          "de": "Die Ware war zu warm, die Kühlkette wurde unterbrochen.",
+          "tr": {
+            "pt-BR": "A mercadoria estava quente demais; a cadeia de frio foi interrompida."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "cadeia de frio",
+          "technical": "Manutenção contínua da temperatura de refrigeração ou congelamento desde a produção até o consumo.",
+          "simple": "Manter a comida sempre gelada, do fornecedor até o prato."
+        }
+      }
+    },
+    {
+      "id": "ko-kreuzkontamination",
+      "level": "B2",
+      "de": {
+        "word": "Kreuzkontamination",
+        "article": "die",
+        "plural": "Kreuzkontaminationen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Kreuz",
+          "tr": {
+            "pt-BR": "cruz"
+          }
+        },
+        {
+          "de": "kontamination",
+          "tr": {
+            "pt-BR": "contaminação"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ko-schneidebrett", "ko-allergen"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Getrennte Bretter verhindern Kreuzkontamination.",
+          "tr": {
+            "pt-BR": "Tábuas separadas evitam contaminação cruzada."
+          }
+        },
+        {
+          "de": "Rohes Fleisch nie über fertigen Speisen lagern, Gefahr von Kreuzkontamination!",
+          "tr": {
+            "pt-BR": "Nunca armazene carne crua acima de alimentos prontos: risco de contaminação cruzada!"
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "contaminação cruzada",
+          "technical": "Transferência de microrganismos ou alergênicos de um alimento ou superfície para outro.",
+          "simple": "Quando a sujeira ou os germes de um alimento cru passam para outro alimento."
+        }
+      }
+    },
+    {
+      "id": "ko-allergen",
+      "level": "B1",
+      "de": {
+        "word": "Allergen",
+        "article": "das",
+        "plural": "Allergene",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-kreuzkontamination", "ko-speisekarte"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Allergene stehen auf der Speisekarte als Buchstaben.",
+          "tr": {
+            "pt-BR": "Os alergênicos estão no cardápio indicados por letras."
+          }
+        },
+        {
+          "de": "Der Gast hat eine Nussallergie, achte auf alle Allergene.",
+          "tr": {
+            "pt-BR": "O cliente tem alergia a nozes; preste atenção a todos os alergênicos."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "alergênico",
+          "variants": {
+            "pt-PT": "alergénio"
+          },
+          "technical": "Substância que pode causar reação alérgica; na UE, 14 alergênicos principais devem ser informados ao cliente.",
+          "simple": "Um ingrediente que pode fazer mal a quem tem alergia, como amendoim ou leite."
+        }
+      }
+    },
+    {
+      "id": "ko-schaedling",
+      "level": "B2",
+      "de": {
+        "word": "Schädling",
+        "article": "der",
+        "plural": "Schädlinge",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-lebensmittelhygiene"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Bei Schädlingsbefall muss sofort der Schädlingsbekämpfer kommen.",
+          "tr": {
+            "pt-BR": "Em caso de infestação de pragas, o controlador de pragas precisa vir imediatamente."
+          }
+        },
+        {
+          "de": "Im Trockenlager wurden Spuren von Schädlingen gefunden.",
+          "tr": {
+            "pt-BR": "Foram encontrados vestígios de pragas na despensa."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "praga",
+          "technical": "Animal que contamina alimentos (baratas, roedores, traças); exige monitoramento e controle documentado.",
+          "simple": "Bichos como baratas e ratos."
+        }
+      }
+    },
+    {
+      "id": "ko-reinigung",
+      "level": "A2",
+      "de": {
+        "word": "Reinigung",
+        "article": "die",
+        "plural": "Reinigungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-desinfektionsmittel"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Nach dem Service ist Reinigung der Posten dran.",
+          "tr": {
+            "pt-BR": "Depois do serviço é a vez da limpeza das praças."
+          }
+        },
+        {
+          "de": "Trag die Reinigung in den Reinigungsplan ein.",
+          "tr": {
+            "pt-BR": "Registre a limpeza no plano de limpeza."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "limpeza",
+          "technical": "Remoção de sujidades; na cozinha segue-se um plano de limpeza e desinfecção (Reinigungsplan).",
+          "simple": "Limpar.",
+          "falseFriends": [
+            {
+              "word": "die Reinigung (lavanderia)",
+              "note": "\"Die Reinigung\" também é a lavanderia a seco."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ko-desinfektionsmittel",
+      "level": "B1",
+      "de": {
+        "word": "Desinfektionsmittel",
+        "article": "das",
+        "plural": "Desinfektionsmittel",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Desinfektion",
+          "tr": {
+            "pt-BR": "desinfecção"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "mittel",
+          "tr": {
+            "pt-BR": "produto"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ko-reinigung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Lass das Desinfektionsmittel fünf Minuten einwirken.",
+          "tr": {
+            "pt-BR": "Deixe o desinfetante agir por cinco minutos."
+          }
+        },
+        {
+          "de": "Desinfektionsmittel nie in Lebensmittelbehälter umfüllen.",
+          "tr": {
+            "pt-BR": "Nunca transfira desinfetante para recipientes de alimentos."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "desinfetante",
+          "technical": "Produto que reduz microrganismos em superfícies; deve ser aprovado para área de alimentos e respeitar tempo de ação.",
+          "simple": "O produto que mata germes."
+        }
+      }
+    },
+    {
+      "id": "ko-verderblich",
+      "level": "B2",
+      "de": {
+        "word": "verderblich",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "adjective"
+      },
+      "synonyms": [],
+      "related": ["ko-kuehlkette", "ko-mindesthaltbarkeitsdatum"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Leicht verderbliche Ware sofort kühlen.",
+          "tr": {
+            "pt-BR": "Refrigere imediatamente mercadoria facilmente perecível."
+          }
+        },
+        {
+          "de": "Hackfleisch ist besonders verderblich.",
+          "tr": {
+            "pt-BR": "Carne moída é especialmente perecível."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "perecível",
+          "technical": "Que estraga rapidamente; \"leicht verderblich\" exige refrigeração e uso rápido.",
+          "simple": "Que estraga rápido."
+        }
+      }
+    },
+    {
+      "id": "ko-auftauen",
+      "level": "A2",
+      "de": {
+        "word": "auftauen",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["ko-tiefgekuehlt"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Den Fisch über Nacht in der Kühlzelle auftauen.",
+          "tr": {
+            "pt-BR": "Descongele o peixe durante a noite na câmara fria."
+          }
+        },
+        {
+          "de": "Aufgetaute Ware darf nicht wieder eingefroren werden.",
+          "tr": {
+            "pt-BR": "Mercadoria descongelada não pode ser recongelada."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "descongelar",
+          "technical": "Passar do estado congelado ao refrigerado, preferencialmente na câmara fria e nunca em temperatura ambiente.",
+          "simple": "Tirar do congelador e deixar descongelar."
+        }
+      }
+    },
+    {
+      "id": "ko-tiefgekuehlt",
+      "level": "B1",
+      "de": {
+        "word": "tiefgekühlt",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "adjective"
+      },
+      "synonyms": ["gefroren"],
+      "related": ["ko-auftauen", "ko-kuehlkette"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die tiefgekühlte Ware muss mindestens minus 18 Grad haben.",
+          "tr": {
+            "pt-BR": "A mercadoria congelada precisa estar a no mínimo menos 18 graus."
+          }
+        },
+        {
+          "de": "Wir verwenden tiefgekühlte Beeren für das Dessert.",
+          "tr": {
+            "pt-BR": "Usamos frutas vermelhas congeladas para a sobremesa."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "congelado",
+          "variants": {
+            "pt-PT": "ultracongelado"
+          },
+          "technical": "Conservado a −18 °C ou menos (ultracongelado).",
+          "simple": "Que está no congelador, bem gelado."
+        }
+      }
+    },
+    {
+      "id": "ko-rueckstellprobe",
+      "level": "C1",
+      "de": {
+        "word": "Rückstellprobe",
+        "article": "die",
+        "plural": "Rückstellproben",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Rückstell",
+          "tr": {
+            "pt-BR": "reservar"
+          }
+        },
+        {
+          "de": "probe",
+          "tr": {
+            "pt-BR": "amostra"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ko-lebensmittelhygiene"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Von jedem Gericht für die Kantine nehmen wir eine Rückstellprobe.",
+          "tr": {
+            "pt-BR": "De cada prato para o refeitório tiramos uma amostra de contraprova."
+          }
+        },
+        {
+          "de": "Die Rückstellproben werden eine Woche tiefgekühlt aufbewahrt.",
+          "tr": {
+            "pt-BR": "As amostras de contraprova são guardadas congeladas por uma semana."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "amostra de contraprova",
+          "technical": "Porção de cada preparação guardada refrigerada ou congelada por um período definido, para investigação em caso de surto.",
+          "simple": "Um pouquinho de cada comida guardado no freezer, caso alguém passe mal e seja preciso investigar."
+        }
+      }
+    }
+  ]
+}

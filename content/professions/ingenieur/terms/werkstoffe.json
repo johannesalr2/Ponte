@@ -1,0 +1,650 @@
+{
+  "area": "werkstoffe",
+  "terms": [
+    {
+      "id": "ing-werkstoff",
+      "level": "B1",
+      "de": {
+        "word": "Werkstoff",
+        "article": "der",
+        "plural": "Werkstoffe",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Werk",
+          "tr": {
+            "pt-BR": "obra, fábrica"
+          }
+        },
+        {
+          "de": "stoff",
+          "tr": {
+            "pt-BR": "substância"
+          }
+        }
+      ],
+      "synonyms": ["Material"],
+      "related": ["ing-stahl", "ing-kunststoff"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Welcher Werkstoff steht im Schriftfeld?",
+          "tr": {
+            "pt-BR": "Qual material está na legenda?"
+          }
+        },
+        {
+          "de": "Wir ersetzen den Werkstoff durch einen korrosionsbeständigen Stahl.",
+          "tr": {
+            "pt-BR": "Substituímos o material por um aço resistente à corrosão."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "material (de engenharia)",
+          "technical": "Material usado para fabricar peças, escolhido por propriedades mecânicas, térmicas e custo; designado por norma (ex.: S235JR).",
+          "simple": "O material de que a peça é feita: aço, alumínio, plástico."
+        }
+      }
+    },
+    {
+      "id": "ing-stahl",
+      "level": "A2",
+      "de": {
+        "word": "Stahl",
+        "article": "der",
+        "plural": "Stähle",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-legierung", "ing-waermebehandlung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Welle ist aus vergütetem Stahl.",
+          "tr": {
+            "pt-BR": "O eixo é de aço beneficiado."
+          }
+        },
+        {
+          "de": "Rostfreie Stähle sind teurer.",
+          "tr": {
+            "pt-BR": "Aços inoxidáveis são mais caros."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "aço",
+          "technical": "Liga de ferro com até cerca de 2% de carbono; inclui aços de construção, ferramentas e inoxidáveis.",
+          "simple": "O metal forte usado em máquinas e estruturas."
+        }
+      }
+    },
+    {
+      "id": "ing-aluminium",
+      "level": "A2",
+      "de": {
+        "word": "Aluminium",
+        "article": "das",
+        "plural": null,
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-legierung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Gehäuse ist aus Aluminium.",
+          "tr": {
+            "pt-BR": "A carcaça é de alumínio."
+          }
+        },
+        {
+          "de": "Aluminium lässt sich gut fräsen.",
+          "tr": {
+            "pt-BR": "O alumínio é fácil de fresar."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "alumínio",
+          "technical": "Metal leve (densidade cerca de 2,7 g/cm³), resistente à corrosão, usado em ligas para estruturas leves.",
+          "simple": "Um metal leve, como o da latinha de refrigerante."
+        }
+      }
+    },
+    {
+      "id": "ing-festigkeit",
+      "level": "B2",
+      "de": {
+        "word": "Festigkeit",
+        "article": "die",
+        "plural": "Festigkeiten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-zugfestigkeit", "ing-streckgrenze"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Festigkeit des Werkstoffs reicht für diese Last nicht aus.",
+          "tr": {
+            "pt-BR": "A resistência do material não basta para essa carga."
+          }
+        },
+        {
+          "de": "Durch Härten steigt die Festigkeit.",
+          "tr": {
+            "pt-BR": "Com a têmpera a resistência aumenta."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "resistência (mecânica)",
+          "technical": "Capacidade de um material suportar tensões sem ruptura ou deformação permanente.",
+          "simple": "O quanto um material aguenta antes de quebrar."
+        }
+      }
+    },
+    {
+      "id": "ing-zugfestigkeit",
+      "level": "B2",
+      "de": {
+        "word": "Zugfestigkeit",
+        "article": "die",
+        "plural": "Zugfestigkeiten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Zug",
+          "tr": {
+            "pt-BR": "tração"
+          }
+        },
+        {
+          "de": "festigkeit",
+          "tr": {
+            "pt-BR": "resistência"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ing-streckgrenze", "ing-festigkeit"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Zugfestigkeit von S355 liegt bei etwa 470 bis 630 N/mm².",
+          "tr": {
+            "pt-BR": "A resistência à tração do S355 fica em torno de 470 a 630 N/mm²."
+          }
+        },
+        {
+          "de": "Die Zugfestigkeit wird im Zugversuch ermittelt.",
+          "tr": {
+            "pt-BR": "A resistência à tração é determinada no ensaio de tração."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "resistência à tração",
+          "technical": "Tensão máxima no ensaio de tração (Rm), em N/mm² ou MPa.",
+          "simple": "A força máxima que o material aguenta quando é puxado, antes de romper."
+        }
+      }
+    },
+    {
+      "id": "ing-streckgrenze",
+      "level": "C1",
+      "de": {
+        "word": "Streckgrenze",
+        "article": "die",
+        "plural": "Streckgrenzen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Streck",
+          "tr": {
+            "pt-BR": "estirar"
+          }
+        },
+        {
+          "de": "grenze",
+          "tr": {
+            "pt-BR": "limite"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ing-zugfestigkeit", "ing-verformung"],
+      "esco": null,
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Die Spannung bleibt deutlich unter der Streckgrenze.",
+          "tr": {
+            "pt-BR": "A tensão fica bem abaixo do limite de escoamento."
+          }
+        },
+        {
+          "de": "Für die Auslegung rechnen wir mit der Streckgrenze und einem Sicherheitsfaktor.",
+          "tr": {
+            "pt-BR": "No dimensionamento calculamos com o limite de escoamento e um fator de segurança."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "limite de escoamento",
+          "variants": {
+            "pt-PT": "tensão de cedência"
+          },
+          "technical": "Tensão a partir da qual o material começa a deformar-se plasticamente (Re ou Rp0,2).",
+          "simple": "O ponto em que o metal, puxado demais, não volta mais ao formato original."
+        }
+      }
+    },
+    {
+      "id": "ing-haerte",
+      "level": "B1",
+      "de": {
+        "word": "Härte",
+        "article": "die",
+        "plural": "Härten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-waermebehandlung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Härte nach dem Härten beträgt 58 HRC.",
+          "tr": {
+            "pt-BR": "A dureza após a têmpera é de 58 HRC."
+          }
+        },
+        {
+          "de": "Wir messen die Härte an drei Stellen.",
+          "tr": {
+            "pt-BR": "Medimos a dureza em três pontos."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "dureza",
+          "technical": "Resistência de um material à penetração; medida por Brinell (HB), Vickers (HV) ou Rockwell (HRC).",
+          "simple": "O quanto o material resiste a ser riscado ou amassado."
+        }
+      }
+    },
+    {
+      "id": "ing-spannung",
+      "level": "B1",
+      "de": {
+        "word": "Spannung",
+        "article": "die",
+        "plural": "Spannungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-festigkeit", "ing-simulation"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die maximale Spannung tritt am Übergang auf.",
+          "tr": {
+            "pt-BR": "A tensão máxima ocorre na transição."
+          }
+        },
+        {
+          "de": "Die Spannung liegt unter der zulässigen Spannung.",
+          "tr": {
+            "pt-BR": "A tensão está abaixo da tensão admissível."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "tensão (mecânica)",
+          "technical": "Força por unidade de área num corpo carregado (σ, τ), em N/mm²; em elétrica, \"Spannung\" é a tensão em volts.",
+          "simple": "A \"força interna\" que aparece dentro da peça quando ela é carregada.",
+          "falseFriends": [
+            {
+              "word": "Spannung (suspense)",
+              "note": "Na vida cotidiana, \"Spannung\" também é suspense ou expectativa (spannend = emocionante)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ing-verformung",
+      "level": "B1",
+      "de": {
+        "word": "Verformung",
+        "article": "die",
+        "plural": "Verformungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-streckgrenze", "ing-elastizitaetsmodul"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Verformung bleibt im elastischen Bereich.",
+          "tr": {
+            "pt-BR": "A deformação permanece no regime elástico."
+          }
+        },
+        {
+          "de": "Nach dem Versuch ist eine bleibende Verformung sichtbar.",
+          "tr": {
+            "pt-BR": "Após o ensaio, há uma deformação permanente visível."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "deformação",
+          "technical": "Mudança de forma de um corpo sob carga: elástica (reversível) ou plástica (permanente).",
+          "simple": "Quando a peça entorta ou estica por causa da força."
+        }
+      }
+    },
+    {
+      "id": "ing-korrosion",
+      "level": "B1",
+      "de": {
+        "word": "Korrosion",
+        "article": "die",
+        "plural": "Korrosionen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-stahl"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Beschichtung schützt vor Korrosion.",
+          "tr": {
+            "pt-BR": "O revestimento protege contra corrosão."
+          }
+        },
+        {
+          "de": "An der Kontaktstelle von Stahl und Aluminium entsteht Korrosion.",
+          "tr": {
+            "pt-BR": "No ponto de contato entre aço e alumínio surge corrosão."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "corrosão",
+          "technical": "Degradação de um material por reação química ou eletroquímica com o ambiente (ex.: ferrugem).",
+          "simple": "Quando o metal \"apodrece\", como a ferrugem."
+        }
+      }
+    },
+    {
+      "id": "ing-elastizitaetsmodul",
+      "level": "C1",
+      "de": {
+        "word": "Elastizitätsmodul",
+        "article": "der",
+        "plural": "Elastizitätsmoduln",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Elastizität",
+          "tr": {
+            "pt-BR": "elasticidade"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "modul",
+          "tr": {
+            "pt-BR": "módulo"
+          }
+        }
+      ],
+      "synonyms": ["E-Modul"],
+      "related": ["ing-verformung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Elastizitätsmodul von Aluminium ist etwa ein Drittel von dem des Stahls.",
+          "tr": {
+            "pt-BR": "O módulo de elasticidade do alumínio é cerca de um terço do do aço."
+          }
+        },
+        {
+          "de": "Für die Berechnung brauchen wir den Elastizitätsmodul bei 200 Grad.",
+          "tr": {
+            "pt-BR": "Para o cálculo precisamos do módulo de elasticidade a 200 graus."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "módulo de elasticidade",
+          "technical": "Constante do material que relaciona tensão e deformação no regime elástico (E); para aço, cerca de 210 000 N/mm². Abreviado E-Modul.",
+          "simple": "Um número que diz o quanto o material estica com uma força: quanto maior, mais rígido.",
+          "falseFriends": [
+            {
+              "word": "das Modul",
+              "note": "Atenção ao gênero: \"der Modul\" (física, plural Moduln) é o módulo de uma grandeza; \"das Modul\" (plural Module) é um módulo/unidade de um sistema."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ing-waermebehandlung",
+      "level": "B2",
+      "de": {
+        "word": "Wärmebehandlung",
+        "article": "die",
+        "plural": "Wärmebehandlungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Wärme",
+          "tr": {
+            "pt-BR": "calor"
+          }
+        },
+        {
+          "de": "behandlung",
+          "tr": {
+            "pt-BR": "tratamento"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ing-haerte", "ing-stahl"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Nach der Wärmebehandlung wird die Härte geprüft.",
+          "tr": {
+            "pt-BR": "Após o tratamento térmico, a dureza é verificada."
+          }
+        },
+        {
+          "de": "Die Wärmebehandlung führt zu leichtem Verzug.",
+          "tr": {
+            "pt-BR": "O tratamento térmico causa um leve empenamento."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "tratamento térmico",
+          "technical": "Ciclos de aquecimento e resfriamento controlados para alterar propriedades (têmpera, revenimento, recozimento).",
+          "simple": "Esquentar e esfriar o metal de um jeito controlado para ele ficar mais duro ou mais macio."
+        }
+      }
+    },
+    {
+      "id": "ing-kunststoff",
+      "level": "A2",
+      "de": {
+        "word": "Kunststoff",
+        "article": "der",
+        "plural": "Kunststoffe",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Kunst",
+          "tr": {
+            "pt-BR": "arte, artificial"
+          }
+        },
+        {
+          "de": "stoff",
+          "tr": {
+            "pt-BR": "substância"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ing-werkstoff"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Abdeckung ist aus Kunststoff.",
+          "tr": {
+            "pt-BR": "A tampa é de plástico."
+          }
+        },
+        {
+          "de": "Dieser Kunststoff ist bis 120 Grad beständig.",
+          "tr": {
+            "pt-BR": "Este plástico é resistente até 120 graus."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "plástico (polímero)",
+          "technical": "Material sintético à base de polímeros: termoplásticos, termofixos e elastômeros.",
+          "simple": "O plástico."
+        }
+      }
+    },
+    {
+      "id": "ing-ermuedung",
+      "level": "B2",
+      "de": {
+        "word": "Ermüdung",
+        "article": "die",
+        "plural": null,
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-festigkeit"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Bruch ist durch Ermüdung entstanden.",
+          "tr": {
+            "pt-BR": "A fratura ocorreu por fadiga."
+          }
+        },
+        {
+          "de": "Bei Wechsellast muss die Ermüdung berücksichtigt werden.",
+          "tr": {
+            "pt-BR": "Com carga alternada, a fadiga precisa ser considerada."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "fadiga",
+          "technical": "Falha do material sob cargas cíclicas abaixo da resistência estática; avaliada por curvas de Wöhler.",
+          "simple": "Quando a peça quebra depois de ser forçada para lá e para cá muitas vezes, como um clipe dobrado."
+        }
+      }
+    },
+    {
+      "id": "ing-legierung",
+      "level": "B2",
+      "de": {
+        "word": "Legierung",
+        "article": "die",
+        "plural": "Legierungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-stahl", "ing-aluminium"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Wir verwenden eine Aluminiumlegierung mit Magnesium.",
+          "tr": {
+            "pt-BR": "Usamos uma liga de alumínio com magnésio."
+          }
+        },
+        {
+          "de": "Die Legierung ist gut schweißbar.",
+          "tr": {
+            "pt-BR": "A liga é facilmente soldável."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "liga (metálica)",
+          "technical": "Material metálico formado por um metal base e elementos de liga (ex.: AlMgSi, CrNi).",
+          "simple": "A mistura de metais para ter um material melhor."
+        }
+      }
+    }
+  ]
+}

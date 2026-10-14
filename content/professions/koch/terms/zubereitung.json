@@ -1,0 +1,519 @@
+{
+  "area": "zubereitung",
+  "terms": [
+    {
+      "id": "ko-blanchieren",
+      "level": "B2",
+      "de": {
+        "word": "blanchieren",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["ko-kochen"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Blanchier die Bohnen zwei Minuten und schreck sie in Eiswasser ab.",
+          "tr": {
+            "pt-BR": "Branqueie as vagens por dois minutos e dê um choque na água gelada."
+          }
+        },
+        {
+          "de": "Spinat wird nur kurz blanchiert.",
+          "tr": {
+            "pt-BR": "O espinafre é branqueado só rapidamente."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "branquear",
+          "technical": "Cozinhar rapidamente em água fervente e resfriar em água gelada para fixar cor, inativar enzimas ou facilitar descascar.",
+          "simple": "Dar uma fervura rápida no legume e jogar logo na água gelada."
+        }
+      }
+    },
+    {
+      "id": "ko-duensten",
+      "level": "B1",
+      "de": {
+        "word": "dünsten",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["ko-garmethode", "ko-schmoren"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Dünste den Fisch mit etwas Weißwein.",
+          "tr": {
+            "pt-BR": "Cozinhe o peixe abafado com um pouco de vinho branco."
+          }
+        },
+        {
+          "de": "Das Gemüse wird im eigenen Saft gedünstet.",
+          "tr": {
+            "pt-BR": "Os legumes são cozidos abafados no próprio suco."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "cozinhar abafado",
+          "technical": "Cozinhar em pouco líquido ou no próprio suco, em recipiente tampado, abaixo de 100 °C.",
+          "simple": "Cozinhar com a tampa e quase sem água, para o alimento soltar o próprio suco."
+        }
+      }
+    },
+    {
+      "id": "ko-schmoren",
+      "level": "B1",
+      "de": {
+        "word": "schmoren",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["ko-braten", "ko-fond"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Rinderschulter schmort drei Stunden im Ofen.",
+          "tr": {
+            "pt-BR": "A paleta bovina braseia por três horas no forno."
+          }
+        },
+        {
+          "de": "Zuerst scharf anbraten, dann mit Rotwein ablöschen und schmoren.",
+          "tr": {
+            "pt-BR": "Primeiro selar bem, depois deglacear com vinho tinto e brasear."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "brasear",
+          "technical": "Selar o alimento em gordura e depois cozinhar lentamente em pouco líquido, tampado.",
+          "simple": "Dourar a carne e depois deixar cozinhar devagar, com tampa e um pouco de líquido."
+        }
+      }
+    },
+    {
+      "id": "ko-braten",
+      "level": "A2",
+      "de": {
+        "word": "braten",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["ko-pfanne", "ko-schmoren"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Brat die Zwiebeln goldbraun an.",
+          "tr": {
+            "pt-BR": "Doure a cebola até ficar dourada."
+          }
+        },
+        {
+          "de": "Das Hähnchen wird im Ofen gebraten.",
+          "tr": {
+            "pt-BR": "O frango é assado no forno."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "fritar / assar",
+          "technical": "Cozinhar com gordura e calor alto na frigideira (anbraten = selar) ou no forno (assar uma peça de carne).",
+          "simple": "Fritar na frigideira ou assar no forno, deixando dourado.",
+          "falseFriends": [
+            {
+              "word": "der Braten",
+              "note": "\"Der Braten\" é o assado (a peça de carne pronta)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ko-kochen",
+      "level": "A2",
+      "de": {
+        "word": "kochen",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["ko-topf", "ko-blanchieren"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Wasser kocht, du kannst die Nudeln reingeben.",
+          "tr": {
+            "pt-BR": "A água está fervendo; pode colocar o macarrão."
+          }
+        },
+        {
+          "de": "Heute koche ich auf dem Saucenposten.",
+          "tr": {
+            "pt-BR": "Hoje cozinho na praça de molhos."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "cozinhar / ferver",
+          "technical": "Cozinhar em líquido a cerca de 100 °C; também significa cozinhar em geral e \"ferver\" (das Wasser kocht).",
+          "simple": "Fazer comida; também quer dizer ferver."
+        }
+      }
+    },
+    {
+      "id": "ko-abschmecken",
+      "level": "B1",
+      "de": {
+        "word": "abschmecken",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["ko-wuerzen"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Schmeck die Suppe mit Salz und Pfeffer ab.",
+          "tr": {
+            "pt-BR": "Acerte o tempero da sopa com sal e pimenta."
+          }
+        },
+        {
+          "de": "Bevor es rausgeht, schmeckt der Souschef jede Soße ab.",
+          "tr": {
+            "pt-BR": "Antes de sair, o subchefe prova cada molho."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "acertar o tempero",
+          "technical": "Provar e ajustar sal, acidez e especiarias no final do preparo.",
+          "simple": "Provar a comida e colocar mais sal ou tempero se precisar."
+        }
+      }
+    },
+    {
+      "id": "ko-wuerzen",
+      "level": "A2",
+      "de": {
+        "word": "würzen",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["ko-abschmecken"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Würz das Fleisch erst nach dem Anbraten.",
+          "tr": {
+            "pt-BR": "Tempere a carne só depois de selar."
+          }
+        },
+        {
+          "de": "Die Soße ist zu stark gewürzt.",
+          "tr": {
+            "pt-BR": "O molho está temperado demais."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "temperar",
+          "technical": "Adicionar sal, especiarias ou ervas para dar sabor.",
+          "simple": "Colocar tempero."
+        }
+      }
+    },
+    {
+      "id": "ko-bruehe",
+      "level": "A2",
+      "de": {
+        "word": "Brühe",
+        "article": "die",
+        "plural": "Brühen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-fond"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Brühe muss leise köcheln, nicht sprudelnd kochen.",
+          "tr": {
+            "pt-BR": "O caldo precisa ferver devagar, sem borbulhar forte."
+          }
+        },
+        {
+          "de": "Für die Suppe nehmen wir die Gemüsebrühe von gestern.",
+          "tr": {
+            "pt-BR": "Para a sopa usamos o caldo de legumes de ontem."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "caldo",
+          "technical": "Líquido obtido do cozimento de carne, ossos, peixe ou legumes; base para sopas.",
+          "simple": "O caldo para sopa."
+        }
+      }
+    },
+    {
+      "id": "ko-fond",
+      "level": "B2",
+      "de": {
+        "word": "Fond",
+        "article": "der",
+        "plural": "Fonds",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-bruehe", "ko-schmoren"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Kalbsfond reduziert über Nacht.",
+          "tr": {
+            "pt-BR": "O fundo de vitela reduz durante a noite."
+          }
+        },
+        {
+          "de": "Für einen dunklen Fond werden die Knochen zuerst geröstet.",
+          "tr": {
+            "pt-BR": "Para um fundo escuro os ossos são primeiro tostados."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "fundo (de cozinha)",
+          "technical": "Caldo concentrado de ossos e aparas, claro ou escuro, base para molhos (ex.: Kalbsfond, fundo de vitela).",
+          "simple": "Um caldo forte e concentrado que serve de base para os molhos."
+        }
+      }
+    },
+    {
+      "id": "ko-garmethode",
+      "level": "B1",
+      "de": {
+        "word": "Garmethode",
+        "article": "die",
+        "plural": "Garmethoden",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Gar",
+          "tr": {
+            "pt-BR": "cozido, no ponto"
+          }
+        },
+        {
+          "de": "methode",
+          "tr": {
+            "pt-BR": "método"
+          }
+        }
+      ],
+      "synonyms": ["Garverfahren"],
+      "related": ["ko-duensten", "ko-schmoren"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Welche Garmethode passt am besten zu Kalbsbacke?",
+          "tr": {
+            "pt-BR": "Qual método de cocção combina melhor com bochecha de vitela?"
+          }
+        },
+        {
+          "de": "In der Prüfung musst du verschiedene Garmethoden erklären.",
+          "tr": {
+            "pt-BR": "No exame você precisa explicar diversos métodos de cocção."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "método de cocção",
+          "technical": "Forma de aplicar calor ao alimento: cozinhar, cozinhar no vapor, abafar, brasear, assar, fritar, grelhar.",
+          "simple": "O jeito de cozinhar a comida: ferver, assar, fritar..."
+        }
+      }
+    },
+    {
+      "id": "ko-kerntemperatur",
+      "level": "B1",
+      "de": {
+        "word": "Kerntemperatur",
+        "article": "die",
+        "plural": "Kerntemperaturen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Kern",
+          "tr": {
+            "pt-BR": "núcleo"
+          }
+        },
+        {
+          "de": "temperatur",
+          "tr": {
+            "pt-BR": "temperatura"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ko-kombidaempfer"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Roastbeef hat eine Kerntemperatur von 54 Grad.",
+          "tr": {
+            "pt-BR": "O rosbife está com 54 graus de temperatura interna."
+          }
+        },
+        {
+          "de": "Prüf die Kerntemperatur mit dem Thermometer.",
+          "tr": {
+            "pt-BR": "Verifique a temperatura interna com o termômetro."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "temperatura interna",
+          "technical": "Temperatura no centro do alimento, medida com termômetro de espeto; define ponto e segurança (ex.: aves 75 °C ou mais).",
+          "simple": "A temperatura bem no meio da carne."
+        }
+      }
+    },
+    {
+      "id": "ko-passieren",
+      "level": "B2",
+      "de": {
+        "word": "passieren",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["ko-stabmixer"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Passier die Soße durch ein feines Sieb.",
+          "tr": {
+            "pt-BR": "Passe o molho por uma peneira fina."
+          }
+        },
+        {
+          "de": "Die Suppe wird nach dem Pürieren passiert.",
+          "tr": {
+            "pt-BR": "A sopa é passada na peneira depois de batida."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "passar na peneira",
+          "technical": "Na cozinha: coar ou passar um molho, sopa ou purê por peneira ou chinois para deixá-lo liso.",
+          "simple": "Coar a comida numa peneira para tirar pedaços.",
+          "falseFriends": [
+            {
+              "word": "passieren (acontecer)",
+              "note": "No alemão do dia a dia, \"passieren\" significa acontecer: \"Was ist passiert?\" = \"O que aconteceu?\""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ko-gericht",
+      "level": "A2",
+      "de": {
+        "word": "Gericht",
+        "article": "das",
+        "plural": "Gerichte",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-speisekarte"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Gericht des Tages ist Rinderroulade.",
+          "tr": {
+            "pt-BR": "O prato do dia é enrolado de carne bovina."
+          }
+        },
+        {
+          "de": "Jedes Gericht wird vor dem Service probiert.",
+          "tr": {
+            "pt-BR": "Cada prato é provado antes do serviço."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "prato",
+          "technical": "Preparação culinária servida como unidade do cardápio (Hauptgericht = prato principal).",
+          "simple": "Um prato de comida.",
+          "falseFriends": [
+            {
+              "word": "Gericht (tribunal)",
+              "note": "\"Das Gericht\" também significa tribunal. Na cozinha, é o prato."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "lagerlogistik",
+  "de": "Fachkraft für Lagerlogistik",
+  "deTitleCv": "Fachkraft für Lagerlogistik",
+  "isco08": "4321",
+  "regulated": false,
+  "order": 6,
+  "areas": [
+    {
+      "id": "wareneingang",
+      "de": "Wareneingang",
+      "tr": {
+        "pt-BR": "Recebimento de mercadorias"
+      }
+    },
+    {
+      "id": "lagerung-kommissionierung",
+      "de": "Lagerung und Kommissionierung",
+      "tr": {
+        "pt-BR": "Armazenagem e separação de pedidos"
+      }
+    },
+    {
+      "id": "versand",
+      "de": "Versand",
+      "tr": {
+        "pt-BR": "Expedição"
+      }
+    },
+    {
+      "id": "sicherheit-foerderzeuge",
+      "de": "Arbeitssicherheit und Flurförderzeuge",
+      "tr": {
+        "pt-BR": "Segurança e equipamentos de movimentação"
+      }
+    }
+  ],
+  "industries": [
+    {
+      "id": "handel",
+      "tr": {
+        "pt-BR": "Comércio / varejo"
+      }
+    },
+    {
+      "id": "industrie",
+      "tr": {
+        "pt-BR": "Indústria"
+      }
+    },
+    {
+      "id": "ecommerce",
+      "tr": {
+        "pt-BR": "E-commerce"
+      }
+    },
+    {
+      "id": "spedition",
+      "tr": {
+        "pt-BR": "Transportadora"
+      }
+    },
+    {
+      "id": "andere",
+      "tr": {
+        "pt-BR": "Outro"
+      }
+    }
+  ],
+  "tr": {
+    "pt-BR": {
+      "name": "Profissional de logística de armazém",
+      "summary": "Recebe, armazena, separa, embala e expede mercadorias, controla estoques e opera equipamentos de movimentação. Formação dual de 3 anos com exame na IHK.",
+      "brazil": [
+        "Técnico(a) em Logística",
+        "Auxiliar ou operador(a) de logística com experiência",
+        "Operador(a) de empilhadeira (curso de operador)"
+      ],
+      "equivalence": "O curso técnico em logística é a formação mais próxima. A experiência comprovada em armazém e o curso de operador de empilhadeira contam, mas a habilitação alemã (Staplerschein) costuma ser exigida pela empresa.",
+      "regulation": "Profissão não regulamentada. Para dirigir empilhadeira é necessária formação de operador reconhecida na Alemanha e autorização por escrito do empregador.",
+      "recognition": {
+        "authority": "IHK FOSA (Foreign Skills Approval).",
+        "steps": [
+          "Use o \"Anerkennungs-Finder\" no portal Anerkennung in Deutschland para confirmar qual órgão é responsável pela sua profissão de referência alemã.",
+          "Reúna os documentos: diploma ou certificado, histórico com conteúdos e carga horária, comprovantes de experiência profissional (carteira de trabalho, declarações de empregadores), documento de identidade e currículo em formato tabular.",
+          "Providencie traduções para o alemão feitas por tradutor juramentado ou reconhecido; confirme com o órgão se são exigidas cópias autenticadas.",
+          "Envie o pedido de \"Gleichwertigkeitsfeststellung\" à IHK FOSA. O pedido pode ser feito também a partir do Brasil.",
+          "Pague a taxa (o valor depende do caso; consulte a tabela atual da IHK FOSA).",
+          "Receba o parecer (Bescheid): equivalência total, ou parcial com a lista das diferenças. Com equivalência parcial você pode fazer uma \"Anpassungsqualifizierung\" (qualificação de adaptação) e pedir uma nova avaliação."
+        ],
+        "documents": [
+          "Diploma/certificado de conclusão",
+          "Histórico escolar com carga horária",
+          "Comprovantes de experiência profissional",
+          "Documento de identidade",
+          "Currículo tabular (Lebenslauf) em alemão",
+          "Traduções juramentadas"
+        ],
+        "notes": "Por lei, o órgão decide em até 3 meses depois de receber a documentação completa (pode haver prorrogação). Informações gerais; confira sempre as regras atuais no portal oficial."
+      },
+      "links": [
+        {
+          "label": "Anerkennung in Deutschland (portal oficial)",
+          "url": "https://www.anerkennung-in-deutschland.de/"
+        },
+        {
+          "label": "IHK FOSA – reconhecimento de profissões da IHK",
+          "url": "https://www.ihk-fosa.de/"
+        },
+        {
+          "label": "Make it in Germany (portal oficial de imigração)",
+          "url": "https://www.make-it-in-germany.com/pt/"
+        }
+      ],
+      "cvTitle": "Profissional de Logística"
+    }
+  }
+}

@@ -1,0 +1,526 @@
+{
+  "area": "wareneingang",
+  "terms": [
+    {
+      "id": "ll-wareneingang",
+      "level": "A2",
+      "de": {
+        "word": "Wareneingang",
+        "article": "der",
+        "plural": "Wareneingänge",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Ware",
+          "tr": {
+            "pt-BR": "mercadoria"
+          }
+        },
+        {
+          "de": "n",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "eingang",
+          "tr": {
+            "pt-BR": "entrada"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ll-wareneingangskontrolle", "ll-lieferschein"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Lkw steht schon am Wareneingang.",
+          "tr": {
+            "pt-BR": "O caminhão já está no recebimento."
+          }
+        },
+        {
+          "de": "Im Wareneingang wird jede Lieferung gebucht.",
+          "tr": {
+            "pt-BR": "No recebimento, cada entrega é lançada no sistema."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "recebimento de mercadorias",
+          "technical": "Área e processo de receber, conferir e registrar mercadorias que chegam ao armazém.",
+          "simple": "O lugar e o momento em que as mercadorias chegam e são conferidas."
+        }
+      }
+    },
+    {
+      "id": "ll-lieferschein",
+      "level": "B1",
+      "de": {
+        "word": "Lieferschein",
+        "article": "der",
+        "plural": "Lieferscheine",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Liefer",
+          "tr": {
+            "pt-BR": "entregar"
+          }
+        },
+        {
+          "de": "schein",
+          "tr": {
+            "pt-BR": "comprovante"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ll-wareneingang", "ll-quittieren"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Menge auf dem Lieferschein stimmt nicht mit der Ware überein.",
+          "tr": {
+            "pt-BR": "A quantidade na nota de entrega não confere com a mercadoria."
+          }
+        },
+        {
+          "de": "Unterschreib den Lieferschein erst nach der Kontrolle.",
+          "tr": {
+            "pt-BR": "Só assine a nota de entrega depois da conferência."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "nota de entrega (romaneio)",
+          "variants": {
+            "pt-PT": "guia de remessa"
+          },
+          "technical": "Documento que acompanha a remessa com itens e quantidades; não é documento fiscal como a nota fiscal brasileira.",
+          "simple": "O papel que vem junto com a mercadoria dizendo o que foi enviado."
+        }
+      }
+    },
+    {
+      "id": "ll-palette",
+      "level": "A2",
+      "de": {
+        "word": "Palette",
+        "article": "die",
+        "plural": "Paletten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ll-gabelstapler", "ll-hubwagen"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Europaletten werden getauscht.",
+          "tr": {
+            "pt-BR": "As paletes europeias são trocadas."
+          }
+        },
+        {
+          "de": "Die Palette ist beschädigt und darf nicht ins Regal.",
+          "tr": {
+            "pt-BR": "A palete está danificada e não pode ir para a estante."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "palete (pallet)",
+          "technical": "Plataforma para movimentar cargas; a Europalette (EPAL) mede 1200 × 800 mm e é trocada no sistema de troca de paletes.",
+          "simple": "O estrado de madeira onde se empilham as caixas."
+        }
+      }
+    },
+    {
+      "id": "ll-sendung",
+      "level": "B1",
+      "de": {
+        "word": "Sendung",
+        "article": "die",
+        "plural": "Sendungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ll-lieferschein", "ll-packstueck"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Sendung ist unvollständig angekommen.",
+          "tr": {
+            "pt-BR": "A remessa chegou incompleta."
+          }
+        },
+        {
+          "de": "Mit der Sendungsnummer kann der Kunde die Lieferung verfolgen.",
+          "tr": {
+            "pt-BR": "Com o número da remessa, o cliente pode rastrear a entrega."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "remessa",
+          "technical": "Conjunto de mercadorias enviadas juntas a um destinatário, com número de rastreio.",
+          "simple": "O pacote ou carga que foi enviado.",
+          "falseFriends": [
+            {
+              "word": "Sendung (programa)",
+              "note": "Na TV e no rádio, \"Sendung\" é um programa."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ll-wareneingangskontrolle",
+      "level": "B1",
+      "de": {
+        "word": "Wareneingangskontrolle",
+        "article": "die",
+        "plural": "Wareneingangskontrollen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Ware",
+          "tr": {
+            "pt-BR": "mercadoria"
+          }
+        },
+        {
+          "de": "n",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "eingang",
+          "tr": {
+            "pt-BR": "entrada"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "kontrolle",
+          "tr": {
+            "pt-BR": "controle"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ll-wareneingang", "ll-beschaedigung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Bei der Wareneingangskontrolle zählst du die Kartons.",
+          "tr": {
+            "pt-BR": "Na conferência do recebimento você conta as caixas."
+          }
+        },
+        {
+          "de": "Die Wareneingangskontrolle muss innerhalb von 24 Stunden erfolgen.",
+          "tr": {
+            "pt-BR": "A conferência no recebimento precisa ser feita em 24 horas."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "conferência no recebimento",
+          "technical": "Verificação de quantidade, identidade e estado da mercadoria e da embalagem na chegada.",
+          "simple": "Conferir se chegou tudo certo e sem estragos."
+        }
+      }
+    },
+    {
+      "id": "ll-barcode",
+      "level": "A2",
+      "de": {
+        "word": "Barcode",
+        "article": "der",
+        "plural": "Barcodes",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": ["Strichcode"],
+      "related": ["ll-scanner"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Scann den Barcode auf dem Etikett.",
+          "tr": {
+            "pt-BR": "Escaneie o código de barras na etiqueta."
+          }
+        },
+        {
+          "de": "Der Barcode ist nicht lesbar, gib die Nummer manuell ein.",
+          "tr": {
+            "pt-BR": "O código de barras não está legível; digite o número manualmente."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "código de barras",
+          "technical": "Código legível por máquina (EAN, GS1-128) que identifica artigos, lotes e unidades de carga.",
+          "simple": "As listrinhas pretas que o leitor lê."
+        }
+      }
+    },
+    {
+      "id": "ll-scanner",
+      "level": "A2",
+      "de": {
+        "word": "Scanner",
+        "article": "der",
+        "plural": "Scanner",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": ["Handscanner"],
+      "related": ["ll-barcode"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Scanner hat keine Verbindung zum WLAN.",
+          "tr": {
+            "pt-BR": "O leitor não tem conexão com o Wi-Fi."
+          }
+        },
+        {
+          "de": "Lade den Scanner nach der Schicht auf.",
+          "tr": {
+            "pt-BR": "Carregue o leitor depois do turno."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "leitor (scanner)",
+          "technical": "Leitor portátil de códigos de barras ou RFID, geralmente ligado ao sistema de gestão do armazém.",
+          "simple": "O aparelho que lê o código de barras."
+        }
+      }
+    },
+    {
+      "id": "ll-beschaedigung",
+      "level": "B1",
+      "de": {
+        "word": "Beschädigung",
+        "article": "die",
+        "plural": "Beschädigungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ll-reklamation", "ll-wareneingangskontrolle"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Notier die Beschädigung auf dem Lieferschein.",
+          "tr": {
+            "pt-BR": "Anote a avaria na nota de entrega."
+          }
+        },
+        {
+          "de": "Fotografier die Beschädigung, bevor du auspackst.",
+          "tr": {
+            "pt-BR": "Fotografe a avaria antes de desembalar."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "avaria",
+          "technical": "Dano à mercadoria ou embalagem; deve ser anotado no documento de entrega antes da assinatura.",
+          "simple": "Quando a caixa ou o produto chega quebrado ou amassado."
+        }
+      }
+    },
+    {
+      "id": "ll-reklamation",
+      "level": "B1",
+      "de": {
+        "word": "Reklamation",
+        "article": "die",
+        "plural": "Reklamationen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ll-beschaedigung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Wir schicken eine Reklamation an den Lieferanten.",
+          "tr": {
+            "pt-BR": "Enviamos uma reclamação ao fornecedor."
+          }
+        },
+        {
+          "de": "Die Reklamation muss innerhalb von sieben Tagen erfolgen.",
+          "tr": {
+            "pt-BR": "A reclamação precisa ser feita em sete dias."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "reclamação (devolução por defeito)",
+          "technical": "Reclamação formal ao fornecedor ou transportador por avaria, falta ou erro, com prazo.",
+          "simple": "Reclamar com o fornecedor que algo veio errado."
+        }
+      }
+    },
+    {
+      "id": "ll-spediteur",
+      "level": "B2",
+      "de": {
+        "word": "Spediteur",
+        "article": "der",
+        "plural": "Spediteure",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": ["Spedition"],
+      "related": ["ll-frachtbrief", "ll-lkw"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Spediteur holt die Paletten morgen früh ab.",
+          "tr": {
+            "pt-BR": "O transportador busca as paletes amanhã cedo."
+          }
+        },
+        {
+          "de": "Ruf beim Spediteur an und frag nach der Ankunftszeit.",
+          "tr": {
+            "pt-BR": "Ligue para o transportador e pergunte o horário de chegada."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "transportador (agente de cargas)",
+          "technical": "Empresa que organiza o transporte de mercadorias (frete, documentos, aduana), com veículos próprios ou de terceiros.",
+          "simple": "A empresa que leva a mercadoria de um lugar para outro."
+        }
+      }
+    },
+    {
+      "id": "ll-stueckzahl",
+      "level": "B1",
+      "de": {
+        "word": "Stückzahl",
+        "article": "die",
+        "plural": "Stückzahlen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Stück",
+          "tr": {
+            "pt-BR": "peça"
+          }
+        },
+        {
+          "de": "zahl",
+          "tr": {
+            "pt-BR": "número"
+          }
+        }
+      ],
+      "synonyms": ["Menge"],
+      "related": ["ll-bestand"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Stückzahl stimmt nicht, es fehlen zehn Teile.",
+          "tr": {
+            "pt-BR": "A quantidade não confere; faltam dez peças."
+          }
+        },
+        {
+          "de": "Trag die Stückzahl ins System ein.",
+          "tr": {
+            "pt-BR": "Lance a quantidade no sistema."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "quantidade (unidades)",
+          "technical": "Número de unidades de um artigo.",
+          "simple": "Quantas peças tem."
+        }
+      }
+    },
+    {
+      "id": "ll-quittieren",
+      "level": "B2",
+      "de": {
+        "word": "quittieren",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["ll-lieferschein"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Fahrer wartet, bis du die Lieferung quittierst.",
+          "tr": {
+            "pt-BR": "O motorista espera até você assinar o recebimento."
+          }
+        },
+        {
+          "de": "Quittier nur, was du wirklich gezählt hast.",
+          "tr": {
+            "pt-BR": "Assine apenas o que você realmente contou."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "dar recibo (assinar o recebimento)",
+          "technical": "Confirmar por assinatura o recebimento de mercadoria ou documento; em sistemas, também confirmar uma mensagem.",
+          "simple": "Assinar para confirmar que recebeu."
+        }
+      }
+    }
+  ]
+}

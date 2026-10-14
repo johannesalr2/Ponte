@@ -1,0 +1,112 @@
+{
+  "situations": [
+    {
+      "id": "fi-support",
+      "level": "B1",
+      "tr": {
+        "pt-BR": {
+          "title": "Chamado no suporte",
+          "context": "Uma colega do setor de compras liga para o suporte de TI."
+        }
+      },
+      "lines": [
+        {
+          "speaker": "Kollegin Einkauf",
+          "de": "Hallo, hier ist Petra aus dem Einkauf. Mein [[fi-rechner|Rechner]] zeigt eine komische [[fi-fehlermeldung|Fehlermeldung]].",
+          "tr": {
+            "pt-BR": "Olá, aqui é a Petra, de compras. Meu computador está mostrando uma mensagem de erro estranha."
+          }
+        },
+        {
+          "speaker": "Fachinformatiker",
+          "de": "Was steht genau drin?",
+          "tr": {
+            "pt-BR": "O que está escrito exatamente?"
+          }
+        },
+        {
+          "speaker": "Kollegin Einkauf",
+          "de": "„Kein [[fi-zugriff|Zugriff]] auf Laufwerk S“. Seit dem [[fi-update|Update]] gestern.",
+          "tr": {
+            "pt-BR": "\"Sem acesso ao drive S\". Desde a atualização de ontem."
+          }
+        },
+        {
+          "speaker": "Fachinformatiker",
+          "de": "Haben Sie den Rechner schon [[fi-neu-starten|neu gestartet]]?",
+          "tr": {
+            "pt-BR": "A senhora já reiniciou o computador?"
+          }
+        },
+        {
+          "speaker": "Kollegin Einkauf",
+          "de": "Ja, zweimal. Hilft nicht.",
+          "tr": {
+            "pt-BR": "Sim, duas vezes. Não adianta."
+          }
+        },
+        {
+          "speaker": "Fachinformatiker",
+          "de": "Dann prüfe ich Ihre [[fi-berechtigung|Berechtigungen]]. Ich mache dafür ein [[fi-ticket|Ticket]] auf und melde mich in zehn Minuten.",
+          "tr": {
+            "pt-BR": "Então vou verificar suas permissões. Vou abrir um chamado para isso e retorno em dez minutos."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fi-daily",
+      "level": "B2",
+      "tr": {
+        "pt-BR": {
+          "title": "Reunião diária da equipe",
+          "context": "Stand-up da equipe de desenvolvimento."
+        }
+      },
+      "lines": [
+        {
+          "speaker": "Teamleiterin",
+          "de": "Kurze Runde. Was hast du gestern gemacht?",
+          "tr": {
+            "pt-BR": "Rodada rápida. O que você fez ontem?"
+          }
+        },
+        {
+          "speaker": "Fachinformatiker",
+          "de": "Ich habe die [[fi-schnittstelle|Schnittstelle]] zum Lager fertig [[fi-programmieren|programmiert]] und getestet.",
+          "tr": {
+            "pt-BR": "Terminei de programar e testei a interface com o armazém."
+          }
+        },
+        {
+          "speaker": "Fachinformatiker",
+          "de": "Ein [[fi-fehler|Fehler]] ist noch offen: Die [[fi-datenbank|Datenbank]] liefert bei großen Mengen Timeouts.",
+          "tr": {
+            "pt-BR": "Ainda há um erro aberto: o banco de dados gera timeouts com grandes volumes."
+          }
+        },
+        {
+          "speaker": "Teamleiterin",
+          "de": "Steht das im [[fi-pflichtenheft|Pflichtenheft]] als [[fi-anforderung|Anforderung]]?",
+          "tr": {
+            "pt-BR": "Isso está como requisito na especificação técnica?"
+          }
+        },
+        {
+          "speaker": "Fachinformatiker",
+          "de": "Ja, Antwortzeit unter zwei Sekunden. Ich schaue mir heute die Indizes an.",
+          "tr": {
+            "pt-BR": "Sim, tempo de resposta abaixo de dois segundos. Hoje vou analisar os índices."
+          }
+        },
+        {
+          "speaker": "Teamleiterin",
+          "de": "Gut. Denk daran, alles in die [[fi-versionsverwaltung|Versionsverwaltung]] zu pushen.",
+          "tr": {
+            "pt-BR": "Ótimo. Lembre-se de fazer push de tudo no controle de versão."
+          }
+        }
+      ]
+    }
+  ]
+}

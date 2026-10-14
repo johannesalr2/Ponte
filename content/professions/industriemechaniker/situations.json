@@ -1,0 +1,194 @@
+{
+  "situations": [
+    {
+      "id": "im-maschinenstoerung",
+      "level": "B1",
+      "tr": {
+        "pt-BR": {
+          "title": "Falha de máquina",
+          "context": "Uma linha de produção para no turno da noite. O operador chama o mecânico da manutenção."
+        }
+      },
+      "lines": [
+        {
+          "speaker": "Anlagenbediener",
+          "de": "Die Fräse auf Linie 2 steht. Es gibt eine [[im-stoerung|Störung]] an der Spindel.",
+          "tr": {
+            "pt-BR": "A fresadora da linha 2 está parada. Há uma falha no fuso."
+          }
+        },
+        {
+          "speaker": "Industriemechaniker",
+          "de": "Was zeigt das Display an?",
+          "tr": {
+            "pt-BR": "O que aparece no display?"
+          }
+        },
+        {
+          "speaker": "Anlagenbediener",
+          "de": "„Spindeltemperatur zu hoch“. Und vorher hat es laut gequietscht.",
+          "tr": {
+            "pt-BR": "\"Temperatura do fuso alta demais\". E antes fez um chiado alto."
+          }
+        },
+        {
+          "speaker": "Industriemechaniker",
+          "de": "Das klingt nach dem [[im-lager|Lager]]. Wann war die letzte [[im-wartung|Wartung]]?",
+          "tr": {
+            "pt-BR": "Parece ser o rolamento. Quando foi a última manutenção preventiva?"
+          }
+        },
+        {
+          "speaker": "Anlagenbediener",
+          "de": "Vor drei Monaten, glaube ich. Steht im Protokoll.",
+          "tr": {
+            "pt-BR": "Há três meses, acho. Está no protocolo."
+          }
+        },
+        {
+          "speaker": "Industriemechaniker",
+          "de": "Ich prüfe den Rundlauf der [[im-welle|Welle]] mit der [[im-messuhr|Messuhr]]. Wahrscheinlich müssen wir das Lager tauschen und neu [[im-schmieren|schmieren]].",
+          "tr": {
+            "pt-BR": "Vou verificar o batimento do eixo com o relógio comparador. Provavelmente teremos de trocar o rolamento e lubrificar de novo."
+          }
+        },
+        {
+          "speaker": "Anlagenbediener",
+          "de": "Wie lange dauert das?",
+          "tr": {
+            "pt-BR": "Quanto tempo isso leva?"
+          }
+        },
+        {
+          "speaker": "Industriemechaniker",
+          "de": "Etwa zwei Stunden. Ich sage dem Schichtleiter Bescheid.",
+          "tr": {
+            "pt-BR": "Umas duas horas. Vou avisar o líder de turno."
+          }
+        }
+      ]
+    },
+    {
+      "id": "im-verguss",
+      "level": "B2",
+      "tr": {
+        "pt-BR": {
+          "title": "Encapsulamento a vácuo",
+          "context": "Primeiro dia na fundição de resina de uma fábrica de transformadores. A colega experiente explica o processo."
+        }
+      },
+      "lines": [
+        {
+          "speaker": "Kollegin",
+          "de": "Heute gießen wir Stromwandler. Zuerst kontrollierst du das [[im-mischungsverhaeltnis|Mischungsverhältnis]] von Harz und [[im-haerter|Härter]].",
+          "tr": {
+            "pt-BR": "Hoje vamos fundir transformadores de corrente. Primeiro você confere a proporção de mistura entre resina e endurecedor."
+          }
+        },
+        {
+          "speaker": "Neuer Kollege",
+          "de": "Steht das auf dem Auftrag?",
+          "tr": {
+            "pt-BR": "Isso está na ordem de produção?"
+          }
+        },
+        {
+          "speaker": "Kollegin",
+          "de": "Ja, und im Datenblatt. Dann wird die Masse unter Vakuum [[im-entgasen|entgast]], sonst bleiben [[im-lufteinschluss|Lufteinschlüsse]] drin.",
+          "tr": {
+            "pt-BR": "Sim, e na ficha técnica. Depois a massa é desgaseificada a vácuo; senão ficam bolhas de ar."
+          }
+        },
+        {
+          "speaker": "Neuer Kollege",
+          "de": "Und was passiert, wenn Luft drin bleibt?",
+          "tr": {
+            "pt-BR": "E o que acontece se ficar ar?"
+          }
+        },
+        {
+          "speaker": "Kollegin",
+          "de": "Bei der Prüfung messen wir [[im-teilentladung|Teilentladungen]]. Dann ist das Teil Ausschuss.",
+          "tr": {
+            "pt-BR": "No ensaio medimos descargas parciais. Aí a peça vira refugo."
+          }
+        },
+        {
+          "speaker": "Kollegin",
+          "de": "Achte auf die [[im-topfzeit|Topfzeit]]: Nach 40 Minuten muss alles in der [[im-giessform|Gießform]] sein.",
+          "tr": {
+            "pt-BR": "Atenção ao pot life: depois de 40 minutos tudo precisa estar no molde."
+          }
+        },
+        {
+          "speaker": "Neuer Kollege",
+          "de": "Verstanden. Und danach kommt die Form in den Ofen zum [[im-aushaerten|Aushärten]]?",
+          "tr": {
+            "pt-BR": "Entendi. E depois o molde vai para a estufa para curar?"
+          }
+        },
+        {
+          "speaker": "Kollegin",
+          "de": "Genau, sechs Stunden bei 80 Grad.",
+          "tr": {
+            "pt-BR": "Exatamente, seis horas a 80 graus."
+          }
+        }
+      ]
+    },
+    {
+      "id": "im-gespraech-chef",
+      "level": "B1",
+      "tr": {
+        "pt-BR": {
+          "title": "Conversa com o chefe",
+          "context": "O mestre (Meister) chama para uma conversa sobre o período de experiência."
+        }
+      },
+      "lines": [
+        {
+          "speaker": "Meister",
+          "de": "Setz dich. Deine Probezeit ist bald vorbei, ich wollte kurz mit dir sprechen.",
+          "tr": {
+            "pt-BR": "Sente-se. Seu período de experiência termina em breve; eu queria conversar rapidinho com você."
+          }
+        },
+        {
+          "speaker": "Industriemechaniker",
+          "de": "Gern. Gibt es ein Problem?",
+          "tr": {
+            "pt-BR": "Claro. Há algum problema?"
+          }
+        },
+        {
+          "speaker": "Meister",
+          "de": "Nein, im Gegenteil. Deine Arbeit in der [[im-instandhaltung|Instandhaltung]] ist sehr gut.",
+          "tr": {
+            "pt-BR": "Não, pelo contrário. Seu trabalho na manutenção está muito bom."
+          }
+        },
+        {
+          "speaker": "Meister",
+          "de": "Ich würde dich gern zur Schulung als elektrotechnisch unterwiesene Person schicken. Dann kannst du die [[im-elektrofachkraft|Elektrofachkraft]] unterstützen.",
+          "tr": {
+            "pt-BR": "Eu gostaria de te mandar para o treinamento de pessoa instruída em eletrotécnica. Assim você pode apoiar o profissional qualificado em eletricidade."
+          }
+        },
+        {
+          "speaker": "Industriemechaniker",
+          "de": "Das würde mich sehr interessieren. Wann wäre die Schulung?",
+          "tr": {
+            "pt-BR": "Isso me interessaria muito. Quando seria o treinamento?"
+          }
+        },
+        {
+          "speaker": "Meister",
+          "de": "Im nächsten Monat. Ich trage dich ein.",
+          "tr": {
+            "pt-BR": "No mês que vem. Vou te inscrever."
+          }
+        }
+      ]
+    }
+  ]
+}

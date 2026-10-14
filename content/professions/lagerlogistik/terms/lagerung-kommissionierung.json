@@ -1,0 +1,562 @@
+{
+  "area": "lagerung-kommissionierung",
+  "terms": [
+    {
+      "id": "ll-lager",
+      "level": "A2",
+      "de": {
+        "word": "Lager",
+        "article": "das",
+        "plural": "Lager",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": ["Lagerhalle"],
+      "related": ["ll-lagerplatz", "ll-regal"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Ich arbeite seit zwei Jahren im Lager.",
+          "tr": {
+            "pt-BR": "Trabalho no armazém há dois anos."
+          }
+        },
+        {
+          "de": "Das Lager ist bis unter die Decke voll.",
+          "tr": {
+            "pt-BR": "O armazém está cheio até o teto."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "armazém",
+          "technical": "Local e organização onde mercadorias são guardadas, controladas e movimentadas.",
+          "simple": "O depósito onde as mercadorias ficam guardadas.",
+          "falseFriends": [
+            {
+              "word": "Lager (rolamento)",
+              "note": "Na mecânica, \"Lager\" é o rolamento. \"Lager\" também é acampamento."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ll-lagerplatz",
+      "level": "B1",
+      "de": {
+        "word": "Lagerplatz",
+        "article": "der",
+        "plural": "Lagerplätze",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Lager",
+          "tr": {
+            "pt-BR": "armazém"
+          }
+        },
+        {
+          "de": "platz",
+          "tr": {
+            "pt-BR": "lugar"
+          }
+        }
+      ],
+      "synonyms": ["Stellplatz"],
+      "related": ["ll-lager", "ll-einlagern"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Scanner zeigt dir den Lagerplatz an.",
+          "tr": {
+            "pt-BR": "O leitor mostra a posição de armazenagem."
+          }
+        },
+        {
+          "de": "Dieser Lagerplatz ist für schwere Ware gesperrt.",
+          "tr": {
+            "pt-BR": "Esta posição está bloqueada para mercadoria pesada."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "posição de armazenagem (endereço)",
+          "technical": "Endereço único no armazém (corredor, estante, nível, posição) onde a mercadoria é armazenada.",
+          "simple": "O \"endereço\" exato de onde cada produto fica."
+        }
+      }
+    },
+    {
+      "id": "ll-regal",
+      "level": "A2",
+      "de": {
+        "word": "Regal",
+        "article": "das",
+        "plural": "Regale",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": ["Palettenregal"],
+      "related": ["ll-hochregallager", "ll-tragfaehigkeit"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Kartons kommen ins Regal in Gang 4.",
+          "tr": {
+            "pt-BR": "As caixas vão para a estante do corredor 4."
+          }
+        },
+        {
+          "de": "Das Regal ist nur bis 1000 Kilogramm pro Fach belastbar.",
+          "tr": {
+            "pt-BR": "A estante suporta só até 1000 quilos por compartimento."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "estante",
+          "technical": "Estrutura de armazenagem (estante de prateleiras, porta-paletes, flow rack).",
+          "simple": "A estante com prateleiras."
+        }
+      }
+    },
+    {
+      "id": "ll-hochregallager",
+      "level": "B2",
+      "de": {
+        "word": "Hochregallager",
+        "article": "das",
+        "plural": "Hochregallager",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Hoch",
+          "tr": {
+            "pt-BR": "alto"
+          }
+        },
+        {
+          "de": "regal",
+          "tr": {
+            "pt-BR": "estante"
+          }
+        },
+        {
+          "de": "lager",
+          "tr": {
+            "pt-BR": "armazém"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ll-regal"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Im Hochregallager arbeiten Regalbediengeräte vollautomatisch.",
+          "tr": {
+            "pt-BR": "No armazém vertical, transelevadores trabalham de forma totalmente automática."
+          }
+        },
+        {
+          "de": "Das Hochregallager hat 12 000 Palettenstellplätze.",
+          "tr": {
+            "pt-BR": "O armazém vertical tem 12 000 posições de palete."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "armazém vertical (porta-paletes alto)",
+          "technical": "Armazém com estantes muito altas (frequentemente acima de 12 m), em geral automatizado com transelevadores.",
+          "simple": "Um armazém com estantes altíssimas onde máquinas guardam e tiram as paletes."
+        }
+      }
+    },
+    {
+      "id": "ll-kommissionieren",
+      "level": "B1",
+      "de": {
+        "word": "kommissionieren",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["ll-kommissionierung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Ich kommissioniere heute die Aufträge für Bayern.",
+          "tr": {
+            "pt-BR": "Hoje separo os pedidos para a Baviera."
+          }
+        },
+        {
+          "de": "Mit Pick-by-Voice kommissionieren wir schneller.",
+          "tr": {
+            "pt-BR": "Com pick-by-voice separamos pedidos mais rápido."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "separar pedidos (fazer picking)",
+          "technical": "Retirar do estoque os artigos de um pedido segundo a lista de separação.",
+          "simple": "Pegar nas estantes os produtos de cada pedido."
+        }
+      }
+    },
+    {
+      "id": "ll-kommissionierung",
+      "level": "B1",
+      "de": {
+        "word": "Kommissionierung",
+        "article": "die",
+        "plural": "Kommissionierungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ll-kommissionieren", "ll-versand"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Kommissionierung beginnt um sechs Uhr.",
+          "tr": {
+            "pt-BR": "A separação de pedidos começa às seis horas."
+          }
+        },
+        {
+          "de": "Fehler in der Kommissionierung führen zu Reklamationen.",
+          "tr": {
+            "pt-BR": "Erros na separação de pedidos geram reclamações."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "separação de pedidos (picking)",
+          "technical": "Processo de reunir artigos do estoque conforme pedidos; métodos: por pedido, por lote, pick-by-light, pick-by-voice.",
+          "simple": "O trabalho de juntar os produtos de cada pedido."
+        }
+      }
+    },
+    {
+      "id": "ll-inventur",
+      "level": "B1",
+      "de": {
+        "word": "Inventur",
+        "article": "die",
+        "plural": "Inventuren",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ll-bestand"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Am 31. Dezember machen wir Inventur.",
+          "tr": {
+            "pt-BR": "No dia 31 de dezembro fazemos inventário."
+          }
+        },
+        {
+          "de": "Während der Inventur darf keine Ware bewegt werden.",
+          "tr": {
+            "pt-BR": "Durante o inventário nenhuma mercadoria pode ser movimentada."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "inventário",
+          "technical": "Contagem física de todo o estoque numa data (Stichtagsinventur) ou de forma contínua (permanente Inventur).",
+          "simple": "Contar tudo o que existe no armazém."
+        }
+      }
+    },
+    {
+      "id": "ll-bestand",
+      "level": "B1",
+      "de": {
+        "word": "Bestand",
+        "article": "der",
+        "plural": "Bestände",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ll-mindestbestand", "ll-inventur"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Bestand im System stimmt nicht mit dem Regal überein.",
+          "tr": {
+            "pt-BR": "O estoque no sistema não confere com a estante."
+          }
+        },
+        {
+          "de": "Bei niedrigem Bestand wird automatisch nachbestellt.",
+          "tr": {
+            "pt-BR": "Com estoque baixo, o reabastecimento é pedido automaticamente."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "estoque (saldo)",
+          "variants": {
+            "pt-PT": "stock (existências)"
+          },
+          "technical": "Quantidade de um artigo disponível no armazém; registrada no sistema (Buchbestand) e verificada fisicamente.",
+          "simple": "Quantas unidades de um produto ainda temos."
+        }
+      }
+    },
+    {
+      "id": "ll-lagerverwaltungssystem",
+      "level": "B2",
+      "de": {
+        "word": "Lagerverwaltungssystem",
+        "article": "das",
+        "plural": "Lagerverwaltungssysteme",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Lager",
+          "tr": {
+            "pt-BR": "armazém"
+          }
+        },
+        {
+          "de": "verwaltung",
+          "tr": {
+            "pt-BR": "administração"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "system",
+          "tr": {
+            "pt-BR": "sistema"
+          }
+        }
+      ],
+      "synonyms": ["LVS"],
+      "related": ["ll-lagerplatz", "ll-bestand"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Buch die Umlagerung im Lagerverwaltungssystem.",
+          "tr": {
+            "pt-BR": "Lance a transferência no sistema de gestão de armazém."
+          }
+        },
+        {
+          "de": "Das Lagerverwaltungssystem schlägt den Lagerplatz vor.",
+          "tr": {
+            "pt-BR": "O sistema de gestão de armazém sugere a posição de armazenagem."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "sistema de gestão de armazém (WMS)",
+          "technical": "Software que controla posições, movimentos, estoque e ordens do armazém (LVS, em inglês WMS).",
+          "simple": "O programa de computador que sabe onde está cada coisa no armazém."
+        }
+      }
+    },
+    {
+      "id": "ll-einlagern",
+      "level": "B1",
+      "de": {
+        "word": "einlagern",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["ll-auslagern", "ll-lagerplatz"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Lager die Paletten im Gang 7 ein.",
+          "tr": {
+            "pt-BR": "Armazene as paletes no corredor 7."
+          }
+        },
+        {
+          "de": "Kühlware wird sofort eingelagert.",
+          "tr": {
+            "pt-BR": "Mercadoria refrigerada é armazenada imediatamente."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "armazenar",
+          "technical": "Colocar a mercadoria em sua posição de armazenagem e registrá-la no sistema.",
+          "simple": "Guardar a mercadoria na estante."
+        }
+      }
+    },
+    {
+      "id": "ll-auslagern",
+      "level": "B1",
+      "de": {
+        "word": "auslagern",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["ll-einlagern", "ll-fifo"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Ware wird nach dem FIFO-Prinzip ausgelagert.",
+          "tr": {
+            "pt-BR": "A mercadoria é retirada segundo o princípio FIFO."
+          }
+        },
+        {
+          "de": "Lager zuerst die angebrochene Palette aus.",
+          "tr": {
+            "pt-BR": "Retire primeiro a palete já aberta."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "retirar do estoque",
+          "technical": "Tirar mercadoria da posição de armazenagem para separação, expedição ou transferência.",
+          "simple": "Tirar a mercadoria da estante.",
+          "falseFriends": [
+            {
+              "word": "auslagern (terceirizar)",
+              "note": "Em administração, \"auslagern\" também significa terceirizar."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ll-fifo",
+      "level": "B1",
+      "de": {
+        "word": "FIFO",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "abbreviation"
+      },
+      "synonyms": [],
+      "related": ["ll-auslagern"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Wir lagern nach dem FIFO-Prinzip aus.",
+          "tr": {
+            "pt-BR": "Retiramos do estoque pelo princípio FIFO."
+          }
+        },
+        {
+          "de": "FIFO gilt besonders bei Lebensmitteln.",
+          "tr": {
+            "pt-BR": "FIFO vale especialmente para alimentos."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "FIFO (primeiro a entrar, primeiro a sair)",
+          "technical": "First In – First Out: o que entrou primeiro sai primeiro; essencial para produtos com validade.",
+          "simple": "O que chegou antes sai antes."
+        }
+      }
+    },
+    {
+      "id": "ll-mindestbestand",
+      "level": "B2",
+      "de": {
+        "word": "Mindestbestand",
+        "article": "der",
+        "plural": "Mindestbestände",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Mindest",
+          "tr": {
+            "pt-BR": "mínimo"
+          }
+        },
+        {
+          "de": "bestand",
+          "tr": {
+            "pt-BR": "estoque"
+          }
+        }
+      ],
+      "synonyms": ["Sicherheitsbestand"],
+      "related": ["ll-bestand"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Mindestbestand ist unterschritten, bitte nachbestellen.",
+          "tr": {
+            "pt-BR": "O estoque mínimo foi ultrapassado para baixo; por favor, faça novo pedido."
+          }
+        },
+        {
+          "de": "Für Ersatzteile gilt ein Mindestbestand von fünf Stück.",
+          "tr": {
+            "pt-BR": "Para peças de reposição vale um estoque mínimo de cinco unidades."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "estoque mínimo",
+          "technical": "Quantidade que não deve ser ultrapassada para baixo, como reserva de segurança.",
+          "simple": "A quantidade mínima que sempre deve existir no armazém."
+        }
+      }
+    }
+  ]
+}

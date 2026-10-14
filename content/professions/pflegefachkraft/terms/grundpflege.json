@@ -1,0 +1,553 @@
+{
+  "area": "grundpflege",
+  "terms": [
+    {
+      "id": "pf-grundpflege",
+      "level": "B1",
+      "de": {
+        "word": "Grundpflege",
+        "article": "die",
+        "plural": null,
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Grund",
+          "tr": {
+            "pt-BR": "base"
+          }
+        },
+        {
+          "de": "pflege",
+          "tr": {
+            "pt-BR": "cuidado"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-koerperpflege", "pf-mobilisation"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Grundpflege bei Frau Schulz übernimmt heute die Auszubildende.",
+          "tr": {
+            "pt-BR": "Os cuidados básicos da Sra. Schulz hoje ficam com a aprendiz."
+          }
+        },
+        {
+          "de": "Nach der Grundpflege wird der Blutdruck gemessen.",
+          "tr": {
+            "pt-BR": "Depois dos cuidados básicos, mede-se a pressão arterial."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "cuidados básicos",
+          "technical": "Cuidados relativos às atividades de vida diária: higiene corporal, alimentação, eliminação e mobilização.",
+          "simple": "Ajudar a pessoa no dia a dia: tomar banho, comer, ir ao banheiro e se movimentar."
+        }
+      }
+    },
+    {
+      "id": "pf-koerperpflege",
+      "level": "A2",
+      "de": {
+        "word": "Körperpflege",
+        "article": "die",
+        "plural": null,
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Körper",
+          "tr": {
+            "pt-BR": "corpo"
+          }
+        },
+        {
+          "de": "pflege",
+          "tr": {
+            "pt-BR": "cuidado"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-ganzkoerperwaschung", "pf-grundpflege"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Herr Becker macht die Körperpflege am Waschbecken selbstständig.",
+          "tr": {
+            "pt-BR": "O Sr. Becker faz a higiene corporal sozinho na pia."
+          }
+        },
+        {
+          "de": "Bei der Körperpflege achte ich auf Hautrötungen.",
+          "tr": {
+            "pt-BR": "Durante a higiene corporal observo vermelhidões na pele."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "higiene corporal",
+          "technical": "Cuidados de higiene do corpo (lavagem, cuidado da pele, boca, cabelos), feitos ou apoiados pela enfermagem conforme a autonomia do paciente.",
+          "simple": "Lavar o corpo, escovar os dentes, pentear o cabelo."
+        }
+      }
+    },
+    {
+      "id": "pf-ganzkoerperwaschung",
+      "level": "B1",
+      "de": {
+        "word": "Ganzkörperwaschung",
+        "article": "die",
+        "plural": "Ganzkörperwaschungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Ganz",
+          "tr": {
+            "pt-BR": "inteiro"
+          }
+        },
+        {
+          "de": "körper",
+          "tr": {
+            "pt-BR": "corpo"
+          }
+        },
+        {
+          "de": "waschung",
+          "tr": {
+            "pt-BR": "lavagem"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-koerperpflege"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Bei Frau Yilmaz machen wir heute eine Ganzkörperwaschung im Bett.",
+          "tr": {
+            "pt-BR": "Hoje fazemos banho no leito na Sra. Yilmaz."
+          }
+        },
+        {
+          "de": "Für die Ganzkörperwaschung brauchst du zwei Waschschüsseln.",
+          "tr": {
+            "pt-BR": "Para o banho no leito você precisa de duas bacias."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "banho no leito",
+          "technical": "Higiene corporal completa realizada na cama em pacientes acamados, seguindo uma sequência do mais limpo para o mais sujo.",
+          "simple": "Dar banho completo na pessoa sem tirá-la da cama."
+        }
+      }
+    },
+    {
+      "id": "pf-lagern",
+      "level": "B1",
+      "de": {
+        "word": "lagern",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["pf-druckgeschwuer", "pf-prophylaxe"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Herr Klein muss alle zwei Stunden gelagert werden.",
+          "tr": {
+            "pt-BR": "O Sr. Klein precisa ser reposicionado a cada duas horas."
+          }
+        },
+        {
+          "de": "Wir lagern den Patienten in 30-Grad-Seitenlage.",
+          "tr": {
+            "pt-BR": "Posicionamos o paciente em decúbito lateral de 30 graus."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "posicionar (o paciente)",
+          "technical": "Mudar ou manter a posição do corpo do paciente (decúbito lateral, posição 30°) para prevenir lesões por pressão e facilitar a respiração.",
+          "simple": "Ajeitar a pessoa na cama, de lado ou de costas, para ela não ficar machucada.",
+          "falseFriends": [
+            {
+              "word": "lagern (armazenar)",
+              "note": "No depósito, \"lagern\" é armazenar. Na enfermagem, é posicionar o paciente."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pf-druckgeschwuer",
+      "level": "B2",
+      "de": {
+        "word": "Druckgeschwür",
+        "article": "das",
+        "plural": "Druckgeschwüre",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Druck",
+          "tr": {
+            "pt-BR": "pressão"
+          }
+        },
+        {
+          "de": "geschwür",
+          "tr": {
+            "pt-BR": "úlcera"
+          }
+        }
+      ],
+      "synonyms": ["Dekubitus"],
+      "related": ["pf-lagern", "pf-prophylaxe", "pf-wunde"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Am Steißbein hat sich ein Druckgeschwür gebildet.",
+          "tr": {
+            "pt-BR": "Formou-se uma lesão por pressão no cóccix."
+          }
+        },
+        {
+          "de": "Um ein Druckgeschwür zu vermeiden, lagern wir regelmäßig um.",
+          "tr": {
+            "pt-BR": "Para evitar lesão por pressão, reposicionamos regularmente."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "lesão por pressão",
+          "variants": {
+            "pt-PT": "úlcera por pressão"
+          },
+          "technical": "Lesão localizada da pele e/ou tecido subjacente por pressão prolongada, geralmente sobre proeminências ósseas; classificada em categorias (EPUAP).",
+          "simple": "Uma ferida que aparece quando a pessoa fica muito tempo deitada na mesma posição."
+        }
+      }
+    },
+    {
+      "id": "pf-prophylaxe",
+      "level": "B1",
+      "de": {
+        "word": "Prophylaxe",
+        "article": "die",
+        "plural": "Prophylaxen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-druckgeschwuer", "pf-sturz"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Thromboseprophylaxe ist im Pflegeplan dokumentiert.",
+          "tr": {
+            "pt-BR": "A profilaxia de trombose está documentada no plano de cuidados."
+          }
+        },
+        {
+          "de": "Welche Prophylaxen braucht die neue Patientin?",
+          "tr": {
+            "pt-BR": "Quais profilaxias a nova paciente precisa?"
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "profilaxia (prevenção)",
+          "technical": "Medidas preventivas de complicações: profilaxia de lesão por pressão, pneumonia, trombose, quedas e contraturas.",
+          "simple": "Cuidados para evitar que o paciente tenha outros problemas, como feridas ou trombose."
+        }
+      }
+    },
+    {
+      "id": "pf-mobilisation",
+      "level": "B1",
+      "de": {
+        "word": "Mobilisation",
+        "article": "die",
+        "plural": "Mobilisationen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-rollstuhl", "pf-grundpflege"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Nach der Operation beginnt die Mobilisation am ersten Tag.",
+          "tr": {
+            "pt-BR": "Depois da cirurgia, a mobilização começa no primeiro dia."
+          }
+        },
+        {
+          "de": "Die Mobilisation an die Bettkante klappt heute gut.",
+          "tr": {
+            "pt-BR": "A mobilização até a beira da cama está indo bem hoje."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "mobilização",
+          "technical": "Estímulo e apoio ao movimento do paciente (sentar à beira do leito, transferência, marcha), adaptado ao estado clínico.",
+          "simple": "Ajudar a pessoa a se levantar e andar um pouco."
+        }
+      }
+    },
+    {
+      "id": "pf-anreichen",
+      "level": "B2",
+      "de": {
+        "word": "anreichen",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["pf-grundpflege"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Frau Weber braucht Hilfe, bitte reich ihr das Essen an.",
+          "tr": {
+            "pt-BR": "A Sra. Weber precisa de ajuda; por favor, auxilie na alimentação dela."
+          }
+        },
+        {
+          "de": "Beim Anreichen sitzt der Patient aufrecht.",
+          "tr": {
+            "pt-BR": "Ao auxiliar na alimentação, o paciente fica sentado ereto."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "auxiliar na alimentação",
+          "technical": "Na linguagem da enfermagem, \"Essen anreichen\" é oferecer a comida ao paciente (dar na boca), respeitando ritmo, posição e risco de aspiração.",
+          "simple": "Dar a comida na boca de quem não consegue comer sozinho."
+        }
+      }
+    },
+    {
+      "id": "pf-rollstuhl",
+      "level": "A2",
+      "de": {
+        "word": "Rollstuhl",
+        "article": "der",
+        "plural": "Rollstühle",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Roll",
+          "tr": {
+            "pt-BR": "rolar"
+          }
+        },
+        {
+          "de": "stuhl",
+          "tr": {
+            "pt-BR": "cadeira"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-mobilisation"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Bremse die Räder am Rollstuhl fest, bevor du transferierst.",
+          "tr": {
+            "pt-BR": "Trave as rodas da cadeira de rodas antes de fazer a transferência."
+          }
+        },
+        {
+          "de": "Herr Braun fährt mit dem Rollstuhl zur Physiotherapie.",
+          "tr": {
+            "pt-BR": "O Sr. Braun vai de cadeira de rodas à fisioterapia."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "cadeira de rodas",
+          "technical": "Meio auxiliar de locomoção; antes da transferência, as rodas devem ser travadas.",
+          "simple": "A cadeira com rodas para quem não pode andar."
+        }
+      }
+    },
+    {
+      "id": "pf-bettpfanne",
+      "level": "B1",
+      "de": {
+        "word": "Bettpfanne",
+        "article": "die",
+        "plural": "Bettpfannen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Bett",
+          "tr": {
+            "pt-BR": "cama"
+          }
+        },
+        {
+          "de": "pfanne",
+          "tr": {
+            "pt-BR": "panela, recipiente"
+          }
+        }
+      ],
+      "synonyms": ["Steckbecken"],
+      "related": [],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Patientin in Zimmer 4 braucht die Bettpfanne.",
+          "tr": {
+            "pt-BR": "A paciente do quarto 4 precisa da comadre."
+          }
+        },
+        {
+          "de": "Die Bettpfanne kommt nach Gebrauch in den Steckbeckenspüler.",
+          "tr": {
+            "pt-BR": "Depois do uso, a comadre vai para a lavadora de comadres."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "comadre",
+          "variants": {
+            "pt-PT": "arrastadeira"
+          },
+          "technical": "Recipiente para eliminação de urina e fezes de pacientes acamados.",
+          "simple": "O \"penico\" usado na cama por quem não pode se levantar."
+        }
+      }
+    },
+    {
+      "id": "pf-pflegebett",
+      "level": "A2",
+      "de": {
+        "word": "Pflegebett",
+        "article": "das",
+        "plural": "Pflegebetten",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Pflege",
+          "tr": {
+            "pt-BR": "cuidado"
+          }
+        },
+        {
+          "de": "bett",
+          "tr": {
+            "pt-BR": "cama"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-lagern"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Stell das Pflegebett auf Arbeitshöhe, das schont deinen Rücken.",
+          "tr": {
+            "pt-BR": "Coloque a cama hospitalar na altura de trabalho; isso poupa suas costas."
+          }
+        },
+        {
+          "de": "Das Pflegebett hat Seitengitter, die nur mit Anordnung hochgestellt werden.",
+          "tr": {
+            "pt-BR": "A cama hospitalar tem grades que só são levantadas com prescrição."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "cama hospitalar",
+          "technical": "Cama com altura e encosto reguláveis e grades laterais, que facilita o cuidado e a mobilização.",
+          "simple": "A cama que sobe, desce e levanta as costas com um controle."
+        }
+      }
+    },
+    {
+      "id": "pf-inkontinenz",
+      "level": "B1",
+      "de": {
+        "word": "Inkontinenz",
+        "article": "die",
+        "plural": null,
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-koerperpflege"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Herr Hoffmann hat seit der Operation eine Inkontinenz.",
+          "tr": {
+            "pt-BR": "O Sr. Hoffmann tem incontinência desde a cirurgia."
+          }
+        },
+        {
+          "de": "Bei Inkontinenz ist die Hautpflege besonders wichtig.",
+          "tr": {
+            "pt-BR": "Na incontinência, o cuidado com a pele é especialmente importante."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "incontinência",
+          "technical": "Perda involuntária de urina ou fezes; requer cuidados com a pele e uso de material absorvente.",
+          "simple": "Quando a pessoa não consegue segurar o xixi ou o cocô."
+        }
+      }
+    }
+  ]
+}

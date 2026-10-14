@@ -1,0 +1,112 @@
+{
+  "situations": [
+    {
+      "id": "ll-wareneingang",
+      "level": "B1",
+      "tr": {
+        "pt-BR": {
+          "title": "Entrega com avaria",
+          "context": "Um caminhão chega com paletes. Uma delas está danificada."
+        }
+      },
+      "lines": [
+        {
+          "speaker": "Fahrer",
+          "de": "Hallo, ich habe zwölf [[ll-palette|Paletten]] für Sie. Wo soll ich hin?",
+          "tr": {
+            "pt-BR": "Olá, tenho doze paletes para vocês. Para onde eu vou?"
+          }
+        },
+        {
+          "speaker": "Fachkraft",
+          "de": "An [[ll-rampe|Rampe]] 3, bitte. Geben Sie mir den [[ll-lieferschein|Lieferschein]].",
+          "tr": {
+            "pt-BR": "Para a doca 3, por favor. Me dê a nota de entrega."
+          }
+        },
+        {
+          "speaker": "Fachkraft",
+          "de": "Bei der [[ll-wareneingangskontrolle|Wareneingangskontrolle]] sehe ich, dass Palette 7 eingedrückt ist.",
+          "tr": {
+            "pt-BR": "Na conferência do recebimento vejo que a palete 7 está amassada."
+          }
+        },
+        {
+          "speaker": "Fahrer",
+          "de": "Das war schon so, als ich geladen habe.",
+          "tr": {
+            "pt-BR": "Já estava assim quando carreguei."
+          }
+        },
+        {
+          "speaker": "Fachkraft",
+          "de": "Ich notiere die [[ll-beschaedigung|Beschädigung]] und mache Fotos. Ich [[ll-quittieren|quittiere]] nur elf einwandfreie Paletten.",
+          "tr": {
+            "pt-BR": "Vou anotar a avaria e tirar fotos. Só vou dar recibo de onze paletes em perfeito estado."
+          }
+        },
+        {
+          "speaker": "Fahrer",
+          "de": "Okay, unterschreiben Sie hier mit Vermerk.",
+          "tr": {
+            "pt-BR": "Ok, assine aqui com a observação."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ll-unterweisung",
+      "level": "B1",
+      "tr": {
+        "pt-BR": {
+          "title": "Instrução de segurança",
+          "context": "O líder do armazém conversa com um novo colaborador antes do primeiro turno."
+        }
+      },
+      "lines": [
+        {
+          "speaker": "Lagerleiter",
+          "de": "Bevor du anfängst: Hast du einen [[ll-staplerschein|Staplerschein]]?",
+          "tr": {
+            "pt-BR": "Antes de começar: você tem habilitação de operador de empilhadeira?"
+          }
+        },
+        {
+          "speaker": "Neue Fachkraft",
+          "de": "In Brasilien schon, aber noch nicht in Deutschland.",
+          "tr": {
+            "pt-BR": "No Brasil sim, mas na Alemanha ainda não."
+          }
+        },
+        {
+          "speaker": "Lagerleiter",
+          "de": "Dann fährst du erst mal nur den [[ll-hubwagen|Hubwagen]]. Den Kurs für den [[ll-gabelstapler|Gabelstapler]] machen wir nächsten Monat.",
+          "tr": {
+            "pt-BR": "Então por enquanto você só opera a paleteira. O curso de empilhadeira faremos no mês que vem."
+          }
+        },
+        {
+          "speaker": "Lagerleiter",
+          "de": "Wichtig: [[ll-sicherheitsschuh|Sicherheitsschuhe]] und [[ll-warnweste|Warnweste]] sind Pflicht, und die [[ll-fluchtweg|Fluchtwege]] bleiben immer frei.",
+          "tr": {
+            "pt-BR": "Importante: calçado de segurança e colete refletivo são obrigatórios, e as rotas de fuga ficam sempre livres."
+          }
+        },
+        {
+          "speaker": "Neue Fachkraft",
+          "de": "Und wenn etwas passiert?",
+          "tr": {
+            "pt-BR": "E se acontecer alguma coisa?"
+          }
+        },
+        {
+          "speaker": "Lagerleiter",
+          "de": "Jeden [[ll-arbeitsunfall|Arbeitsunfall]] sofort melden. Hier unterschreibst du die [[ll-unterweisung|Unterweisung]].",
+          "tr": {
+            "pt-BR": "Comunique imediatamente qualquer acidente de trabalho. Aqui você assina a instrução de segurança."
+          }
+        }
+      ]
+    }
+  ]
+}

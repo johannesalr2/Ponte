@@ -1,0 +1,562 @@
+{
+  "area": "hochspannung",
+  "terms": [
+    {
+      "id": "im-hochspannung",
+      "level": "B1",
+      "de": {
+        "word": "Hochspannung",
+        "article": "die",
+        "plural": "Hochspannungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Hoch",
+          "tr": {
+            "pt-BR": "alto"
+          }
+        },
+        {
+          "de": "spannung",
+          "tr": {
+            "pt-BR": "tensão"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-elektrofachkraft", "im-pruefspannung", "im-isolierung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Arbeiten an Hochspannung dürfen nur Elektrofachkräfte durchführen.",
+          "tr": {
+            "pt-BR": "Trabalhos em alta tensão só podem ser feitos por profissionais qualificados em eletricidade."
+          }
+        },
+        {
+          "de": "Achtung, Hochspannung! Lebensgefahr.",
+          "tr": {
+            "pt-BR": "Atenção, alta tensão! Perigo de morte."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "alta tensão",
+          "technical": "Na linguagem da norma alemã (VDE), tensões acima de 1000 V em corrente alternada ou 1500 V em corrente contínua.",
+          "simple": "Eletricidade muito forte, perigosa até sem tocar diretamente."
+        }
+      }
+    },
+    {
+      "id": "im-isolierung",
+      "level": "B1",
+      "de": {
+        "word": "Isolierung",
+        "article": "die",
+        "plural": "Isolierungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-isolator", "im-durchschlagfestigkeit"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Isolierung des Kabels ist beschädigt.",
+          "tr": {
+            "pt-BR": "O isolamento do cabo está danificado."
+          }
+        },
+        {
+          "de": "Die Gießharz-Isolierung muss frei von Rissen sein.",
+          "tr": {
+            "pt-BR": "O isolamento de resina precisa estar livre de trincas."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "isolamento (elétrico)",
+          "technical": "Material ou camada não condutora que separa partes energizadas entre si e da terra.",
+          "simple": "A \"capa\" que impede a eletricidade de passar para onde não deve."
+        }
+      }
+    },
+    {
+      "id": "im-isolator",
+      "level": "B1",
+      "de": {
+        "word": "Isolator",
+        "article": "der",
+        "plural": "Isolatoren",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-isolierung", "im-kriechstrecke"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Isolator hat einen Riss und muss ersetzt werden.",
+          "tr": {
+            "pt-BR": "O isolador tem uma trinca e precisa ser substituído."
+          }
+        },
+        {
+          "de": "Wir gießen Stützisolatoren aus Epoxidharz.",
+          "tr": {
+            "pt-BR": "Fundimos isoladores de apoio em resina epóxi."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "isolador",
+          "technical": "Componente que sustenta mecanicamente um condutor e o isola eletricamente (porcelana, vidro, resina).",
+          "simple": "A peça de porcelana ou resina que segura o fio sem deixar a eletricidade passar."
+        }
+      }
+    },
+    {
+      "id": "im-teilentladung",
+      "level": "C1",
+      "de": {
+        "word": "Teilentladung",
+        "article": "die",
+        "plural": "Teilentladungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Teil",
+          "tr": {
+            "pt-BR": "parte"
+          }
+        },
+        {
+          "de": "entladung",
+          "tr": {
+            "pt-BR": "descarga"
+          }
+        }
+      ],
+      "synonyms": ["TE"],
+      "related": ["im-lufteinschluss", "im-pruefspannung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Bei der Prüfung wurden Teilentladungen über 10 pC gemessen.",
+          "tr": {
+            "pt-BR": "No ensaio foram medidas descargas parciais acima de 10 pC."
+          }
+        },
+        {
+          "de": "Teilentladungen entstehen oft an Lufteinschlüssen.",
+          "tr": {
+            "pt-BR": "Descargas parciais costumam surgir em bolhas de ar."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "descarga parcial",
+          "technical": "Descarga elétrica localizada que não une os eletrodos, geralmente em vazios ou falhas do isolamento; medida em pC (picocoulomb). Abreviada TE.",
+          "simple": "Pequenas \"faíscas\" escondidas dentro do isolamento que vão estragando ele por dentro."
+        }
+      }
+    },
+    {
+      "id": "im-durchschlagfestigkeit",
+      "level": "C1",
+      "de": {
+        "word": "Durchschlagfestigkeit",
+        "article": "die",
+        "plural": null,
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Durchschlag",
+          "tr": {
+            "pt-BR": "ruptura (descarga disruptiva)"
+          }
+        },
+        {
+          "de": "festigkeit",
+          "tr": {
+            "pt-BR": "resistência"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-isolierung", "im-teilentladung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Durchschlagfestigkeit des Harzes liegt bei etwa 20 kV/mm.",
+          "tr": {
+            "pt-BR": "A rigidez dielétrica da resina fica em torno de 20 kV/mm."
+          }
+        },
+        {
+          "de": "Feuchtigkeit verringert die Durchschlagfestigkeit.",
+          "tr": {
+            "pt-BR": "A umidade reduz a rigidez dielétrica."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "rigidez dielétrica",
+          "technical": "Maior intensidade de campo elétrico que um isolante suporta sem ruptura, em kV/mm.",
+          "simple": "Quanta eletricidade o material aguenta antes de \"furar\" e deixar passar uma faísca."
+        }
+      }
+    },
+    {
+      "id": "im-pruefspannung",
+      "level": "B2",
+      "de": {
+        "word": "Prüfspannung",
+        "article": "die",
+        "plural": "Prüfspannungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Prüf",
+          "tr": {
+            "pt-BR": "ensaiar"
+          }
+        },
+        {
+          "de": "spannung",
+          "tr": {
+            "pt-BR": "tensão"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-hochspannung", "im-teilentladung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Prüfspannung wird eine Minute lang gehalten.",
+          "tr": {
+            "pt-BR": "A tensão de ensaio é mantida por um minuto."
+          }
+        },
+        {
+          "de": "Vor dem Anlegen der Prüfspannung muss der Prüfbereich abgesperrt sein.",
+          "tr": {
+            "pt-BR": "Antes de aplicar a tensão de ensaio, a área de ensaio precisa estar isolada."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "tensão de ensaio",
+          "technical": "Tensão aplicada no ensaio dielétrico (ex.: tensão aplicada de frequência industrial ou impulso) para comprovar o isolamento.",
+          "simple": "A tensão mais alta que o normal usada no teste para provar que a peça aguenta."
+        }
+      }
+    },
+    {
+      "id": "im-freischalten",
+      "level": "B2",
+      "de": {
+        "word": "freischalten",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["im-erdung", "im-elektrofachkraft"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Vor Beginn der Arbeiten muss die Anlage freigeschaltet werden.",
+          "tr": {
+            "pt-BR": "Antes do início dos trabalhos a instalação precisa ser desenergizada."
+          }
+        },
+        {
+          "de": "Freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit feststellen.",
+          "tr": {
+            "pt-BR": "Desenergizar, travar contra religamento, constatar a ausência de tensão."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "desenergizar (seccionar)",
+          "technical": "Primeira das cinco regras de segurança: desligar e separar a instalação de todas as fontes de tensão, em todos os polos.",
+          "simple": "Desligar a energia de verdade, separando a máquina da rede antes de mexer nela.",
+          "falseFriends": [
+            {
+              "word": "freischalten (TI)",
+              "note": "Em TI e telefonia, \"freischalten\" significa ativar ou liberar (ex.: um acesso). Na elétrica é o contrário: desligar e separar."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "im-erdung",
+      "level": "B1",
+      "de": {
+        "word": "Erdung",
+        "article": "die",
+        "plural": "Erdungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-freischalten"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Prüf, ob die Erdung richtig angeschlossen ist.",
+          "tr": {
+            "pt-BR": "Verifique se o aterramento está ligado corretamente."
+          }
+        },
+        {
+          "de": "Erst nach dem Erden und Kurzschließen darf gearbeitet werden.",
+          "tr": {
+            "pt-BR": "Só se pode trabalhar depois de aterrar e curto-circuitar."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "aterramento",
+          "variants": {
+            "pt-PT": "ligação à terra"
+          },
+          "technical": "Ligação condutora intencional à terra; na quarta regra de segurança, aterrar e curto-circuitar a parte desenergizada.",
+          "simple": "Ligar a máquina ao chão (à terra) com um cabo, para a eletricidade escapar sem passar por você."
+        }
+      }
+    },
+    {
+      "id": "im-kriechstrecke",
+      "level": "C1",
+      "de": {
+        "word": "Kriechstrecke",
+        "article": "die",
+        "plural": "Kriechstrecken",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Kriech",
+          "tr": {
+            "pt-BR": "rastejar"
+          }
+        },
+        {
+          "de": "strecke",
+          "tr": {
+            "pt-BR": "trajeto"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-isolator"],
+      "esco": null,
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Die Rippen am Isolator verlängern die Kriechstrecke.",
+          "tr": {
+            "pt-BR": "As aletas do isolador aumentam a distância de escoamento."
+          }
+        },
+        {
+          "de": "Schmutz und Feuchtigkeit verkürzen die wirksame Kriechstrecke.",
+          "tr": {
+            "pt-BR": "Sujeira e umidade encurtam a distância de escoamento efetiva."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "distância de escoamento",
+          "variants": {
+            "pt-PT": "linha de fuga"
+          },
+          "technical": "Menor distância ao longo da superfície do isolante entre duas partes condutoras (creepage distance); depende da tensão e do grau de poluição.",
+          "simple": "O caminho que a eletricidade poderia \"rastejar\" por cima da superfície suja ou úmida de um isolador."
+        }
+      }
+    },
+    {
+      "id": "im-elektrofachkraft",
+      "level": "B2",
+      "de": {
+        "word": "Elektrofachkraft",
+        "article": "die",
+        "plural": "Elektrofachkräfte",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Elektro",
+          "tr": {
+            "pt-BR": "elétrico"
+          }
+        },
+        {
+          "de": "fach",
+          "tr": {
+            "pt-BR": "especialidade"
+          }
+        },
+        {
+          "de": "kraft",
+          "tr": {
+            "pt-BR": "força (de trabalho)"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-hochspannung", "im-freischalten"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Abnahme muss eine Elektrofachkraft machen.",
+          "tr": {
+            "pt-BR": "A inspeção de aceitação deve ser feita por um profissional qualificado em eletricidade."
+          }
+        },
+        {
+          "de": "Als Industriemechaniker bist du keine Elektrofachkraft.",
+          "tr": {
+            "pt-BR": "Como mecânico industrial você não é profissional qualificado em eletricidade."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "profissional qualificado em eletricidade",
+          "technical": "Pessoa com formação técnica, experiência e conhecimento das normas para avaliar e executar trabalhos elétricos (DGUV Vorschrift 3). Equivale ao \"profissional qualificado/habilitado\" da NR-10.",
+          "simple": "A pessoa que estudou e tem autorização para mexer em instalações elétricas.",
+          "falseFriends": [
+            {
+              "word": "Kraft",
+              "note": "\"Kraft\" é força, mas em \"Fachkraft\" significa trabalhador qualificado."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "im-transformator",
+      "level": "B1",
+      "de": {
+        "word": "Transformator",
+        "article": "der",
+        "plural": "Transformatoren",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": ["Trafo"],
+      "related": ["im-stromwandler", "im-giessharz"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Transformator wird nach dem Verguss geprüft.",
+          "tr": {
+            "pt-BR": "O transformador é ensaiado depois do encapsulamento."
+          }
+        },
+        {
+          "de": "Wir bauen Gießharz-Transformatoren für Windkraftanlagen.",
+          "tr": {
+            "pt-BR": "Construímos transformadores a resina para turbinas eólicas."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "transformador",
+          "technical": "Máquina elétrica estática que transfere energia entre enrolamentos por indução, alterando tensão e corrente.",
+          "simple": "O aparelho que aumenta ou diminui a tensão da eletricidade."
+        }
+      }
+    },
+    {
+      "id": "im-stromwandler",
+      "level": "C1",
+      "de": {
+        "word": "Stromwandler",
+        "article": "der",
+        "plural": "Stromwandler",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Strom",
+          "tr": {
+            "pt-BR": "corrente"
+          }
+        },
+        {
+          "de": "wandler",
+          "tr": {
+            "pt-BR": "conversor"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-transformator", "im-giessharz"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Sekundärseite des Stromwandlers darf nie offen betrieben werden.",
+          "tr": {
+            "pt-BR": "O secundário do transformador de corrente nunca pode operar em aberto."
+          }
+        },
+        {
+          "de": "Unsere Stromwandler sind in Epoxidharz vergossen.",
+          "tr": {
+            "pt-BR": "Nossos transformadores de corrente são encapsulados em resina epóxi."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "transformador de corrente (TC)",
+          "variants": {
+            "pt-PT": "transformador de intensidade (TI)"
+          },
+          "technical": "Transformador de medida que reduz correntes elevadas a valores padronizados (1 A ou 5 A) para medição e proteção.",
+          "simple": "Um transformador pequeno que deixa medir correntes enormes com segurança."
+        }
+      }
+    }
+  ]
+}

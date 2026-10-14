@@ -1,0 +1,105 @@
+{
+  "situations": [
+    {
+      "id": "ko-service",
+      "level": "B1",
+      "tr": {
+        "pt-BR": {
+          "title": "Hora do serviço",
+          "context": "Sexta à noite, restaurante cheio. O subchefe comanda o passe."
+        }
+      },
+      "lines": [
+        {
+          "speaker": "Souschef",
+          "de": "Neuer [[ko-bon|Bon]]! Tisch 5: zweimal Rinderbacke, einmal Zander.",
+          "tr": {
+            "pt-BR": "Nova comanda! Mesa 5: duas bochechas bovinas, um lúcio-perca."
+          }
+        },
+        {
+          "speaker": "Koch",
+          "de": "Rinderbacke zweimal, ja! Die Backen [[ko-schmoren|schmoren]] seit heute Mittag.",
+          "tr": {
+            "pt-BR": "Duas bochechas, sim! As bochechas estão braseando desde o meio-dia."
+          }
+        },
+        {
+          "speaker": "Souschef",
+          "de": "Wie sieht dein Posten aus? Reicht die [[ko-mise-en-place|Mise en place]]?",
+          "tr": {
+            "pt-BR": "Como está sua praça? A mise en place dá conta?"
+          }
+        },
+        {
+          "speaker": "Koch",
+          "de": "Das Püree wird knapp. Ich brauche noch zehn [[ko-portion|Portionen]].",
+          "tr": {
+            "pt-BR": "O purê está acabando. Preciso de mais dez porções."
+          }
+        },
+        {
+          "speaker": "Souschef",
+          "de": "Mach schnell nach. Und [[ko-abschmecken|schmeck]] die Soße noch mal ab, die war vorhin zu salzig.",
+          "tr": {
+            "pt-BR": "Faça mais rápido. E acerte de novo o tempero do molho; antes estava salgado demais."
+          }
+        },
+        {
+          "speaker": "Koch",
+          "de": "Mach ich. Tisch 5 in vier Minuten am [[ko-pass|Pass]]!",
+          "tr": {
+            "pt-BR": "Pode deixar. Mesa 5 em quatro minutos no passe!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ko-lieferung",
+      "level": "B1",
+      "tr": {
+        "pt-BR": {
+          "title": "Recebimento de mercadoria",
+          "context": "De manhã chega o fornecedor de peixe. É preciso conferir a entrega."
+        }
+      },
+      "lines": [
+        {
+          "speaker": "Fahrer",
+          "de": "Morgen! Ihre Fischlieferung. Hier ist der [[ko-lieferschein|Lieferschein]].",
+          "tr": {
+            "pt-BR": "Bom dia! Sua entrega de peixe. Aqui está a nota de entrega."
+          }
+        },
+        {
+          "speaker": "Köchin",
+          "de": "Moment, ich prüfe die Temperatur. Zwei Grad, gut, die [[ko-kuehlkette|Kühlkette]] passt.",
+          "tr": {
+            "pt-BR": "Um momento, vou verificar a temperatura. Dois graus, ótimo; a cadeia de frio está ok."
+          }
+        },
+        {
+          "speaker": "Köchin",
+          "de": "Hier fehlt eine Kiste Lachs, und das [[ko-mindesthaltbarkeitsdatum|MHD]] vom Kabeljau ist schon morgen.",
+          "tr": {
+            "pt-BR": "Aqui falta uma caixa de salmão, e a validade do bacalhau fresco já é amanhã."
+          }
+        },
+        {
+          "speaker": "Fahrer",
+          "de": "Das notiere ich auf dem Lieferschein.",
+          "tr": {
+            "pt-BR": "Vou anotar isso na nota de entrega."
+          }
+        },
+        {
+          "speaker": "Köchin",
+          "de": "Danke. Der Fisch geht sofort in die [[ko-kuehlzelle|Kühlzelle]], die [[ko-tiefgekuehlt|tiefgekühlte]] Ware in den Tiefkühler.",
+          "tr": {
+            "pt-BR": "Obrigada. O peixe vai imediatamente para a câmara fria, e a mercadoria congelada para o freezer."
+          }
+        }
+      ]
+    }
+  ]
+}

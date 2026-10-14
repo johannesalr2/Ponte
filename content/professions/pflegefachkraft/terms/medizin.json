@@ -1,0 +1,566 @@
+{
+  "area": "medizin",
+  "terms": [
+    {
+      "id": "pf-blutdruck",
+      "level": "A2",
+      "de": {
+        "word": "Blutdruck",
+        "article": "der",
+        "plural": null,
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Blut",
+          "tr": {
+            "pt-BR": "sangue"
+          }
+        },
+        {
+          "de": "druck",
+          "tr": {
+            "pt-BR": "pressão"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-puls"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Blutdruck liegt bei 140 zu 90.",
+          "tr": {
+            "pt-BR": "A pressão está 14 por 9 (140 por 90)."
+          }
+        },
+        {
+          "de": "Miss bitte bei Herrn Wolf zweimal täglich den Blutdruck.",
+          "tr": {
+            "pt-BR": "Por favor, meça a pressão do Sr. Wolf duas vezes ao dia."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "pressão arterial",
+          "variants": {
+            "pt-PT": "tensão arterial"
+          },
+          "technical": "Pressão exercida pelo sangue nas artérias, registrada como sistólica/diastólica em mmHg.",
+          "simple": "A força do sangue nas veias; o número que se mede com o aparelho no braço."
+        }
+      }
+    },
+    {
+      "id": "pf-puls",
+      "level": "A2",
+      "de": {
+        "word": "Puls",
+        "article": "der",
+        "plural": "Pulse",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-blutdruck"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Puls ist regelmäßig, 78 Schläge pro Minute.",
+          "tr": {
+            "pt-BR": "O pulso está regular, 78 batimentos por minuto."
+          }
+        },
+        {
+          "de": "Fühl den Puls am Handgelenk.",
+          "tr": {
+            "pt-BR": "Sinta o pulso no punho."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "pulso",
+          "technical": "Onda de pressão arterial palpável; avalia-se frequência (bpm), ritmo e qualidade.",
+          "simple": "As batidas do coração que se sentem no punho."
+        }
+      }
+    },
+    {
+      "id": "pf-fieber",
+      "level": "A2",
+      "de": {
+        "word": "Fieber",
+        "article": "das",
+        "plural": null,
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-infektion"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Patientin hat seit heute Morgen Fieber, 38,7 Grad.",
+          "tr": {
+            "pt-BR": "A paciente está com febre desde hoje de manhã, 38,7 graus."
+          }
+        },
+        {
+          "de": "Bei Fieber über 38,5 Grad bitte den Arzt informieren.",
+          "tr": {
+            "pt-BR": "Com febre acima de 38,5 graus, informe o médico, por favor."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "febre",
+          "technical": "Elevação da temperatura corporal acima de cerca de 38 °C, como reação do organismo, geralmente a infecções.",
+          "simple": "Quando o corpo fica quente demais por causa de uma doença."
+        }
+      }
+    },
+    {
+      "id": "pf-infusion",
+      "level": "B1",
+      "de": {
+        "word": "Infusion",
+        "article": "die",
+        "plural": "Infusionen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-katheter", "pf-verabreichen"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Infusion läuft über acht Stunden.",
+          "tr": {
+            "pt-BR": "A infusão corre em oito horas."
+          }
+        },
+        {
+          "de": "Kontrollier, ob die Infusion noch tropft.",
+          "tr": {
+            "pt-BR": "Verifique se a infusão ainda está gotejando."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "infusão (soro)",
+          "technical": "Administração intravenosa contínua de líquidos ou medicamentos por gotejamento ou bomba.",
+          "simple": "O \"soro\" que entra na veia aos poucos por um tubinho."
+        }
+      }
+    },
+    {
+      "id": "pf-spritze",
+      "level": "A2",
+      "de": {
+        "word": "Spritze",
+        "article": "die",
+        "plural": "Spritzen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-verabreichen", "pf-medikament"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Zieh die Spritze mit 5 Milliliter auf.",
+          "tr": {
+            "pt-BR": "Prepare a seringa com 5 mililitros."
+          }
+        },
+        {
+          "de": "Herr Lang bekommt abends eine Thrombosespritze.",
+          "tr": {
+            "pt-BR": "O Sr. Lang recebe à noite uma injeção contra trombose."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "seringa / injeção",
+          "technical": "Seringa para aspirar e injetar medicamentos; em alemão a palavra também designa a própria injeção.",
+          "simple": "O tubo com agulha para dar injeção; em alemão, também a própria injeção."
+        }
+      }
+    },
+    {
+      "id": "pf-medikament",
+      "level": "A2",
+      "de": {
+        "word": "Medikament",
+        "article": "das",
+        "plural": "Medikamente",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": ["Arzneimittel"],
+      "related": ["pf-tablette", "pf-nebenwirkung", "pf-verabreichen"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Medikamente werden für den ganzen Tag gestellt.",
+          "tr": {
+            "pt-BR": "Os medicamentos são separados para o dia inteiro."
+          }
+        },
+        {
+          "de": "Hat Frau Krause ihre Medikamente schon genommen?",
+          "tr": {
+            "pt-BR": "A Sra. Krause já tomou os medicamentos?"
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "medicamento",
+          "technical": "Substância usada para prevenir, tratar ou aliviar doenças; preparada e administrada segundo prescrição médica.",
+          "simple": "O remédio."
+        }
+      }
+    },
+    {
+      "id": "pf-tablette",
+      "level": "A2",
+      "de": {
+        "word": "Tablette",
+        "article": "die",
+        "plural": "Tabletten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-medikament"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Tablette darf nicht geteilt werden.",
+          "tr": {
+            "pt-BR": "O comprimido não pode ser partido."
+          }
+        },
+        {
+          "de": "Nehmen Sie die Tablette bitte mit einem Glas Wasser.",
+          "tr": {
+            "pt-BR": "Tome o comprimido com um copo de água, por favor."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "comprimido",
+          "technical": "Forma farmacêutica sólida de uso oral; algumas não podem ser partidas ou trituradas.",
+          "simple": "O remedinho redondo que se engole."
+        }
+      }
+    },
+    {
+      "id": "pf-blutzucker",
+      "level": "B1",
+      "de": {
+        "word": "Blutzucker",
+        "article": "der",
+        "plural": null,
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Blut",
+          "tr": {
+            "pt-BR": "sangue"
+          }
+        },
+        {
+          "de": "zucker",
+          "tr": {
+            "pt-BR": "açúcar"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-spritze"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Blutzucker vor dem Frühstück liegt bei 180.",
+          "tr": {
+            "pt-BR": "A glicemia antes do café da manhã está em 180."
+          }
+        },
+        {
+          "de": "Bei Diabetikern messen wir den Blutzucker vor jeder Mahlzeit.",
+          "tr": {
+            "pt-BR": "Em diabéticos medimos a glicemia antes de cada refeição."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "glicemia",
+          "technical": "Concentração de glicose no sangue, medida em mg/dl na Alemanha; controle regular em pacientes diabéticos.",
+          "simple": "A quantidade de açúcar no sangue."
+        }
+      }
+    },
+    {
+      "id": "pf-verband",
+      "level": "A2",
+      "de": {
+        "word": "Verband",
+        "article": "der",
+        "plural": "Verbände",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-wunde", "pf-steril"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Verband ist durchgeblutet und muss gewechselt werden.",
+          "tr": {
+            "pt-BR": "O curativo está encharcado de sangue e precisa ser trocado."
+          }
+        },
+        {
+          "de": "Den Verbandswechsel machen wir unter sterilen Bedingungen.",
+          "tr": {
+            "pt-BR": "A troca do curativo é feita em condições estéreis."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "curativo",
+          "variants": {
+            "pt-PT": "penso"
+          },
+          "technical": "Material aplicado sobre ferida para proteger, absorver e fixar; o \"Verbandswechsel\" é a troca do curativo.",
+          "simple": "O que se coloca em cima de um machucado para protegê-lo.",
+          "falseFriends": [
+            {
+              "word": "Verband (associação)",
+              "note": "\"Verband\" também significa associação ou federação (ex.: Berufsverband)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pf-katheter",
+      "level": "B1",
+      "de": {
+        "word": "Katheter",
+        "article": "der",
+        "plural": "Katheter",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-infusion", "pf-infektion"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Blasenkatheter wurde heute Morgen gezogen.",
+          "tr": {
+            "pt-BR": "A sonda vesical foi retirada hoje de manhã."
+          }
+        },
+        {
+          "de": "Kontrollier die Einstichstelle des Venenkatheters.",
+          "tr": {
+            "pt-BR": "Verifique o local de inserção do cateter venoso."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "cateter / sonda",
+          "technical": "Tubo flexível introduzido em cavidade ou vaso; o \"Blasenkatheter\" é a sonda vesical e o \"Venenkatheter\", o cateter venoso.",
+          "simple": "Um tubinho colocado no corpo para tirar xixi ou para dar remédio na veia."
+        }
+      }
+    },
+    {
+      "id": "pf-nebenwirkung",
+      "level": "B1",
+      "de": {
+        "word": "Nebenwirkung",
+        "article": "die",
+        "plural": "Nebenwirkungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Neben",
+          "tr": {
+            "pt-BR": "ao lado"
+          }
+        },
+        {
+          "de": "wirkung",
+          "tr": {
+            "pt-BR": "efeito"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-medikament"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Schwindel ist eine bekannte Nebenwirkung des Medikaments.",
+          "tr": {
+            "pt-BR": "Tontura é um efeito colateral conhecido do medicamento."
+          }
+        },
+        {
+          "de": "Beobachte die Patientin auf Nebenwirkungen.",
+          "tr": {
+            "pt-BR": "Observe a paciente quanto a efeitos colaterais."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "efeito colateral",
+          "variants": {
+            "pt-PT": "efeito secundário"
+          },
+          "technical": "Efeito indesejado de um medicamento que aparece junto com o efeito desejado.",
+          "simple": "Uma reação ruim que o remédio pode causar além de ajudar."
+        }
+      }
+    },
+    {
+      "id": "pf-verabreichen",
+      "level": "B2",
+      "de": {
+        "word": "verabreichen",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["pf-medikament", "pf-spritze"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Antibiotikum wird um 8 Uhr intravenös verabreicht.",
+          "tr": {
+            "pt-BR": "O antibiótico é administrado por via intravenosa às 8 horas."
+          }
+        },
+        {
+          "de": "Wer hat das Medikament verabreicht? Bitte abzeichnen.",
+          "tr": {
+            "pt-BR": "Quem administrou o medicamento? Por favor, rubrique."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "administrar (medicamento)",
+          "technical": "Dar um medicamento ao paciente pela via prescrita (oral, subcutânea, intravenosa), conferindo paciente, medicamento, dose, via e horário.",
+          "simple": "Dar o remédio ao paciente do jeito que o médico mandou."
+        }
+      }
+    },
+    {
+      "id": "pf-wunde",
+      "level": "A2",
+      "de": {
+        "word": "Wunde",
+        "article": "die",
+        "plural": "Wunden",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-verband", "pf-druckgeschwuer"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Wunde ist gerötet und warm, das sieht nach einer Infektion aus.",
+          "tr": {
+            "pt-BR": "A ferida está vermelha e quente; parece uma infecção."
+          }
+        },
+        {
+          "de": "Fotografiere die Wunde für die Wunddokumentation.",
+          "tr": {
+            "pt-BR": "Fotografe a ferida para a documentação de feridas."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "ferida",
+          "technical": "Lesão de tecido; documenta-se localização, tamanho, exsudato, bordas e sinais de infecção.",
+          "simple": "Um machucado ou corte na pele."
+        }
+      }
+    },
+    {
+      "id": "pf-schmerz",
+      "level": "A2",
+      "de": {
+        "word": "Schmerz",
+        "article": "der",
+        "plural": "Schmerzen",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-medikament"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Wie stark sind Ihre Schmerzen auf einer Skala von 0 bis 10?",
+          "tr": {
+            "pt-BR": "Qual a intensidade da sua dor numa escala de 0 a 10?"
+          }
+        },
+        {
+          "de": "Der Patient klagt über Schmerzen im Bauch.",
+          "tr": {
+            "pt-BR": "O paciente se queixa de dor na barriga."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "dor",
+          "technical": "Experiência sensorial desagradável; avaliada com escalas (ex.: escala numérica de 0 a 10).",
+          "simple": "Quando algo dói."
+        }
+      }
+    }
+  ]
+}

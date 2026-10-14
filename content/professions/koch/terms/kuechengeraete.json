@@ -1,0 +1,524 @@
+{
+  "area": "kuechengeraete",
+  "terms": [
+    {
+      "id": "ko-herd",
+      "level": "A2",
+      "de": {
+        "word": "Herd",
+        "article": "der",
+        "plural": "Herde",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-topf", "ko-pfanne"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Stell den Topf auf den hinteren Herd.",
+          "tr": {
+            "pt-BR": "Coloque a panela na boca de trás do fogão."
+          }
+        },
+        {
+          "de": "Der Induktionsherd funktioniert nur mit geeigneten Töpfen.",
+          "tr": {
+            "pt-BR": "O fogão de indução só funciona com panelas adequadas."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "fogão",
+          "technical": "Equipamento com bocas ou placas para cozinhar em panelas (a gás, elétrico ou de indução).",
+          "simple": "O fogão."
+        }
+      }
+    },
+    {
+      "id": "ko-backofen",
+      "level": "A2",
+      "de": {
+        "word": "Backofen",
+        "article": "der",
+        "plural": "Backöfen",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Back",
+          "tr": {
+            "pt-BR": "assar"
+          }
+        },
+        {
+          "de": "ofen",
+          "tr": {
+            "pt-BR": "forno"
+          }
+        }
+      ],
+      "synonyms": ["Ofen"],
+      "related": ["ko-kombidaempfer"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Heiz den Backofen auf 180 Grad vor.",
+          "tr": {
+            "pt-BR": "Pré-aqueça o forno a 180 graus."
+          }
+        },
+        {
+          "de": "Der Braten bleibt noch 20 Minuten im Backofen.",
+          "tr": {
+            "pt-BR": "O assado fica mais 20 minutos no forno."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "forno",
+          "technical": "Câmara aquecida para assar, gratinar e cozinhar com calor seco.",
+          "simple": "O forno."
+        }
+      }
+    },
+    {
+      "id": "ko-kombidaempfer",
+      "level": "B2",
+      "de": {
+        "word": "Kombidämpfer",
+        "article": "der",
+        "plural": "Kombidämpfer",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Kombi",
+          "tr": {
+            "pt-BR": "combinado"
+          }
+        },
+        {
+          "de": "dämpfer",
+          "tr": {
+            "pt-BR": "a vapor"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ko-backofen", "ko-kerntemperatur"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Gemüse wird im Kombidämpfer bei 100 Grad gedämpft.",
+          "tr": {
+            "pt-BR": "Os legumes são cozidos no vapor no forno combinado a 100 graus."
+          }
+        },
+        {
+          "de": "Den Kombidämpfer reinigen wir jeden Abend mit dem Reinigungsprogramm.",
+          "tr": {
+            "pt-BR": "Limpamos o forno combinado toda noite com o programa de limpeza."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "forno combinado",
+          "technical": "Forno profissional que combina calor seco, vapor e modo misto, com controle de umidade e sonda de temperatura interna.",
+          "simple": "O forno grande da cozinha profissional que assa e cozinha no vapor."
+        }
+      }
+    },
+    {
+      "id": "ko-pfanne",
+      "level": "A2",
+      "de": {
+        "word": "Pfanne",
+        "article": "die",
+        "plural": "Pfannen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-braten", "ko-herd"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Pfanne muss richtig heiß sein, bevor das Fleisch reinkommt.",
+          "tr": {
+            "pt-BR": "A frigideira precisa estar bem quente antes de a carne entrar."
+          }
+        },
+        {
+          "de": "Nimm die beschichtete Pfanne für die Eier.",
+          "tr": {
+            "pt-BR": "Use a frigideira antiaderente para os ovos."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "frigideira",
+          "technical": "Recipiente raso de cabo longo para saltear, fritar e selar.",
+          "simple": "A frigideira."
+        }
+      }
+    },
+    {
+      "id": "ko-topf",
+      "level": "A2",
+      "de": {
+        "word": "Topf",
+        "article": "der",
+        "plural": "Töpfe",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-herd", "ko-kochen"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Setz einen großen Topf mit Salzwasser für die Nudeln auf.",
+          "tr": {
+            "pt-BR": "Coloque uma panela grande com água e sal para o macarrão."
+          }
+        },
+        {
+          "de": "Die Töpfe kommen nach dem Service in die Spülküche.",
+          "tr": {
+            "pt-BR": "As panelas vão para a copa de lavagem depois do serviço."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "panela",
+          "technical": "Recipiente fundo com alças para cozinhar líquidos, ensopados e massas.",
+          "simple": "A panela."
+        }
+      }
+    },
+    {
+      "id": "ko-messer",
+      "level": "A2",
+      "de": {
+        "word": "Messer",
+        "article": "das",
+        "plural": "Messer",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-schneidebrett"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Halte dein Messer immer scharf.",
+          "tr": {
+            "pt-BR": "Mantenha sua faca sempre afiada."
+          }
+        },
+        {
+          "de": "Leg das Messer nie ins Spülbecken.",
+          "tr": {
+            "pt-BR": "Nunca coloque a faca dentro da pia."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "faca",
+          "technical": "Instrumento de corte; na cozinha profissional: faca do chef, de desossa, de legumes, serrilhada.",
+          "simple": "A faca."
+        }
+      }
+    },
+    {
+      "id": "ko-schneidebrett",
+      "level": "A2",
+      "de": {
+        "word": "Schneidebrett",
+        "article": "das",
+        "plural": "Schneidebretter",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Schneide",
+          "tr": {
+            "pt-BR": "cortar"
+          }
+        },
+        {
+          "de": "brett",
+          "tr": {
+            "pt-BR": "tábua"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ko-messer", "ko-kreuzkontamination"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Für rohes Geflügel nimmst du das gelbe Schneidebrett.",
+          "tr": {
+            "pt-BR": "Para frango cru você usa a tábua de corte amarela."
+          }
+        },
+        {
+          "de": "Leg ein feuchtes Tuch unter das Schneidebrett, damit es nicht rutscht.",
+          "tr": {
+            "pt-BR": "Coloque um pano úmido embaixo da tábua de corte para ela não escorregar."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "tábua de corte",
+          "technical": "Tábua de polietileno ou madeira; na Alemanha usam-se cores por tipo de alimento para evitar contaminação cruzada.",
+          "simple": "A tábua onde se corta a comida."
+        }
+      }
+    },
+    {
+      "id": "ko-schneebesen",
+      "level": "A2",
+      "de": {
+        "word": "Schneebesen",
+        "article": "der",
+        "plural": "Schneebesen",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Schnee",
+          "tr": {
+            "pt-BR": "neve (claras em neve)"
+          }
+        },
+        {
+          "de": "besen",
+          "tr": {
+            "pt-BR": "vassoura"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ko-stabmixer"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Schlag die Sahne mit dem Schneebesen steif.",
+          "tr": {
+            "pt-BR": "Bata o creme de leite com o batedor até ficar firme."
+          }
+        },
+        {
+          "de": "Rühr die Soße mit dem Schneebesen glatt.",
+          "tr": {
+            "pt-BR": "Mexa o molho com o batedor até ficar liso."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "batedor (fouet)",
+          "technical": "Utensílio de arames para bater, emulsionar e incorporar ar.",
+          "simple": "O batedor de arame para bater ovos e cremes."
+        }
+      }
+    },
+    {
+      "id": "ko-kelle",
+      "level": "A2",
+      "de": {
+        "word": "Kelle",
+        "article": "die",
+        "plural": "Kellen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": ["Schöpfkelle"],
+      "related": ["ko-portion"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Eine Kelle Soße pro Teller.",
+          "tr": {
+            "pt-BR": "Uma concha de molho por prato."
+          }
+        },
+        {
+          "de": "Gib mir mal die kleine Kelle.",
+          "tr": {
+            "pt-BR": "Me passa a concha pequena."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "concha",
+          "technical": "Utensílio com cabo longo e cuba para servir sopas e molhos; também mede porções.",
+          "simple": "A concha de servir sopa."
+        }
+      }
+    },
+    {
+      "id": "ko-stabmixer",
+      "level": "A2",
+      "de": {
+        "word": "Stabmixer",
+        "article": "der",
+        "plural": "Stabmixer",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Stab",
+          "tr": {
+            "pt-BR": "haste"
+          }
+        },
+        {
+          "de": "mixer",
+          "tr": {
+            "pt-BR": "misturador"
+          }
+        }
+      ],
+      "synonyms": ["Pürierstab"],
+      "related": ["ko-schneebesen"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Püriere die Suppe mit dem Stabmixer.",
+          "tr": {
+            "pt-BR": "Bata a sopa com o mixer de mão."
+          }
+        },
+        {
+          "de": "Zieh den Stecker, bevor du den Stabmixer reinigst.",
+          "tr": {
+            "pt-BR": "Tire da tomada antes de limpar o mixer."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "mixer de mão",
+          "variants": {
+            "pt-PT": "varinha mágica"
+          },
+          "technical": "Liquidificador portátil de haste, usado diretamente na panela para purês, sopas e emulsões.",
+          "simple": "O mixer de mão que se mergulha na panela."
+        }
+      }
+    },
+    {
+      "id": "ko-fritteuse",
+      "level": "B1",
+      "de": {
+        "word": "Fritteuse",
+        "article": "die",
+        "plural": "Fritteusen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ko-braten"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Öl in der Fritteuse muss gewechselt werden.",
+          "tr": {
+            "pt-BR": "O óleo da fritadeira precisa ser trocado."
+          }
+        },
+        {
+          "de": "Die Pommes kommen bei 175 Grad in die Fritteuse.",
+          "tr": {
+            "pt-BR": "As batatas fritas vão para a fritadeira a 175 graus."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "fritadeira",
+          "technical": "Equipamento de fritura por imersão com óleo aquecido a temperatura controlada (cerca de 160–180 °C).",
+          "simple": "A fritadeira elétrica com óleo para fritar batata."
+        }
+      }
+    },
+    {
+      "id": "ko-kuehlzelle",
+      "level": "B1",
+      "de": {
+        "word": "Kühlzelle",
+        "article": "die",
+        "plural": "Kühlzellen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Kühl",
+          "tr": {
+            "pt-BR": "frio"
+          }
+        },
+        {
+          "de": "zelle",
+          "tr": {
+            "pt-BR": "cela, câmara"
+          }
+        }
+      ],
+      "synonyms": ["Kühlhaus"],
+      "related": ["ko-kuehlkette"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Lieferung kommt sofort in die Kühlzelle.",
+          "tr": {
+            "pt-BR": "A entrega vai imediatamente para a câmara fria."
+          }
+        },
+        {
+          "de": "Die Temperatur der Kühlzelle wird zweimal täglich notiert.",
+          "tr": {
+            "pt-BR": "A temperatura da câmara fria é anotada duas vezes ao dia."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "câmara fria",
+          "technical": "Ambiente refrigerado onde se armazenam alimentos a temperatura controlada (geralmente 0–4 °C).",
+          "simple": "Uma geladeira do tamanho de um quartinho."
+        }
+      }
+    }
+  ]
+}

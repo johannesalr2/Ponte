@@ -1,0 +1,112 @@
+{
+  "situations": [
+    {
+      "id": "ing-besprechung",
+      "level": "B2",
+      "tr": {
+        "pt-BR": {
+          "title": "Reunião de projeto",
+          "context": "Reunião semanal com o gerente de projeto sobre um atraso."
+        }
+      },
+      "lines": [
+        {
+          "speaker": "Projektleiter",
+          "de": "Wo stehen wir beim [[ing-meilenstein|Meilenstein]] Konstruktionsfreigabe?",
+          "tr": {
+            "pt-BR": "Em que pé estamos no marco de liberação do projeto?"
+          }
+        },
+        {
+          "speaker": "Ingenieurin",
+          "de": "Die [[ing-baugruppe|Baugruppe]] Antrieb ist fertig. Bei der Halterung zeigt die [[ing-simulation|Simulation]] aber zu hohe [[ing-spannung|Spannungen]].",
+          "tr": {
+            "pt-BR": "O conjunto de acionamento está pronto. Mas no suporte a simulação mostra tensões altas demais."
+          }
+        },
+        {
+          "speaker": "Projektleiter",
+          "de": "Wie viel Zeit brauchst du?",
+          "tr": {
+            "pt-BR": "Quanto tempo você precisa?"
+          }
+        },
+        {
+          "speaker": "Ingenieurin",
+          "de": "Eine Woche. Ich ändere den [[ing-werkstoff|Werkstoff]] und mache eine neue Berechnung.",
+          "tr": {
+            "pt-BR": "Uma semana. Vou trocar o material e fazer um novo cálculo."
+          }
+        },
+        {
+          "speaker": "Projektleiter",
+          "de": "Der [[ing-termin|Liefertermin]] beim Kunden ist fix. Schaffen wir die [[ing-abnahme|Abnahme]] trotzdem?",
+          "tr": {
+            "pt-BR": "A data de entrega no cliente é fixa. Ainda assim conseguimos a aceitação?"
+          }
+        },
+        {
+          "speaker": "Ingenieurin",
+          "de": "Ja, wenn die [[ing-freigabe|Freigabe]] der [[ing-zeichnung|Zeichnungen]] bis Freitag kommt.",
+          "tr": {
+            "pt-BR": "Sim, se a liberação dos desenhos vier até sexta-feira."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ing-reklamation",
+      "level": "C1",
+      "tr": {
+        "pt-BR": {
+          "title": "Reclamação de cliente",
+          "context": "Ligação de um cliente sobre peças com trincas."
+        }
+      },
+      "lines": [
+        {
+          "speaker": "Kunde",
+          "de": "Wir haben an drei Gehäusen Risse an der [[ing-schweissnaht|Schweißnaht]] gefunden.",
+          "tr": {
+            "pt-BR": "Encontramos trincas no cordão de solda em três carcaças."
+          }
+        },
+        {
+          "speaker": "Ingenieur",
+          "de": "Das tut mir leid. Können Sie uns Fotos und die Chargennummern schicken?",
+          "tr": {
+            "pt-BR": "Lamento. O senhor pode nos enviar fotos e os números de lote?"
+          }
+        },
+        {
+          "speaker": "Kunde",
+          "de": "Ja. Wir erwarten eine Ursachenanalyse bis Ende der Woche.",
+          "tr": {
+            "pt-BR": "Sim. Esperamos uma análise de causa até o fim da semana."
+          }
+        },
+        {
+          "speaker": "Ingenieur",
+          "de": "Unsere [[ing-qualitaetssicherung|Qualitätssicherung]] prüft die Rückstellmuster. Ich vermute [[ing-ermuedung|Ermüdung]] durch Vibrationen.",
+          "tr": {
+            "pt-BR": "Nossa garantia da qualidade vai examinar as amostras retidas. Suspeito de fadiga por vibração."
+          }
+        },
+        {
+          "speaker": "Kunde",
+          "de": "Brauchen wir ein externes [[ing-gutachten|Gutachten]]?",
+          "tr": {
+            "pt-BR": "Precisamos de um laudo externo?"
+          }
+        },
+        {
+          "speaker": "Ingenieur",
+          "de": "Erst einmal nicht. Wir aktualisieren die [[ing-fmea|FMEA]] und melden uns mit Maßnahmen.",
+          "tr": {
+            "pt-BR": "Por enquanto não. Vamos atualizar a FMEA e retornamos com as ações."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "situations": [
+    {
+      "id": "pf-uebergabe",
+      "level": "B1",
+      "tr": {
+        "pt-BR": {
+          "title": "Passagem de plantão",
+          "context": "Troca do turno da noite para o da manhã na clínica médica. A enfermeira da noite passa as informações."
+        }
+      },
+      "lines": [
+        {
+          "speaker": "Nachtdienst",
+          "de": "Guten Morgen. Ich fange mit Zimmer 3 an. Herr Weber hat heute Nacht [[pf-fieber|Fieber]] bekommen, 38,9 Grad.",
+          "tr": {
+            "pt-BR": "Bom dia. Começo pelo quarto 3. O Sr. Weber teve febre esta noite, 38,9 graus."
+          }
+        },
+        {
+          "speaker": "Frühdienst",
+          "de": "Hat der Arzt etwas angeordnet?",
+          "tr": {
+            "pt-BR": "O médico prescreveu algo?"
+          }
+        },
+        {
+          "speaker": "Nachtdienst",
+          "de": "Ja, Paracetamol als [[pf-infusion|Infusion]], ist um vier Uhr gelaufen. Blutkulturen sind abgenommen. Bitte bei der [[pf-visite|Visite]] nachfragen.",
+          "tr": {
+            "pt-BR": "Sim, paracetamol em infusão; correu às quatro horas. As hemoculturas foram colhidas. Por favor, pergunte na visita médica."
+          }
+        },
+        {
+          "speaker": "Frühdienst",
+          "de": "Und Frau Schulz in Zimmer 4?",
+          "tr": {
+            "pt-BR": "E a Sra. Schulz no quarto 4?"
+          }
+        },
+        {
+          "speaker": "Nachtdienst",
+          "de": "Sie wurde alle zwei Stunden [[pf-lagern|gelagert]]. Am Steiß ist eine Rötung, noch kein [[pf-druckgeschwuer|Druckgeschwür]].",
+          "tr": {
+            "pt-BR": "Ela foi reposicionada a cada duas horas. Há uma vermelhidão no cóccix, ainda sem lesão por pressão."
+          }
+        },
+        {
+          "speaker": "Nachtdienst",
+          "de": "Herr Arslan bleibt nüchtern, er wird um zehn operiert.",
+          "tr": {
+            "pt-BR": "O Sr. Arslan permanece em jejum; ele será operado às dez."
+          }
+        },
+        {
+          "speaker": "Frühdienst",
+          "de": "Danke. Steht alles in der [[pf-pflegedokumentation|Pflegedokumentation]]?",
+          "tr": {
+            "pt-BR": "Obrigada. Está tudo no registro de enfermagem?"
+          }
+        },
+        {
+          "speaker": "Nachtdienst",
+          "de": "Ja, alles dokumentiert. Schönen Dienst!",
+          "tr": {
+            "pt-BR": "Sim, tudo documentado. Bom plantão!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pf-notfall",
+      "level": "B2",
+      "tr": {
+        "pt-BR": {
+          "title": "Emergência no quarto",
+          "context": "Uma residente do lar de idosos é encontrada no chão do banheiro."
+        }
+      },
+      "lines": [
+        {
+          "speaker": "Pflegefachkraft",
+          "de": "Frau Lehmann? Hören Sie mich? Sie reagiert nicht, sie ist [[pf-bewusstlos|bewusstlos]].",
+          "tr": {
+            "pt-BR": "Sra. Lehmann? Está me ouvindo? Ela não reage; está inconsciente."
+          }
+        },
+        {
+          "speaker": "Kollege",
+          "de": "Atmet sie?",
+          "tr": {
+            "pt-BR": "Ela está respirando?"
+          }
+        },
+        {
+          "speaker": "Pflegefachkraft",
+          "de": "Ja, sie atmet. Bring sie in die stabile Seitenlage. Ich setze den [[pf-notruf|Notruf]] ab.",
+          "tr": {
+            "pt-BR": "Sim, está respirando. Coloque-a em posição lateral de segurança. Eu faço a chamada de emergência."
+          }
+        },
+        {
+          "speaker": "Pflegefachkraft",
+          "de": "Hier Seniorenheim Sonnenhof, wir haben einen [[pf-notfall|Notfall]]: Bewohnerin nach [[pf-sturz|Sturz]] bewusstlos, Atmung vorhanden.",
+          "tr": {
+            "pt-BR": "Aqui é o Lar de Idosos Sonnenhof; temos uma emergência: residente inconsciente após queda, respiração presente."
+          }
+        },
+        {
+          "speaker": "Kollege",
+          "de": "Ihr [[pf-puls|Puls]] ist schnell, 110.",
+          "tr": {
+            "pt-BR": "O pulso dela está rápido, 110."
+          }
+        },
+        {
+          "speaker": "Pflegefachkraft",
+          "de": "Bleib bei ihr. Wenn die Atmung aufhört, beginnen wir sofort mit der [[pf-reanimation|Reanimation]].",
+          "tr": {
+            "pt-BR": "Fique com ela. Se a respiração parar, começamos imediatamente a reanimação."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pf-gespraech-pdl",
+      "level": "B1",
+      "tr": {
+        "pt-BR": {
+          "title": "Conversa com a chefia de enfermagem",
+          "context": "Conversa com a chefe de enfermagem (Pflegedienstleitung) sobre a escala de serviço."
+        }
+      },
+      "lines": [
+        {
+          "speaker": "Pflegedienstleitung",
+          "de": "Sie wollten mich wegen des [[pf-dienstplan|Dienstplans]] sprechen?",
+          "tr": {
+            "pt-BR": "Você queria falar comigo sobre a escala de serviço?"
+          }
+        },
+        {
+          "speaker": "Pflegefachkraft",
+          "de": "Ja. Ich habe nächsten Monat meine Kenntnisprüfung. Könnte ich in der Woche davor keine [[pf-schicht|Nachtschicht]] haben?",
+          "tr": {
+            "pt-BR": "Sim. No mês que vem tenho minha prova de conhecimentos. Seria possível não ter turno da noite na semana anterior?"
+          }
+        },
+        {
+          "speaker": "Pflegedienstleitung",
+          "de": "Das verstehe ich. Ich schaue, wer tauschen kann.",
+          "tr": {
+            "pt-BR": "Entendo. Vou ver quem pode trocar."
+          }
+        },
+        {
+          "speaker": "Pflegefachkraft",
+          "de": "Vielen Dank. Ich kann dafür gern im Monat danach mehr Nächte übernehmen.",
+          "tr": {
+            "pt-BR": "Muito obrigada. Em troca, posso assumir mais noites no mês seguinte."
+          }
+        },
+        {
+          "speaker": "Pflegedienstleitung",
+          "de": "Gute Idee. Und viel Erfolg bei der Prüfung!",
+          "tr": {
+            "pt-BR": "Boa ideia. E muito sucesso na prova!"
+          }
+        }
+      ]
+    }
+  ]
+}

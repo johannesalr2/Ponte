@@ -1,0 +1,107 @@
+{
+  "id": "ingenieur",
+  "de": "Ingenieur/-in",
+  "deTitleCv": "Ingenieur/in",
+  "isco08": "2144",
+  "regulated": false,
+  "order": 4,
+  "areas": [
+    {
+      "id": "konstruktion",
+      "de": "Konstruktion und technische Zeichnung",
+      "tr": {
+        "pt-BR": "Projeto e desenho técnico"
+      }
+    },
+    {
+      "id": "werkstoffe",
+      "de": "Werkstoffe und Festigkeit",
+      "tr": {
+        "pt-BR": "Materiais e resistência"
+      }
+    },
+    {
+      "id": "projekt-qualitaet",
+      "de": "Projekt und Qualität",
+      "tr": {
+        "pt-BR": "Projetos e qualidade"
+      }
+    }
+  ],
+  "industries": [
+    {
+      "id": "maschinenbau",
+      "tr": {
+        "pt-BR": "Engenharia mecânica"
+      }
+    },
+    {
+      "id": "elektrotechnik",
+      "tr": {
+        "pt-BR": "Engenharia elétrica"
+      }
+    },
+    {
+      "id": "bau",
+      "tr": {
+        "pt-BR": "Engenharia civil"
+      }
+    },
+    {
+      "id": "automobil",
+      "tr": {
+        "pt-BR": "Indústria automotiva"
+      }
+    },
+    {
+      "id": "andere",
+      "tr": {
+        "pt-BR": "Outro"
+      }
+    }
+  ],
+  "tr": {
+    "pt-BR": {
+      "name": "Engenheiro(a)",
+      "summary": "Engenheiros(as) com diploma universitário trabalham em projeto, produção, qualidade e gestão. A profissão em si não é regulamentada, mas o título \"Ingenieur\" é protegido pelas leis dos estados.",
+      "brazil": ["Engenheiro(a) com bacharelado (5 anos) e registro no CREA"],
+      "equivalence": "O bacharelado brasileiro em engenharia costuma ser comparável a um Bachelor ou Diplom alemão. A ZAB emite uma avaliação do diploma (Zeugnisbewertung) que ajuda empregadores e é exigida em alguns processos de visto.",
+      "regulation": "A atividade não é regulamentada, mas usar o título \"Ingenieur/in\" pode exigir autorização do órgão do estado (geralmente a Ingenieurkammer). Algumas atividades, como assinar projetos de construção, têm regras próprias.",
+      "recognition": {
+        "authority": "ZAB (Zentralstelle für ausländisches Bildungswesen) para a avaliação do diploma; Ingenieurkammer do estado para o uso do título.",
+        "steps": [
+          "Pesquise sua universidade e seu curso no banco de dados anabin (status \"H+\" para a instituição).",
+          "Solicite a avaliação do diploma (Zeugnisbewertung) na ZAB, com diploma, histórico e traduções.",
+          "Verifique no estado onde vai trabalhar se precisa de autorização para usar o título \"Ingenieur\" e faça o pedido na Ingenieurkammer.",
+          "Para o visto (por exemplo, o Cartão Azul da UE), confira os requisitos atuais em Make it in Germany."
+        ],
+        "documents": [
+          "Diploma e histórico",
+          "Comprovante de registro no CREA (opcional, ajuda)",
+          "Documento de identidade",
+          "Traduções juramentadas"
+        ],
+        "notes": "Informações gerais; confira sempre as regras atuais nos portais oficiais."
+      },
+      "links": [
+        {
+          "label": "anabin – banco de dados de diplomas estrangeiros",
+          "url": "https://anabin.kmk.org/"
+        },
+        {
+          "label": "ZAB – avaliação de diplomas (Zeugnisbewertung)",
+          "url": "https://www.kmk.org/zab/central-office-for-foreign-education.html"
+        },
+        {
+          "label": "Anerkennung in Deutschland (portal oficial)",
+          "url": "https://www.anerkennung-in-deutschland.de/"
+        },
+        {
+          "label": "Make it in Germany (portal oficial de imigração)",
+          "url": "https://www.make-it-in-germany.com/pt/"
+        }
+      ],
+      "cvTitle": "Engenheira / Engenheiro"
+    }
+  }
+}

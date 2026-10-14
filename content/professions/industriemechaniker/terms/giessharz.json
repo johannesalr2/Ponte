@@ -1,0 +1,578 @@
+{
+  "area": "giessharz",
+  "terms": [
+    {
+      "id": "im-giessharz",
+      "level": "B2",
+      "de": {
+        "word": "Gießharz",
+        "article": "das",
+        "plural": "Gießharze",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Gieß",
+          "tr": {
+            "pt-BR": "verter, fundir"
+          }
+        },
+        {
+          "de": "harz",
+          "tr": {
+            "pt-BR": "resina"
+          }
+        }
+      ],
+      "synonyms": ["Gießharzmasse"],
+      "related": ["im-epoxidharz", "im-vergussmasse", "im-haerter"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Gießharz wird vor dem Verguss auf 60 Grad vorgewärmt.",
+          "tr": {
+            "pt-BR": "A resina de fundição é pré-aquecida a 60 graus antes do encapsulamento."
+          }
+        },
+        {
+          "de": "Gießharz-Transformatoren brauchen kein Öl.",
+          "tr": {
+            "pt-BR": "Transformadores a resina não precisam de óleo."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "resina de fundição",
+          "technical": "Resina sintética líquida (epóxi, poliuretano) vertida em molde e curada; em alta tensão é usada para isolar bobinas e transformadores de medida.",
+          "simple": "Um \"plástico\" líquido que se derrama numa forma e endurece, envolvendo as peças elétricas."
+        }
+      }
+    },
+    {
+      "id": "im-epoxidharz",
+      "level": "B2",
+      "de": {
+        "word": "Epoxidharz",
+        "article": "das",
+        "plural": "Epoxidharze",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Epoxid",
+          "tr": {
+            "pt-BR": "epóxido"
+          }
+        },
+        {
+          "de": "harz",
+          "tr": {
+            "pt-BR": "resina"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-giessharz", "im-haerter", "im-fuellstoff"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Wir verarbeiten ein heißhärtendes Epoxidharz mit Quarzmehl.",
+          "tr": {
+            "pt-BR": "Trabalhamos com uma resina epóxi de cura a quente com pó de quartzo."
+          }
+        },
+        {
+          "de": "Epoxidharz darf nicht auf die Haut kommen, es kann Allergien auslösen.",
+          "tr": {
+            "pt-BR": "Resina epóxi não pode entrar em contato com a pele; pode causar alergias."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "resina epóxi",
+          "variants": {
+            "pt-PT": "resina epoxídica"
+          },
+          "technical": "Resina termofixa de dois componentes (resina + endurecedor) com boa adesão, resistência mecânica e rigidez dielétrica.",
+          "simple": "Uma cola-resina muito forte que endurece quando se mistura com outro líquido."
+        }
+      }
+    },
+    {
+      "id": "im-haerter",
+      "level": "B1",
+      "de": {
+        "word": "Härter",
+        "article": "der",
+        "plural": "Härter",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-mischungsverhaeltnis", "im-aushaerten"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Harz und Härter werden im Verhältnis 100 zu 85 gemischt.",
+          "tr": {
+            "pt-BR": "Resina e endurecedor são misturados na proporção de 100 para 85."
+          }
+        },
+        {
+          "de": "Der Härter ist feuchtigkeitsempfindlich, schließ den Behälter sofort.",
+          "tr": {
+            "pt-BR": "O endurecedor é sensível à umidade; feche o recipiente imediatamente."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "endurecedor",
+          "technical": "Componente B que reage com a resina e provoca a cura (reticulação); a proporção é definida na ficha técnica.",
+          "simple": "O segundo líquido que, misturado com a resina, faz ela endurecer.",
+          "falseFriends": [
+            {
+              "word": "catalisador",
+              "note": "No Brasil o endurecedor é muitas vezes chamado de \"catalisador\", mas tecnicamente ele faz parte da reação; um catalisador não é consumido."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "im-aushaerten",
+      "level": "B2",
+      "de": {
+        "word": "aushärten",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["im-haerter", "im-topfzeit"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Teile härten vier Stunden bei 80 Grad im Ofen aus.",
+          "tr": {
+            "pt-BR": "As peças curam por quatro horas a 80 graus na estufa."
+          }
+        },
+        {
+          "de": "Erst wenn das Harz vollständig ausgehärtet ist, darf entformt werden.",
+          "tr": {
+            "pt-BR": "Só se pode desmoldar quando a resina estiver totalmente curada."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "curar",
+          "technical": "Passar do estado líquido ao sólido por reação química (reticulação), à temperatura ambiente ou em estufa, segundo um ciclo de cura.",
+          "simple": "Endurecer de vez, como cimento que seca."
+        }
+      }
+    },
+    {
+      "id": "im-topfzeit",
+      "level": "C1",
+      "de": {
+        "word": "Topfzeit",
+        "article": "die",
+        "plural": "Topfzeiten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Topf",
+          "tr": {
+            "pt-BR": "pote"
+          }
+        },
+        {
+          "de": "zeit",
+          "tr": {
+            "pt-BR": "tempo"
+          }
+        }
+      ],
+      "synonyms": ["Verarbeitungszeit"],
+      "related": ["im-aushaerten", "im-haerter"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Topfzeit beträgt bei Raumtemperatur etwa 40 Minuten.",
+          "tr": {
+            "pt-BR": "O pot life é de cerca de 40 minutos em temperatura ambiente."
+          }
+        },
+        {
+          "de": "Misch nicht mehr an, als du in der Topfzeit vergießen kannst.",
+          "tr": {
+            "pt-BR": "Não misture mais do que você consegue verter dentro do pot life."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "tempo de vida útil da mistura (pot life)",
+          "technical": "Tempo após a mistura de resina e endurecedor em que o material ainda pode ser processado antes que a viscosidade suba demais.",
+          "simple": "Quanto tempo você tem para usar a mistura antes de ela começar a endurecer no balde."
+        }
+      }
+    },
+    {
+      "id": "im-giessform",
+      "level": "B1",
+      "de": {
+        "word": "Gießform",
+        "article": "die",
+        "plural": "Gießformen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Gieß",
+          "tr": {
+            "pt-BR": "verter"
+          }
+        },
+        {
+          "de": "form",
+          "tr": {
+            "pt-BR": "forma"
+          }
+        }
+      ],
+      "synonyms": ["Form"],
+      "related": ["im-trennmittel"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Gießform wird vor dem Verguss mit Trennmittel behandelt.",
+          "tr": {
+            "pt-BR": "O molde é tratado com desmoldante antes do encapsulamento."
+          }
+        },
+        {
+          "de": "Prüf, ob die Gießform dicht verschraubt ist.",
+          "tr": {
+            "pt-BR": "Verifique se o molde está bem fechado e aparafusado."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "molde",
+          "technical": "Forma (geralmente metálica) que define a geometria da peça fundida; é tratada com desmoldante e pré-aquecida.",
+          "simple": "A \"forma de bolo\" onde a resina é colocada para pegar o formato da peça."
+        }
+      }
+    },
+    {
+      "id": "im-trennmittel",
+      "level": "B2",
+      "de": {
+        "word": "Trennmittel",
+        "article": "das",
+        "plural": "Trennmittel",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Trenn",
+          "tr": {
+            "pt-BR": "separar"
+          }
+        },
+        {
+          "de": "mittel",
+          "tr": {
+            "pt-BR": "meio, produto"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-giessform"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Trag das Trennmittel dünn und gleichmäßig auf.",
+          "tr": {
+            "pt-BR": "Aplique o desmoldante em camada fina e uniforme."
+          }
+        },
+        {
+          "de": "Zu viel Trennmittel führt zu Fehlstellen an der Oberfläche.",
+          "tr": {
+            "pt-BR": "Desmoldante em excesso causa falhas na superfície."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "desmoldante",
+          "technical": "Produto aplicado ao molde (spray, cera, silicone) para impedir que a resina grude e facilitar a desmoldagem.",
+          "simple": "O produto passado na forma para a peça não grudar, como manteiga na forma de bolo."
+        }
+      }
+    },
+    {
+      "id": "im-vergussmasse",
+      "level": "B2",
+      "de": {
+        "word": "Vergussmasse",
+        "article": "die",
+        "plural": "Vergussmassen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Verguss",
+          "tr": {
+            "pt-BR": "encapsulamento"
+          }
+        },
+        {
+          "de": "masse",
+          "tr": {
+            "pt-BR": "massa"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-giessharz", "im-lufteinschluss"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Vergussmasse muss blasenfrei in die Form laufen.",
+          "tr": {
+            "pt-BR": "A massa de encapsulamento precisa entrar no molde sem bolhas."
+          }
+        },
+        {
+          "de": "Welche Vergussmasse ist für diesen Wandler freigegeben?",
+          "tr": {
+            "pt-BR": "Qual massa de encapsulamento está liberada para este transformador?"
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "massa de encapsulamento",
+          "technical": "Material de enchimento (resina com cargas) usado para envolver e isolar componentes elétricos, protegendo contra umidade e descargas.",
+          "simple": "A massa que enche e \"embala\" as peças elétricas para elas ficarem protegidas."
+        }
+      }
+    },
+    {
+      "id": "im-lufteinschluss",
+      "level": "B2",
+      "de": {
+        "word": "Lufteinschluss",
+        "article": "der",
+        "plural": "Lufteinschlüsse",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Luft",
+          "tr": {
+            "pt-BR": "ar"
+          }
+        },
+        {
+          "de": "einschluss",
+          "tr": {
+            "pt-BR": "inclusão"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-entgasen", "im-teilentladung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Lufteinschlüsse führen bei Hochspannung zu Teilentladungen.",
+          "tr": {
+            "pt-BR": "Bolhas de ar causam descargas parciais em alta tensão."
+          }
+        },
+        {
+          "de": "Das Röntgenbild zeigt einen Lufteinschluss in der Wicklung.",
+          "tr": {
+            "pt-BR": "A radiografia mostra uma bolha de ar no enrolamento."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "bolha de ar (inclusão de ar)",
+          "technical": "Vazio de gás aprisionado na resina; em isolamento de alta tensão gera descargas parciais e pode levar à falha dielétrica.",
+          "simple": "Uma bolhinha de ar que fica presa dentro da resina e enfraquece a peça."
+        }
+      }
+    },
+    {
+      "id": "im-entgasen",
+      "level": "B2",
+      "de": {
+        "word": "entgasen",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["im-lufteinschluss", "im-giessharz"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Harz wird bei 2 Millibar entgast.",
+          "tr": {
+            "pt-BR": "A resina é desgaseificada a 2 milibares."
+          }
+        },
+        {
+          "de": "Wenn du nicht lange genug entgast, bleiben Blasen im Bauteil.",
+          "tr": {
+            "pt-BR": "Se você não desgaseificar por tempo suficiente, ficam bolhas na peça."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "desgaseificar",
+          "technical": "Retirar ar e umidade da resina ou da mistura sob vácuo, antes e durante a fundição, para evitar bolhas.",
+          "simple": "Tirar o ar de dentro da resina com uma bomba de vácuo, para não ficar bolha."
+        }
+      }
+    },
+    {
+      "id": "im-fuellstoff",
+      "level": "B2",
+      "de": {
+        "word": "Füllstoff",
+        "article": "der",
+        "plural": "Füllstoffe",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Füll",
+          "tr": {
+            "pt-BR": "encher"
+          }
+        },
+        {
+          "de": "stoff",
+          "tr": {
+            "pt-BR": "substância"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-epoxidharz", "im-mischungsverhaeltnis"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Füllstoff wird vor dem Mischen getrocknet.",
+          "tr": {
+            "pt-BR": "A carga é seca antes da mistura."
+          }
+        },
+        {
+          "de": "Ein hoher Füllstoffanteil erhöht die Viskosität.",
+          "tr": {
+            "pt-BR": "Uma alta proporção de carga aumenta a viscosidade."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "carga (mineral)",
+          "technical": "Pó mineral (ex.: farinha de quartzo, alumina) adicionado à resina para reduzir retração, custo e coeficiente de dilatação e melhorar a condutividade térmica.",
+          "simple": "Um pó que se mistura na resina para ela ficar mais firme e encolher menos."
+        }
+      }
+    },
+    {
+      "id": "im-mischungsverhaeltnis",
+      "level": "B1",
+      "de": {
+        "word": "Mischungsverhältnis",
+        "article": "das",
+        "plural": "Mischungsverhältnisse",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Mischung",
+          "tr": {
+            "pt-BR": "mistura"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "verhältnis",
+          "tr": {
+            "pt-BR": "proporção"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-haerter", "im-fuellstoff"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Halte das Mischungsverhältnis genau ein, sonst härtet das Harz nicht richtig aus.",
+          "tr": {
+            "pt-BR": "Siga exatamente a proporção de mistura; senão a resina não cura direito."
+          }
+        },
+        {
+          "de": "Das Mischungsverhältnis steht im technischen Datenblatt.",
+          "tr": {
+            "pt-BR": "A proporção de mistura está na ficha técnica."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "proporção de mistura",
+          "technical": "Relação em massa ou volume entre resina, endurecedor e aditivos; desvios alteram a cura e as propriedades elétricas.",
+          "simple": "Quanto de cada coisa vai na mistura, como numa receita."
+        }
+      }
+    }
+  ]
+}

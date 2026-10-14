@@ -1,0 +1,577 @@
+{
+  "area": "hygiene-notfall",
+  "terms": [
+    {
+      "id": "pf-haendedesinfektion",
+      "level": "B1",
+      "de": {
+        "word": "Händedesinfektion",
+        "article": "die",
+        "plural": "Händedesinfektionen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Hände",
+          "tr": {
+            "pt-BR": "mãos"
+          }
+        },
+        {
+          "de": "desinfektion",
+          "tr": {
+            "pt-BR": "desinfecção"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-handschuh", "pf-erreger"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Händedesinfektion vor jedem Patientenkontakt!",
+          "tr": {
+            "pt-BR": "Higienização das mãos antes de cada contato com o paciente!"
+          }
+        },
+        {
+          "de": "Die Händedesinfektion dauert mindestens 30 Sekunden.",
+          "tr": {
+            "pt-BR": "A higienização das mãos dura pelo menos 30 segundos."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "higienização das mãos (antissepsia)",
+          "technical": "Fricção das mãos com antisséptico alcoólico, nos cinco momentos da OMS, por pelo menos 30 segundos.",
+          "simple": "Passar álcool nas mãos do jeito certo antes e depois de tocar no paciente."
+        }
+      }
+    },
+    {
+      "id": "pf-schutzkleidung",
+      "level": "B1",
+      "de": {
+        "word": "Schutzkleidung",
+        "article": "die",
+        "plural": null,
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Schutz",
+          "tr": {
+            "pt-BR": "proteção"
+          }
+        },
+        {
+          "de": "kleidung",
+          "tr": {
+            "pt-BR": "roupa"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-handschuh", "pf-mundschutz"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Vor dem Isolierzimmer liegt die Schutzkleidung bereit.",
+          "tr": {
+            "pt-BR": "A roupa de proteção está pronta em frente ao quarto de isolamento."
+          }
+        },
+        {
+          "de": "Zieh die Schutzkleidung in der richtigen Reihenfolge aus.",
+          "tr": {
+            "pt-BR": "Tire a roupa de proteção na ordem correta."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "roupa de proteção (EPI)",
+          "technical": "Equipamento de proteção individual: avental/capote, luvas, máscara e óculos, conforme o tipo de isolamento.",
+          "simple": "As roupas especiais que protegem você e o paciente contra germes."
+        }
+      }
+    },
+    {
+      "id": "pf-handschuh",
+      "level": "A2",
+      "de": {
+        "word": "Handschuh",
+        "article": "der",
+        "plural": "Handschuhe",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Hand",
+          "tr": {
+            "pt-BR": "mão"
+          }
+        },
+        {
+          "de": "schuh",
+          "tr": {
+            "pt-BR": "sapato"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-haendedesinfektion"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Zieh Handschuhe an, bevor du den Verband wechselst.",
+          "tr": {
+            "pt-BR": "Calce luvas antes de trocar o curativo."
+          }
+        },
+        {
+          "de": "Nach dem Ausziehen der Handschuhe Hände desinfizieren.",
+          "tr": {
+            "pt-BR": "Depois de tirar as luvas, higienize as mãos."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "luva",
+          "technical": "Luvas de procedimento (não estéreis) ou cirúrgicas (estéreis); não substituem a higienização das mãos.",
+          "simple": "O que se põe nas mãos para não tocar diretamente em sangue ou germes."
+        }
+      }
+    },
+    {
+      "id": "pf-mundschutz",
+      "level": "A2",
+      "de": {
+        "word": "Mundschutz",
+        "article": "der",
+        "plural": null,
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Mund",
+          "tr": {
+            "pt-BR": "boca"
+          }
+        },
+        {
+          "de": "schutz",
+          "tr": {
+            "pt-BR": "proteção"
+          }
+        }
+      ],
+      "synonyms": ["Maske"],
+      "related": ["pf-schutzkleidung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Im Zimmer 7 bitte Mundschutz tragen.",
+          "tr": {
+            "pt-BR": "No quarto 7, use máscara, por favor."
+          }
+        },
+        {
+          "de": "Der Mundschutz muss Mund und Nase bedecken.",
+          "tr": {
+            "pt-BR": "A máscara precisa cobrir a boca e o nariz."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "máscara (cirúrgica)",
+          "technical": "Máscara que cobre boca e nariz; a máscara FFP2 protege também quem a usa.",
+          "simple": "A máscara de pano ou papel que cobre a boca e o nariz."
+        }
+      }
+    },
+    {
+      "id": "pf-steril",
+      "level": "B1",
+      "de": {
+        "word": "steril",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "adjective"
+      },
+      "synonyms": [],
+      "related": ["pf-verband"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Kompressen müssen steril sein.",
+          "tr": {
+            "pt-BR": "As compressas precisam estar estéreis."
+          }
+        },
+        {
+          "de": "Die Verpackung ist beschädigt, das Material ist nicht mehr steril.",
+          "tr": {
+            "pt-BR": "A embalagem está danificada; o material não está mais estéril."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "estéril",
+          "technical": "Livre de microrganismos viáveis; material estéril é aberto com técnica asséptica.",
+          "simple": "Totalmente limpo, sem nenhum germe."
+        }
+      }
+    },
+    {
+      "id": "pf-infektion",
+      "level": "A2",
+      "de": {
+        "word": "Infektion",
+        "article": "die",
+        "plural": "Infektionen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-erreger", "pf-fieber"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Rötung, Schwellung und Wärme sind Zeichen einer Infektion.",
+          "tr": {
+            "pt-BR": "Vermelhidão, inchaço e calor são sinais de infecção."
+          }
+        },
+        {
+          "de": "Der Patient hat eine Infektion mit MRSA.",
+          "tr": {
+            "pt-BR": "O paciente tem uma infecção por MRSA."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "infecção",
+          "variants": {
+            "pt-PT": "infeção"
+          },
+          "technical": "Entrada e multiplicação de agentes patogênicos no organismo; infecções hospitalares são chamadas de \"nosokomial\".",
+          "simple": "Quando germes entram no corpo e causam doença."
+        }
+      }
+    },
+    {
+      "id": "pf-erreger",
+      "level": "B2",
+      "de": {
+        "word": "Erreger",
+        "article": "der",
+        "plural": "Erreger",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": ["Keim"],
+      "related": ["pf-infektion", "pf-haendedesinfektion"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Erreger wurde im Abstrich nachgewiesen.",
+          "tr": {
+            "pt-BR": "O agente patogênico foi detectado no swab."
+          }
+        },
+        {
+          "de": "Multiresistente Erreger erfordern eine Isolierung.",
+          "tr": {
+            "pt-BR": "Agentes multirresistentes exigem isolamento."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "agente patogênico",
+          "variants": {
+            "pt-PT": "agente patogénico"
+          },
+          "technical": "Microrganismo (bactéria, vírus, fungo) capaz de causar doença; \"multiresistente Erreger\" (MRE) resistem a vários antibióticos.",
+          "simple": "O germe que causa a doença."
+        }
+      }
+    },
+    {
+      "id": "pf-notfall",
+      "level": "A2",
+      "de": {
+        "word": "Notfall",
+        "article": "der",
+        "plural": "Notfälle",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Not",
+          "tr": {
+            "pt-BR": "necessidade, perigo"
+          }
+        },
+        {
+          "de": "fall",
+          "tr": {
+            "pt-BR": "caso"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-reanimation", "pf-notruf"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Notfall in Zimmer 12, bitte sofort kommen!",
+          "tr": {
+            "pt-BR": "Emergência no quarto 12, venha imediatamente, por favor!"
+          }
+        },
+        {
+          "de": "Wo steht der Notfallwagen?",
+          "tr": {
+            "pt-BR": "Onde fica o carrinho de emergência?"
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "emergência",
+          "technical": "Situação com risco imediato à vida ou à saúde, que exige ação imediata.",
+          "simple": "Uma situação grave em que é preciso agir na hora."
+        }
+      }
+    },
+    {
+      "id": "pf-reanimation",
+      "level": "B2",
+      "de": {
+        "word": "Reanimation",
+        "article": "die",
+        "plural": "Reanimationen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": ["Wiederbelebung"],
+      "related": ["pf-notfall", "pf-bewusstlos"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Patient ist bewusstlos und atmet nicht, wir beginnen mit der Reanimation.",
+          "tr": {
+            "pt-BR": "O paciente está inconsciente e não respira; começamos a reanimação."
+          }
+        },
+        {
+          "de": "Bei der Reanimation: 30 Kompressionen, 2 Beatmungen.",
+          "tr": {
+            "pt-BR": "Na reanimação: 30 compressões, 2 ventilações."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "reanimação (RCP)",
+          "technical": "Medidas para restabelecer circulação e respiração em parada cardiorrespiratória: compressões torácicas, ventilação e desfibrilação.",
+          "simple": "Fazer massagem no peito e respiração para trazer a pessoa de volta quando o coração para."
+        }
+      }
+    },
+    {
+      "id": "pf-notruf",
+      "level": "A2",
+      "de": {
+        "word": "Notruf",
+        "article": "der",
+        "plural": "Notrufe",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Not",
+          "tr": {
+            "pt-BR": "emergência"
+          }
+        },
+        {
+          "de": "ruf",
+          "tr": {
+            "pt-BR": "chamado"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-notfall"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Setz sofort einen Notruf ab: 112.",
+          "tr": {
+            "pt-BR": "Faça imediatamente a chamada de emergência: 112."
+          }
+        },
+        {
+          "de": "Der Notruf wurde um 14:32 Uhr ausgelöst.",
+          "tr": {
+            "pt-BR": "A chamada de emergência foi acionada às 14h32."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "chamada de emergência",
+          "technical": "Acionamento de socorro: na Alemanha, 112 para bombeiros e emergência médica, 110 para a polícia; no hospital, a chamada interna de parada.",
+          "simple": "Ligar para o número de emergência (112)."
+        }
+      }
+    },
+    {
+      "id": "pf-bewusstlos",
+      "level": "B1",
+      "de": {
+        "word": "bewusstlos",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "adjective"
+      },
+      "synonyms": [],
+      "related": ["pf-reanimation", "pf-sturz"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Bewohnerin liegt bewusstlos im Badezimmer.",
+          "tr": {
+            "pt-BR": "A residente está inconsciente no banheiro."
+          }
+        },
+        {
+          "de": "Ist der Patient bewusstlos, prüfe sofort die Atmung.",
+          "tr": {
+            "pt-BR": "Se o paciente estiver inconsciente, verifique imediatamente a respiração."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "inconsciente",
+          "technical": "Sem resposta a estímulos verbais ou dolorosos; exige verificar respiração e acionar ajuda.",
+          "simple": "Quando a pessoa \"apagou\" e não responde."
+        }
+      }
+    },
+    {
+      "id": "pf-atemnot",
+      "level": "B1",
+      "de": {
+        "word": "Atemnot",
+        "article": "die",
+        "plural": null,
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Atem",
+          "tr": {
+            "pt-BR": "respiração"
+          }
+        },
+        {
+          "de": "not",
+          "tr": {
+            "pt-BR": "aperto, necessidade"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["pf-notfall"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Herr Schmitt klagt über Atemnot, die Sättigung liegt bei 88 Prozent.",
+          "tr": {
+            "pt-BR": "O Sr. Schmitt se queixa de falta de ar; a saturação está em 88 por cento."
+          }
+        },
+        {
+          "de": "Bei Atemnot den Oberkörper hochlagern.",
+          "tr": {
+            "pt-BR": "Em caso de falta de ar, eleve a parte superior do corpo."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "falta de ar (dispneia)",
+          "technical": "Sensação de dificuldade para respirar; observar frequência respiratória, saturação e uso de musculatura acessória.",
+          "simple": "Quando a pessoa sente que não consegue respirar direito."
+        }
+      }
+    },
+    {
+      "id": "pf-sturz",
+      "level": "A2",
+      "de": {
+        "word": "Sturz",
+        "article": "der",
+        "plural": "Stürze",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["pf-prophylaxe", "pf-bewusstlos"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Nach dem Sturz wird ein Sturzprotokoll ausgefüllt.",
+          "tr": {
+            "pt-BR": "Depois da queda, preenche-se um protocolo de queda."
+          }
+        },
+        {
+          "de": "Rutschfeste Socken helfen, einen Sturz zu vermeiden.",
+          "tr": {
+            "pt-BR": "Meias antiderrapantes ajudam a evitar quedas."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "queda",
+          "technical": "Evento em que a pessoa vai ao chão sem intenção; exige avaliação, registro em protocolo de quedas e profilaxia.",
+          "simple": "Quando a pessoa cai."
+        }
+      }
+    }
+  ]
+}

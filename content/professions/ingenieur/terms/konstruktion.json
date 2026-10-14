@@ -1,0 +1,692 @@
+{
+  "area": "konstruktion",
+  "terms": [
+    {
+      "id": "ing-zeichnung",
+      "level": "A2",
+      "de": {
+        "word": "Zeichnung",
+        "article": "die",
+        "plural": "Zeichnungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-bemassung", "ing-massstab", "ing-schnitt"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Zeichnung ist noch nicht freigegeben.",
+          "tr": {
+            "pt-BR": "O desenho ainda não foi liberado."
+          }
+        },
+        {
+          "de": "Laut Zeichnung ist die Bohrung 12 H7.",
+          "tr": {
+            "pt-BR": "Segundo o desenho, o furo é 12 H7."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "desenho (técnico)",
+          "technical": "Representação normalizada de uma peça ou conjunto, com vistas, cotas, tolerâncias e legenda (Schriftfeld).",
+          "simple": "O desenho com todas as medidas que mostra como a peça deve ser feita."
+        }
+      }
+    },
+    {
+      "id": "ing-konstruktion",
+      "level": "B1",
+      "de": {
+        "word": "Konstruktion",
+        "article": "die",
+        "plural": "Konstruktionen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-entwurf", "ing-bauteil"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Ich arbeite in der Konstruktion bei einem Maschinenbauer.",
+          "tr": {
+            "pt-BR": "Trabalho no projeto (engenharia de produto) de um fabricante de máquinas."
+          }
+        },
+        {
+          "de": "Die Konstruktion muss bis Freitag fertig sein.",
+          "tr": {
+            "pt-BR": "O projeto precisa estar pronto até sexta-feira."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "projeto (mecânico)",
+          "technical": "Desenvolvimento e detalhamento técnico de um produto; também o departamento de projeto (\"die Konstruktion\").",
+          "simple": "O trabalho de inventar e desenhar como uma máquina ou peça vai ser.",
+          "falseFriends": [
+            {
+              "word": "construção (civil)",
+              "note": "Obra de construção é \"der Bau\" ou \"die Baustelle\" (canteiro). \"Konstruktion\" é o projeto técnico."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ing-bauteil",
+      "level": "B1",
+      "de": {
+        "word": "Bauteil",
+        "article": "das",
+        "plural": "Bauteile",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Bau",
+          "tr": {
+            "pt-BR": "construção"
+          }
+        },
+        {
+          "de": "teil",
+          "tr": {
+            "pt-BR": "parte"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ing-baugruppe", "ing-stueckliste"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Bauteil wird aus Aluminium gefräst.",
+          "tr": {
+            "pt-BR": "O componente é fresado em alumínio."
+          }
+        },
+        {
+          "de": "Jedes Bauteil bekommt eine eigene Sachnummer.",
+          "tr": {
+            "pt-BR": "Cada componente recebe um código próprio."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "componente (peça)",
+          "technical": "Elemento individual de um conjunto, identificado por número de desenho/material.",
+          "simple": "Uma peça que faz parte de uma máquina maior."
+        }
+      }
+    },
+    {
+      "id": "ing-baugruppe",
+      "level": "B2",
+      "de": {
+        "word": "Baugruppe",
+        "article": "die",
+        "plural": "Baugruppen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Bau",
+          "tr": {
+            "pt-BR": "construção"
+          }
+        },
+        {
+          "de": "gruppe",
+          "tr": {
+            "pt-BR": "grupo"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ing-bauteil", "ing-stueckliste"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Baugruppe Antrieb besteht aus Motor, Getriebe und Kupplung.",
+          "tr": {
+            "pt-BR": "O conjunto de acionamento é composto por motor, redutor e acoplamento."
+          }
+        },
+        {
+          "de": "Wir liefern die Baugruppe vormontiert.",
+          "tr": {
+            "pt-BR": "Entregamos o conjunto pré-montado."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "conjunto (submontagem)",
+          "technical": "Conjunto de componentes montados que forma uma unidade funcional dentro do produto.",
+          "simple": "Um grupo de peças já montadas juntas, que depois entra na máquina."
+        }
+      }
+    },
+    {
+      "id": "ing-stueckliste",
+      "level": "B2",
+      "de": {
+        "word": "Stückliste",
+        "article": "die",
+        "plural": "Stücklisten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Stück",
+          "tr": {
+            "pt-BR": "peça"
+          }
+        },
+        {
+          "de": "liste",
+          "tr": {
+            "pt-BR": "lista"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ing-baugruppe", "ing-bauteil"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Stückliste wird automatisch aus dem CAD erzeugt.",
+          "tr": {
+            "pt-BR": "A lista de materiais é gerada automaticamente a partir do CAD."
+          }
+        },
+        {
+          "de": "In der Stückliste fehlt die Position 14.",
+          "tr": {
+            "pt-BR": "Falta o item 14 na lista de materiais."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "lista de materiais (BOM)",
+          "technical": "Lista estruturada de todos os componentes de um produto ou conjunto, com quantidade e número de item.",
+          "simple": "A lista de todas as peças necessárias para montar algo, com a quantidade de cada uma."
+        }
+      }
+    },
+    {
+      "id": "ing-massstab",
+      "level": "B1",
+      "de": {
+        "word": "Maßstab",
+        "article": "der",
+        "plural": "Maßstäbe",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Maß",
+          "tr": {
+            "pt-BR": "medida"
+          }
+        },
+        {
+          "de": "stab",
+          "tr": {
+            "pt-BR": "bastão"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ing-zeichnung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Zeichnung ist im Maßstab 1:5.",
+          "tr": {
+            "pt-BR": "O desenho está na escala 1:5."
+          }
+        },
+        {
+          "de": "Die Einzelheit ist im Maßstab 2:1 dargestellt.",
+          "tr": {
+            "pt-BR": "O detalhe está representado na escala 2:1."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "escala",
+          "technical": "Relação entre o tamanho no desenho e o tamanho real (ex.: 1:2, 2:1).",
+          "simple": "Quantas vezes o desenho é menor ou maior que a peça de verdade.",
+          "falseFriends": [
+            {
+              "word": "Maßstab (critério)",
+              "note": "Em sentido figurado também é \"critério\" ou \"padrão\" (einen Maßstab setzen)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ing-bemassung",
+      "level": "B2",
+      "de": {
+        "word": "Bemaßung",
+        "article": "die",
+        "plural": "Bemaßungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-zeichnung", "ing-abmessung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Bemaßung ist unvollständig, der Radius fehlt.",
+          "tr": {
+            "pt-BR": "A cotagem está incompleta; falta o raio."
+          }
+        },
+        {
+          "de": "Bitte die Bemaßung funktionsgerecht anlegen.",
+          "tr": {
+            "pt-BR": "Faça a cotagem de acordo com a função, por favor."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "cotagem",
+          "technical": "Indicação das dimensões no desenho (cotas, linhas de cota e de chamada) segundo norma (ISO 129).",
+          "simple": "Os números de medida escritos no desenho."
+        }
+      }
+    },
+    {
+      "id": "ing-schnitt",
+      "level": "B1",
+      "de": {
+        "word": "Schnitt",
+        "article": "der",
+        "plural": "Schnitte",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-zeichnung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Im Schnitt A-A sieht man die Bohrung.",
+          "tr": {
+            "pt-BR": "No corte A-A vê-se o furo."
+          }
+        },
+        {
+          "de": "Zeichne einen Schnitt durch das Gehäuse.",
+          "tr": {
+            "pt-BR": "Desenhe um corte do corpo (carcaça)."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "corte (vista em corte)",
+          "technical": "Representação da peça como se cortada por um plano, mostrando o interior com hachuras.",
+          "simple": "Um desenho que mostra a peça como se ela estivesse cortada ao meio, para ver por dentro.",
+          "falseFriends": [
+            {
+              "word": "Schnitt (média)",
+              "note": "Coloquialmente, \"im Schnitt\" também significa \"em média\"."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ing-schweissnaht",
+      "level": "B2",
+      "de": {
+        "word": "Schweißnaht",
+        "article": "die",
+        "plural": "Schweißnähte",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Schweiß",
+          "tr": {
+            "pt-BR": "solda"
+          }
+        },
+        {
+          "de": "naht",
+          "tr": {
+            "pt-BR": "costura"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ing-pruefung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Schweißnaht muss geprüft werden.",
+          "tr": {
+            "pt-BR": "O cordão de solda precisa ser inspecionado."
+          }
+        },
+        {
+          "de": "An der Schweißnaht ist ein Riss entstanden.",
+          "tr": {
+            "pt-BR": "Surgiu uma trinca no cordão de solda."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "cordão de solda",
+          "variants": {
+            "pt-PT": "cordão de soldadura"
+          },
+          "technical": "União obtida por soldagem; indicada no desenho por símbolos (ISO 2553), com tipo e espessura (ex.: a5).",
+          "simple": "A \"costura\" de metal derretido que une duas peças soldadas."
+        }
+      }
+    },
+    {
+      "id": "ing-schraubenverbindung",
+      "level": "B2",
+      "de": {
+        "word": "Schraubenverbindung",
+        "article": "die",
+        "plural": "Schraubenverbindungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Schraube",
+          "tr": {
+            "pt-BR": "parafuso"
+          }
+        },
+        {
+          "de": "n",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "verbindung",
+          "tr": {
+            "pt-BR": "ligação"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["ing-gewinde"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Schraubenverbindung wird nach VDI 2230 berechnet.",
+          "tr": {
+            "pt-BR": "A união parafusada é calculada segundo a VDI 2230."
+          }
+        },
+        {
+          "de": "Die Schraubenverbindung hat sich durch Vibrationen gelöst.",
+          "tr": {
+            "pt-BR": "A união parafusada se soltou por vibração."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "união parafusada",
+          "technical": "Ligação desmontável por parafuso e porca ou rosca; dimensionada para pré-carga e torque (VDI 2230).",
+          "simple": "Juntar peças com parafusos, de um jeito que dá para desmontar depois."
+        }
+      }
+    },
+    {
+      "id": "ing-gewinde",
+      "level": "A2",
+      "de": {
+        "word": "Gewinde",
+        "article": "das",
+        "plural": "Gewinde",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-schraubenverbindung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Gewinde ist beschädigt.",
+          "tr": {
+            "pt-BR": "A rosca está danificada."
+          }
+        },
+        {
+          "de": "Wir brauchen ein Feingewinde M12×1.",
+          "tr": {
+            "pt-BR": "Precisamos de uma rosca fina M12×1."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "rosca",
+          "technical": "Perfil helicoidal em superfície cilíndrica; designado por tipo e medida (ex.: M10×1,5).",
+          "simple": "Os \"sulcos em espiral\" de um parafuso ou de um furo."
+        }
+      }
+    },
+    {
+      "id": "ing-entwurf",
+      "level": "B1",
+      "de": {
+        "word": "Entwurf",
+        "article": "der",
+        "plural": "Entwürfe",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-konstruktion", "ing-prototyp"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Ich schicke dir bis morgen einen ersten Entwurf.",
+          "tr": {
+            "pt-BR": "Te mando um primeiro esboço até amanhã."
+          }
+        },
+        {
+          "de": "Der Entwurf wurde vom Kunden abgelehnt.",
+          "tr": {
+            "pt-BR": "O anteprojeto foi recusado pelo cliente."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "anteprojeto (esboço)",
+          "technical": "Primeira versão de um projeto ou documento, para discussão e revisão.",
+          "simple": "A primeira ideia desenhada ou escrita, que ainda vai ser melhorada."
+        }
+      }
+    },
+    {
+      "id": "ing-norm",
+      "level": "A2",
+      "de": {
+        "word": "Norm",
+        "article": "die",
+        "plural": "Normen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-pruefung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Zeichnung entspricht der Norm DIN EN ISO 5456.",
+          "tr": {
+            "pt-BR": "O desenho está conforme a norma DIN EN ISO 5456."
+          }
+        },
+        {
+          "de": "Welche Norm gilt für diese Prüfung?",
+          "tr": {
+            "pt-BR": "Qual norma se aplica a este ensaio?"
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "norma",
+          "technical": "Documento técnico reconhecido (DIN, EN, ISO) que define requisitos e procedimentos.",
+          "simple": "Uma regra oficial que diz como algo deve ser feito ou medido."
+        }
+      }
+    },
+    {
+      "id": "ing-abmessung",
+      "level": "B1",
+      "de": {
+        "word": "Abmessung",
+        "article": "die",
+        "plural": "Abmessungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-bemassung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Abmessungen des Schaltschranks sind 800 × 600 × 300 Millimeter.",
+          "tr": {
+            "pt-BR": "As dimensões do quadro elétrico são 800 × 600 × 300 milímetros."
+          }
+        },
+        {
+          "de": "Prüf die Abmessungen gegen die Zeichnung.",
+          "tr": {
+            "pt-BR": "Confira as dimensões com o desenho."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "dimensão",
+          "technical": "Medida de comprimento, largura, altura ou diâmetro de um objeto.",
+          "simple": "O tamanho de algo: comprimento, largura e altura."
+        }
+      }
+    },
+    {
+      "id": "ing-prototyp",
+      "level": "B1",
+      "de": {
+        "word": "Prototyp",
+        "article": "der",
+        "plural": "Prototypen",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-entwurf", "ing-simulation"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Prototyp wird im 3D-Druck hergestellt.",
+          "tr": {
+            "pt-BR": "O protótipo é fabricado em impressão 3D."
+          }
+        },
+        {
+          "de": "Die Tests am Prototyp verliefen erfolgreich.",
+          "tr": {
+            "pt-BR": "Os testes no protótipo foram bem-sucedidos."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "protótipo",
+          "technical": "Primeira versão funcional de um produto, para testes e validação antes da produção em série.",
+          "simple": "O primeiro modelo de verdade, feito para testar a ideia."
+        }
+      }
+    },
+    {
+      "id": "ing-simulation",
+      "level": "B1",
+      "de": {
+        "word": "Simulation",
+        "article": "die",
+        "plural": "Simulationen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["ing-spannung", "ing-prototyp"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die FEM-Simulation zeigt Spannungsspitzen an der Kerbe.",
+          "tr": {
+            "pt-BR": "A simulação por elementos finitos mostra picos de tensão no entalhe."
+          }
+        },
+        {
+          "de": "Die Simulation muss mit Messwerten validiert werden.",
+          "tr": {
+            "pt-BR": "A simulação precisa ser validada com valores medidos."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "simulação",
+          "technical": "Cálculo numérico do comportamento de um sistema (ex.: FEM para tensões, CFD para escoamentos).",
+          "simple": "Testar no computador como a peça vai se comportar, antes de fabricá-la."
+        }
+      }
+    }
+  ]
+}
