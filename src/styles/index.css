@@ -1,0 +1,173 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+/*
+ * Tokens de design. Identidade "prancheta técnica": papel claro, tinta
+ * azul-petróleo, laranja de sinalização. Todas as combinações texto/fundo
+ * foram escolhidas para contraste WCAG AA (≥ 4,5:1).
+ */
+:root {
+  --bg: #f6f4ee;
+  --surface: #ffffff;
+  --surface-2: #efece3;
+  --ink: #14212b;
+  --ink-muted: #4a5761;
+  --line: #d9d4c7;
+  --line-strong: #b9b2a1;
+  --primary: #0b4f6c;
+  --primary-ink: #ffffff;
+  --primary-soft: #dcebf1;
+  --accent: #b4440e;
+  --accent-soft: #fbe7d9;
+  --good: #166534;
+  --good-soft: #dcf2e3;
+  --bad: #a3231b;
+  --bad-soft: #fbe2df;
+  --der: #1d4ed8;
+  --der-soft: #dbe7fe;
+  --die: #b91c1c;
+  --die-soft: #fde2e2;
+  --das: #15803d;
+  --das-soft: #dbf5e4;
+  /* mapa de calor: um tom, do claro ao escuro */
+  --heat-0: #e7e3d8;
+  --heat-1: #b9dbe6;
+  --heat-2: #6fb3cb;
+  --heat-3: #2a7f9e;
+  --heat-4: #0b4f6c;
+  --grid-dot: rgb(20 33 43 / 0.07);
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  --bg: #0e161d;
+  --surface: #15202a;
+  --surface-2: #1c2935;
+  --ink: #e9e7e1;
+  --ink-muted: #a7b1ba;
+  --line: #2a3a47;
+  --line-strong: #3e5160;
+  --primary: #6cc4e0;
+  --primary-ink: #08212c;
+  --primary-soft: #143545;
+  --accent: #fb9a5c;
+  --accent-soft: #3d2416;
+  --good: #7fd89c;
+  --good-soft: #163625;
+  --bad: #ff9c92;
+  --bad-soft: #43201d;
+  --der: #9cc0ff;
+  --der-soft: #1b2f57;
+  --die: #ffa0a0;
+  --die-soft: #4a1f22;
+  --das: #8fe0ad;
+  --das-soft: #173c27;
+  --heat-0: #1f2c37;
+  --heat-1: #1d4a5c;
+  --heat-2: #24728c;
+  --heat-3: #44a3c3;
+  --heat-4: #8fd5ec;
+  --grid-dot: rgb(233 231 225 / 0.05);
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--ink-muted);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-primary: var(--primary);
+  --color-primary-ink: var(--primary-ink);
+  --color-primary-soft: var(--primary-soft);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-good: var(--good);
+  --color-good-soft: var(--good-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-der: var(--der);
+  --color-der-soft: var(--der-soft);
+  --color-die: var(--die);
+  --color-die-soft: var(--die-soft);
+  --color-das: var(--das);
+  --color-das-soft: var(--das-soft);
+  --font-sans: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--bg);
+  background-image: radial-gradient(var(--grid-dot) 1px, transparent 1px);
+  background-size: 20px 20px;
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+#main:focus {
+  outline: none;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.5rem;
+  top: -4rem;
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 0.5rem;
+}
+
+/* artigo "das": canto chanfrado, além da cor e do texto */
+.shape-das {
+  clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px);
+}
+
+/* rótulo pequeno estilo legenda de desenho técnico */
+.label-tech {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.flip-enter {
+  animation: flip-in 220ms ease-out;
+}
+@keyframes flip-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
