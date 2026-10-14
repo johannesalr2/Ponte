@@ -26,7 +26,32 @@
     </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- tela inicial estática: aparece antes do JavaScript e é substituída pelo app -->
+      <div
+        style="
+          min-height: 100dvh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 12px;
+          font-family: system-ui, sans-serif;
+        "
+      >
+        <svg width="44" height="44" viewBox="0 0 64 64" aria-hidden="true">
+          <rect width="64" height="64" rx="14" fill="#0b4f6c" />
+          <path
+            d="M8 40h48M12 40c6-14 14-20 20-20s14 6 20 20M18 40v10M46 40v10"
+            fill="none"
+            stroke="#f6f4ee"
+            stroke-width="4"
+            stroke-linecap="round"
+          />
+          <circle cx="32" cy="20" r="4" fill="#fb9a5c" />
+        </svg>
+        <p style="margin: 0; font-size: 1.25rem; font-weight: 600">Ponte Técnica</p>
+      </div>
+    </div>
     <noscript>O Ponte Técnica precisa de JavaScript para funcionar.</noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>

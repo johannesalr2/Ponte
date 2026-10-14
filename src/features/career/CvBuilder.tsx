@@ -90,7 +90,7 @@ function EntryList({
     onChange(entries.map((e, j) => (j === i ? { ...e, ...patch } : e)));
   return (
     <section className="flex flex-col gap-3">
-      <h3 className="font-semibold">{title}</h3>
+      <h2 className="font-semibold">{title}</h2>
       {entries.map((e, i) => (
         <div key={e.id} className="border-line flex flex-col gap-3 rounded-lg border p-3">
           <div className="grid grid-cols-2 gap-2">
@@ -275,7 +275,7 @@ export function CvBuilder({ content }: { content: ProfessionContent }) {
         />
 
         <section>
-          <h3 className="font-semibold">{t('cv.h.skills')}</h3>
+          <h2 className="font-semibold">{t('cv.h.skills')}</h2>
           <p className="text-muted mb-2 text-sm">{t('cv.skillsHint')}</p>
           <div className="border-line flex max-h-72 flex-col gap-3 overflow-y-auto rounded-lg border p-3">
             {content.profession.areas.map((a) => (
@@ -317,7 +317,7 @@ export function CvBuilder({ content }: { content: ProfessionContent }) {
         </section>
 
         <section className="flex flex-col gap-2">
-          <h3 className="font-semibold">{t('cv.h.languages')}</h3>
+          <h2 className="font-semibold">{t('cv.h.languages')}</h2>
           {cv.languages.map((l, i) => (
             <div key={i} className="border-line flex flex-col gap-2 rounded-lg border p-3">
               <BilingualField
@@ -370,7 +370,7 @@ export function CvBuilder({ content }: { content: ProfessionContent }) {
         ).map(([key, title, text]) => (
           <Panel key={key} className="overflow-hidden">
             <div className="border-line flex items-center justify-between gap-2 border-b px-4 py-2">
-              <h3 className="font-semibold">{title}</h3>
+              <h2 className="font-semibold">{title}</h2>
               <Button size="sm" onClick={() => void copy(key, text)}>
                 <Icon name={copied === key ? 'check' : 'copy'} className="size-4" />
                 {copied === key ? t('cv.copied') : t('cv.copy')}

@@ -9,9 +9,9 @@ import { Spinner } from '@/components/ui';
 import { ProfileContext } from '@/app/profile';
 import { useTheme } from '@/app/theme';
 import { UpdatePrompt } from '@/app/UpdatePrompt';
-import Onboarding from '@/features/onboarding/Onboarding';
-import Dashboard from '@/features/dashboard/Dashboard';
 
+const Onboarding = lazy(() => import('@/features/onboarding/Onboarding'));
+const Dashboard = lazy(() => import('@/features/dashboard/Dashboard'));
 const Glossary = lazy(() => import('@/features/glossary/Glossary'));
 const TermPage = lazy(() => import('@/features/glossary/TermPage'));
 const Review = lazy(() => import('@/features/review/Review'));
@@ -57,7 +57,9 @@ export default function App() {
     <I18nProvider code={profile?.locale ?? DEFAULT_LOCALE}>
       <DocumentLocale />
       {profile === null ? (
-        <Onboarding />
+        <Suspense fallback={null}>
+          <Onboarding />
+        </Suspense>
       ) : (
         <ProfileContext.Provider value={profile}>
           <BrowserRouter>
