@@ -541,6 +541,1467 @@
           "simple": "Uma régua com uma bolhinha que mostra se algo está reto, sem pender para nenhum lado."
         }
       }
+    },
+    {
+      "id": "im-schraubendreher",
+      "level": "A2",
+      "de": {
+        "word": "Schraubendreher",
+        "article": "der",
+        "plural": "Schraubendreher",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Schrauben",
+          "tr": {
+            "pt-BR": "parafusos"
+          }
+        },
+        {
+          "de": "dreher",
+          "tr": {
+            "pt-BR": "que gira"
+          }
+        }
+      ],
+      "synonyms": ["Schraubenzieher"],
+      "related": ["im-innensechskantschluessel", "im-schraube"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "ABNT CB-004 – normas de ferramentas (inclui chave de fenda, NBR 12466)",
+          "url": "https://normas.com.br/produto/normas-brasileiras-e-mercosul/pesquisar/cb-004/maquinas-e-equipamentos-mecanicos/palavra/941/3"
+        }
+      ],
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Nimm den Schraubendreher PH2 für die Abdeckung.",
+          "tr": {
+            "pt-BR": "Use a chave Phillips PH2 para a tampa."
+          }
+        },
+        {
+          "de": "Der Schraubendreher passt nicht, die Schraube hat Torx.",
+          "tr": {
+            "pt-BR": "A chave de fenda não serve; o parafuso é Torx."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "chave de fenda",
+          "variants": {
+            "pt-PT": "chave de parafusos"
+          },
+          "technical": "Ferramenta para apertar e soltar parafusos com fenda, Phillips (PH), Pozidriv (PZ) ou Torx (TX); escolhe-se a ponta pelo perfil e tamanho da cabeça.",
+          "simple": "A chave com cabo e ponta fina para girar parafusos."
+        }
+      }
+    },
+    {
+      "id": "im-zange",
+      "level": "A2",
+      "de": {
+        "word": "Zange",
+        "article": "die",
+        "plural": "Zangen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": ["Kombizange"],
+      "related": ["im-schraubstock"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Halt das Blech mit der Zange fest.",
+          "tr": {
+            "pt-BR": "Segure a chapa com o alicate."
+          }
+        },
+        {
+          "de": "Mit der Seitenschneider-Zange kürzt du den Kabelbinder.",
+          "tr": {
+            "pt-BR": "Com o alicate de corte diagonal você corta a abraçadeira."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "alicate",
+          "technical": "Ferramenta de duas hastes articuladas para segurar, dobrar ou cortar (alicate universal, de bico, de corte diagonal, de pressão).",
+          "simple": "A ferramenta que aperta, segura e corta, parecida com uma tesoura forte."
+        }
+      }
+    },
+    {
+      "id": "im-hammer",
+      "level": "A2",
+      "de": {
+        "word": "Hammer",
+        "article": "der",
+        "plural": "Hämmer",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-koerner", "im-meissel"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Treib das Lager mit dem Kunststoffhammer vorsichtig ein.",
+          "tr": {
+            "pt-BR": "Monte o rolamento com cuidado usando o martelo de plástico."
+          }
+        },
+        {
+          "de": "Der Hammerstiel ist locker, so darfst du nicht arbeiten.",
+          "tr": {
+            "pt-BR": "O cabo do martelo está solto; assim você não pode trabalhar."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "martelo",
+          "technical": "Ferramenta de impacto; na oficina usam-se martelo de bola, de borracha (Gummihammer) e de nylon para não danificar superfícies.",
+          "simple": "O martelo."
+        }
+      }
+    },
+    {
+      "id": "im-schraubstock",
+      "level": "A2",
+      "de": {
+        "word": "Schraubstock",
+        "article": "der",
+        "plural": "Schraubstöcke",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Schraub",
+          "tr": {
+            "pt-BR": "aparafusar"
+          }
+        },
+        {
+          "de": "stock",
+          "tr": {
+            "pt-BR": "bloco"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-feile", "im-buegelsaege"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "ABNT CB-004 – normas de ferramentas (inclui chave de fenda, NBR 12466)",
+          "url": "https://normas.com.br/produto/normas-brasileiras-e-mercosul/pesquisar/cb-004/maquinas-e-equipamentos-mecanicos/palavra/941/3"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Spann das Werkstück im Schraubstock fest.",
+          "tr": {
+            "pt-BR": "Prenda bem a peça na morsa."
+          }
+        },
+        {
+          "de": "Benutz Schutzbacken, sonst verkratzt der Schraubstock die Oberfläche.",
+          "tr": {
+            "pt-BR": "Use mordentes de proteção; senão a morsa risca a superfície."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "morsa (torno de bancada)",
+          "technical": "Dispositivo de fixação com mordentes, preso à bancada ou à mesa da máquina, para segurar a peça durante limagem, serragem ou furação.",
+          "simple": "O aparelho preso na bancada que aperta a peça para ela não se mexer."
+        }
+      }
+    },
+    {
+      "id": "im-buegelsaege",
+      "level": "B1",
+      "de": {
+        "word": "Bügelsäge",
+        "article": "die",
+        "plural": "Bügelsägen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Bügel",
+          "tr": {
+            "pt-BR": "arco"
+          }
+        },
+        {
+          "de": "säge",
+          "tr": {
+            "pt-BR": "serra"
+          }
+        }
+      ],
+      "synonyms": ["Metallsäge"],
+      "related": ["im-schraubstock"],
+      "esco": null,
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Spann das Sägeblatt so ein, dass die Zähne nach vorn zeigen.",
+          "tr": {
+            "pt-BR": "Prenda a lâmina de modo que os dentes apontem para a frente."
+          }
+        },
+        {
+          "de": "Für dünnwandige Rohre nimmst du ein feines Sägeblatt in der Bügelsäge.",
+          "tr": {
+            "pt-BR": "Para tubos de parede fina, use uma lâmina fina no arco de serra."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "arco de serra",
+          "technical": "Serra manual com lâmina tensionada num arco; os dentes apontam para a frente e o corte acontece no movimento de avanço.",
+          "simple": "A serra de mão com um arco de metal, usada para cortar metal."
+        }
+      }
+    },
+    {
+      "id": "im-koerner",
+      "level": "B1",
+      "de": {
+        "word": "Körner",
+        "article": "der",
+        "plural": "Körner",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-anreissen", "im-spiralbohrer"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Körn die Bohrung an, bevor du bohrst.",
+          "tr": {
+            "pt-BR": "Marque o furo com o punção antes de furar."
+          }
+        },
+        {
+          "de": "Der Körner sitzt genau auf dem Anriss.",
+          "tr": {
+            "pt-BR": "O punção está exatamente sobre o traço."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "punção de centro (punção de bico)",
+          "technical": "Ferramenta de aço temperado com ponta cônica para marcar o centro de um furo antes de furar, evitando que a broca escorregue.",
+          "simple": "Um \"prego\" de aço que faz uma marquinha onde a broca vai entrar."
+        }
+      }
+    },
+    {
+      "id": "im-reissnadel",
+      "level": "B1",
+      "de": {
+        "word": "Reißnadel",
+        "article": "die",
+        "plural": "Reißnadeln",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Reiß",
+          "tr": {
+            "pt-BR": "riscar"
+          }
+        },
+        {
+          "de": "nadel",
+          "tr": {
+            "pt-BR": "agulha"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-anreissen", "im-hoehenreisser"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Zieh die Linie mit der Reißnadel am Stahlmaßstab entlang.",
+          "tr": {
+            "pt-BR": "Trace a linha com o riscador ao longo da régua de aço."
+          }
+        },
+        {
+          "de": "Die Reißnadel muss scharf sein, sonst wird der Anriss zu breit.",
+          "tr": {
+            "pt-BR": "O riscador precisa estar afiado; senão o traço fica largo demais."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "riscador",
+          "technical": "Haste de aço com ponta endurecida para traçar linhas finas na superfície do metal.",
+          "simple": "Uma \"caneta\" de aço que risca o metal para marcar onde cortar ou furar."
+        }
+      }
+    },
+    {
+      "id": "im-anreissen",
+      "level": "B1",
+      "de": {
+        "word": "anreißen",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["im-reissnadel", "im-koerner"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Reiß zuerst die Mitte der Platte an.",
+          "tr": {
+            "pt-BR": "Primeiro trace o centro da placa."
+          }
+        },
+        {
+          "de": "Die Bohrungen sind falsch angerissen.",
+          "tr": {
+            "pt-BR": "Os furos foram traçados errado."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "traçar (marcar)",
+          "technical": "Transferir medidas do desenho para a peça com riscador, punção e esquadro, como referência para usinagem.",
+          "simple": "Desenhar na peça as linhas de onde cortar e furar."
+        }
+      }
+    },
+    {
+      "id": "im-grat",
+      "level": "B1",
+      "de": {
+        "word": "Grat",
+        "article": "der",
+        "plural": "Grate",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-entgraten", "im-feile"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Am Werkstück ist noch ein Grat, entgrate die Kanten.",
+          "tr": {
+            "pt-BR": "Ainda há rebarba na peça; tire as rebarbas das arestas."
+          }
+        },
+        {
+          "de": "Der Grat kann zu Schnittverletzungen führen.",
+          "tr": {
+            "pt-BR": "A rebarba pode causar cortes."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "rebarba",
+          "technical": "Saliência de material que fica na aresta após corte, furação ou usinagem; deve ser removida para segurança e montagem.",
+          "simple": "O \"pelinho\" afiado de metal que sobra na borda depois de cortar."
+        }
+      }
+    },
+    {
+      "id": "im-entgraten",
+      "level": "B1",
+      "de": {
+        "word": "entgraten",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["im-grat", "im-senker"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Entgrate alle Bohrungen mit dem Senker.",
+          "tr": {
+            "pt-BR": "Tire as rebarbas de todos os furos com o escareador."
+          }
+        },
+        {
+          "de": "Die Teile werden nach dem Sägen entgratet.",
+          "tr": {
+            "pt-BR": "As peças são rebarbadas depois de serradas."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "rebarbar (tirar rebarbas)",
+          "technical": "Remover rebarbas com lima, escareador ou ferramenta de rebarbar após operações de corte.",
+          "simple": "Tirar as rebarbas para a peça não cortar ninguém."
+        }
+      }
+    },
+    {
+      "id": "im-meissel",
+      "level": "B1",
+      "de": {
+        "word": "Meißel",
+        "article": "der",
+        "plural": "Meißel",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-hammer"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Den abgerissenen Bolzen kannst du mit dem Meißel abschlagen.",
+          "tr": {
+            "pt-BR": "Você pode tirar o pino quebrado com a talhadeira."
+          }
+        },
+        {
+          "de": "Trag eine Schutzbrille, wenn du mit dem Meißel arbeitest.",
+          "tr": {
+            "pt-BR": "Use óculos de proteção ao trabalhar com a talhadeira."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "talhadeira",
+          "technical": "Ferramenta de corte por golpes de martelo, com gume temperado, para cortar chapas, rebites ou remover material.",
+          "simple": "Uma barra de aço com ponta afiada que se bate com martelo para cortar."
+        }
+      }
+    },
+    {
+      "id": "im-reibahle",
+      "level": "B2",
+      "de": {
+        "word": "Reibahle",
+        "article": "die",
+        "plural": "Reibahlen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Reib",
+          "tr": {
+            "pt-BR": "esfregar"
+          }
+        },
+        {
+          "de": "ahle",
+          "tr": {
+            "pt-BR": "sovela"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-passung", "im-spiralbohrer"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Bohr mit 9,8 vor und reib dann mit der Reibahle auf 10 H7 auf.",
+          "tr": {
+            "pt-BR": "Fure com 9,8 e depois alargue com o alargador para 10 H7."
+          }
+        },
+        {
+          "de": "Die Reibahle darf nie rückwärts gedreht werden.",
+          "tr": {
+            "pt-BR": "O alargador nunca pode ser girado ao contrário."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "alargador",
+          "technical": "Ferramenta de acabamento que calibra um furo pré-furado na medida e tolerância exatas (ex.: H7), com boa qualidade superficial.",
+          "simple": "Uma ferramenta que deixa o furo com a medida exata e liso por dentro."
+        }
+      }
+    },
+    {
+      "id": "im-senker",
+      "level": "B2",
+      "de": {
+        "word": "Senker",
+        "article": "der",
+        "plural": "Senker",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": ["Kegelsenker"],
+      "related": ["im-entgraten"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Senk die Bohrung mit dem 90-Grad-Senker an.",
+          "tr": {
+            "pt-BR": "Escareie o furo com o escareador de 90 graus."
+          }
+        },
+        {
+          "de": "Für Zylinderkopfschrauben brauchst du einen Flachsenker.",
+          "tr": {
+            "pt-BR": "Para parafusos de cabeça cilíndrica você precisa de um rebaixador plano."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "escareador",
+          "technical": "Ferramenta que cria rebaixos cônicos ou cilíndricos na entrada do furo, para cabeças de parafuso escareado ou para rebarbar.",
+          "simple": "A ferramenta que abre a \"boca\" do furo para a cabeça do parafuso ficar embutida."
+        }
+      }
+    },
+    {
+      "id": "im-spiralbohrer",
+      "level": "A2",
+      "de": {
+        "word": "Spiralbohrer",
+        "article": "der",
+        "plural": "Spiralbohrer",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Spiral",
+          "tr": {
+            "pt-BR": "espiral"
+          }
+        },
+        {
+          "de": "bohrer",
+          "tr": {
+            "pt-BR": "broca"
+          }
+        }
+      ],
+      "synonyms": ["Bohrer"],
+      "related": ["im-bohrmaschine", "im-koerner"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Spiralbohrer ist stumpf, schleif ihn nach.",
+          "tr": {
+            "pt-BR": "A broca está cega; reafie."
+          }
+        },
+        {
+          "de": "Für Edelstahl nimm einen Spiralbohrer aus HSS-Co.",
+          "tr": {
+            "pt-BR": "Para aço inoxidável use uma broca de HSS-Co."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "broca helicoidal",
+          "technical": "Broca com canais helicoidais para retirar cavacos; em aço rápido (HSS) ou metal duro, com ângulo de ponta típico de 118°.",
+          "simple": "A broca comum, com espiral, que faz furos."
+        }
+      }
+    },
+    {
+      "id": "im-ringschluessel",
+      "level": "A2",
+      "de": {
+        "word": "Ringschlüssel",
+        "article": "der",
+        "plural": "Ringschlüssel",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Ring",
+          "tr": {
+            "pt-BR": "anel"
+          }
+        },
+        {
+          "de": "schlüssel",
+          "tr": {
+            "pt-BR": "chave"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-gabelschluessel", "im-ratsche"],
+      "esco": null,
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Nimm lieber den Ringschlüssel, die Mutter sitzt sehr fest.",
+          "tr": {
+            "pt-BR": "Use a chave estrela; a porca está muito presa."
+          }
+        },
+        {
+          "de": "Der Ringschlüssel ist gekröpft, damit du besser an die Schraube kommst.",
+          "tr": {
+            "pt-BR": "A chave estrela é dobrada para você alcançar melhor o parafuso."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "chave estrela",
+          "variants": {
+            "pt-PT": "chave de luneta"
+          },
+          "technical": "Chave fixa com olhal fechado de 12 pontas, que envolve toda a porca e transmite mais torque com menos risco de espanar.",
+          "simple": "A chave com a ponta fechada em círculo, que abraça a porca toda."
+        }
+      }
+    },
+    {
+      "id": "im-ratsche",
+      "level": "A2",
+      "de": {
+        "word": "Ratsche",
+        "article": "die",
+        "plural": "Ratschen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": ["Knarre"],
+      "related": ["im-ringschluessel", "im-drehmomentschluessel"],
+      "esco": null,
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Mit der Ratsche und einer 13er-Nuss geht das schneller.",
+          "tr": {
+            "pt-BR": "Com a catraca e um soquete 13 isso vai mais rápido."
+          }
+        },
+        {
+          "de": "Stell die Ratsche auf Linkslauf, um die Schraube zu lösen.",
+          "tr": {
+            "pt-BR": "Coloque a catraca no sentido anti-horário para soltar o parafuso."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "catraca (chave catraca)",
+          "variants": {
+            "pt-PT": "roquete"
+          },
+          "technical": "Cabo com mecanismo de roquete para soquetes (Steckschlüssel), que permite apertar sem tirar a ferramenta do parafuso.",
+          "simple": "A chave que faz \"tec-tec\" e gira o parafuso sem precisar tirar e colocar de novo."
+        }
+      }
+    },
+    {
+      "id": "im-abzieher",
+      "level": "B1",
+      "de": {
+        "word": "Abzieher",
+        "article": "der",
+        "plural": "Abzieher",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": ["Lagerabzieher"],
+      "related": ["im-lager", "im-welle"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Setz den Abzieher am Innenring des Lagers an.",
+          "tr": {
+            "pt-BR": "Apoie o sacador no anel interno do rolamento."
+          }
+        },
+        {
+          "de": "Ohne Abzieher bekommst du die Riemenscheibe nicht herunter.",
+          "tr": {
+            "pt-BR": "Sem o sacador você não tira a polia."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "sacador (extrator)",
+          "technical": "Ferramenta com garras e fuso para extrair rolamentos, polias e engrenagens de eixos sem danificá-los.",
+          "simple": "A ferramenta com \"garras\" que puxa o rolamento para fora do eixo."
+        }
+      }
+    },
+    {
+      "id": "im-grenzlehrdorn",
+      "level": "B2",
+      "de": {
+        "word": "Grenzlehrdorn",
+        "article": "der",
+        "plural": "Grenzlehrdorne",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Grenz",
+          "tr": {
+            "pt-BR": "limite"
+          }
+        },
+        {
+          "de": "lehr",
+          "tr": {
+            "pt-BR": "calibre"
+          }
+        },
+        {
+          "de": "dorn",
+          "tr": {
+            "pt-BR": "pino"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-grenzrachenlehre", "im-toleranz"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "3.2 Grenzlehren (TU Darmstadt, PDF)",
+          "url": "https://www.pmd.tu-darmstadt.de/media/fachgebietpmd_1/lehre_7/maschinenelemente_lehrmodelle/3.2_Grenzlehren.pdf"
+        },
+        {
+          "label": "Lehre (Technik) – wissen.de",
+          "url": "https://www.wissen.de/lexikon/lehre-technik"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Prüf die Bohrung mit dem Grenzlehrdorn 20 H7.",
+          "tr": {
+            "pt-BR": "Verifique o furo com o calibrador tampão 20 H7."
+          }
+        },
+        {
+          "de": "Die Ausschussseite des Grenzlehrdorns geht rein, das Teil ist Ausschuss.",
+          "tr": {
+            "pt-BR": "O lado \"não passa\" do calibrador entrou; a peça é refugo."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "calibrador tampão (passa-não-passa)",
+          "technical": "Calibrador fixo para furos, com lado \"passa\" (Gutseite) e lado \"não passa\" (Ausschussseite, marcado em vermelho); verifica se o furo está dentro da tolerância sem medir o valor.",
+          "simple": "Um pino de aço com duas pontas: uma tem que entrar no furo e a outra não pode entrar."
+        }
+      }
+    },
+    {
+      "id": "im-grenzrachenlehre",
+      "level": "B2",
+      "de": {
+        "word": "Grenzrachenlehre",
+        "article": "die",
+        "plural": "Grenzrachenlehren",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Grenz",
+          "tr": {
+            "pt-BR": "limite"
+          }
+        },
+        {
+          "de": "rachen",
+          "tr": {
+            "pt-BR": "boca, garganta"
+          }
+        },
+        {
+          "de": "lehre",
+          "tr": {
+            "pt-BR": "calibre"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-grenzlehrdorn", "im-welle"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "3.2 Grenzlehren (TU Darmstadt, PDF)",
+          "url": "https://www.pmd.tu-darmstadt.de/media/fachgebietpmd_1/lehre_7/maschinenelemente_lehrmodelle/3.2_Grenzlehren.pdf"
+        },
+        {
+          "label": "Lehre (Technik) – wissen.de",
+          "url": "https://www.wissen.de/lexikon/lehre-technik"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Welle muss durch die Gutseite der Grenzrachenlehre gleiten.",
+          "tr": {
+            "pt-BR": "O eixo precisa passar pelo lado \"passa\" do calibrador de boca."
+          }
+        },
+        {
+          "de": "Mit der Grenzrachenlehre prüfen wir jedes zehnte Teil.",
+          "tr": {
+            "pt-BR": "Com o calibrador de boca verificamos uma em cada dez peças."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "calibrador de boca (passa-não-passa)",
+          "technical": "Calibrador em forma de \"C\" para medidas externas (eixos), com lado passa e lado não passa (vermelho).",
+          "simple": "Um calibrador em forma de \"C\" que diz na hora se o eixo está na medida certa."
+        }
+      }
+    },
+    {
+      "id": "im-parallelendmass",
+      "level": "C1",
+      "de": {
+        "word": "Parallelendmaß",
+        "article": "das",
+        "plural": "Parallelendmaße",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Parallel",
+          "tr": {
+            "pt-BR": "paralelo"
+          }
+        },
+        {
+          "de": "end",
+          "tr": {
+            "pt-BR": "extremidade"
+          }
+        },
+        {
+          "de": "maß",
+          "tr": {
+            "pt-BR": "medida"
+          }
+        }
+      ],
+      "synonyms": ["Endmaß"],
+      "related": ["im-kalibrierung", "im-buegelmessschraube"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "Blocos-padrão – aula de metrologia (IFSC, PDF)",
+          "url": "https://wiki.ifsc.edu.br/images/a/a0/Aula_05-11.pdf"
+        },
+        {
+          "label": "Lehre (Technik) – wissen.de",
+          "url": "https://www.wissen.de/lexikon/lehre-technik"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Kontrolliere die Bügelmessschraube mit einem Parallelendmaß von 25 Millimetern.",
+          "tr": {
+            "pt-BR": "Confira o micrômetro com um bloco-padrão de 25 milímetros."
+          }
+        },
+        {
+          "de": "Parallelendmaße nur mit Handschuhen anfassen.",
+          "tr": {
+            "pt-BR": "Pegue os blocos-padrão só com luvas."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "bloco-padrão",
+          "technical": "Bloco de aço ou cerâmica com duas faces paralelas a uma distância muito exata; usado para calibrar e ajustar instrumentos e calibradores.",
+          "simple": "Um bloquinho de medida perfeita usado para conferir se os instrumentos estão certos."
+        }
+      }
+    },
+    {
+      "id": "im-fuehlerlehre",
+      "level": "B1",
+      "de": {
+        "word": "Fühlerlehre",
+        "article": "die",
+        "plural": "Fühlerlehren",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Fühler",
+          "tr": {
+            "pt-BR": "apalpador"
+          }
+        },
+        {
+          "de": "lehre",
+          "tr": {
+            "pt-BR": "calibre"
+          }
+        }
+      ],
+      "synonyms": ["Spaltlehre"],
+      "related": ["im-kupplung", "im-ausrichten"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Miss das Spiel zwischen den Kupplungshälften mit der Fühlerlehre.",
+          "tr": {
+            "pt-BR": "Meça a folga entre as metades do acoplamento com o calibrador de lâminas."
+          }
+        },
+        {
+          "de": "Das 0,1-Millimeter-Blatt der Fühlerlehre geht gerade so durch.",
+          "tr": {
+            "pt-BR": "A lâmina de 0,1 milímetro do calibrador passa justinha."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "calibrador de folga (de lâminas)",
+          "technical": "Jogo de lâminas de espessuras graduadas para medir folgas (ex.: folga de válvulas, alinhamento de acoplamentos).",
+          "simple": "Um \"leque\" de lâminas finas de metal para medir frestas pequenas."
+        }
+      }
+    },
+    {
+      "id": "im-haarwinkel",
+      "level": "B2",
+      "de": {
+        "word": "Haarwinkel",
+        "article": "der",
+        "plural": "Haarwinkel",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Haar",
+          "tr": {
+            "pt-BR": "cabelo, fio"
+          }
+        },
+        {
+          "de": "winkel",
+          "tr": {
+            "pt-BR": "ângulo, esquadro"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-universalwinkelmesser"],
+      "esco": null,
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Halte den Haarwinkel gegen das Licht und prüf den Lichtspalt.",
+          "tr": {
+            "pt-BR": "Segure o esquadro contra a luz e verifique a fresta de luz."
+          }
+        },
+        {
+          "de": "Mit dem Haarwinkel siehst du, ob die Kante rechtwinklig ist.",
+          "tr": {
+            "pt-BR": "Com o esquadro de precisão você vê se a aresta está em esquadro."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "esquadro de precisão (de fio)",
+          "technical": "Esquadro de 90° com arestas de contato finas; verifica a perpendicularidade pelo método da fresta de luz.",
+          "simple": "Um esquadro bem preciso: se passar luz entre ele e a peça, o ângulo não está reto."
+        }
+      }
+    },
+    {
+      "id": "im-universalwinkelmesser",
+      "level": "B2",
+      "de": {
+        "word": "Universalwinkelmesser",
+        "article": "der",
+        "plural": "Universalwinkelmesser",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Universal",
+          "tr": {
+            "pt-BR": "universal"
+          }
+        },
+        {
+          "de": "winkel",
+          "tr": {
+            "pt-BR": "ângulo"
+          }
+        },
+        {
+          "de": "messer",
+          "tr": {
+            "pt-BR": "medidor"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-haarwinkel", "im-nonius"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Miss die Fase mit dem Universalwinkelmesser.",
+          "tr": {
+            "pt-BR": "Meça o chanfro com o goniômetro."
+          }
+        },
+        {
+          "de": "Der Universalwinkelmesser zeigt 44 Grad 30 Minuten.",
+          "tr": {
+            "pt-BR": "O goniômetro marca 44 graus e 30 minutos."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "goniômetro (transferidor universal)",
+          "variants": {
+            "pt-PT": "goniómetro"
+          },
+          "technical": "Instrumento com nônio para medir e traçar ângulos com resolução típica de 5 minutos de arco.",
+          "simple": "Um \"transferidor\" de metal muito preciso para medir ângulos."
+        }
+      }
+    },
+    {
+      "id": "im-hoehenreisser",
+      "level": "B2",
+      "de": {
+        "word": "Höhenreißer",
+        "article": "der",
+        "plural": "Höhenreißer",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Höhen",
+          "tr": {
+            "pt-BR": "altura"
+          }
+        },
+        {
+          "de": "reißer",
+          "tr": {
+            "pt-BR": "riscador"
+          }
+        }
+      ],
+      "synonyms": ["Höhenmessgerät"],
+      "related": ["im-anreissen", "im-reissnadel"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "Calibração de traçadores de altura (UNIJUÍ)",
+          "url": "https://publicacoeseventos.unijui.edu.br/index.php/salaoconhecimento/article/view/12989/11671"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Stell den Höhenreißer auf 42,5 Millimeter ein.",
+          "tr": {
+            "pt-BR": "Ajuste o traçador de altura em 42,5 milímetros."
+          }
+        },
+        {
+          "de": "Der Höhenreißer steht auf der Anreißplatte.",
+          "tr": {
+            "pt-BR": "O traçador de altura fica sobre o desempeno."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "traçador de altura",
+          "technical": "Instrumento sobre base pesada, usado num desempeno, para medir alturas e traçar linhas paralelas à base.",
+          "simple": "Um aparelho que fica em pé numa mesa lisa e risca a peça sempre na mesma altura."
+        }
+      }
+    },
+    {
+      "id": "im-gewindelehre",
+      "level": "B2",
+      "de": {
+        "word": "Gewindelehre",
+        "article": "die",
+        "plural": "Gewindelehren",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Gewinde",
+          "tr": {
+            "pt-BR": "rosca"
+          }
+        },
+        {
+          "de": "lehre",
+          "tr": {
+            "pt-BR": "calibre"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-gewindebohrer"],
+      "esco": null,
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Mit der Gewindelehre stellst du fest, ob es M10 oder M10×1 ist.",
+          "tr": {
+            "pt-BR": "Com o pente de rosca você descobre se é M10 ou M10×1."
+          }
+        },
+        {
+          "de": "Das Gewinde wird mit dem Gewindelehrring geprüft.",
+          "tr": {
+            "pt-BR": "A rosca é verificada com o anel calibrador de rosca."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "pente de rosca (verificador de passo)",
+          "technical": "Jogo de lâminas com perfis de rosca para identificar o passo; \"Gewindelehrdorn/-ring\" são os calibradores passa-não-passa de rosca.",
+          "simple": "Um conjunto de \"pentes\" que mostra qual é o passo da rosca."
+        }
+      }
+    },
+    {
+      "id": "im-pruefmittel",
+      "level": "B2",
+      "de": {
+        "word": "Prüfmittel",
+        "article": "das",
+        "plural": "Prüfmittel",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Prüf",
+          "tr": {
+            "pt-BR": "verificar"
+          }
+        },
+        {
+          "de": "mittel",
+          "tr": {
+            "pt-BR": "meio"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-kalibrierung", "im-messschieber"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Alle Prüfmittel haben eine Kalibriermarke mit dem nächsten Prüftermin.",
+          "tr": {
+            "pt-BR": "Todos os instrumentos de medição têm um selo de calibração com a próxima data."
+          }
+        },
+        {
+          "de": "Dieses Prüfmittel ist abgelaufen und darf nicht benutzt werden.",
+          "tr": {
+            "pt-BR": "Este instrumento está com a calibração vencida e não pode ser usado."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "instrumento de medição e verificação",
+          "technical": "Termo geral para instrumentos, calibradores e padrões usados para verificar características; são controlados e calibrados periodicamente (Prüfmittelüberwachung).",
+          "simple": "Todos os aparelhos usados para medir e conferir peças."
+        }
+      }
+    },
+    {
+      "id": "im-kalibrierung",
+      "level": "B1",
+      "de": {
+        "word": "Kalibrierung",
+        "article": "die",
+        "plural": "Kalibrierungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-pruefmittel", "im-parallelendmass"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Kalibrierung der Messuhren ist einmal im Jahr fällig.",
+          "tr": {
+            "pt-BR": "A calibração dos relógios comparadores vence uma vez por ano."
+          }
+        },
+        {
+          "de": "Nach dem Sturz muss die Bügelmessschraube zur Kalibrierung.",
+          "tr": {
+            "pt-BR": "Depois da queda, o micrômetro precisa ir para calibração."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "calibração",
+          "technical": "Comparação de um instrumento com um padrão rastreável para determinar o erro de medição; não inclui necessariamente ajuste (Justierung).",
+          "simple": "Conferir o instrumento com uma medida \"oficial\" para saber se ele mede certo.",
+          "falseFriends": [
+            {
+              "word": "Justierung",
+              "note": "Em alemão, \"kalibrieren\" é só comparar e documentar; corrigir o instrumento chama-se \"justieren\" (ajustar)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "im-messabweichung",
+      "level": "B2",
+      "de": {
+        "word": "Messabweichung",
+        "article": "die",
+        "plural": "Messabweichungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Mess",
+          "tr": {
+            "pt-BR": "medição"
+          }
+        },
+        {
+          "de": "abweichung",
+          "tr": {
+            "pt-BR": "desvio"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-kalibrierung", "im-toleranz"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Bei 30 Grad in der Halle ist die Messabweichung größer.",
+          "tr": {
+            "pt-BR": "Com 30 graus no galpão, o erro de medição é maior."
+          }
+        },
+        {
+          "de": "Eine Messabweichung durch Parallaxe vermeidest du, wenn du senkrecht abliest.",
+          "tr": {
+            "pt-BR": "Você evita o erro de paralaxe lendo na perpendicular."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "erro de medição (desvio)",
+          "technical": "Diferença entre o valor medido e o valor verdadeiro; causas comuns: temperatura, força de medição, paralaxe, desgaste do instrumento.",
+          "simple": "O quanto a medida que você leu está diferente da medida real."
+        }
+      }
+    },
+    {
+      "id": "im-nonius",
+      "level": "B2",
+      "de": {
+        "word": "Nonius",
+        "article": "der",
+        "plural": "Nonien",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-messschieber", "im-universalwinkelmesser"],
+      "esco": null,
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Lies die Hundertstel am Nonius ab.",
+          "tr": {
+            "pt-BR": "Leia os centésimos no nônio."
+          }
+        },
+        {
+          "de": "Beim Nonius zählt der Strich, der genau mit der Hauptskala übereinstimmt.",
+          "tr": {
+            "pt-BR": "No nônio vale o traço que coincide exatamente com a escala principal."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "nônio (vernier)",
+          "variants": {
+            "pt-PT": "nónio"
+          },
+          "technical": "Escala auxiliar deslizante que permite ler frações da divisão da escala principal (ex.: 1/20 mm no paquímetro). Plural também \"Noniusse\".",
+          "simple": "A reguinha pequena do paquímetro que mostra os décimos e centésimos."
+        }
+      }
+    },
+    {
+      "id": "im-messprotokoll",
+      "level": "B1",
+      "de": {
+        "word": "Messprotokoll",
+        "article": "das",
+        "plural": "Messprotokolle",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Mess",
+          "tr": {
+            "pt-BR": "medição"
+          }
+        },
+        {
+          "de": "protokoll",
+          "tr": {
+            "pt-BR": "protocolo"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-toleranz", "im-pruefmittel"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Trag die Istmaße ins Messprotokoll ein.",
+          "tr": {
+            "pt-BR": "Registre as medidas reais no relatório de medição."
+          }
+        },
+        {
+          "de": "Ohne Messprotokoll gibt die Qualitätssicherung die Teile nicht frei.",
+          "tr": {
+            "pt-BR": "Sem relatório de medição, a qualidade não libera as peças."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "relatório de medição",
+          "technical": "Documento com as características medidas, valores nominais, tolerâncias, valores reais, instrumento usado e responsável.",
+          "simple": "A folha onde se anota tudo o que foi medido."
+        }
+      }
+    },
+    {
+      "id": "im-messen",
+      "level": "A2",
+      "de": {
+        "word": "messen",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["im-messschieber", "im-messprotokoll"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Miss den Durchmesser an drei Stellen.",
+          "tr": {
+            "pt-BR": "Meça o diâmetro em três pontos."
+          }
+        },
+        {
+          "de": "Ich habe 24,98 Millimeter gemessen.",
+          "tr": {
+            "pt-BR": "Medi 24,98 milímetros."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "medir",
+          "technical": "Determinar o valor de uma grandeza com um instrumento (verbo forte: misst, maß, gemessen).",
+          "simple": "Ver o tamanho de algo com um instrumento."
+        }
+      }
     }
   ]
 }

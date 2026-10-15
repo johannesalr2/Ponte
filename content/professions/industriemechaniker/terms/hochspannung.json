@@ -150,6 +150,16 @@
       "synonyms": ["TE"],
       "related": ["im-lufteinschluss", "im-pruefspannung"],
       "esco": null,
+      "sources": [
+        {
+          "label": "Descargas parciais em bobinas encapsuladas em resina epóxi (dissertação, UEL)",
+          "url": "https://repositorio.uel.br/bitstreams/0249f033-a8f0-4ee6-b181-b53c27e7ec37/download"
+        },
+        {
+          "label": "DE 19962834 A1 – Ortung von Teilentladungen an gießharzimprägnierten Komponenten",
+          "url": "https://patents.google.com/patent/DE19962834A1/de"
+        }
+      ],
       "status": "revisado-ia",
       "examples": [
         {
@@ -284,8 +294,23 @@
         "pos": "verb"
       },
       "synonyms": [],
-      "related": ["im-erdung", "im-elektrofachkraft"],
+      "related": [
+        "im-elektrofachkraft",
+        "im-erdung",
+        "im-fuenf-sicherheitsregeln",
+        "im-trennschalter"
+      ],
       "esco": null,
+      "sources": [
+        {
+          "label": "DIN VDE 0105-100 – as cinco regras de segurança (elektrofachkraft.de, PDF)",
+          "url": "https://www.elektrofachkraft.de/files/userdata_EFK/content/grafiken/azubis-unter-strom-auf-den-punkt-gebracht/pdfs/vde-0105-100-die-fuenf-sicherheitsregeln-ueberarbeitet.pdf"
+        },
+        {
+          "label": "NR-10 – Segurança em instalações e serviços em eletricidade (MTE, PDF)",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras/nr-10-atualizada-2019-1.pdf"
+        }
+      ],
       "status": "revisado-ia",
       "examples": [
         {
@@ -304,7 +329,7 @@
       "tr": {
         "pt-BR": {
           "term": "desenergizar (seccionar)",
-          "technical": "Primeira das cinco regras de segurança: desligar e separar a instalação de todas as fontes de tensão, em todos os polos.",
+          "technical": "Primeira das cinco regras de segurança (DIN VDE 0105-100): desligar e separar a instalação de todas as fontes de tensão, em todos os polos, criando distâncias de seccionamento. No Brasil corresponde ao \"seccionamento\", primeira das seis etapas de desenergização da NR-10.",
           "simple": "Desligar a energia de verdade, separando a máquina da rede antes de mexer nela.",
           "falseFriends": [
             {
@@ -328,6 +353,16 @@
       "synonyms": [],
       "related": ["im-freischalten"],
       "esco": null,
+      "sources": [
+        {
+          "label": "DIN VDE 0105-100 – as cinco regras de segurança (elektrofachkraft.de, PDF)",
+          "url": "https://www.elektrofachkraft.de/files/userdata_EFK/content/grafiken/azubis-unter-strom-auf-den-punkt-gebracht/pdfs/vde-0105-100-die-fuenf-sicherheitsregeln-ueberarbeitet.pdf"
+        },
+        {
+          "label": "NR-10 – Segurança em instalações e serviços em eletricidade (MTE, PDF)",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras/nr-10-atualizada-2019-1.pdf"
+        }
+      ],
       "status": "revisado-ia",
       "examples": [
         {
@@ -440,6 +475,16 @@
       "synonyms": [],
       "related": ["im-hochspannung", "im-freischalten"],
       "esco": null,
+      "sources": [
+        {
+          "label": "DIN VDE 0105-100 – as cinco regras de segurança (elektrofachkraft.de, PDF)",
+          "url": "https://www.elektrofachkraft.de/files/userdata_EFK/content/grafiken/azubis-unter-strom-auf-den-punkt-gebracht/pdfs/vde-0105-100-die-fuenf-sicherheitsregeln-ueberarbeitet.pdf"
+        },
+        {
+          "label": "NR-10 – Segurança em instalações e serviços em eletricidade (MTE, PDF)",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras/nr-10-atualizada-2019-1.pdf"
+        }
+      ],
       "status": "revisado-ia",
       "examples": [
         {
@@ -482,6 +527,12 @@
       "synonyms": ["Trafo"],
       "related": ["im-stromwandler", "im-giessharz"],
       "esco": null,
+      "sources": [
+        {
+          "label": "Planungsleitfaden Gießharztransformatoren (SGB-SMIT, PDF)",
+          "url": "https://www.SGB-SMIT.com/fileadmin/user_upload/Downloads/Broschueren/Cast_Resin_Transformers/Planungsleitfaden_D.pdf"
+        }
+      ],
       "status": "revisado-ia",
       "examples": [
         {
@@ -555,6 +606,1381 @@
           },
           "technical": "Transformador de medida que reduz correntes elevadas a valores padronizados (1 A ou 5 A) para medição e proteção.",
           "simple": "Um transformador pequeno que deixa medir correntes enormes com segurança."
+        }
+      }
+    },
+    {
+      "id": "im-fuenf-sicherheitsregeln",
+      "level": "B2",
+      "de": {
+        "word": "fünf Sicherheitsregeln",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "phrase"
+      },
+      "synonyms": [],
+      "related": [
+        "im-freischalten",
+        "im-gegen-wiedereinschalten-sichern",
+        "im-spannungsfreiheit-feststellen",
+        "im-erden-und-kurzschliessen",
+        "im-abdecken-abschranken"
+      ],
+      "esco": null,
+      "sources": [
+        {
+          "label": "DIN VDE 0105-100 – as cinco regras de segurança (elektrofachkraft.de, PDF)",
+          "url": "https://www.elektrofachkraft.de/files/userdata_EFK/content/grafiken/azubis-unter-strom-auf-den-punkt-gebracht/pdfs/vde-0105-100-die-fuenf-sicherheitsregeln-ueberarbeitet.pdf"
+        },
+        {
+          "label": "NR-10 – Segurança em instalações e serviços em eletricidade (MTE, PDF)",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras/nr-10-atualizada-2019-1.pdf"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Vor jeder Arbeit an der Anlage werden die fünf Sicherheitsregeln angewendet.",
+          "tr": {
+            "pt-BR": "Antes de qualquer trabalho na instalação, aplicam-se as cinco regras de segurança."
+          }
+        },
+        {
+          "de": "Kannst du die fünf Sicherheitsregeln der Reihe nach aufsagen?",
+          "tr": {
+            "pt-BR": "Você consegue dizer as cinco regras de segurança em ordem?"
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "as cinco regras de segurança",
+          "technical": "Sequência obrigatória da DIN VDE 0105-100 antes de trabalhar em instalações elétricas: 1. freischalten; 2. gegen Wiedereinschalten sichern; 3. Spannungsfreiheit feststellen; 4. erden und kurzschließen; 5. benachbarte, unter Spannung stehende Teile abdecken oder abschranken. Para religar, desfaz-se na ordem inversa (5 a 1). No Brasil, a NR-10 descreve a desenergização em seis etapas: seccionamento, impedimento de reenergização, constatação da ausência de tensão, aterramento temporário com equipotencialização, proteção dos elementos energizados na zona controlada e sinalização de impedimento de reenergização.",
+          "simple": "Os cinco passos que tornam seguro mexer numa instalação elétrica: desligar, travar, testar, aterrar e proteger o que ainda tem energia."
+        }
+      }
+    },
+    {
+      "id": "im-gegen-wiedereinschalten-sichern",
+      "level": "B2",
+      "de": {
+        "word": "gegen Wiedereinschalten sichern",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "phrase"
+      },
+      "synonyms": ["Lockout-Tagout"],
+      "related": ["im-fuenf-sicherheitsregeln", "im-freischalten"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "DIN VDE 0105-100 – as cinco regras de segurança (elektrofachkraft.de, PDF)",
+          "url": "https://www.elektrofachkraft.de/files/userdata_EFK/content/grafiken/azubis-unter-strom-auf-den-punkt-gebracht/pdfs/vde-0105-100-die-fuenf-sicherheitsregeln-ueberarbeitet.pdf"
+        },
+        {
+          "label": "NR-10 – Segurança em instalações e serviços em eletricidade (MTE, PDF)",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras/nr-10-atualizada-2019-1.pdf"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Sichere den Schalter mit deinem persönlichen Vorhängeschloss gegen Wiedereinschalten.",
+          "tr": {
+            "pt-BR": "Bloqueie a chave contra religamento com o seu cadeado pessoal."
+          }
+        },
+        {
+          "de": "Das Verbotsschild gehört zum Sichern gegen Wiedereinschalten.",
+          "tr": {
+            "pt-BR": "A placa de proibição faz parte do bloqueio contra religamento."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "impedir a reenergização (bloquear e sinalizar)",
+          "technical": "Segunda regra: travar os dispositivos de manobra (cadeado, retirada de fusíveis, bloqueio mecânico) e colocar placa de proibição de ligar.",
+          "simple": "Trancar o disjuntor com cadeado e placa para ninguém religar enquanto você trabalha."
+        }
+      }
+    },
+    {
+      "id": "im-spannungsfreiheit-feststellen",
+      "level": "B2",
+      "de": {
+        "word": "Spannungsfreiheit feststellen",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "phrase"
+      },
+      "synonyms": [],
+      "related": ["im-fuenf-sicherheitsregeln", "im-spannungspruefer"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "DIN VDE 0105-100 – as cinco regras de segurança (elektrofachkraft.de, PDF)",
+          "url": "https://www.elektrofachkraft.de/files/userdata_EFK/content/grafiken/azubis-unter-strom-auf-den-punkt-gebracht/pdfs/vde-0105-100-die-fuenf-sicherheitsregeln-ueberarbeitet.pdf"
+        },
+        {
+          "label": "NR-10 – Segurança em instalações e serviços em eletricidade (MTE, PDF)",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras/nr-10-atualizada-2019-1.pdf"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Spannungsfreiheit darf nur mit einem geprüften Spannungsprüfer festgestellt werden.",
+          "tr": {
+            "pt-BR": "A ausência de tensão só pode ser constatada com um detector de tensão testado."
+          }
+        },
+        {
+          "de": "Erst die Spannungsfreiheit feststellen, dann erden.",
+          "tr": {
+            "pt-BR": "Primeiro constate a ausência de tensão, depois aterre."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "constatar a ausência de tensão",
+          "technical": "Terceira regra: verificar em todos os polos, com detector de tensão adequado e testado antes e depois, que não há tensão no local de trabalho.",
+          "simple": "Medir com o aparelho certo para ter certeza de que não tem mais energia."
+        }
+      }
+    },
+    {
+      "id": "im-erden-und-kurzschliessen",
+      "level": "B2",
+      "de": {
+        "word": "erden und kurzschließen",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "phrase"
+      },
+      "synonyms": [],
+      "related": ["im-fuenf-sicherheitsregeln", "im-erdung"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "DIN VDE 0105-100 – as cinco regras de segurança (elektrofachkraft.de, PDF)",
+          "url": "https://www.elektrofachkraft.de/files/userdata_EFK/content/grafiken/azubis-unter-strom-auf-den-punkt-gebracht/pdfs/vde-0105-100-die-fuenf-sicherheitsregeln-ueberarbeitet.pdf"
+        },
+        {
+          "label": "NR-10 – Segurança em instalações e serviços em eletricidade (MTE, PDF)",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras/nr-10-atualizada-2019-1.pdf"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "In der Mittelspannungsanlage muss vor Arbeitsbeginn geerdet und kurzgeschlossen werden.",
+          "tr": {
+            "pt-BR": "Na instalação de média tensão é preciso aterrar e curto-circuitar antes de começar."
+          }
+        },
+        {
+          "de": "Die Erdungs- und Kurzschließvorrichtung wird immer zuerst an der Erde angeschlossen.",
+          "tr": {
+            "pt-BR": "O dispositivo de aterramento e curto-circuito é sempre ligado primeiro na terra."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "aterrar e curto-circuitar",
+          "technical": "Quarta regra (obrigatória em alta tensão): ligar as partes desenergizadas à terra e entre si com dispositivo de aterramento, primeiro na terra e depois nos condutores.",
+          "simple": "Ligar todos os cabos à terra e entre si, para que, se a energia voltar por engano, ela escape pela terra."
+        }
+      }
+    },
+    {
+      "id": "im-abdecken-abschranken",
+      "level": "B2",
+      "de": {
+        "word": "abdecken oder abschranken",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "phrase"
+      },
+      "synonyms": [],
+      "related": ["im-fuenf-sicherheitsregeln"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "DIN VDE 0105-100 – as cinco regras de segurança (elektrofachkraft.de, PDF)",
+          "url": "https://www.elektrofachkraft.de/files/userdata_EFK/content/grafiken/azubis-unter-strom-auf-den-punkt-gebracht/pdfs/vde-0105-100-die-fuenf-sicherheitsregeln-ueberarbeitet.pdf"
+        },
+        {
+          "label": "NR-10 – Segurança em instalações e serviços em eletricidade (MTE, PDF)",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras/nr-10-atualizada-2019-1.pdf"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Nachbarfelder stehen unter Spannung, die müssen abgedeckt oder abgeschrankt werden.",
+          "tr": {
+            "pt-BR": "Os painéis vizinhos estão energizados; precisam ser cobertos ou isolados com barreiras."
+          }
+        },
+        {
+          "de": "Für das Abdecken nehmen wir isolierende Tücher.",
+          "tr": {
+            "pt-BR": "Para cobrir usamos mantas isolantes."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "cobrir ou isolar com barreiras",
+          "technical": "Quinta regra: proteger partes vizinhas ainda energizadas com coberturas isolantes ou barreiras e sinalização, para evitar contato acidental.",
+          "simple": "Cobrir ou cercar as partes ao lado que ainda têm energia."
+        }
+      }
+    },
+    {
+      "id": "im-eup",
+      "level": "C1",
+      "de": {
+        "word": "elektrotechnisch unterwiesene Person",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "phrase"
+      },
+      "synonyms": ["EuP"],
+      "related": ["im-elektrofachkraft"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "NR-10 – Segurança em instalações e serviços em eletricidade (MTE, PDF)",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras/nr-10-atualizada-2019-1.pdf"
+        }
+      ],
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Nach der Schulung bist du elektrotechnisch unterwiesene Person für den Prüfstand.",
+          "tr": {
+            "pt-BR": "Depois do treinamento você é pessoa instruída em eletrotécnica para a bancada de ensaios."
+          }
+        },
+        {
+          "de": "Eine elektrotechnisch unterwiesene Person darf nicht allein an Hochspannung arbeiten.",
+          "tr": {
+            "pt-BR": "Uma pessoa instruída em eletrotécnica não pode trabalhar sozinha em alta tensão."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "pessoa instruída em eletrotécnica (EuP)",
+          "technical": "Pessoa instruída por um profissional qualificado sobre as tarefas atribuídas e os perigos, que pode executar trabalhos elétricos definidos sob supervisão (DGUV Vorschrift 3). Aproxima-se do \"trabalhador capacitado\" da NR-10, mas os requisitos não são idênticos.",
+          "simple": "Alguém que recebeu treinamento para fazer tarefas elétricas simples e combinadas, sob orientação de um eletricista qualificado."
+        }
+      }
+    },
+    {
+      "id": "im-spannungspruefer",
+      "level": "B1",
+      "de": {
+        "word": "Spannungsprüfer",
+        "article": "der",
+        "plural": "Spannungsprüfer",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Spannung",
+          "tr": {
+            "pt-BR": "tensão"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "prüfer",
+          "tr": {
+            "pt-BR": "verificador"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-spannungsfreiheit-feststellen"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "DIN VDE 0105-100 – as cinco regras de segurança (elektrofachkraft.de, PDF)",
+          "url": "https://www.elektrofachkraft.de/files/userdata_EFK/content/grafiken/azubis-unter-strom-auf-den-punkt-gebracht/pdfs/vde-0105-100-die-fuenf-sicherheitsregeln-ueberarbeitet.pdf"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Teste den Spannungsprüfer vorher an einer bekannten Spannungsquelle.",
+          "tr": {
+            "pt-BR": "Teste o detector de tensão antes numa fonte de tensão conhecida."
+          }
+        },
+        {
+          "de": "Für 20 Kilovolt brauchst du einen Hochspannungsprüfer an der Isolierstange.",
+          "tr": {
+            "pt-BR": "Para 20 quilovolts você precisa de um detector de alta tensão na vara isolante."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "detector de tensão",
+          "technical": "Instrumento para verificar a presença de tensão; deve ser adequado à faixa de tensão e testado antes e depois do uso.",
+          "simple": "O aparelho que mostra se o fio ainda tem energia."
+        }
+      }
+    },
+    {
+      "id": "im-niederspannung",
+      "level": "B1",
+      "de": {
+        "word": "Niederspannung",
+        "article": "die",
+        "plural": "Niederspannungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Nieder",
+          "tr": {
+            "pt-BR": "baixo"
+          }
+        },
+        {
+          "de": "spannung",
+          "tr": {
+            "pt-BR": "tensão"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-mittelspannung", "im-hochspannung"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "NR-10 – Segurança em instalações e serviços em eletricidade (MTE, PDF)",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras/nr-10-atualizada-2019-1.pdf"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Steuerung arbeitet mit Niederspannung.",
+          "tr": {
+            "pt-BR": "O comando funciona em baixa tensão."
+          }
+        },
+        {
+          "de": "Auch Niederspannung ist lebensgefährlich.",
+          "tr": {
+            "pt-BR": "Baixa tensão também pode matar."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "baixa tensão",
+          "technical": "Na norma alemã: até 1000 V em corrente alternada e até 1500 V em corrente contínua (instalações de 230/400 V).",
+          "simple": "A eletricidade das tomadas e máquinas comuns."
+        }
+      }
+    },
+    {
+      "id": "im-mittelspannung",
+      "level": "B2",
+      "de": {
+        "word": "Mittelspannung",
+        "article": "die",
+        "plural": "Mittelspannungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Mittel",
+          "tr": {
+            "pt-BR": "médio"
+          }
+        },
+        {
+          "de": "spannung",
+          "tr": {
+            "pt-BR": "tensão"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-hochspannung", "im-schaltanlage"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "Planungsleitfaden Gießharztransformatoren (SGB-SMIT, PDF)",
+          "url": "https://www.SGB-SMIT.com/fileadmin/user_upload/Downloads/Broschueren/Cast_Resin_Transformers/Planungsleitfaden_D.pdf"
+        }
+      ],
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Der Gießharztransformator wird auf der Mittelspannungsseite mit 20 Kilovolt betrieben.",
+          "tr": {
+            "pt-BR": "O transformador a resina opera com 20 quilovolts no lado de média tensão."
+          }
+        },
+        {
+          "de": "Arbeiten in der Mittelspannungsanlage nur mit Schaltberechtigung.",
+          "tr": {
+            "pt-BR": "Trabalhos na instalação de média tensão só com autorização de manobra."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "média tensão",
+          "technical": "Faixa usual de distribuição entre cerca de 1 kV e 36 kV (ex.: 10 kV, 20 kV); termo técnico de uso comum, não definido como classe própria na VDE.",
+          "simple": "A tensão das redes que chegam às fábricas antes do transformador."
+        }
+      }
+    },
+    {
+      "id": "im-spannung",
+      "level": "A2",
+      "de": {
+        "word": "Spannung",
+        "article": "die",
+        "plural": "Spannungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-strom", "im-widerstand"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Welche Spannung liegt am Motor an?",
+          "tr": {
+            "pt-BR": "Qual tensão está chegando ao motor?"
+          }
+        },
+        {
+          "de": "Die Spannung wird mit dem Multimeter gemessen.",
+          "tr": {
+            "pt-BR": "A tensão é medida com o multímetro."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "tensão (elétrica)",
+          "technical": "Diferença de potencial elétrico, em volts (V); em mecânica, \"Spannung\" também é tensão mecânica (N/mm²).",
+          "simple": "A \"força\" da eletricidade, medida em volts.",
+          "falseFriends": [
+            {
+              "word": "Spannung (suspense)",
+              "note": "No dia a dia, \"Spannung\" também é suspense (ein spannender Film = um filme emocionante)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "im-strom",
+      "level": "A2",
+      "de": {
+        "word": "Strom",
+        "article": "der",
+        "plural": "Ströme",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-spannung", "im-stromwandler"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Strom ist zu hoch, die Sicherung löst aus.",
+          "tr": {
+            "pt-BR": "A corrente está alta demais; o fusível desarma."
+          }
+        },
+        {
+          "de": "Vorsicht, die Leitung steht noch unter Strom!",
+          "tr": {
+            "pt-BR": "Cuidado, o cabo ainda está energizado!"
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "corrente (elétrica)",
+          "technical": "Fluxo de cargas elétricas, em ampères (A); no uso diário \"Strom\" também significa eletricidade/energia.",
+          "simple": "A eletricidade que passa pelo fio; também \"luz\", como na conta de luz.",
+          "falseFriends": [
+            {
+              "word": "Strom (rio)",
+              "note": "\"Strom\" também é um rio grande ou correnteza."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "im-widerstand",
+      "level": "B1",
+      "de": {
+        "word": "Widerstand",
+        "article": "der",
+        "plural": "Widerstände",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Wider",
+          "tr": {
+            "pt-BR": "contra"
+          }
+        },
+        {
+          "de": "stand",
+          "tr": {
+            "pt-BR": "posição"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-isolationswiderstand", "im-spannung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Miss den Widerstand der Wicklung.",
+          "tr": {
+            "pt-BR": "Meça a resistência do enrolamento."
+          }
+        },
+        {
+          "de": "Der Widerstand ist zu klein, das deutet auf einen Kurzschluss hin.",
+          "tr": {
+            "pt-BR": "A resistência está baixa demais; isso indica um curto-circuito."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "resistência (elétrica)",
+          "technical": "Oposição à passagem da corrente, em ohms (Ω); também o componente resistor.",
+          "simple": "O quanto o material \"freia\" a eletricidade."
+        }
+      }
+    },
+    {
+      "id": "im-isolationswiderstand",
+      "level": "B2",
+      "de": {
+        "word": "Isolationswiderstand",
+        "article": "der",
+        "plural": "Isolationswiderstände",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Isolation",
+          "tr": {
+            "pt-BR": "isolamento"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "widerstand",
+          "tr": {
+            "pt-BR": "resistência"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-isolierung", "im-widerstand"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "Ensaios de rotina em transformadores elétricos (O Setor Elétrico)",
+          "url": "https://www.osetoreletrico.com.br/?p=386"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Isolationswiderstand wird mit 5000 Volt gemessen.",
+          "tr": {
+            "pt-BR": "A resistência de isolamento é medida com 5000 volts."
+          }
+        },
+        {
+          "de": "Ein niedriger Isolationswiderstand deutet auf Feuchtigkeit hin.",
+          "tr": {
+            "pt-BR": "Uma resistência de isolamento baixa indica umidade."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "resistência de isolamento",
+          "technical": "Resistência entre partes ativas e terra (ou entre enrolamentos), medida com megômetro em MΩ/GΩ; valores baixos indicam umidade ou dano.",
+          "simple": "O quanto o isolamento impede a eletricidade de escapar; quanto maior, melhor."
+        }
+      }
+    },
+    {
+      "id": "im-wechselspannung",
+      "level": "B1",
+      "de": {
+        "word": "Wechselspannung",
+        "article": "die",
+        "plural": "Wechselspannungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Wechsel",
+          "tr": {
+            "pt-BR": "troca"
+          }
+        },
+        {
+          "de": "spannung",
+          "tr": {
+            "pt-BR": "tensão"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-gleichspannung", "im-spannung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Prüfung erfolgt mit Wechselspannung bei 50 Hertz.",
+          "tr": {
+            "pt-BR": "O ensaio é feito com tensão alternada de 50 hertz."
+          }
+        },
+        {
+          "de": "In Brasilien hat die Wechselspannung 60 Hertz.",
+          "tr": {
+            "pt-BR": "No Brasil, a tensão alternada tem 60 hertz."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "tensão alternada",
+          "technical": "Tensão que inverte a polaridade periodicamente (50 Hz na Europa, 60 Hz no Brasil); abreviada AC.",
+          "simple": "A eletricidade da tomada, que muda de sentido muitas vezes por segundo."
+        }
+      }
+    },
+    {
+      "id": "im-gleichspannung",
+      "level": "B1",
+      "de": {
+        "word": "Gleichspannung",
+        "article": "die",
+        "plural": "Gleichspannungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Gleich",
+          "tr": {
+            "pt-BR": "igual"
+          }
+        },
+        {
+          "de": "spannung",
+          "tr": {
+            "pt-BR": "tensão"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-wechselspannung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Steuerung arbeitet mit 24 Volt Gleichspannung.",
+          "tr": {
+            "pt-BR": "O comando trabalha com 24 volts de tensão contínua."
+          }
+        },
+        {
+          "de": "Kondensatoren können auch nach dem Abschalten noch Gleichspannung führen.",
+          "tr": {
+            "pt-BR": "Capacitores podem ainda ter tensão contínua depois de desligados."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "tensão contínua",
+          "technical": "Tensão de polaridade constante (baterias, fontes); abreviada DC. Na norma alemã, alta tensão contínua começa acima de 1500 V.",
+          "simple": "A eletricidade de pilha, sempre no mesmo sentido."
+        }
+      }
+    },
+    {
+      "id": "im-stossspannung",
+      "level": "C1",
+      "de": {
+        "word": "Stoßspannung",
+        "article": "die",
+        "plural": "Stoßspannungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Stoß",
+          "tr": {
+            "pt-BR": "choque, impulso"
+          }
+        },
+        {
+          "de": "spannung",
+          "tr": {
+            "pt-BR": "tensão"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-pruefspannung", "im-stueckpruefung"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "Ensaio de impulso atmosférico em transformadores de distribuição (dissertação, UNIFEI)",
+          "url": "https://repositorio.unifei.edu.br/jspui/handle/123456789/2501"
+        }
+      ],
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Der Transformator besteht die Stoßspannungsprüfung mit 125 Kilovolt.",
+          "tr": {
+            "pt-BR": "O transformador passa no ensaio de impulso com 125 quilovolts."
+          }
+        },
+        {
+          "de": "Bei der Stoßspannung wird ein Blitzeinschlag nachgebildet.",
+          "tr": {
+            "pt-BR": "Na tensão de impulso, simula-se a queda de um raio."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "tensão de impulso",
+          "technical": "Impulso de tensão de curtíssima duração que simula raios (impulso atmosférico 1,2/50 µs) ou manobras; usado para ensaiar o isolamento.",
+          "simple": "Um \"choque\" de tensão muito rápido, como um raio, usado para testar se o isolamento aguenta."
+        }
+      }
+    },
+    {
+      "id": "im-stueckpruefung",
+      "level": "C1",
+      "de": {
+        "word": "Stückprüfung",
+        "article": "die",
+        "plural": "Stückprüfungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Stück",
+          "tr": {
+            "pt-BR": "peça"
+          }
+        },
+        {
+          "de": "prüfung",
+          "tr": {
+            "pt-BR": "ensaio"
+          }
+        }
+      ],
+      "synonyms": ["Routineprüfung"],
+      "related": ["im-pruefspannung", "im-teilentladung", "im-prueffeld"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "Ensaios de rotina em transformadores elétricos (O Setor Elétrico)",
+          "url": "https://www.osetoreletrico.com.br/?p=386"
+        },
+        {
+          "label": "Descargas parciais em bobinas encapsuladas em resina epóxi (dissertação, UEL)",
+          "url": "https://repositorio.uel.br/bitstreams/0249f033-a8f0-4ee6-b181-b53c27e7ec37/download"
+        }
+      ],
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Jeder Wandler durchläuft eine Stückprüfung mit Teilentladungsmessung.",
+          "tr": {
+            "pt-BR": "Cada transformador de medida passa por ensaio de rotina com medição de descargas parciais."
+          }
+        },
+        {
+          "de": "Das Prüfprotokoll der Stückprüfung wird mitgeliefert.",
+          "tr": {
+            "pt-BR": "O relatório do ensaio de rotina é entregue junto."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "ensaio de rotina",
+          "technical": "Ensaio feito em cada unidade fabricada (ex.: tensão aplicada, tensão induzida, descargas parciais), diferente do ensaio de tipo, feito em um protótipo.",
+          "simple": "O teste que toda peça precisa passar antes de sair da fábrica."
+        }
+      }
+    },
+    {
+      "id": "im-prueffeld",
+      "level": "B2",
+      "de": {
+        "word": "Prüffeld",
+        "article": "das",
+        "plural": "Prüffelder",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Prüf",
+          "tr": {
+            "pt-BR": "ensaio"
+          }
+        },
+        {
+          "de": "feld",
+          "tr": {
+            "pt-BR": "campo"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-pruefspannung", "im-stueckpruefung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Während der Prüfung darf niemand das Prüffeld betreten.",
+          "tr": {
+            "pt-BR": "Durante o ensaio ninguém pode entrar na área de ensaios."
+          }
+        },
+        {
+          "de": "Die Warnleuchte zeigt, dass im Prüffeld Spannung anliegt.",
+          "tr": {
+            "pt-BR": "A luz de advertência mostra que há tensão na área de ensaios."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "laboratório de ensaios (área de ensaios)",
+          "technical": "Área isolada e sinalizada da fábrica onde se fazem ensaios elétricos; o acesso é restrito durante a aplicação de tensão.",
+          "simple": "A sala cercada onde as peças são testadas com alta tensão."
+        }
+      }
+    },
+    {
+      "id": "im-lichtbogen",
+      "level": "B2",
+      "de": {
+        "word": "Lichtbogen",
+        "article": "der",
+        "plural": "Lichtbogen",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Licht",
+          "tr": {
+            "pt-BR": "luz"
+          }
+        },
+        {
+          "de": "bogen",
+          "tr": {
+            "pt-BR": "arco"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-schaltanlage", "im-psa"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "Lichtbogen – declinação (verbformen.com)",
+          "url": "https://www.verbformen.com/declension/nouns/Lichtbogen.htm"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Beim Schalten unter Last kann ein Lichtbogen entstehen.",
+          "tr": {
+            "pt-BR": "Ao manobrar sob carga pode surgir um arco elétrico."
+          }
+        },
+        {
+          "de": "Die Störlichtbogen-Schutzkleidung ist im Schaltraum Pflicht.",
+          "tr": {
+            "pt-BR": "A roupa de proteção contra arco elétrico é obrigatória na sala de manobra."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "arco elétrico",
+          "technical": "Descarga elétrica luminosa e muito quente através do ar entre condutores; pode causar queimaduras graves e explosões (arc flash). Plural também \"Lichtbögen\".",
+          "simple": "Uma \"faísca\" enorme e quentíssima que salta entre fios."
+        }
+      }
+    },
+    {
+      "id": "im-durchschlag",
+      "level": "C1",
+      "de": {
+        "word": "Durchschlag",
+        "article": "der",
+        "plural": "Durchschläge",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Durch",
+          "tr": {
+            "pt-BR": "através"
+          }
+        },
+        {
+          "de": "schlag",
+          "tr": {
+            "pt-BR": "golpe"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-durchschlagfestigkeit", "im-teilentladung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Bei der Prüfung gab es einen Durchschlag in der Vergussmasse.",
+          "tr": {
+            "pt-BR": "No ensaio houve uma ruptura dielétrica na massa de encapsulamento."
+          }
+        },
+        {
+          "de": "Nach einem Durchschlag ist der Isolator unbrauchbar.",
+          "tr": {
+            "pt-BR": "Depois de uma ruptura dielétrica, o isolador fica inutilizado."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "ruptura dielétrica (descarga disruptiva)",
+          "technical": "Falha do isolamento em que se forma um caminho condutor permanente, normalmente destruindo a peça isolante.",
+          "simple": "Quando o isolamento \"fura\" e a eletricidade passa por ele.",
+          "falseFriends": [
+            {
+              "word": "Durchschlag (cópia)",
+              "note": "\"Durchschlag\" também é uma cópia em papel carbono e um tipo de escorredor de cozinha."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "im-schaltanlage",
+      "level": "B2",
+      "de": {
+        "word": "Schaltanlage",
+        "article": "die",
+        "plural": "Schaltanlagen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Schalt",
+          "tr": {
+            "pt-BR": "manobra"
+          }
+        },
+        {
+          "de": "anlage",
+          "tr": {
+            "pt-BR": "instalação"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-leistungsschalter", "im-trennschalter", "im-stromwandler"],
+      "esco": null,
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Die Schaltanlage darf nur von Elektrofachkräften betreten werden.",
+          "tr": {
+            "pt-BR": "Só profissionais qualificados podem entrar na sala do conjunto de manobra."
+          }
+        },
+        {
+          "de": "In der Schaltanlage werden unsere Stromwandler eingebaut.",
+          "tr": {
+            "pt-BR": "Nossos transformadores de corrente são instalados no conjunto de manobra."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "conjunto de manobra (painel de média tensão)",
+          "technical": "Instalação com disjuntores, seccionadores, barramentos e transformadores de medida para distribuir e proteger a energia.",
+          "simple": "O armário grande onde a energia é ligada, desligada e distribuída."
+        }
+      }
+    },
+    {
+      "id": "im-leistungsschalter",
+      "level": "B2",
+      "de": {
+        "word": "Leistungsschalter",
+        "article": "der",
+        "plural": "Leistungsschalter",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Leistung",
+          "tr": {
+            "pt-BR": "potência"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "schalter",
+          "tr": {
+            "pt-BR": "interruptor"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-trennschalter", "im-schaltanlage"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Leistungsschalter hat wegen Überstrom ausgelöst.",
+          "tr": {
+            "pt-BR": "O disjuntor desarmou por sobrecorrente."
+          }
+        },
+        {
+          "de": "Erst den Leistungsschalter öffnen, dann den Trennschalter.",
+          "tr": {
+            "pt-BR": "Primeiro abra o disjuntor, depois o seccionador."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "disjuntor",
+          "technical": "Dispositivo de manobra capaz de ligar, conduzir e interromper correntes normais e de curto-circuito.",
+          "simple": "O interruptor forte que desliga sozinho quando há curto-circuito."
+        }
+      }
+    },
+    {
+      "id": "im-trennschalter",
+      "level": "B2",
+      "de": {
+        "word": "Trennschalter",
+        "article": "der",
+        "plural": "Trennschalter",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Trenn",
+          "tr": {
+            "pt-BR": "separar"
+          }
+        },
+        {
+          "de": "schalter",
+          "tr": {
+            "pt-BR": "interruptor"
+          }
+        }
+      ],
+      "synonyms": ["Trenner"],
+      "related": ["im-leistungsschalter", "im-freischalten"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Trennschalter darf nicht unter Last geschaltet werden.",
+          "tr": {
+            "pt-BR": "O seccionador não pode ser manobrado sob carga."
+          }
+        },
+        {
+          "de": "Mit dem Trennschalter wird die Trennstrecke hergestellt.",
+          "tr": {
+            "pt-BR": "Com o seccionador cria-se a distância de seccionamento."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "seccionador",
+          "technical": "Dispositivo que cria uma separação visível no circuito; só pode ser manobrado sem carga.",
+          "simple": "A chave que separa o circuito de forma visível, depois que a corrente já foi desligada."
+        }
+      }
+    },
+    {
+      "id": "im-spannungswandler",
+      "level": "C1",
+      "de": {
+        "word": "Spannungswandler",
+        "article": "der",
+        "plural": "Spannungswandler",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Spannung",
+          "tr": {
+            "pt-BR": "tensão"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "wandler",
+          "tr": {
+            "pt-BR": "conversor"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-stromwandler", "im-transformator"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Den Spannungswandler sekundärseitig niemals kurzschließen.",
+          "tr": {
+            "pt-BR": "Nunca curto-circuite o secundário do transformador de potencial."
+          }
+        },
+        {
+          "de": "Wir gießen Spannungswandler für 24 Kilovolt.",
+          "tr": {
+            "pt-BR": "Fundimos transformadores de potencial para 24 quilovolts."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "transformador de potencial (TP)",
+          "variants": {
+            "pt-PT": "transformador de tensão (TT)"
+          },
+          "technical": "Transformador de medida que reduz tensões altas a valores padronizados (ex.: 100 V) para medição e proteção; o secundário nunca pode ser curto-circuitado.",
+          "simple": "Um transformador pequeno que deixa medir tensões altas com segurança."
+        }
+      }
+    },
+    {
+      "id": "im-leiter",
+      "level": "B1",
+      "de": {
+        "word": "Leiter",
+        "article": "der",
+        "plural": "Leiter",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-erdung", "im-isolierung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Schutzleiter ist grün-gelb.",
+          "tr": {
+            "pt-BR": "O condutor de proteção é verde-amarelo."
+          }
+        },
+        {
+          "de": "Kupfer ist ein guter Leiter.",
+          "tr": {
+            "pt-BR": "O cobre é um bom condutor."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "condutor",
+          "technical": "Material ou cabo que conduz corrente (cobre, alumínio); \"Schutzleiter\" é o condutor de proteção (verde-amarelo).",
+          "simple": "O fio por onde passa a eletricidade.",
+          "falseFriends": [
+            {
+              "word": "die Leiter / der Leiter",
+              "note": "\"Die Leiter\" (feminino) é a escada. \"Der Leiter\" também é o chefe ou responsável (Schichtleiter = líder de turno)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "im-feldstaerke",
+      "level": "C1",
+      "de": {
+        "word": "Feldstärke",
+        "article": "die",
+        "plural": "Feldstärken",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Feld",
+          "tr": {
+            "pt-BR": "campo"
+          }
+        },
+        {
+          "de": "stärke",
+          "tr": {
+            "pt-BR": "intensidade"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-durchschlagfestigkeit", "im-teilentladung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "An scharfen Kanten ist die Feldstärke besonders hoch.",
+          "tr": {
+            "pt-BR": "Em cantos vivos a intensidade de campo é especialmente alta."
+          }
+        },
+        {
+          "de": "Die Feldstärke darf die Durchschlagfestigkeit nicht erreichen.",
+          "tr": {
+            "pt-BR": "A intensidade de campo não pode chegar à rigidez dielétrica."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "intensidade de campo (elétrico)",
+          "technical": "Tensão por distância (kV/mm); onde a intensidade de campo é alta (cantos vivos, bolhas) surgem descargas parciais.",
+          "simple": "O quanto a eletricidade \"aperta\" num ponto; cantos e bolhas concentram esse aperto."
+        }
+      }
+    },
+    {
+      "id": "im-psa",
+      "level": "B1",
+      "de": {
+        "word": "PSA",
+        "article": "die",
+        "plural": null,
+        "gender": "f",
+        "pos": "abbreviation"
+      },
+      "synonyms": ["persönliche Schutzausrüstung"],
+      "related": ["im-lichtbogen", "im-gefaehrdungsbeurteilung"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "NR-10 – Segurança em instalações e serviços em eletricidade (MTE, PDF)",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras/nr-10-atualizada-2019-1.pdf"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Ohne PSA darfst du die Schaltanlage nicht betreten.",
+          "tr": {
+            "pt-BR": "Sem EPI você não pode entrar no conjunto de manobra."
+          }
+        },
+        {
+          "de": "Zur PSA gehören hier auch isolierende Handschuhe.",
+          "tr": {
+            "pt-BR": "Aqui o EPI inclui também luvas isolantes."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "EPI (equipamento de proteção individual)",
+          "technical": "Persönliche Schutzausrüstung: capacete, óculos, luvas isolantes, roupa contra arco elétrico, calçado de segurança, conforme a avaliação de riscos.",
+          "simple": "Os equipamentos que você veste para se proteger."
         }
       }
     }

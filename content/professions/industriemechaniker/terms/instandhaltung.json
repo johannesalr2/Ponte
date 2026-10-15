@@ -28,6 +28,12 @@
       "synonyms": [],
       "related": ["im-wartung", "im-stoerung"],
       "esco": null,
+      "sources": [
+        {
+          "label": "DIN 31051:2019-06 – Grundlagen der Instandhaltung (DIN Media)",
+          "url": "https://www.dinmedia.de/de/norm/din-31051/303020440"
+        }
+      ],
       "status": "revisado-ia",
       "examples": [
         {
@@ -64,6 +70,12 @@
       "synonyms": [],
       "related": ["im-instandhaltung", "im-schmieren"],
       "esco": null,
+      "sources": [
+        {
+          "label": "DIN 31051:2019-06 – Grundlagen der Instandhaltung (DIN Media)",
+          "url": "https://www.dinmedia.de/de/norm/din-31051/303020440"
+        }
+      ],
       "status": "revisado-ia",
       "examples": [
         {
@@ -477,6 +489,1603 @@
           },
           "technical": "Máquina para fazer furos com broca giratória: furadeira de bancada, de coluna ou manual.",
           "simple": "A máquina que faz buracos redondos com uma broca."
+        }
+      }
+    },
+    {
+      "id": "im-inspektion",
+      "level": "B1",
+      "de": {
+        "word": "Inspektion",
+        "article": "die",
+        "plural": "Inspektionen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-instandhaltung", "im-wartung", "im-instandsetzung"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "DIN 31051:2019-06 – Grundlagen der Instandhaltung (DIN Media)",
+          "url": "https://www.dinmedia.de/de/norm/din-31051/303020440"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Bei der Inspektion haben wir Risse am Gehäuse gefunden.",
+          "tr": {
+            "pt-BR": "Na inspeção encontramos trincas na carcaça."
+          }
+        },
+        {
+          "de": "Die Inspektion der Krananlage ist jährlich vorgeschrieben.",
+          "tr": {
+            "pt-BR": "A inspeção da ponte rolante é obrigatória todo ano."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "inspeção",
+          "technical": "Grupo de medidas da DIN 31051 para determinar e avaliar o estado real de uma unidade (verificar, medir, registrar), incluindo a causa do desgaste.",
+          "simple": "Olhar e medir a máquina com atenção para saber em que estado ela está."
+        }
+      }
+    },
+    {
+      "id": "im-instandsetzung",
+      "level": "B1",
+      "de": {
+        "word": "Instandsetzung",
+        "article": "die",
+        "plural": "Instandsetzungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Instand",
+          "tr": {
+            "pt-BR": "em bom estado"
+          }
+        },
+        {
+          "de": "setzung",
+          "tr": {
+            "pt-BR": "colocação"
+          }
+        }
+      ],
+      "synonyms": ["Reparatur"],
+      "related": ["im-instandhaltung", "im-inspektion"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "DIN 31051:2019-06 – Grundlagen der Instandhaltung (DIN Media)",
+          "url": "https://www.dinmedia.de/de/norm/din-31051/303020440"
+        },
+        {
+          "label": "ABNT NBR 5462 – Confiabilidade e mantenabilidade (catálogo)",
+          "url": "https://www.normas.com.br/visualizar/abnt-nbr-nm/8044/nbr5462-confiabilidade-e-mantenabilidade"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Instandsetzung der Pumpe dauert zwei Tage.",
+          "tr": {
+            "pt-BR": "O reparo da bomba leva dois dias."
+          }
+        },
+        {
+          "de": "Nach der Instandsetzung wird ein Probelauf gemacht.",
+          "tr": {
+            "pt-BR": "Depois do reparo faz-se um teste de funcionamento."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "reparo (manutenção corretiva)",
+          "technical": "Grupo de medidas da DIN 31051 para restabelecer o estado funcional de uma unidade com defeito (trocar ou consertar peças).",
+          "simple": "Consertar o que quebrou."
+        }
+      }
+    },
+    {
+      "id": "im-verbesserung",
+      "level": "B1",
+      "de": {
+        "word": "Verbesserung",
+        "article": "die",
+        "plural": "Verbesserungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-instandhaltung"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "DIN 31051:2019-06 – Grundlagen der Instandhaltung (DIN Media)",
+          "url": "https://www.dinmedia.de/de/norm/din-31051/303020440"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Als Verbesserung haben wir eine zentrale Schmierung eingebaut.",
+          "tr": {
+            "pt-BR": "Como melhoria instalamos uma lubrificação centralizada."
+          }
+        },
+        {
+          "de": "Die Verbesserung hat die Ausfallzeiten halbiert.",
+          "tr": {
+            "pt-BR": "A melhoria reduziu o tempo de parada pela metade."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "melhoria",
+          "technical": "Grupo de medidas da DIN 31051 para aumentar a confiabilidade, a manutenibilidade ou a segurança de uma unidade sem mudar sua função.",
+          "simple": "Mudar algo na máquina para ela quebrar menos ou ficar mais segura."
+        }
+      }
+    },
+    {
+      "id": "im-vorausschauende-instandhaltung",
+      "level": "B2",
+      "de": {
+        "word": "vorausschauende Instandhaltung",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "phrase"
+      },
+      "synonyms": ["Predictive Maintenance", "zustandsorientierte Instandhaltung"],
+      "related": ["im-instandhaltung", "im-inspektion"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "ABNT NBR 5462 – Confiabilidade e mantenabilidade (catálogo)",
+          "url": "https://www.normas.com.br/visualizar/abnt-nbr-nm/8044/nbr5462-confiabilidade-e-mantenabilidade"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Mit Schwingungssensoren betreiben wir vorausschauende Instandhaltung.",
+          "tr": {
+            "pt-BR": "Com sensores de vibração fazemos manutenção preditiva."
+          }
+        },
+        {
+          "de": "Die vorausschauende Instandhaltung hat den Lagerschaden früh erkannt.",
+          "tr": {
+            "pt-BR": "A manutenção preditiva detectou cedo o dano no rolamento."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "manutenção preditiva",
+          "technical": "Estratégia que intervém com base no estado medido (vibração, temperatura, análise de óleo), antes da falha; em inglês \"predictive maintenance\".",
+          "simple": "Consertar antes de quebrar, porque os sensores avisam que algo está piorando."
+        }
+      }
+    },
+    {
+      "id": "im-stillstand",
+      "level": "B1",
+      "de": {
+        "word": "Stillstand",
+        "article": "der",
+        "plural": "Stillstände",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Still",
+          "tr": {
+            "pt-BR": "parado"
+          }
+        },
+        {
+          "de": "stand",
+          "tr": {
+            "pt-BR": "estado"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-stoerung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Jeder ungeplante Stillstand kostet uns viel Geld.",
+          "tr": {
+            "pt-BR": "Cada parada não planejada nos custa muito dinheiro."
+          }
+        },
+        {
+          "de": "Den Lagerwechsel machen wir im geplanten Stillstand am Samstag.",
+          "tr": {
+            "pt-BR": "A troca de rolamento faremos na parada planejada de sábado."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "parada (de máquina)",
+          "technical": "Período em que a máquina ou linha não produz; planejado (manutenção) ou não planejado (falha).",
+          "simple": "Quando a máquina fica parada."
+        }
+      }
+    },
+    {
+      "id": "im-ersatzteil",
+      "level": "A2",
+      "de": {
+        "word": "Ersatzteil",
+        "article": "das",
+        "plural": "Ersatzteile",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Ersatz",
+          "tr": {
+            "pt-BR": "substituição"
+          }
+        },
+        {
+          "de": "teil",
+          "tr": {
+            "pt-BR": "peça"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-verschleiss"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Ersatzteil ist erst nächste Woche lieferbar.",
+          "tr": {
+            "pt-BR": "A peça de reposição só estará disponível semana que vem."
+          }
+        },
+        {
+          "de": "Notier die Artikelnummer des Ersatzteils.",
+          "tr": {
+            "pt-BR": "Anote o código da peça de reposição."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "peça de reposição",
+          "variants": {
+            "pt-PT": "peça sobressalente"
+          },
+          "technical": "Peça mantida em estoque ou encomendada para substituir componentes desgastados ou defeituosos.",
+          "simple": "A peça nova que entra no lugar da que estragou."
+        }
+      }
+    },
+    {
+      "id": "im-getriebe",
+      "level": "B1",
+      "de": {
+        "word": "Getriebe",
+        "article": "das",
+        "plural": "Getriebe",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-zahnrad", "im-welle", "im-kupplung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Getriebe verliert Öl an der Wellendichtung.",
+          "tr": {
+            "pt-BR": "O redutor está vazando óleo no retentor do eixo."
+          }
+        },
+        {
+          "de": "Prüf den Ölstand im Getriebe.",
+          "tr": {
+            "pt-BR": "Verifique o nível de óleo do redutor."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "redutor (caixa de engrenagens)",
+          "variants": {
+            "pt-PT": "caixa redutora"
+          },
+          "technical": "Conjunto que transmite e converte rotação e torque entre eixos (redutor de engrenagens, sem-fim, planetário).",
+          "simple": "A caixa com engrenagens que muda a velocidade do motor."
+        }
+      }
+    },
+    {
+      "id": "im-kupplung",
+      "level": "B1",
+      "de": {
+        "word": "Kupplung",
+        "article": "die",
+        "plural": "Kupplungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-ausrichten", "im-welle", "im-getriebe"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Kupplung zwischen Motor und Pumpe muss ausgerichtet werden.",
+          "tr": {
+            "pt-BR": "O acoplamento entre motor e bomba precisa ser alinhado."
+          }
+        },
+        {
+          "de": "Das Elastomer der Kupplung ist verschlissen.",
+          "tr": {
+            "pt-BR": "O elemento elástico do acoplamento está gasto."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "acoplamento",
+          "technical": "Elemento que liga dois eixos para transmitir torque, compensando desalinhamentos (elástico, de garras, de disco).",
+          "simple": "A peça que une o eixo do motor ao eixo da máquina.",
+          "falseFriends": [
+            {
+              "word": "embreagem",
+              "note": "No carro, \"Kupplung\" é a embreagem. Na máquina industrial é o acoplamento entre eixos."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "im-keilriemen",
+      "level": "B1",
+      "de": {
+        "word": "Keilriemen",
+        "article": "der",
+        "plural": "Keilriemen",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Keil",
+          "tr": {
+            "pt-BR": "cunha"
+          }
+        },
+        {
+          "de": "riemen",
+          "tr": {
+            "pt-BR": "correia"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-verschleiss"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Keilriemen quietscht, die Spannung ist zu gering.",
+          "tr": {
+            "pt-BR": "A correia em V está chiando; a tensão está baixa."
+          }
+        },
+        {
+          "de": "Tausch immer den ganzen Satz Keilriemen.",
+          "tr": {
+            "pt-BR": "Troque sempre o jogo completo de correias."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "correia em V",
+          "variants": {
+            "pt-PT": "correia trapezoidal"
+          },
+          "technical": "Correia de seção trapezoidal que transmite força por atrito nos canais da polia; precisa de tensão correta.",
+          "simple": "A correia de borracha que liga duas polias."
+        }
+      }
+    },
+    {
+      "id": "im-zahnrad",
+      "level": "A2",
+      "de": {
+        "word": "Zahnrad",
+        "article": "das",
+        "plural": "Zahnräder",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Zahn",
+          "tr": {
+            "pt-BR": "dente"
+          }
+        },
+        {
+          "de": "rad",
+          "tr": {
+            "pt-BR": "roda"
+          }
+        }
+      ],
+      "synonyms": ["Ritzel"],
+      "related": ["im-getriebe"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Am Zahnrad sind zwei Zähne ausgebrochen.",
+          "tr": {
+            "pt-BR": "Quebraram dois dentes da engrenagem."
+          }
+        },
+        {
+          "de": "Das neue Zahnrad hat Modul 3 und 40 Zähne.",
+          "tr": {
+            "pt-BR": "A nova engrenagem tem módulo 3 e 40 dentes."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "engrenagem",
+          "technical": "Roda dentada que transmite movimento por engrenamento; características: módulo, número de dentes, largura.",
+          "simple": "Uma roda com dentes que gira outra roda."
+        }
+      }
+    },
+    {
+      "id": "im-hydraulik",
+      "level": "B1",
+      "de": {
+        "word": "Hydraulik",
+        "article": "die",
+        "plural": null,
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-pneumatik", "im-zylinder", "im-ventil", "im-pumpe"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Vor Arbeiten an der Hydraulik den Druck ablassen.",
+          "tr": {
+            "pt-BR": "Antes de trabalhar na hidráulica, alivie a pressão."
+          }
+        },
+        {
+          "de": "Die Presse hat ein Leck in der Hydraulik.",
+          "tr": {
+            "pt-BR": "A prensa tem um vazamento na hidráulica."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "hidráulica",
+          "technical": "Técnica de transmissão de força por óleo sob pressão (bomba, válvulas, cilindros); pressões típicas de 100 a 300 bar.",
+          "simple": "O sistema que usa óleo apertado para mover peças pesadas."
+        }
+      }
+    },
+    {
+      "id": "im-pneumatik",
+      "level": "B1",
+      "de": {
+        "word": "Pneumatik",
+        "article": "die",
+        "plural": null,
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-hydraulik", "im-zylinder", "im-ventil"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Greifer fällt aus, weil der Druck in der Pneumatik zu niedrig ist.",
+          "tr": {
+            "pt-BR": "A garra falha porque a pressão na pneumática está baixa."
+          }
+        },
+        {
+          "de": "Die Wartungseinheit der Pneumatik muss entwässert werden.",
+          "tr": {
+            "pt-BR": "A unidade de conservação da pneumática precisa ser drenada."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "pneumática",
+          "technical": "Técnica que usa ar comprimido (tipicamente 6 bar) para acionar cilindros, garras e válvulas.",
+          "simple": "O sistema que usa ar comprimido para mexer as peças."
+        }
+      }
+    },
+    {
+      "id": "im-zylinder",
+      "level": "B1",
+      "de": {
+        "word": "Zylinder",
+        "article": "der",
+        "plural": "Zylinder",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-hydraulik", "im-pneumatik", "im-dichtung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Zylinder fährt nicht mehr ganz aus.",
+          "tr": {
+            "pt-BR": "O cilindro não avança mais até o fim."
+          }
+        },
+        {
+          "de": "An der Kolbenstange des Zylinders tritt Öl aus.",
+          "tr": {
+            "pt-BR": "Está saindo óleo na haste do cilindro."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "cilindro (atuador)",
+          "technical": "Atuador linear hidráulico ou pneumático (simples ou dupla ação), composto de camisa, êmbolo e haste.",
+          "simple": "O \"pistão\" que empurra e puxa com ar ou óleo."
+        }
+      }
+    },
+    {
+      "id": "im-ventil",
+      "level": "A2",
+      "de": {
+        "word": "Ventil",
+        "article": "das",
+        "plural": "Ventile",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-hydraulik", "im-pneumatik"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Magnetventil schaltet nicht, prüf die Spule.",
+          "tr": {
+            "pt-BR": "A válvula solenoide não comuta; verifique a bobina."
+          }
+        },
+        {
+          "de": "Das Druckbegrenzungsventil ist auf 160 bar eingestellt.",
+          "tr": {
+            "pt-BR": "A válvula limitadora de pressão está ajustada em 160 bar."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "válvula",
+          "technical": "Componente que controla direção, pressão ou vazão de fluidos (válvula direcional, de alívio, reguladora de vazão).",
+          "simple": "A peça que abre, fecha ou desvia a passagem do óleo, do ar ou da água."
+        }
+      }
+    },
+    {
+      "id": "im-pumpe",
+      "level": "A2",
+      "de": {
+        "word": "Pumpe",
+        "article": "die",
+        "plural": "Pumpen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-hydraulik", "im-dichtung", "im-motor"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Pumpe läuft trocken, das zerstört die Gleitringdichtung.",
+          "tr": {
+            "pt-BR": "A bomba está trabalhando a seco; isso destrói o selo mecânico."
+          }
+        },
+        {
+          "de": "Nach dem Tausch die Pumpe entlüften.",
+          "tr": {
+            "pt-BR": "Depois da troca, sangre a bomba (tire o ar)."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "bomba",
+          "technical": "Máquina que transporta fluidos (bomba centrífuga, de engrenagens, de pistões); na hidráulica gera a vazão.",
+          "simple": "A máquina que empurra líquido pelos tubos."
+        }
+      }
+    },
+    {
+      "id": "im-motor",
+      "level": "A2",
+      "de": {
+        "word": "Motor",
+        "article": "der",
+        "plural": "Motoren",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-kupplung", "im-elektrofachkraft"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Motor wird zu heiß, prüf den Lüfter.",
+          "tr": {
+            "pt-BR": "O motor está esquentando demais; verifique o ventilador."
+          }
+        },
+        {
+          "de": "Den Motor darf nur die Elektrofachkraft abklemmen.",
+          "tr": {
+            "pt-BR": "Só o profissional qualificado em eletricidade pode desligar os cabos do motor."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "motor",
+          "technical": "Máquina que converte energia (elétrica, combustão) em movimento; na indústria, sobretudo motores elétricos trifásicos.",
+          "simple": "A parte que faz a máquina se mexer."
+        }
+      }
+    },
+    {
+      "id": "im-werkstueck",
+      "level": "A2",
+      "de": {
+        "word": "Werkstück",
+        "article": "das",
+        "plural": "Werkstücke",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Werk",
+          "tr": {
+            "pt-BR": "obra"
+          }
+        },
+        {
+          "de": "stück",
+          "tr": {
+            "pt-BR": "peça"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-werkzeug", "im-schraubstock"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Spann das Werkstück rund und plan.",
+          "tr": {
+            "pt-BR": "Prenda a peça centrada e sem batimento."
+          }
+        },
+        {
+          "de": "Das Werkstück ist zu warm zum Messen.",
+          "tr": {
+            "pt-BR": "A peça está quente demais para medir."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "peça (em usinagem)",
+          "technical": "Peça que está sendo trabalhada (usinada, montada ou medida).",
+          "simple": "A peça em que você está trabalhando."
+        }
+      }
+    },
+    {
+      "id": "im-werkzeug",
+      "level": "A2",
+      "de": {
+        "word": "Werkzeug",
+        "article": "das",
+        "plural": "Werkzeuge",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Werk",
+          "tr": {
+            "pt-BR": "obra"
+          }
+        },
+        {
+          "de": "zeug",
+          "tr": {
+            "pt-BR": "utensílio"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-werkstueck"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Räum dein Werkzeug nach der Schicht auf.",
+          "tr": {
+            "pt-BR": "Guarde suas ferramentas depois do turno."
+          }
+        },
+        {
+          "de": "Das Werkzeug ist verschlissen, wechsel die Wendeschneidplatte.",
+          "tr": {
+            "pt-BR": "A ferramenta está gasta; troque a pastilha."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "ferramenta",
+          "technical": "Instrumento manual ou de máquina para trabalhar a peça; em usinagem, também a ferramenta de corte (pastilha, fresa, broca).",
+          "simple": "Qualquer ferramenta, de mão ou de máquina."
+        }
+      }
+    },
+    {
+      "id": "im-span",
+      "level": "B1",
+      "de": {
+        "word": "Span",
+        "article": "der",
+        "plural": "Späne",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-drehmaschine", "im-vorschub"],
+      "esco": null,
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Entferne die Späne nie mit der Hand, nimm den Spänehaken.",
+          "tr": {
+            "pt-BR": "Nunca tire os cavacos com a mão; use o gancho de cavacos."
+          }
+        },
+        {
+          "de": "Lange Fließspäne wickeln sich um das Werkzeug.",
+          "tr": {
+            "pt-BR": "Cavacos longos se enrolam na ferramenta."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "cavaco",
+          "variants": {
+            "pt-PT": "apara"
+          },
+          "technical": "Material removido na usinagem; a forma do cavaco indica se os parâmetros de corte estão adequados.",
+          "simple": "As \"lascas\" de metal que saem quando a máquina corta."
+        }
+      }
+    },
+    {
+      "id": "im-vorschub",
+      "level": "B2",
+      "de": {
+        "word": "Vorschub",
+        "article": "der",
+        "plural": "Vorschübe",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Vor",
+          "tr": {
+            "pt-BR": "para frente"
+          }
+        },
+        {
+          "de": "schub",
+          "tr": {
+            "pt-BR": "empurrão"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-schnittgeschwindigkeit", "im-span"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Reduzier den Vorschub auf 0,1 Millimeter pro Umdrehung.",
+          "tr": {
+            "pt-BR": "Reduza o avanço para 0,1 milímetro por rotação."
+          }
+        },
+        {
+          "de": "Bei zu hohem Vorschub wird die Oberfläche rau.",
+          "tr": {
+            "pt-BR": "Com avanço alto demais, a superfície fica áspera."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "avanço",
+          "technical": "Deslocamento da ferramenta por rotação ou por minuto (mm/rot, mm/min); junto com a velocidade de corte define o processo.",
+          "simple": "O quanto a ferramenta anda a cada volta da peça."
+        }
+      }
+    },
+    {
+      "id": "im-schnittgeschwindigkeit",
+      "level": "B2",
+      "de": {
+        "word": "Schnittgeschwindigkeit",
+        "article": "die",
+        "plural": "Schnittgeschwindigkeiten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Schnitt",
+          "tr": {
+            "pt-BR": "corte"
+          }
+        },
+        {
+          "de": "geschwindigkeit",
+          "tr": {
+            "pt-BR": "velocidade"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-vorschub", "im-drehmaschine"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Für Aluminium kannst du eine höhere Schnittgeschwindigkeit wählen.",
+          "tr": {
+            "pt-BR": "Para alumínio você pode escolher uma velocidade de corte maior."
+          }
+        },
+        {
+          "de": "Aus der Schnittgeschwindigkeit berechnest du die Drehzahl.",
+          "tr": {
+            "pt-BR": "A partir da velocidade de corte você calcula a rotação."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "velocidade de corte",
+          "technical": "Velocidade relativa entre gume e peça (m/min); depende do material da peça e da ferramenta e determina a rotação.",
+          "simple": "A velocidade com que a ferramenta \"passa\" pelo metal."
+        }
+      }
+    },
+    {
+      "id": "im-fraesen",
+      "level": "A2",
+      "de": {
+        "word": "fräsen",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["im-drehen"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Nut wird auf der CNC-Maschine gefräst.",
+          "tr": {
+            "pt-BR": "O rasgo é fresado na máquina CNC."
+          }
+        },
+        {
+          "de": "Fräs die Fläche plan.",
+          "tr": {
+            "pt-BR": "Frese a superfície até ficar plana."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "fresar",
+          "technical": "Usinar com ferramenta rotativa de vários gumes (fresa), com a peça avançando; gera superfícies planas, rasgos e contornos.",
+          "simple": "Cortar o metal com uma ferramenta que gira e tem vários dentes."
+        }
+      }
+    },
+    {
+      "id": "im-drehen",
+      "level": "A2",
+      "de": {
+        "word": "drehen",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["im-drehmaschine", "im-fraesen"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Welle wird auf 40 Millimeter gedreht.",
+          "tr": {
+            "pt-BR": "O eixo é torneado para 40 milímetros."
+          }
+        },
+        {
+          "de": "Dreh das Handrad langsam nach rechts.",
+          "tr": {
+            "pt-BR": "Gire o volante devagar para a direita."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "tornear (girar)",
+          "technical": "No torno: usinar a peça que gira contra uma ferramenta de corte. No uso geral, \"drehen\" é girar.",
+          "simple": "Usar o torno; no dia a dia, \"drehen\" é só \"girar\"."
+        }
+      }
+    },
+    {
+      "id": "im-schleifen",
+      "level": "B1",
+      "de": {
+        "word": "schleifen",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["im-welle"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Lagersitze werden nach dem Härten geschliffen.",
+          "tr": {
+            "pt-BR": "Os assentos de rolamento são retificados depois da têmpera."
+          }
+        },
+        {
+          "de": "Beim Schleifen immer Schutzbrille tragen.",
+          "tr": {
+            "pt-BR": "Ao esmerilhar, use sempre óculos de proteção."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "retificar (esmerilhar)",
+          "technical": "Usinar com rebolo abrasivo para obter alta precisão e baixa rugosidade; verbo forte (schliff, geschliffen).",
+          "simple": "Lixar o metal com um disco que gira muito rápido, para ficar liso e na medida.",
+          "falseFriends": [
+            {
+              "word": "schleifen (arrastar)",
+              "note": "Com conjugação fraca (schleifte, geschleift), \"schleifen\" significa arrastar."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "im-montieren",
+      "level": "A2",
+      "de": {
+        "word": "montieren",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["im-demontieren"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Montier zuerst das Lager, dann den Sicherungsring.",
+          "tr": {
+            "pt-BR": "Monte primeiro o rolamento, depois o anel elástico."
+          }
+        },
+        {
+          "de": "Die Baugruppe wird morgen montiert.",
+          "tr": {
+            "pt-BR": "O conjunto será montado amanhã."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "montar",
+          "technical": "Unir componentes conforme desenho e instrução de montagem, respeitando torques e sequência.",
+          "simple": "Juntar as peças para formar a máquina."
+        }
+      }
+    },
+    {
+      "id": "im-demontieren",
+      "level": "A2",
+      "de": {
+        "word": "demontieren",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["im-montieren"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Mach Fotos, bevor du das Getriebe demontierst.",
+          "tr": {
+            "pt-BR": "Tire fotos antes de desmontar o redutor."
+          }
+        },
+        {
+          "de": "Die Pumpe muss komplett demontiert werden.",
+          "tr": {
+            "pt-BR": "A bomba precisa ser totalmente desmontada."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "desmontar",
+          "technical": "Separar componentes de um conjunto para reparo ou troca, documentando a posição das peças.",
+          "simple": "Desmontar a máquina em partes."
+        }
+      }
+    },
+    {
+      "id": "im-ausrichten",
+      "level": "B1",
+      "de": {
+        "word": "ausrichten",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["im-kupplung", "im-messuhr", "im-wasserwaage"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Motor und Pumpe werden mit dem Laser ausgerichtet.",
+          "tr": {
+            "pt-BR": "Motor e bomba são alinhados com laser."
+          }
+        },
+        {
+          "de": "Richte die Maschine mit der Wasserwaage aus.",
+          "tr": {
+            "pt-BR": "Nivele a máquina com o nível de bolha."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "alinhar",
+          "technical": "Ajustar a posição de máquinas e eixos (ex.: alinhamento de acoplamento com relógio comparador ou laser).",
+          "simple": "Deixar as peças retinhas, uma na direção da outra.",
+          "falseFriends": [
+            {
+              "word": "ausrichten (recado)",
+              "note": "\"Jemandem etwas ausrichten\" significa dar um recado a alguém."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "im-schraube",
+      "level": "A2",
+      "de": {
+        "word": "Schraube",
+        "article": "die",
+        "plural": "Schrauben",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-mutter", "im-drehmomentschluessel"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Zieh die Schrauben über Kreuz an.",
+          "tr": {
+            "pt-BR": "Aperte os parafusos em cruz."
+          }
+        },
+        {
+          "de": "Für diese Verbindung brauchst du Schrauben der Festigkeitsklasse 10.9.",
+          "tr": {
+            "pt-BR": "Para esta união você precisa de parafusos classe 10.9."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "parafuso",
+          "technical": "Elemento de fixação roscado; designado por rosca, comprimento e classe de resistência (ex.: M10×40-8.8).",
+          "simple": "O parafuso."
+        }
+      }
+    },
+    {
+      "id": "im-mutter",
+      "level": "A2",
+      "de": {
+        "word": "Mutter",
+        "article": "die",
+        "plural": "Muttern",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-schraube", "im-unterlegscheibe"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Mutter hat sich gelöst, nimm eine selbstsichernde.",
+          "tr": {
+            "pt-BR": "A porca se soltou; use uma autotravante."
+          }
+        },
+        {
+          "de": "Zieh die Muttern mit 45 Newtonmeter an.",
+          "tr": {
+            "pt-BR": "Aperte as porcas com 45 newton-metros."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "porca",
+          "technical": "Peça com rosca interna que se combina com o parafuso; tipos: sextavada, autotravante, castelo.",
+          "simple": "A porca que se aperta no parafuso.",
+          "falseFriends": [
+            {
+              "word": "Mutter (mãe)",
+              "note": "\"Mutter\" também é mãe. O plural muda: as porcas são \"Muttern\", as mães são \"Mütter\"."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "im-unterlegscheibe",
+      "level": "A2",
+      "de": {
+        "word": "Unterlegscheibe",
+        "article": "die",
+        "plural": "Unterlegscheiben",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Unterleg",
+          "tr": {
+            "pt-BR": "pôr embaixo"
+          }
+        },
+        {
+          "de": "scheibe",
+          "tr": {
+            "pt-BR": "disco"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-mutter", "im-schraube"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Vergiss die Unterlegscheibe unter der Mutter nicht.",
+          "tr": {
+            "pt-BR": "Não esqueça a arruela embaixo da porca."
+          }
+        },
+        {
+          "de": "Die Unterlegscheiben liegen im Kleinteilelager.",
+          "tr": {
+            "pt-BR": "As arruelas ficam no estoque de peças pequenas."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "arruela",
+          "variants": {
+            "pt-PT": "anilha"
+          },
+          "technical": "Disco colocado sob a porca ou cabeça do parafuso para distribuir a carga e proteger a superfície.",
+          "simple": "A rodinha fina de metal que vai embaixo da porca."
+        }
+      }
+    },
+    {
+      "id": "im-passfeder",
+      "level": "B2",
+      "de": {
+        "word": "Passfeder",
+        "article": "die",
+        "plural": "Passfedern",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Pass",
+          "tr": {
+            "pt-BR": "ajuste"
+          }
+        },
+        {
+          "de": "feder",
+          "tr": {
+            "pt-BR": "mola, lingueta"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-welle", "im-zahnrad"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Passfeder sitzt zu stramm in der Nut.",
+          "tr": {
+            "pt-BR": "A chaveta está muito apertada no rasgo."
+          }
+        },
+        {
+          "de": "Ohne Passfeder dreht die Riemenscheibe auf der Welle durch.",
+          "tr": {
+            "pt-BR": "Sem chaveta, a polia gira em falso no eixo."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "chaveta",
+          "technical": "Elemento de ligação eixo-cubo encaixado em rasgos, que transmite o torque por forma (DIN 6885).",
+          "simple": "A pecinha retangular que trava a engrenagem no eixo para ela não girar solta."
+        }
+      }
+    },
+    {
+      "id": "im-sicherungsring",
+      "level": "B2",
+      "de": {
+        "word": "Sicherungsring",
+        "article": "der",
+        "plural": "Sicherungsringe",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Sicherung",
+          "tr": {
+            "pt-BR": "travamento"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "ring",
+          "tr": {
+            "pt-BR": "anel"
+          }
+        }
+      ],
+      "synonyms": ["Seegerring"],
+      "related": ["im-lager", "im-zange"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Nimm die Sicherungsringzange, um den Sicherungsring zu entfernen.",
+          "tr": {
+            "pt-BR": "Use o alicate de anéis para tirar o anel elástico."
+          }
+        },
+        {
+          "de": "Der Sicherungsring sitzt nicht richtig in der Nut.",
+          "tr": {
+            "pt-BR": "O anel elástico não está bem encaixado na ranhura."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "anel elástico (anel de retenção)",
+          "technical": "Anel de aço mola alojado em ranhura para fixar axialmente rolamentos e engrenagens; montado com alicate próprio.",
+          "simple": "Um aro de metal que trava as peças no eixo para não saírem do lugar."
+        }
+      }
+    },
+    {
+      "id": "im-fehlersuche",
+      "level": "B1",
+      "de": {
+        "word": "Fehlersuche",
+        "article": "die",
+        "plural": null,
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Fehler",
+          "tr": {
+            "pt-BR": "erro"
+          }
+        },
+        {
+          "de": "suche",
+          "tr": {
+            "pt-BR": "busca"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-stoerung", "im-instandsetzung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Fehlersuche an der Steuerung dauerte drei Stunden.",
+          "tr": {
+            "pt-BR": "A busca de falhas no comando levou três horas."
+          }
+        },
+        {
+          "de": "Fang die Fehlersuche bei den einfachen Ursachen an.",
+          "tr": {
+            "pt-BR": "Comece a busca de falhas pelas causas simples."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "busca de falhas (diagnóstico)",
+          "technical": "Procedimento sistemático para localizar a causa de uma falha: observar, isolar, medir e testar hipóteses.",
+          "simple": "Procurar com calma o que está causando o problema."
+        }
+      }
+    },
+    {
+      "id": "im-betriebsanleitung",
+      "level": "B1",
+      "de": {
+        "word": "Betriebsanleitung",
+        "article": "die",
+        "plural": "Betriebsanleitungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Betrieb",
+          "tr": {
+            "pt-BR": "operação"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "anleitung",
+          "tr": {
+            "pt-BR": "instrução"
+          }
+        }
+      ],
+      "synonyms": ["Bedienungsanleitung"],
+      "related": ["im-wartung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Laut Betriebsanleitung muss das Öl alle 2000 Stunden gewechselt werden.",
+          "tr": {
+            "pt-BR": "Segundo o manual, o óleo deve ser trocado a cada 2000 horas."
+          }
+        },
+        {
+          "de": "Die Betriebsanleitung liegt im Schaltschrank.",
+          "tr": {
+            "pt-BR": "O manual fica no quadro elétrico."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "manual de instruções",
+          "technical": "Documento do fabricante com uso, segurança, manutenção e dados técnicos da máquina; obrigatório na Alemanha (Diretiva de Máquinas).",
+          "simple": "O manual que vem com a máquina."
+        }
+      }
+    },
+    {
+      "id": "im-gefaehrdungsbeurteilung",
+      "level": "C1",
+      "de": {
+        "word": "Gefährdungsbeurteilung",
+        "article": "die",
+        "plural": "Gefährdungsbeurteilungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Gefährdung",
+          "tr": {
+            "pt-BR": "perigo"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "beurteilung",
+          "tr": {
+            "pt-BR": "avaliação"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-betriebsanleitung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Für Arbeiten in großer Höhe gibt es eine eigene Gefährdungsbeurteilung.",
+          "tr": {
+            "pt-BR": "Para trabalhos em altura há uma avaliação de riscos própria."
+          }
+        },
+        {
+          "de": "Lies die Gefährdungsbeurteilung, bevor du anfängst.",
+          "tr": {
+            "pt-BR": "Leia a avaliação de riscos antes de começar."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "avaliação de riscos",
+          "technical": "Análise obrigatória pelo empregador (Lei de Segurança do Trabalho alemã, ArbSchG) dos perigos de uma atividade e das medidas de proteção.",
+          "simple": "O documento que lista os perigos do trabalho e como se proteger."
+        }
+      }
+    },
+    {
+      "id": "im-ausschuss",
+      "level": "B1",
+      "de": {
+        "word": "Ausschuss",
+        "article": "der",
+        "plural": null,
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-toleranz", "im-grenzlehrdorn"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Teil ist Ausschuss, das Maß stimmt nicht.",
+          "tr": {
+            "pt-BR": "A peça é refugo; a medida não confere."
+          }
+        },
+        {
+          "de": "Wir müssen die Ausschussquote unter ein Prozent bringen.",
+          "tr": {
+            "pt-BR": "Precisamos baixar o índice de refugo para menos de um por cento."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "refugo",
+          "technical": "Peças fora de especificação que não podem ser usadas nem retrabalhadas; \"Ausschussquote\" é o índice de refugo.",
+          "simple": "A peça que saiu errada e vai para o lixo.",
+          "falseFriends": [
+            {
+              "word": "Ausschuss (comissão)",
+              "note": "Fora da produção, \"der Ausschuss\" é uma comissão (Betriebsratsausschuss); nesse sentido o plural é \"Ausschüsse\"."
+            }
+          ]
         }
       }
     }

@@ -226,6 +226,29 @@ export function TermDetail({ term, related }: { term: Term; related: Term[] }) {
         </Panel>
       )}
 
+      {term.sources && term.sources.length > 0 && (
+        <Panel className="p-5">
+          <h2 className="mb-2 font-semibold">{t('term.sources')}</h2>
+          <ul className="flex flex-col gap-1.5 text-sm">
+            {term.sources.map((src) => (
+              <li key={src.url}>
+                <a
+                  href={src.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-primary inline-flex items-start gap-1.5 underline underline-offset-2"
+                >
+                  {src.label}
+                  <Icon name="external" className="mt-0.5 size-4 shrink-0" />
+                  <span className="sr-only">{t('common.newTab')}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <p className="text-muted mt-2 text-xs">{t('term.sourcesHint')}</p>
+        </Panel>
+      )}
+
       <Panel className="flex flex-wrap items-center justify-between gap-3 p-5">
         <p className="text-muted text-sm">
           {card === undefined

@@ -72,6 +72,8 @@ export const termSourceSchema = z
     synonyms: z.array(text).default([]),
     related: z.array(id).default([]),
     esco: z.object({ uri: z.string().url(), label: text }).strict().nullable().default(null),
+    /** fontes consultadas para o termo (normas, glossários, literatura técnica) */
+    sources: z.array(z.object({ label: text, url: z.string().url() }).strict()).optional(),
     status: reviewStatusSchema,
     examples: z.array(exampleSchema).length(2),
     tr: localized(termTranslationSchema),

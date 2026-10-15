@@ -350,6 +350,8 @@
     "exercise.prompt.explain": "Qual é a explicação certa?",
     "exercise.prompt.define": "Qual termo corresponde a esta explicação?",
     "exercise.typingPtHint": "Sem acento também vale. Não precisa escrever o artigo (o, a).",
-    "exercise.typeTranslation": "Termo em português"
+    "exercise.typeTranslation": "Termo em português",
+    "term.sources": "Fontes consultadas",
+    "term.sourcesHint": "Links externos: abrem fora do app e precisam de internet. A tradução e a explicação foram conferidas com essas fontes, mas ainda não por um profissional."
   }
 }

@@ -409,6 +409,12 @@
       "synonyms": [],
       "related": ["im-entgasen", "im-teilentladung"],
       "esco": null,
+      "sources": [
+        {
+          "label": "Descargas parciais em bobinas encapsuladas em resina epóxi (dissertação, UEL)",
+          "url": "https://repositorio.uel.br/bitstreams/0249f033-a8f0-4ee6-b181-b53c27e7ec37/download"
+        }
+      ],
       "status": "revisado-ia",
       "examples": [
         {
@@ -571,6 +577,1234 @@
           "term": "proporção de mistura",
           "technical": "Relação em massa ou volume entre resina, endurecedor e aditivos; desvios alteram a cura e as propriedades elétricas.",
           "simple": "Quanto de cada coisa vai na mistura, como numa receita."
+        }
+      }
+    },
+    {
+      "id": "im-druckgelierverfahren",
+      "level": "C1",
+      "de": {
+        "word": "Druckgelierverfahren",
+        "article": "das",
+        "plural": "Druckgelierverfahren",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Druck",
+          "tr": {
+            "pt-BR": "pressão"
+          }
+        },
+        {
+          "de": "gelier",
+          "tr": {
+            "pt-BR": "gelificar"
+          }
+        },
+        {
+          "de": "verfahren",
+          "tr": {
+            "pt-BR": "processo"
+          }
+        }
+      ],
+      "synonyms": ["APG-Verfahren"],
+      "related": ["im-gelierzeit", "im-giessform", "im-lufteinschluss"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "Production of thermoset pressure gelation castings (patente US 5.900.204)",
+          "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/5900204"
+        },
+        {
+          "label": "Automatic Pressure Gelation Analysis for Insulating Spacer of GIS (Applied Sciences, 2022)",
+          "url": "https://doi.org/10.3390/app122010202"
+        }
+      ],
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Die Stützisolatoren werden im Druckgelierverfahren hergestellt.",
+          "tr": {
+            "pt-BR": "Os isoladores de apoio são fabricados pelo processo APG."
+          }
+        },
+        {
+          "de": "Beim Druckgelierverfahren ist die Form deutlich wärmer als das Harz.",
+          "tr": {
+            "pt-BR": "No processo APG o molde fica bem mais quente que a resina."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "processo APG (gelificação automática sob pressão)",
+          "technical": "Processo em que a resina misturada, relativamente fria, é injetada sob pressão num molde quente; a pressão mantida compensa a contração e evita vazios. Usado para isoladores, buchas e transformadores de medida.",
+          "simple": "A resina é empurrada com pressão para dentro de uma forma quente, e a pressão continua até ela endurecer, para não ficar bolha."
+        }
+      }
+    },
+    {
+      "id": "im-gelierzeit",
+      "level": "B2",
+      "de": {
+        "word": "Gelierzeit",
+        "article": "die",
+        "plural": "Gelierzeiten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Gelier",
+          "tr": {
+            "pt-BR": "gelificar"
+          }
+        },
+        {
+          "de": "zeit",
+          "tr": {
+            "pt-BR": "tempo"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-topfzeit", "im-beschleuniger", "im-aushaerten"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "Epoxy resin composition and transformer (patente US 11.186.675): tempo de gel e trincas",
+          "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11186675"
+        },
+        {
+          "label": "Heating, gelling and curing of resin encapsulated transformer coils (patente US 6.624.734)",
+          "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6624734"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Bei 140 Grad Formtemperatur beträgt die Gelierzeit nur wenige Minuten.",
+          "tr": {
+            "pt-BR": "Com o molde a 140 graus, o tempo de gel é de poucos minutos."
+          }
+        },
+        {
+          "de": "Wenn die Gelierzeit zu kurz ist, füllt das Harz die Form nicht ganz.",
+          "tr": {
+            "pt-BR": "Se o tempo de gel for curto demais, a resina não preenche todo o molde."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "tempo de gel",
+          "technical": "Tempo até a mistura reagente passar a gel e deixar de fluir; encurta com temperatura mais alta ou mais acelerador.",
+          "simple": "Quanto tempo a resina ainda fica líquida antes de virar uma \"gelatina\"."
+        }
+      }
+    },
+    {
+      "id": "im-viskositaet",
+      "level": "B2",
+      "de": {
+        "word": "Viskosität",
+        "article": "die",
+        "plural": "Viskositäten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-fuellstoff", "im-vorwaermen", "im-entgasen"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Wir wärmen das Harz vor, damit die Viskosität sinkt.",
+          "tr": {
+            "pt-BR": "Pré-aquecemos a resina para a viscosidade baixar."
+          }
+        },
+        {
+          "de": "Mit steigender Viskosität lässt sich die Masse schlechter entgasen.",
+          "tr": {
+            "pt-BR": "Com viscosidade maior, a massa é mais difícil de desgaseificar."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "viscosidade",
+          "technical": "Resistência ao escoamento (mPa·s); cai com o aquecimento e sobe com a carga mineral e com o avanço da reação.",
+          "simple": "O quanto a resina é \"grossa\": mel tem viscosidade alta, água tem baixa."
+        }
+      }
+    },
+    {
+      "id": "im-vernetzung",
+      "level": "C1",
+      "de": {
+        "word": "Vernetzung",
+        "article": "die",
+        "plural": "Vernetzungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-aushaerten", "im-nachhaertung", "im-haerter"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "EP 0129819 – resinas para enrolamentos: vazios, entformung e Nachhärtung",
+          "url": "https://data.epo.org/gpi/EP0129819A1"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Vernetzung ist erst nach der Nachhärtung vollständig.",
+          "tr": {
+            "pt-BR": "A reticulação só fica completa depois da pós-cura."
+          }
+        },
+        {
+          "de": "Eine unvollständige Vernetzung verschlechtert die elektrischen Eigenschaften.",
+          "tr": {
+            "pt-BR": "Uma reticulação incompleta piora as propriedades elétricas."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "reticulação",
+          "technical": "Reação química entre resina e endurecedor que forma uma rede tridimensional; transforma o líquido em sólido termofixo.",
+          "simple": "A reação em que as moléculas se \"amarram\" umas nas outras e a resina fica dura."
+        }
+      }
+    },
+    {
+      "id": "im-nachhaertung",
+      "level": "B2",
+      "de": {
+        "word": "Nachhärtung",
+        "article": "die",
+        "plural": "Nachhärtungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Nach",
+          "tr": {
+            "pt-BR": "depois"
+          }
+        },
+        {
+          "de": "härtung",
+          "tr": {
+            "pt-BR": "endurecimento"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-aushaerten", "im-entformen", "im-ofen"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "EP 0129819 – resinas para enrolamentos: vazios, entformung e Nachhärtung",
+          "url": "https://data.epo.org/gpi/EP0129819A1"
+        },
+        {
+          "label": "Heating, gelling and curing of resin encapsulated transformer coils (patente US 6.624.734)",
+          "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6624734"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Nach dem Entformen kommen die Teile zur Nachhärtung in den Ofen.",
+          "tr": {
+            "pt-BR": "Depois de desmoldadas, as peças vão para a estufa para pós-cura."
+          }
+        },
+        {
+          "de": "Die Nachhärtung dauert zehn Stunden bei 140 Grad.",
+          "tr": {
+            "pt-BR": "A pós-cura dura dez horas a 140 graus."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "pós-cura",
+          "technical": "Tratamento térmico após a desmoldagem (horas em estufa) para completar a reação e atingir a temperatura de transição vítrea especificada.",
+          "simple": "Deixar a peça mais um tempo na estufa depois de tirar do molde, para ela endurecer por completo."
+        }
+      }
+    },
+    {
+      "id": "im-schrumpf",
+      "level": "B2",
+      "de": {
+        "word": "Schrumpf",
+        "article": "der",
+        "plural": null,
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": ["Schwund", "Schwindung"],
+      "related": ["im-riss", "im-fuellstoff"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "Epoxy resin composition and transformer (patente US 11.186.675): tempo de gel e trincas",
+          "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11186675"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Füllstoff verringert den Schrumpf.",
+          "tr": {
+            "pt-BR": "A carga mineral reduz a contração."
+          }
+        },
+        {
+          "de": "Zu schneller Schrumpf führt zu Rissen in der Vergussmasse.",
+          "tr": {
+            "pt-BR": "Contração rápida demais causa trincas na massa de encapsulamento."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "contração (retração)",
+          "technical": "Redução de volume durante a cura e o resfriamento; pode gerar tensões internas, vazios e trincas. Cargas minerais reduzem a contração.",
+          "simple": "Quando a resina \"encolhe\" ao endurecer."
+        }
+      }
+    },
+    {
+      "id": "im-riss",
+      "level": "B1",
+      "de": {
+        "word": "Riss",
+        "article": "der",
+        "plural": "Risse",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-schrumpf", "im-teilentladung"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "Epoxy resin composition and transformer (patente US 11.186.675): tempo de gel e trincas",
+          "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11186675"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Am Isolator ist ein Riss, das Teil ist Ausschuss.",
+          "tr": {
+            "pt-BR": "Há uma trinca no isolador; a peça é refugo."
+          }
+        },
+        {
+          "de": "Risse entstehen oft durch zu schnelles Abkühlen.",
+          "tr": {
+            "pt-BR": "Trincas surgem muitas vezes por resfriamento rápido demais."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "trinca (fissura)",
+          "technical": "Ruptura no material; em isolamento de resina, trincas permitem descargas parciais e entrada de umidade.",
+          "simple": "Uma rachadura."
+        }
+      }
+    },
+    {
+      "id": "im-entformen",
+      "level": "B2",
+      "de": {
+        "word": "entformen",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["im-trennmittel", "im-giessform", "im-nachhaertung"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "Heating, gelling and curing of resin encapsulated transformer coils (patente US 6.624.734)",
+          "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6624734"
+        },
+        {
+          "label": "EP 0129819 – resinas para enrolamentos: vazios, entformung e Nachhärtung",
+          "url": "https://data.epo.org/gpi/EP0129819A1"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Erst nach dem Gelieren darf entformt werden.",
+          "tr": {
+            "pt-BR": "Só se pode desmoldar depois da gelificação."
+          }
+        },
+        {
+          "de": "Die Wandler lassen sich schlecht entformen, es fehlt Trennmittel.",
+          "tr": {
+            "pt-BR": "Os transformadores estão difíceis de desmoldar; falta desmoldante."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "desmoldar",
+          "technical": "Retirar a peça curada (ou gelificada) do molde, sem danificá-la, geralmente com auxílio de desmoldante e extratores.",
+          "simple": "Tirar a peça pronta de dentro da forma."
+        }
+      }
+    },
+    {
+      "id": "im-vorwaermen",
+      "level": "B1",
+      "de": {
+        "word": "vorwärmen",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "verb"
+      },
+      "synonyms": [],
+      "related": ["im-viskositaet", "im-ofen"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "Heating, gelling and curing of resin encapsulated transformer coils (patente US 6.624.734)",
+          "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6624734"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Wicklungen werden vor dem Verguss vorgewärmt und getrocknet.",
+          "tr": {
+            "pt-BR": "Os enrolamentos são pré-aquecidos e secos antes do encapsulamento."
+          }
+        },
+        {
+          "de": "Wärm die Form auf 80 Grad vor.",
+          "tr": {
+            "pt-BR": "Pré-aqueça o molde a 80 graus."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "pré-aquecer",
+          "technical": "Aquecer resina, carga, molde ou bobina antes do encapsulamento para reduzir viscosidade e retirar umidade.",
+          "simple": "Esquentar antes de começar."
+        }
+      }
+    },
+    {
+      "id": "im-wicklung",
+      "level": "B2",
+      "de": {
+        "word": "Wicklung",
+        "article": "die",
+        "plural": "Wicklungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-spule", "im-transformator", "im-vergussmasse"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "Planungsleitfaden Gießharztransformatoren (SGB-SMIT, PDF)",
+          "url": "https://www.SGB-SMIT.com/fileadmin/user_upload/Downloads/Broschueren/Cast_Resin_Transformers/Planungsleitfaden_D.pdf"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Oberspannungswicklung wird in Gießharz vergossen.",
+          "tr": {
+            "pt-BR": "O enrolamento de alta tensão é encapsulado em resina."
+          }
+        },
+        {
+          "de": "Die Wicklung muss vor dem Verguss vollständig trocken sein.",
+          "tr": {
+            "pt-BR": "O enrolamento precisa estar totalmente seco antes do encapsulamento."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "enrolamento (bobinado)",
+          "technical": "Conjunto de espiras de condutor (cobre ou alumínio) de um transformador ou bobina; em transformadores secos é encapsulada em resina.",
+          "simple": "O fio enrolado muitas vezes que forma a bobina do transformador."
+        }
+      }
+    },
+    {
+      "id": "im-spule",
+      "level": "B1",
+      "de": {
+        "word": "Spule",
+        "article": "die",
+        "plural": "Spulen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-wicklung"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "DE 19962834 A1 – Ortung von Teilentladungen an gießharzimprägnierten Komponenten",
+          "url": "https://patents.google.com/patent/DE19962834A1/de"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Spule wird in die Gießform eingesetzt.",
+          "tr": {
+            "pt-BR": "A bobina é colocada no molde."
+          }
+        },
+        {
+          "de": "Prüf die Spule auf Windungsschluss.",
+          "tr": {
+            "pt-BR": "Verifique se a bobina tem curto entre espiras."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "bobina",
+          "technical": "Enrolamento de fio sobre um suporte; em bobinas de transformador de medida e de distribuição, isolada com resina.",
+          "simple": "O carretel de fio enrolado."
+        }
+      }
+    },
+    {
+      "id": "im-ofen",
+      "level": "A2",
+      "de": {
+        "word": "Ofen",
+        "article": "der",
+        "plural": "Öfen",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-nachhaertung", "im-vorwaermen"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Ofen hält die Temperatur auf zwei Grad genau.",
+          "tr": {
+            "pt-BR": "A estufa mantém a temperatura com precisão de dois graus."
+          }
+        },
+        {
+          "de": "Trag Hitzeschutzhandschuhe, wenn du die Formen aus dem Ofen holst.",
+          "tr": {
+            "pt-BR": "Use luvas térmicas ao tirar os moldes da estufa."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "estufa (forno)",
+          "technical": "Na fundição de resina: estufa com controle de temperatura para pré-aquecimento, cura e pós-cura.",
+          "simple": "O forno grande onde as peças ficam para endurecer."
+        }
+      }
+    },
+    {
+      "id": "im-charge",
+      "level": "B2",
+      "de": {
+        "word": "Charge",
+        "article": "die",
+        "plural": "Chargen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-sicherheitsdatenblatt"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Notier die Chargennummer von Harz und Härter im Protokoll.",
+          "tr": {
+            "pt-BR": "Anote o número de lote da resina e do endurecedor no protocolo."
+          }
+        },
+        {
+          "de": "Die ganze Charge wurde gesperrt.",
+          "tr": {
+            "pt-BR": "O lote inteiro foi bloqueado."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "lote",
+          "technical": "Quantidade produzida ou recebida em conjunto, identificada por número de lote para rastreabilidade (resina, endurecedor, peças).",
+          "simple": "Um grupo de material ou peças feitas juntas, com o mesmo número.",
+          "falseFriends": [
+            {
+              "word": "carga",
+              "note": "\"Charge\" (pronuncia-se \"charje\") é lote, não carga. Carga mineral é \"Füllstoff\"."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "im-sicherheitsdatenblatt",
+      "level": "B2",
+      "de": {
+        "word": "Sicherheitsdatenblatt",
+        "article": "das",
+        "plural": "Sicherheitsdatenblätter",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Sicherheit",
+          "tr": {
+            "pt-BR": "segurança"
+          }
+        },
+        {
+          "de": "s",
+          "tr": {
+            "pt-BR": "(elemento de ligação)"
+          }
+        },
+        {
+          "de": "daten",
+          "tr": {
+            "pt-BR": "dados"
+          }
+        },
+        {
+          "de": "blatt",
+          "tr": {
+            "pt-BR": "folha"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-hautschutz", "im-epoxidharz"],
+      "esco": null,
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Laut Sicherheitsdatenblatt sind Nitrilhandschuhe vorgeschrieben.",
+          "tr": {
+            "pt-BR": "Segundo a ficha de segurança, luvas nitrílicas são obrigatórias."
+          }
+        },
+        {
+          "de": "Das Sicherheitsdatenblatt hängt neben dem Harzlager.",
+          "tr": {
+            "pt-BR": "A ficha de dados de segurança fica ao lado do depósito de resina."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "ficha de dados de segurança (FDS)",
+          "technical": "Documento do fabricante sobre perigos, EPI, primeiros socorros e armazenagem de um produto químico. No Brasil, a antiga FISPQ.",
+          "simple": "O papel que explica os perigos do produto químico e como se proteger."
+        }
+      }
+    },
+    {
+      "id": "im-quarzmehl",
+      "level": "B2",
+      "de": {
+        "word": "Quarzmehl",
+        "article": "das",
+        "plural": null,
+        "gender": "n",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Quarz",
+          "tr": {
+            "pt-BR": "quartzo"
+          }
+        },
+        {
+          "de": "mehl",
+          "tr": {
+            "pt-BR": "farinha"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-fuellstoff"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Quarzmehl muss trocken gelagert werden.",
+          "tr": {
+            "pt-BR": "A farinha de quartzo precisa ser armazenada seca."
+          }
+        },
+        {
+          "de": "Beim Umfüllen von Quarzmehl Staubmaske tragen.",
+          "tr": {
+            "pt-BR": "Ao transferir farinha de quartzo, use máscara contra pó."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "farinha de quartzo (sílica moída)",
+          "technical": "Carga mineral mais comum em resinas epóxi para isolamento elétrico; aumenta a condutividade térmica e reduz contração e custo.",
+          "simple": "Pó fininho de quartzo misturado na resina."
+        }
+      }
+    },
+    {
+      "id": "im-beschleuniger",
+      "level": "B2",
+      "de": {
+        "word": "Beschleuniger",
+        "article": "der",
+        "plural": "Beschleuniger",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-gelierzeit", "im-topfzeit", "im-haerter"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "Epoxy resin composition and transformer (patente US 11.186.675): tempo de gel e trincas",
+          "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11186675"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Mit mehr Beschleuniger wird die Topfzeit kürzer.",
+          "tr": {
+            "pt-BR": "Com mais acelerador, o pot life fica mais curto."
+          }
+        },
+        {
+          "de": "Der Beschleuniger wird in Gramm genau abgewogen.",
+          "tr": {
+            "pt-BR": "O acelerador é pesado com precisão de grama."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "acelerador",
+          "technical": "Aditivo que acelera a reação de cura; altera tempo de gel e pot life e deve ser dosado com precisão.",
+          "simple": "Um produto que faz a resina endurecer mais rápido."
+        }
+      }
+    },
+    {
+      "id": "im-vakuumgiessanlage",
+      "level": "C1",
+      "de": {
+        "word": "Vakuumgießanlage",
+        "article": "die",
+        "plural": "Vakuumgießanlagen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Vakuum",
+          "tr": {
+            "pt-BR": "vácuo"
+          }
+        },
+        {
+          "de": "gieß",
+          "tr": {
+            "pt-BR": "verter"
+          }
+        },
+        {
+          "de": "anlage",
+          "tr": {
+            "pt-BR": "instalação"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-vakuum", "im-entgasen"],
+      "esco": null,
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Die Vakuumgießanlage wird jeden Freitag gereinigt.",
+          "tr": {
+            "pt-BR": "A instalação de fundição a vácuo é limpa toda sexta-feira."
+          }
+        },
+        {
+          "de": "In der Vakuumgießanlage wird die Mischung bei 1 bis 3 Millibar entgast.",
+          "tr": {
+            "pt-BR": "Na instalação a vácuo, a mistura é desgaseificada a 1 a 3 milibares."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "instalação de fundição a vácuo",
+          "technical": "Equipamento com misturadores, desgaseificador e câmara de vácuo onde resina e carga são preparadas e vertidas nos moldes sob vácuo.",
+          "simple": "A máquina grande que mistura a resina sem ar e enche as formas dentro de uma câmara de vácuo."
+        }
+      }
+    },
+    {
+      "id": "im-vakuum",
+      "level": "B1",
+      "de": {
+        "word": "Vakuum",
+        "article": "das",
+        "plural": "Vakuen",
+        "gender": "n",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-entgasen", "im-vakuumgiessanlage"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "Vakuum – Wiktionary (plural Vakua/Vakuen)",
+          "url": "https://www.wiktionary.com/wiki/Vakuum"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Das Vakuum ist nicht dicht, die Pumpe erreicht nur 20 Millibar.",
+          "tr": {
+            "pt-BR": "O vácuo não está vedando; a bomba só chega a 20 milibares."
+          }
+        },
+        {
+          "de": "Unter Vakuum steigen die Luftblasen aus dem Harz auf.",
+          "tr": {
+            "pt-BR": "Sob vácuo, as bolhas de ar sobem para fora da resina."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "vácuo",
+          "technical": "Pressão bem abaixo da atmosférica; na fundição de resina remove ar e umidade. Plural também \"Vakua\".",
+          "simple": "Um espaço de onde se tirou quase todo o ar."
+        }
+      }
+    },
+    {
+      "id": "im-luftfeuchtigkeit",
+      "level": "B1",
+      "de": {
+        "word": "Luftfeuchtigkeit",
+        "article": "die",
+        "plural": null,
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Luft",
+          "tr": {
+            "pt-BR": "ar"
+          }
+        },
+        {
+          "de": "feuchtigkeit",
+          "tr": {
+            "pt-BR": "umidade"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-haerter", "im-quarzmehl"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Bei hoher Luftfeuchtigkeit muss der Härter sofort verschlossen werden.",
+          "tr": {
+            "pt-BR": "Com umidade alta, o endurecedor precisa ser fechado na hora."
+          }
+        },
+        {
+          "de": "Die Luftfeuchtigkeit in der Gießerei wird überwacht.",
+          "tr": {
+            "pt-BR": "A umidade do ar na fundição é monitorada."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "umidade do ar",
+          "technical": "Quantidade de vapor de água no ar; endurecedores anidridos e cargas absorvem umidade, o que prejudica a cura e o isolamento.",
+          "simple": "A umidade do ar."
+        }
+      }
+    },
+    {
+      "id": "im-sichtpruefung",
+      "level": "B1",
+      "de": {
+        "word": "Sichtprüfung",
+        "article": "die",
+        "plural": "Sichtprüfungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Sicht",
+          "tr": {
+            "pt-BR": "visão"
+          }
+        },
+        {
+          "de": "prüfung",
+          "tr": {
+            "pt-BR": "inspeção"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-roentgenpruefung", "im-riss"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Bei der Sichtprüfung fallen Oberflächenlunker sofort auf.",
+          "tr": {
+            "pt-BR": "Na inspeção visual, os vazios superficiais aparecem logo."
+          }
+        },
+        {
+          "de": "Jedes Teil wird nach dem Entformen einer Sichtprüfung unterzogen.",
+          "tr": {
+            "pt-BR": "Toda peça passa por inspeção visual depois de desmoldada."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "inspeção visual",
+          "technical": "Verificação a olho (com lupa e boa luz) de superfícies quanto a trincas, bolhas, rebarbas e contaminação.",
+          "simple": "Olhar a peça com atenção procurando defeitos."
+        }
+      }
+    },
+    {
+      "id": "im-roentgenpruefung",
+      "level": "C1",
+      "de": {
+        "word": "Röntgenprüfung",
+        "article": "die",
+        "plural": "Röntgenprüfungen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Röntgen",
+          "tr": {
+            "pt-BR": "raio X"
+          }
+        },
+        {
+          "de": "prüfung",
+          "tr": {
+            "pt-BR": "ensaio"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-lufteinschluss", "im-sichtpruefung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Röntgenprüfung zeigt einen Lufteinschluss an der Wicklung.",
+          "tr": {
+            "pt-BR": "O ensaio radiográfico mostra uma bolha de ar no enrolamento."
+          }
+        },
+        {
+          "de": "Von jeder Charge geht ein Teil zur Röntgenprüfung.",
+          "tr": {
+            "pt-BR": "De cada lote, uma peça vai para o ensaio radiográfico."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "ensaio radiográfico (raio X)",
+          "technical": "Ensaio não destrutivo que mostra vazios e inclusões internas; usado em amostras ou peças críticas de isolamento.",
+          "simple": "Tirar um \"raio X\" da peça para ver se tem bolha por dentro."
+        }
+      }
+    },
+    {
+      "id": "im-nacharbeit",
+      "level": "B1",
+      "de": {
+        "word": "Nacharbeit",
+        "article": "die",
+        "plural": "Nacharbeiten",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Nach",
+          "tr": {
+            "pt-BR": "depois"
+          }
+        },
+        {
+          "de": "arbeit",
+          "tr": {
+            "pt-BR": "trabalho"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-ausschuss", "im-sichtpruefung"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Teile mit Graten gehen in die Nacharbeit.",
+          "tr": {
+            "pt-BR": "As peças com rebarbas vão para retrabalho."
+          }
+        },
+        {
+          "de": "Nacharbeit an Hochspannungsteilen nur nach Freigabe durch die Qualitätssicherung.",
+          "tr": {
+            "pt-BR": "Retrabalho em peças de alta tensão só com liberação da qualidade."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "retrabalho",
+          "technical": "Correção de uma peça com defeito para deixá-la conforme (ex.: lixar rebarbas, reparar superfície); só com liberação.",
+          "simple": "Consertar uma peça que saiu com defeito."
+        }
+      }
+    },
+    {
+      "id": "im-hautschutz",
+      "level": "B1",
+      "de": {
+        "word": "Hautschutz",
+        "article": "der",
+        "plural": null,
+        "gender": "m",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Haut",
+          "tr": {
+            "pt-BR": "pele"
+          }
+        },
+        {
+          "de": "schutz",
+          "tr": {
+            "pt-BR": "proteção"
+          }
+        }
+      ],
+      "synonyms": [],
+      "related": ["im-epoxidharz", "im-sicherheitsdatenblatt"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Der Hautschutzplan hängt am Waschbecken.",
+          "tr": {
+            "pt-BR": "O plano de proteção da pele fica na pia."
+          }
+        },
+        {
+          "de": "Ohne Hautschutz darfst du kein Epoxidharz anfassen.",
+          "tr": {
+            "pt-BR": "Sem proteção da pele você não pode tocar em resina epóxi."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "proteção da pele",
+          "technical": "Medidas contra contato da pele com resina e endurecedor (luvas nitrílicas, creme de proteção, roupas), que podem causar dermatite alérgica.",
+          "simple": "Cuidar da pele com luvas e creme para a resina não causar alergia."
+        }
+      }
+    },
+    {
+      "id": "im-exotherm",
+      "level": "C1",
+      "de": {
+        "word": "exotherm",
+        "article": null,
+        "plural": null,
+        "gender": null,
+        "pos": "adjective"
+      },
+      "synonyms": [],
+      "related": ["im-topfzeit", "im-riss"],
+      "esco": null,
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Die Reaktion ist stark exotherm, misch nicht zu viel auf einmal an.",
+          "tr": {
+            "pt-BR": "A reação é muito exotérmica; não misture demais de uma vez."
+          }
+        },
+        {
+          "de": "In dicken Wandstärken wird die exotherme Wärme zum Problem.",
+          "tr": {
+            "pt-BR": "Em paredes grossas, o calor exotérmico vira problema."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "exotérmico",
+          "technical": "Que libera calor; a reação de cura é exotérmica, e grandes volumes podem superaquecer e trincar.",
+          "simple": "Que esquenta sozinho enquanto reage."
+        }
+      }
+    },
+    {
+      "id": "im-einguss",
+      "level": "C1",
+      "de": {
+        "word": "Einguss",
+        "article": "der",
+        "plural": "Eingüsse",
+        "gender": "m",
+        "pos": "noun"
+      },
+      "synonyms": [],
+      "related": ["im-giessform"],
+      "esco": null,
+      "status": "rascunho",
+      "examples": [
+        {
+          "de": "Füll das Harz langsam über den Einguss nach.",
+          "tr": {
+            "pt-BR": "Complete a resina devagar pela entrada do molde."
+          }
+        },
+        {
+          "de": "Am Einguss bleibt nach dem Entformen ein Zapfen, der abgeschliffen wird.",
+          "tr": {
+            "pt-BR": "Na entrada fica um ressalto após a desmoldagem, que é lixado."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "entrada de alimentação (canal de vazamento)",
+          "technical": "Abertura ou canal do molde por onde a resina entra; posição e tamanho influenciam o enchimento e as bolhas.",
+          "simple": "O \"buraco\" da forma por onde a resina entra."
+        }
+      }
+    },
+    {
+      "id": "im-waermeklasse",
+      "level": "C1",
+      "de": {
+        "word": "Wärmeklasse",
+        "article": "die",
+        "plural": "Wärmeklassen",
+        "gender": "f",
+        "pos": "noun"
+      },
+      "parts": [
+        {
+          "de": "Wärme",
+          "tr": {
+            "pt-BR": "calor"
+          }
+        },
+        {
+          "de": "klasse",
+          "tr": {
+            "pt-BR": "classe"
+          }
+        }
+      ],
+      "synonyms": ["Isolierstoffklasse"],
+      "related": ["im-isolierung", "im-transformator"],
+      "esco": null,
+      "sources": [
+        {
+          "label": "Planungsleitfaden Gießharztransformatoren (SGB-SMIT, PDF)",
+          "url": "https://www.SGB-SMIT.com/fileadmin/user_upload/Downloads/Broschueren/Cast_Resin_Transformers/Planungsleitfaden_D.pdf"
+        }
+      ],
+      "status": "revisado-ia",
+      "examples": [
+        {
+          "de": "Unsere Gießharztransformatoren haben die Wärmeklasse F.",
+          "tr": {
+            "pt-BR": "Nossos transformadores a resina têm classe térmica F."
+          }
+        },
+        {
+          "de": "Die Wärmeklasse steht auf dem Typenschild.",
+          "tr": {
+            "pt-BR": "A classe térmica está na placa de identificação."
+          }
+        }
+      ],
+      "tr": {
+        "pt-BR": {
+          "term": "classe térmica (de isolamento)",
+          "technical": "Temperatura máxima contínua admissível do sistema de isolamento (ex.: F = 155 °C, H = 180 °C), conforme IEC 60085.",
+          "simple": "O quanto o isolamento aguenta de calor sem estragar com o tempo."
         }
       }
     }

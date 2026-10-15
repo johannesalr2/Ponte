@@ -29,7 +29,7 @@ quem trabalha ou faz Ausbildung na Alemanha.
 
 | Profissão                                                     | Termos | Áreas | Situações |
 | ------------------------------------------------------------- | -----: | ----: | --------: |
-| Industriemechaniker (inclui fundição de resina e alta tensão) |     46 |     4 |         3 |
+| Industriemechaniker (inclui fundição de resina e alta tensão) |    166 |     4 |         3 |
 | Pflegefachkraft                                               |     51 |     4 |         3 |
 | Fachinformatiker                                              |     46 |     3 |         2 |
 | Ingenieur                                                     |     45 |     3 |         2 |
@@ -42,6 +42,11 @@ quem trabalha ou faz Ausbildung na Alemanha.
 > por um profissional da área ainda**. Os termos em que havia dúvida
 > (por exemplo, a variante de Portugal) estão como `rascunho`. As referências
 > ESCO por termo estão vazias (`null`) de propósito: não foram inventadas.
+> Os termos podem ter um campo `sources` com as fontes consultadas (normas,
+> literatura técnica), que aparece na ficha do termo. A lista completa da
+> Mecânica Industrial para revisão está em
+> [`docs/termos-industriemechaniker.md`](docs/termos-industriemechaniker.md)
+> (gerada com `npm run export-terms -- industriemechaniker`).
 > As informações de carreira e reconhecimento são gerais e apontam para os
 > portais oficiais; confira sempre as regras atuais.
 
