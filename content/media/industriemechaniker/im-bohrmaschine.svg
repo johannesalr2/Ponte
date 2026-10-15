@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Säulenbohrmaschine (furadeira de coluna)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<rect x="160.0" y="312.0" width="320.0" height="30.0" rx="4" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="220.0" y="60.0" width="30.0" height="252.0" rx="0" fill="#e3e7eb" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="270.0" y="250.0" width="210.0" height="20.0" rx="3" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="236.0" y="244.0" width="40.0" height="30.0" rx="2" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M200 50 H470 Q490 50 490 70 V122 Q490 142 470 142 H200 Z" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="410.0" y="18.0" width="80.0" height="34.0" rx="6" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="392.0" y="142.0" width="24.0" height="36.0" rx="0" fill="#e3e7eb" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="386.0,178.0 422.0,178.0 416.0,196.0 392.0,196.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="400.0" y="196.0" width="8.0" height="40.0" rx="0" fill="#e3e7eb" stroke="#22303a" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M490.0 100.0 L540.0 100.0 L580.0 140.0" fill="none" stroke="#22303a" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/><path d="M490.0 100.0 L540.0 100.0 L580.0 140.0" fill="none" stroke="#b9c2ca" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="580.0" cy="140.0" r="8.0" fill="#3a4a56" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="594" y1="213" x2="418" y2="188" stroke="#b4440e" stroke-width="1.5"/><circle cx="418" cy="188" r="3.5" fill="#b4440e"/><text x="600" y="220" text-anchor="start" font-size="21" font-weight="600" fill="#22303a">Bohrfutter</text>
+<line x1="594" y1="283" x2="480" y2="260" stroke="#b4440e" stroke-width="1.5"/><circle cx="480" cy="260" r="3.5" fill="#b4440e"/><text x="600" y="290" text-anchor="start" font-size="21" font-weight="600" fill="#22303a">Bohrtisch</text>
+<line x1="126" y1="193" x2="220" y2="200" stroke="#b4440e" stroke-width="1.5"/><circle cx="220" cy="200" r="3.5" fill="#b4440e"/><text x="120" y="200" text-anchor="end" font-size="21" font-weight="600" fill="#22303a">Säule</text>
+<line x1="572" y1="150" x2="572" y2="132" stroke="#b4440e" stroke-width="1.5"/><circle cx="572" cy="132" r="3.5" fill="#b4440e"/><text x="700" y="170" text-anchor="end" font-size="21" font-weight="600" fill="#22303a">Vorschubhebel</text>
+</svg>

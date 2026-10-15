@@ -280,6 +280,15 @@
           "technical": "Forma (geralmente metálica) que define a geometria da peça fundida; é tratada com desmoldante e pré-aquecida.",
           "simple": "A \"forma de bolo\" onde a resina é colocada para pegar o formato da peça."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-giessform.svg",
+        "alt": {
+          "pt-BR": "Ilustração: molde, com as partes indicadas em alemão: Formhälfte, Formhohlraum e Einguss."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1098,6 +1107,15 @@
           "technical": "Enrolamento de fio sobre um suporte; em bobinas de transformador de medida e de distribuição, isolada com resina.",
           "simple": "O carretel de fio enrolado."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-spule.svg",
+        "alt": {
+          "pt-BR": "Ilustração: bobina, com as partes indicadas em alemão: Wicklung, Spulenkörper e Anschlussdraht."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1134,6 +1152,15 @@
           "technical": "Na fundição de resina: estufa com controle de temperatura para pré-aquecimento, cura e pós-cura.",
           "simple": "O forno grande onde as peças ficam para endurecer."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-ofen.svg",
+        "alt": {
+          "pt-BR": "Ilustração: estufa (forno), com as partes indicadas em alemão: Temperaturregler e Ofentür."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {

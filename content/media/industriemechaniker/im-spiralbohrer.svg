@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Spiralbohrer (broca helicoidal)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<rect x="90.0" y="158.0" width="210.0" height="24.0" rx="0" fill="#e3e7eb" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="300.0,156.0 560.0,156.0 600.0,170.0 560.0,184.0 300.0,184.0" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M310 184 Q326 170 332 156 L342 156 Q336 170 320 184 Z" fill="#8a96a0" stroke="#22303a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M338 184 Q354 170 360 156 L370 156 Q364 170 348 184 Z" fill="#8a96a0" stroke="#22303a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M366 184 Q382 170 388 156 L398 156 Q392 170 376 184 Z" fill="#8a96a0" stroke="#22303a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M394 184 Q410 170 416 156 L426 156 Q420 170 404 184 Z" fill="#8a96a0" stroke="#22303a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M422 184 Q438 170 444 156 L454 156 Q448 170 432 184 Z" fill="#8a96a0" stroke="#22303a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M450 184 Q466 170 472 156 L482 156 Q476 170 460 184 Z" fill="#8a96a0" stroke="#22303a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M478 184 Q494 170 500 156 L510 156 Q504 170 488 184 Z" fill="#8a96a0" stroke="#22303a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M506 184 Q522 170 528 156 L538 156 Q532 170 516 184 Z" fill="#8a96a0" stroke="#22303a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M534 184 Q550 170 556 156 L566 156 Q560 170 544 184 Z" fill="#8a96a0" stroke="#22303a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="195" y1="230" x2="195" y2="182" stroke="#b4440e" stroke-width="1.5"/><circle cx="195" cy="182" r="3.5" fill="#b4440e"/><text x="195" y="250" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Schaft</text>
+<line x1="430" y1="106" x2="430" y2="160" stroke="#b4440e" stroke-width="1.5"/><circle cx="430" cy="160" r="3.5" fill="#b4440e"/><text x="430" y="100" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Spannut</text>
+<line x1="594" y1="240" x2="594" y2="170" stroke="#b4440e" stroke-width="1.5"/><circle cx="594" cy="170" r="3.5" fill="#b4440e"/><text x="600" y="260" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Spitze 118°</text>
+</svg>

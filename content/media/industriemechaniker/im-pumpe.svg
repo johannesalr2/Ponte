@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Kreiselpumpe (bomba centrífuga)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<rect x="70.0" y="290.0" width="580.0" height="22.0" rx="3" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M120 260 Q90 180 150 120 Q210 70 280 100 L300 108 V280 H140 Z" fill="#5b8db0" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="240.0" y="40.0" width="50.0" height="70.0" rx="3" fill="#5b8db0" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="230.0" y="34.0" width="70.0" height="14.0" rx="2" fill="#5b8db0" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="195.0" cy="190.0" r="38.0" fill="#4a7a9c" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="195.0" cy="190.0" r="24.0" fill="#ffffff" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="300.0" y="170.0" width="70.0" height="30.0" rx="0" fill="#e3e7eb" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="370.0" y="150.0" width="30.0" height="70.0" rx="3" fill="#e2b33c" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="400.0" y="120.0" width="220.0" height="130.0" rx="10" fill="#5b8db0" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="410.0" y1="132.0" x2="610.0" y2="132.0" stroke="#2f5470" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="410.0" y1="144.0" x2="610.0" y2="144.0" stroke="#2f5470" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="410.0" y1="156.0" x2="610.0" y2="156.0" stroke="#2f5470" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="410.0" y1="168.0" x2="610.0" y2="168.0" stroke="#2f5470" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="410.0" y1="180.0" x2="610.0" y2="180.0" stroke="#2f5470" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="410.0" y1="192.0" x2="610.0" y2="192.0" stroke="#2f5470" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="410.0" y1="204.0" x2="610.0" y2="204.0" stroke="#2f5470" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="410.0" y1="216.0" x2="610.0" y2="216.0" stroke="#2f5470" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="410.0" y1="228.0" x2="610.0" y2="228.0" stroke="#2f5470" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="410.0" y1="240.0" x2="610.0" y2="240.0" stroke="#2f5470" stroke-width="1.2" stroke-linecap="round"/>
+<rect x="470.0" y="98.0" width="70.0" height="24.0" rx="3" fill="#4a7a9c" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="334" y1="33" x2="290" y2="60" stroke="#b4440e" stroke-width="1.5"/><circle cx="290" cy="60" r="3.5" fill="#b4440e"/><text x="340" y="40" text-anchor="start" font-size="21" font-weight="600" fill="#22303a">Druckstutzen</text>
+<line x1="180" y1="310" x2="180" y2="220" stroke="#b4440e" stroke-width="1.5"/><circle cx="180" cy="220" r="3.5" fill="#b4440e"/><text x="70" y="330" text-anchor="start" font-size="21" font-weight="600" fill="#22303a">Saugstutzen</text>
+<line x1="260" y1="320" x2="260" y2="250" stroke="#b4440e" stroke-width="1.5"/><circle cx="260" cy="250" r="3.5" fill="#b4440e"/><text x="330" y="340" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Spiralgehäuse</text>
+<line x1="624" y1="53" x2="580" y2="124" stroke="#b4440e" stroke-width="1.5"/><circle cx="580" cy="124" r="3.5" fill="#b4440e"/><text x="660" y="60" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Motor</text>
+</svg>

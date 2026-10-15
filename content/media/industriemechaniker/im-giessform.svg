@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Gießform (molde, aberto)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<rect x="120.0" y="90.0" width="220.0" height="210.0" rx="6" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="380.0" y="90.0" width="220.0" height="210.0" rx="6" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M260 120 H340 V270 H260 Q230 270 230 240 V150 Q230 120 260 120 Z" fill="#ffffff" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M380 120 H460 Q490 120 490 150 V240 Q490 270 460 270 H380 Z" fill="#ffffff" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M300 40 H420 L380 90 H340 Z" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="140.0" cy="110.0" r="8.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="580.0" cy="110.0" r="8.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="140.0" cy="280.0" r="8.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="580.0" cy="280.0" r="8.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="160" y1="320" x2="160" y2="300" stroke="#b4440e" stroke-width="1.5"/><circle cx="160" cy="300" r="3.5" fill="#b4440e"/><text x="140" y="340" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Formhälfte</text>
+<line x1="521" y1="333" x2="470" y2="240" stroke="#b4440e" stroke-width="1.5"/><circle cx="470" cy="240" r="3.5" fill="#b4440e"/><text x="600" y="340" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Formhohlraum</text>
+<line x1="554" y1="43" x2="410" y2="60" stroke="#b4440e" stroke-width="1.5"/><circle cx="410" cy="60" r="3.5" fill="#b4440e"/><text x="560" y="50" text-anchor="start" font-size="21" font-weight="600" fill="#22303a">Einguss</text>
+</svg>

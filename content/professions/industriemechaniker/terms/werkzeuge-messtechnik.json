@@ -117,6 +117,15 @@
           "technical": "Instrumento de medição por fuso roscado com arco em C; mede com resolução de 0,01 mm ou melhor. A catraca limita a força de medição.",
           "simple": "Uma ferramenta em forma de \"C\" que aperta a peça devagar e mostra a medida com precisão de centésimos de milímetro."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-buegelmessschraube.svg",
+        "alt": {
+          "pt-BR": "Ilustração: micrômetro, com as partes indicadas em alemão: Bügel, Amboss, Messspindel, Skalenhülse, Skalentrommel e Ratsche."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -167,6 +176,15 @@
           "technical": "Instrumento com ponteiro que mostra pequenos deslocamentos de um apalpador; usado para verificar batimento, planicidade e alinhamento.",
           "simple": "Um \"relógio\" com ponteiro que mostra se uma peça gira torta ou está fora do lugar, mesmo por muito pouco."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-messuhr.svg",
+        "alt": {
+          "pt-BR": "Ilustração: relógio comparador, com as partes indicadas em alemão: Zifferblatt, Zeiger, Einspannschaft, Messbolzen e Messeinsatz."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -226,6 +244,15 @@
           "technical": "Chave que aplica um torque de aperto definido (em N·m), com estalo ou indicação quando o valor ajustado é atingido.",
           "simple": "Uma chave que \"avisa\" com um clique quando o parafuso já foi apertado com a força certa."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-drehmomentschluessel.svg",
+        "alt": {
+          "pt-BR": "Ilustração: torquímetro, com as partes indicadas em alemão: Vierkantantrieb, Skala e Handgriff."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -279,6 +306,15 @@
           "technical": "Chave fixa com boca aberta em forma de garfo, para porcas e cabeças sextavadas; identificada pela medida da abertura (ex.: SW 13).",
           "simple": "A chave comum com a ponta aberta em forma de \"U\", usada para girar porcas."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-gabelschluessel.svg",
+        "alt": {
+          "pt-BR": "Ilustração: chave de boca."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -341,6 +377,15 @@
           "technical": "Chave em L de seção hexagonal para parafusos com sextavado interno (cabeça cilíndrica, ISO 4762).",
           "simple": "A chavinha em forma de \"L\" com seis lados que entra no buraco da cabeça do parafuso."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-innensechskantschluessel.svg",
+        "alt": {
+          "pt-BR": "Ilustração: chave Allen."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -377,6 +422,15 @@
           "technical": "Ferramenta manual de corte com dentes no corpo, para desbastar e acabar superfícies e remover rebarbas.",
           "simple": "Uma barra de aço áspera usada para gastar e alisar o metal à mão."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-feile.svg",
+        "alt": {
+          "pt-BR": "Ilustração: lima, com as partes indicadas em alemão: Heft, Hieb e Spitze."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -427,6 +481,15 @@
           "technical": "Ferramenta para abrir rosca interna em furo previamente feito; usada em jogo (pré-corte, intermediário e acabamento) ou macho de máquina.",
           "simple": "Uma ferramenta parecida com um parafuso duro que \"corta\" a rosca dentro de um furo."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-gewindebohrer.svg",
+        "alt": {
+          "pt-BR": "Ilustração: macho de roscar, com as partes indicadas em alemão: Vierkant, Schaft, Spannut e Anschnitt."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -549,6 +612,15 @@
           "technical": "Instrumento com ampolas de líquido e bolha para verificar horizontalidade e verticalidade.",
           "simple": "Uma régua com uma bolhinha que mostra se algo está reto, sem pender para nenhum lado."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-wasserwaage.svg",
+        "alt": {
+          "pt-BR": "Ilustração: nível de bolha, com as partes indicadas em alemão: Libelle."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -608,6 +680,15 @@
           "technical": "Ferramenta para apertar e soltar parafusos com fenda, Phillips (PH), Pozidriv (PZ) ou Torx (TX); escolhe-se a ponta pelo perfil e tamanho da cabeça.",
           "simple": "A chave com cabo e ponta fina para girar parafusos."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-schraubendreher.svg",
+        "alt": {
+          "pt-BR": "Ilustração: chave de fenda, com as partes indicadas em alemão: Griff, Klinge e Spitze."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -644,6 +725,15 @@
           "technical": "Ferramenta de duas hastes articuladas para segurar, dobrar ou cortar (alicate universal, de bico, de corte diagonal, de pressão).",
           "simple": "A ferramenta que aperta, segura e corta, parecida com uma tesoura forte."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-zange.svg",
+        "alt": {
+          "pt-BR": "Ilustração: alicate, com as partes indicadas em alemão: Greifbacken, Schneide, Gelenk e Griffe."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -680,6 +770,15 @@
           "technical": "Ferramenta de impacto; na oficina usam-se martelo de bola, de borracha (Gummihammer) e de nylon para não danificar superfícies.",
           "simple": "O martelo."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-hammer.svg",
+        "alt": {
+          "pt-BR": "Ilustração: martelo, com as partes indicadas em alemão: Bahn, Finne, Kopf e Stiel."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -736,6 +835,15 @@
           "technical": "Dispositivo de fixação com mordentes, preso à bancada ou à mesa da máquina, para segurar a peça durante limagem, serragem ou furação.",
           "simple": "O aparelho preso na bancada que aperta a peça para ela não se mexer."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-schraubstock.svg",
+        "alt": {
+          "pt-BR": "Ilustração: morsa (torno de bancada), com as partes indicadas em alemão: Spannbacken, Spindel, Grundplatte e Handhebel."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -786,6 +894,15 @@
           "technical": "Serra manual com lâmina tensionada num arco; os dentes apontam para a frente e o corte acontece no movimento de avanço.",
           "simple": "A serra de mão com um arco de metal, usada para cortar metal."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-buegelsaege.svg",
+        "alt": {
+          "pt-BR": "Ilustração: arco de serra, com as partes indicadas em alemão: Bügel, Sägeblatt e Griff."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -822,6 +939,15 @@
           "technical": "Ferramenta de aço temperado com ponta cônica para marcar o centro de um furo antes de furar, evitando que a broca escorregue.",
           "simple": "Um \"prego\" de aço que faz uma marquinha onde a broca vai entrar."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-koerner.svg",
+        "alt": {
+          "pt-BR": "Ilustração: punção de centro (punção de bico)."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -872,6 +998,15 @@
           "technical": "Haste de aço com ponta endurecida para traçar linhas finas na superfície do metal.",
           "simple": "Uma \"caneta\" de aço que risca o metal para marcar onde cortar ou furar."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-reissnadel.svg",
+        "alt": {
+          "pt-BR": "Ilustração: riscador."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1016,6 +1151,15 @@
           "technical": "Ferramenta de corte por golpes de martelo, com gume temperado, para cortar chapas, rebites ou remover material.",
           "simple": "Uma barra de aço com ponta afiada que se bate com martelo para cortar."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-meissel.svg",
+        "alt": {
+          "pt-BR": "Ilustração: talhadeira, com as partes indicadas em alemão: Kopf e Schneide."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1066,6 +1210,15 @@
           "technical": "Ferramenta de acabamento que calibra um furo pré-furado na medida e tolerância exatas (ex.: H7), com boa qualidade superficial.",
           "simple": "Uma ferramenta que deixa o furo com a medida exata e liso por dentro."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-reibahle.svg",
+        "alt": {
+          "pt-BR": "Ilustração: alargador, com as partes indicadas em alemão: Vierkant, Schaft e Schneidteil."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1102,6 +1255,15 @@
           "technical": "Ferramenta que cria rebaixos cônicos ou cilíndricos na entrada do furo, para cabeças de parafuso escareado ou para rebarbar.",
           "simple": "A ferramenta que abre a \"boca\" do furo para a cabeça do parafuso ficar embutida."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-senker.svg",
+        "alt": {
+          "pt-BR": "Ilustração: escareador."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1152,6 +1314,15 @@
           "technical": "Broca com canais helicoidais para retirar cavacos; em aço rápido (HSS) ou metal duro, com ângulo de ponta típico de 118°.",
           "simple": "A broca comum, com espiral, que faz furos."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-spiralbohrer.svg",
+        "alt": {
+          "pt-BR": "Ilustração: broca helicoidal, com as partes indicadas em alemão: Schaft, Spannut e Spitze 118°."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1205,6 +1376,15 @@
           "technical": "Chave fixa com olhal fechado de 12 pontas, que envolve toda a porca e transmite mais torque com menos risco de espanar.",
           "simple": "A chave com a ponta fechada em círculo, que abraça a porca toda."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-ringschluessel.svg",
+        "alt": {
+          "pt-BR": "Ilustração: chave estrela."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1244,6 +1424,15 @@
           "technical": "Cabo com mecanismo de roquete para soquetes (Steckschlüssel), que permite apertar sem tirar a ferramenta do parafuso.",
           "simple": "A chave que faz \"tec-tec\" e gira o parafuso sem precisar tirar e colocar de novo."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-ratsche.svg",
+        "alt": {
+          "pt-BR": "Ilustração: catraca (chave catraca), com as partes indicadas em alemão: Vierkant, Umschalthebel e Griff."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1280,6 +1469,15 @@
           "technical": "Ferramenta com garras e fuso para extrair rolamentos, polias e engrenagens de eixos sem danificá-los.",
           "simple": "A ferramenta com \"garras\" que puxa o rolamento para fora do eixo."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-abzieher.svg",
+        "alt": {
+          "pt-BR": "Ilustração: sacador (extrator), com as partes indicadas em alemão: Spindel, Traverse, Haken e Werkstück."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1346,6 +1544,15 @@
           "technical": "Calibrador fixo para furos, com lado \"passa\" (Gutseite) e lado \"não passa\" (Ausschussseite, marcado em vermelho); verifica se o furo está dentro da tolerância sem medir o valor.",
           "simple": "Um pino de aço com duas pontas: uma tem que entrar no furo e a outra não pode entrar."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-grenzlehrdorn.svg",
+        "alt": {
+          "pt-BR": "Ilustração: calibrador tampão (passa-não-passa), com as partes indicadas em alemão: Gutseite e Ausschussseite."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1412,6 +1619,15 @@
           "technical": "Calibrador em forma de \"C\" para medidas externas (eixos), com lado passa e lado não passa (vermelho).",
           "simple": "Um calibrador em forma de \"C\" que diz na hora se o eixo está na medida certa."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-grenzrachenlehre.svg",
+        "alt": {
+          "pt-BR": "Ilustração: calibrador de boca (passa-não-passa), com as partes indicadas em alemão: Gutseite e Ausschussseite."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1478,6 +1694,15 @@
           "technical": "Bloco de aço ou cerâmica com duas faces paralelas a uma distância muito exata; usado para calibrar e ajustar instrumentos e calibradores.",
           "simple": "Um bloquinho de medida perfeita usado para conferir se os instrumentos estão certos."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-parallelendmass.svg",
+        "alt": {
+          "pt-BR": "Ilustração: bloco-padrão."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1528,6 +1753,15 @@
           "technical": "Jogo de lâminas de espessuras graduadas para medir folgas (ex.: folga de válvulas, alinhamento de acoplamentos).",
           "simple": "Um \"leque\" de lâminas finas de metal para medir frestas pequenas."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-fuehlerlehre.svg",
+        "alt": {
+          "pt-BR": "Ilustração: calibrador de folga (de lâminas)."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1637,6 +1871,15 @@
           "technical": "Instrumento com nônio para medir e traçar ângulos com resolução típica de 5 minutos de arco.",
           "simple": "Um \"transferidor\" de metal muito preciso para medir ângulos."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-universalwinkelmesser.svg",
+        "alt": {
+          "pt-BR": "Ilustração: goniômetro (transferidor universal), com as partes indicadas em alemão: Gradskala, Lineal e Anschlag."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1693,6 +1936,15 @@
           "technical": "Instrumento sobre base pesada, usado num desempeno, para medir alturas e traçar linhas paralelas à base.",
           "simple": "Um aparelho que fica em pé numa mesa lisa e risca a peça sempre na mesma altura."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-hoehenreisser.svg",
+        "alt": {
+          "pt-BR": "Ilustração: traçador de altura, com as partes indicadas em alemão: Säule, Reißnadel e Fuß."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1743,6 +1995,15 @@
           "technical": "Jogo de lâminas com perfis de rosca para identificar o passo; \"Gewindelehrdorn/-ring\" são os calibradores passa-não-passa de rosca.",
           "simple": "Um conjunto de \"pentes\" que mostra qual é o passo da rosca."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-gewindelehre.svg",
+        "alt": {
+          "pt-BR": "Ilustração: pente de rosca (verificador de passo)."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {

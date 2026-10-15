@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Sicherungsring (anel elástico)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<path d="M337.6 76.6 A110 110 0 1 1 262.4 76.6 L270.6 99.2 A86 86 0 1 0 329.4 99.2 Z" fill="#3a4a56" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="337.6" cy="68.6" r="20.0" fill="#3a4a56" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="337.6" cy="68.6" r="7.0" fill="#ffffff" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="262.4" cy="68.6" r="20.0" fill="#3a4a56" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="262.4" cy="68.6" r="7.0" fill="#ffffff" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="300.0" y="340.0" font-size="16" font-weight="600" text-anchor="middle" fill="#22303a">DIN 471 (Welle)</text>
+</svg>

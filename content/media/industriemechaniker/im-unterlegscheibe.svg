@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Unterlegscheibe (arruela)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<circle cx="240.0" cy="180.0" r="100.0" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="240.0" cy="180.0" r="44.0" fill="#ffffff" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="450.0" y="80.0" width="18.0" height="200.0" rx="2" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="240.0" y="320.0" font-size="16" font-weight="600" text-anchor="middle" fill="#22303a">ISO 7089 – 10</text>
+</svg>

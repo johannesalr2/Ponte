@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Lichtbogen (arco elétrico)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<rect x="80.0" y="160.0" width="210.0" height="40.0" rx="6" fill="#c97b4a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="430.0" y="160.0" width="210.0" height="40.0" rx="6" fill="#c97b4a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<defs><radialGradient id="g"><stop offset="0" stop-color="#fff6c8"/><stop offset="1" stop-color="#fff6c8" stop-opacity="0"/></radialGradient></defs><ellipse cx="360" cy="180" rx="120" ry="70" fill="url(#g)"/>
+<path d="M290 180 L310 160 L325 196 L345 150 L362 204 L380 158 L398 198 L414 166 L430 180" fill="none" stroke="#22303a" stroke-width="9" stroke-linejoin="round"/>
+<path d="M290 180 L310 160 L325 196 L345 150 L362 204 L380 158 L398 198 L414 166 L430 180" fill="none" stroke="#f2c94c" stroke-width="5" stroke-linejoin="round"/>
+<line x1="160" y1="250" x2="160" y2="200" stroke="#b4440e" stroke-width="1.5"/><circle cx="160" cy="200" r="3.5" fill="#b4440e"/><text x="140" y="270" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Elektrode</text>
+<line x1="560" y1="250" x2="560" y2="200" stroke="#b4440e" stroke-width="1.5"/><circle cx="560" cy="200" r="3.5" fill="#b4440e"/><text x="580" y="270" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Elektrode</text>
+<line x1="352" y1="76" x2="352" y2="150" stroke="#b4440e" stroke-width="1.5"/><circle cx="352" cy="150" r="3.5" fill="#b4440e"/><text x="360" y="70" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Lichtbogen</text>
+</svg>

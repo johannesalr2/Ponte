@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Stützisolator (isolador de apoio)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<rect x="230.0" y="300.0" width="140.0" height="26.0" rx="4" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="250.0" y="30.0" width="100.0" height="24.0" rx="4" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="270.0" y="54.0" width="60.0" height="246.0" rx="0" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="300" cy="70" rx="92" ry="10" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="300" cy="104" rx="70" ry="10" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="300" cy="138" rx="92" ry="10" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="300" cy="172" rx="70" ry="10" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="300" cy="206" rx="92" ry="10" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="300" cy="240" rx="70" ry="10" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="300" cy="274" rx="92" ry="10" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="514" y1="113" x2="390" y2="104" stroke="#b4440e" stroke-width="1.5"/><circle cx="390" cy="104" r="3.5" fill="#b4440e"/><text x="520" y="120" text-anchor="start" font-size="21" font-weight="600" fill="#22303a">Schirm</text>
+<line x1="514" y1="313" x2="370" y2="312" stroke="#b4440e" stroke-width="1.5"/><circle cx="370" cy="312" r="3.5" fill="#b4440e"/><text x="520" y="320" text-anchor="start" font-size="21" font-weight="600" fill="#22303a">Armatur</text>
+<line x1="514" y1="33" x2="350" y2="42" stroke="#b4440e" stroke-width="1.5"/><circle cx="350" cy="42" r="3.5" fill="#b4440e"/><text x="520" y="40" text-anchor="start" font-size="21" font-weight="600" fill="#22303a">Armatur</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Stromwandler (transformador de corrente)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<rect x="160.0" y="290.0" width="380.0" height="26.0" rx="3" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M200 290 V140 Q200 90 250 90 H450 Q500 90 500 140 V290 Z" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="230.0" y="60.0" width="60.0" height="30.0" rx="3" fill="#c97b4a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="410.0" y="60.0" width="60.0" height="30.0" rx="3" fill="#c97b4a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="260.0" y="52.0" font-size="16" font-weight="600" text-anchor="middle" fill="#22303a">P1</text>
+<text x="440.0" y="52.0" font-size="16" font-weight="600" text-anchor="middle" fill="#22303a">P2</text>
+<rect x="300.0" y="200.0" width="100.0" height="60.0" rx="6" fill="#3a4a56" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="330.0" y="236.0" font-size="14" font-weight="600" text-anchor="middle" fill="#ffffff">S1</text>
+<text x="370.0" y="236.0" font-size="14" font-weight="600" text-anchor="middle" fill="#ffffff">S2</text>
+<line x1="511" y1="33" x2="470" y2="70" stroke="#b4440e" stroke-width="1.5"/><circle cx="470" cy="70" r="3.5" fill="#b4440e"/><text x="700" y="40" text-anchor="end" font-size="21" font-weight="600" fill="#22303a">Primäranschluss</text>
+<line x1="511" y1="243" x2="400" y2="236" stroke="#b4440e" stroke-width="1.5"/><circle cx="400" cy="236" r="3.5" fill="#b4440e"/><text x="700" y="250" text-anchor="end" font-size="21" font-weight="600" fill="#22303a">Sekundärklemmen</text>
+<line x1="196" y1="173" x2="220" y2="180" stroke="#b4440e" stroke-width="1.5"/><circle cx="220" cy="180" r="3.5" fill="#b4440e"/><text x="190" y="180" text-anchor="end" font-size="21" font-weight="600" fill="#22303a">Gießharzkörper</text>
+</svg>

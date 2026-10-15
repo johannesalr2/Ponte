@@ -181,6 +181,15 @@
             }
           ]
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-lager.svg",
+        "alt": {
+          "pt-BR": "Ilustração: rolamento, com as partes indicadas em alemão: Außenring, Kugel, Käfig e Innenring."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -223,6 +232,15 @@
             }
           ]
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-welle.svg",
+        "alt": {
+          "pt-BR": "Ilustração: eixo, com as partes indicadas em alemão: Passfedernut, Lagersitz e Wellenabsatz."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -259,6 +277,15 @@
           "technical": "Elemento que impede vazamento de fluidos entre peças: junta plana, anel O-ring, retentor.",
           "simple": "A borrachinha ou junta que impede o óleo ou a água de vazar."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-dichtung.svg",
+        "alt": {
+          "pt-BR": "Ilustração: vedação, com as partes indicadas em alemão: O-Ring e Flachdichtung."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -437,6 +464,15 @@
           "technical": "Máquina-ferramenta em que a peça gira e a ferramenta avança, para tornear superfícies cilíndricas, faces e roscas; CNC ou convencional.",
           "simple": "A máquina que gira a peça bem rápido enquanto uma ferramenta tira o metal, deixando-a redonda."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-drehmaschine.svg",
+        "alt": {
+          "pt-BR": "Ilustração: torno, com as partes indicadas em alemão: Spindelstock, Futter, Support, Reitstock e Bett."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -490,6 +526,15 @@
           "technical": "Máquina para fazer furos com broca giratória: furadeira de bancada, de coluna ou manual.",
           "simple": "A máquina que faz buracos redondos com uma broca."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-bohrmaschine.svg",
+        "alt": {
+          "pt-BR": "Ilustração: furadeira, com as partes indicadas em alemão: Bohrfutter, Bohrtisch, Säule e Vorschubhebel."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -818,6 +863,15 @@
           "technical": "Conjunto que transmite e converte rotação e torque entre eixos (redutor de engrenagens, sem-fim, planetário).",
           "simple": "A caixa com engrenagens que muda a velocidade do motor."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-getriebe.svg",
+        "alt": {
+          "pt-BR": "Ilustração: redutor (caixa de engrenagens), com as partes indicadas em alemão: Gehäuse, Antriebswelle, Abtriebswelle e Zahnrad."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -860,6 +914,15 @@
             }
           ]
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-kupplung.svg",
+        "alt": {
+          "pt-BR": "Ilustração: acoplamento, com as partes indicadas em alemão: Kupplungsnabe, Zahnkranz, Welle e Klaue."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -913,6 +976,15 @@
           "technical": "Correia de seção trapezoidal que transmite força por atrito nos canais da polia; precisa de tensão correta.",
           "simple": "A correia de borracha que liga duas polias."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-keilriemen.svg",
+        "alt": {
+          "pt-BR": "Ilustração: correia em V, com as partes indicadas em alemão: Riemenscheibe e Keilriemen."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -963,6 +1035,15 @@
           "technical": "Roda dentada que transmite movimento por engrenamento; características: módulo, número de dentes, largura.",
           "simple": "Uma roda com dentes que gira outra roda."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-zahnrad.svg",
+        "alt": {
+          "pt-BR": "Ilustração: engrenagem, com as partes indicadas em alemão: Passfedernut, Nabe e Zahn."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1071,6 +1152,15 @@
           "technical": "Atuador linear hidráulico ou pneumático (simples ou dupla ação), composto de camisa, êmbolo e haste.",
           "simple": "O \"pistão\" que empurra e puxa com ar ou óleo."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-zylinder.svg",
+        "alt": {
+          "pt-BR": "Ilustração: cilindro (atuador), com as partes indicadas em alemão: Zylinderrohr, Kolbenstange e Anschluss."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1107,6 +1197,15 @@
           "technical": "Componente que controla direção, pressão ou vazão de fluidos (válvula direcional, de alívio, reguladora de vazão).",
           "simple": "A peça que abre, fecha ou desvia a passagem do óleo, do ar ou da água."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-ventil.svg",
+        "alt": {
+          "pt-BR": "Ilustração: válvula, com as partes indicadas em alemão: Magnetspule, Ventilkörper e Anschluss."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1143,6 +1242,15 @@
           "technical": "Máquina que transporta fluidos (bomba centrífuga, de engrenagens, de pistões); na hidráulica gera a vazão.",
           "simple": "A máquina que empurra líquido pelos tubos."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-pumpe.svg",
+        "alt": {
+          "pt-BR": "Ilustração: bomba, com as partes indicadas em alemão: Druckstutzen, Saugstutzen, Spiralgehäuse e Motor."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1179,6 +1287,15 @@
           "technical": "Máquina que converte energia (elétrica, combustão) em movimento; na indústria, sobretudo motores elétricos trifásicos.",
           "simple": "A parte que faz a máquina se mexer."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-motor.svg",
+        "alt": {
+          "pt-BR": "Ilustração: motor, com as partes indicadas em alemão: Klemmenkasten, Kühlrippen, Welle e Lüfterhaube."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1318,6 +1435,15 @@
           "technical": "Material removido na usinagem; a forma do cavaco indica se os parâmetros de corte estão adequados.",
           "simple": "As \"lascas\" de metal que saem quando a máquina corta."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-span.svg",
+        "alt": {
+          "pt-BR": "Ilustração: cavaco."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1682,6 +1808,15 @@
           "technical": "Elemento de fixação roscado; designado por rosca, comprimento e classe de resistência (ex.: M10×40-8.8).",
           "simple": "O parafuso."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-schraube.svg",
+        "alt": {
+          "pt-BR": "Ilustração: parafuso, com as partes indicadas em alemão: Kopf, Schaft e Gewinde."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1724,6 +1859,15 @@
             }
           ]
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-mutter.svg",
+        "alt": {
+          "pt-BR": "Ilustração: porca."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1777,6 +1921,15 @@
           "technical": "Disco colocado sob a porca ou cabeça do parafuso para distribuir a carga e proteger a superfície.",
           "simple": "A rodinha fina de metal que vai embaixo da porca."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-unterlegscheibe.svg",
+        "alt": {
+          "pt-BR": "Ilustração: arruela."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1827,6 +1980,15 @@
           "technical": "Elemento de ligação eixo-cubo encaixado em rasgos, que transmite o torque por forma (DIN 6885).",
           "simple": "A pecinha retangular que trava a engrenagem no eixo para ela não girar solta."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-passfeder.svg",
+        "alt": {
+          "pt-BR": "Ilustração: chaveta, com as partes indicadas em alemão: Passfeder, Passfedernut e Welle."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1883,6 +2045,15 @@
           "technical": "Anel de aço mola alojado em ranhura para fixar axialmente rolamentos e engrenagens; montado com alicate próprio.",
           "simple": "Um aro de metal que trava as peças no eixo para não saírem do lugar."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-sicherungsring.svg",
+        "alt": {
+          "pt-BR": "Ilustração: anel elástico (anel de retenção)."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {

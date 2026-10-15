@@ -2,7 +2,6 @@ import { useRef } from 'react';
 import { useI18n } from '@/content/locale';
 import { mediaUrl } from '@/content/loader';
 import type { Term } from '@/content/schema';
-import { cx } from '@/lib/cx';
 import { Icon } from './Icon';
 
 /**
@@ -72,27 +71,5 @@ export function TermImage({ term }: { term: Term }) {
         </div>
       </dialog>
     </figure>
-  );
-}
-
-/** Miniatura decorativa para listas (o texto do card já nomeia o objeto). */
-export function TermThumb({ term, className }: { term: Term; className?: string }) {
-  const src = term.image ? mediaUrl(term.image.file) : undefined;
-  if (!src) return null;
-  return (
-    <span
-      className={cx(
-        'border-line flex size-14 shrink-0 items-center justify-center overflow-hidden rounded-lg border bg-white p-1',
-        className,
-      )}
-    >
-      <img
-        src={src}
-        alt=""
-        loading="lazy"
-        decoding="async"
-        className="max-h-full max-w-full object-contain"
-      />
-    </span>
   );
 }

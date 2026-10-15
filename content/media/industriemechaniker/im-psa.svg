@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Persönliche Schutzausrüstung (EPI)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<path d="M70 190 Q70 90 160 90 Q250 90 250 190 Z" fill="#e2b33c" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="50.0" y="186.0" width="220.0" height="16.0" rx="8" fill="#e2b33c" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="160.0" y1="92.0" x2="160.0" y2="186.0" stroke="#22303a" stroke-width="2" stroke-linecap="round"/>
+<path d="M300 150 Q300 128 330 128 H380 Q395 128 400 140 Q405 128 420 128 H470 Q500 128 500 150 Q500 186 466 186 H434 Q410 186 400 164 Q390 186 366 186 H334 Q300 186 300 150 Z" fill="#cfe3ec" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M560 300 V190 Q560 176 572 176 Q584 176 584 190 V150 Q584 136 596 136 Q608 136 608 150 V144 Q608 130 620 130 Q632 130 632 144 V156 Q632 142 644 142 Q656 142 656 156 V250 Q656 300 620 300 Z" fill="#c0392b" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="556.0" y="296.0" width="104.0" height="30.0" rx="4" fill="#c0392b" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M300 300 V240 H350 V270 Q420 270 470 290 Q490 300 490 316 H300 Z" fill="#3a4a56" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M440 280 Q480 290 486 312 H440 Z" fill="#e2b33c" stroke="#22303a" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="160.0" y="240.0" font-size="18" font-weight="600" text-anchor="middle" fill="#22303a">Schutzhelm</text>
+<text x="400.0" y="220.0" font-size="18" font-weight="600" text-anchor="middle" fill="#22303a">Schutzbrille</text>
+<text x="608.0" y="112.0" font-size="18" font-weight="600" text-anchor="middle" fill="#22303a">Schutzhandschuhe</text>
+<text x="395.0" y="345.0" font-size="18" font-weight="600" text-anchor="middle" fill="#22303a">Sicherheitsschuhe</text>
+</svg>

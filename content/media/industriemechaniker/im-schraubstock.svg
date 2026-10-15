@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Schraubstock (morsa)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<rect x="120.0" y="270.0" width="430.0" height="30.0" rx="4" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M150 270 V170 H250 V120 H300 V270 Z" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M360 270 V160 H400 V120 H450 V205 H540 V270 Z" fill="#e3e7eb" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="286.0" y="112.0" width="14.0" height="64.0" rx="1" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="400.0" y="112.0" width="14.0" height="64.0" rx="1" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="300.0" y="225.0" width="330.0" height="16.0" rx="3" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="312.0" y1="225.0" x2="315.0" y2="241.0" stroke="#22303a" stroke-width="1" stroke-linecap="round"/>
+<line x1="318.0" y1="225.0" x2="321.0" y2="241.0" stroke="#22303a" stroke-width="1" stroke-linecap="round"/>
+<line x1="324.0" y1="225.0" x2="327.0" y2="241.0" stroke="#22303a" stroke-width="1" stroke-linecap="round"/>
+<line x1="330.0" y1="225.0" x2="333.0" y2="241.0" stroke="#22303a" stroke-width="1" stroke-linecap="round"/>
+<line x1="336.0" y1="225.0" x2="339.0" y2="241.0" stroke="#22303a" stroke-width="1" stroke-linecap="round"/>
+<line x1="342.0" y1="225.0" x2="345.0" y2="241.0" stroke="#22303a" stroke-width="1" stroke-linecap="round"/>
+<line x1="348.0" y1="225.0" x2="351.0" y2="241.0" stroke="#22303a" stroke-width="1" stroke-linecap="round"/>
+<line x1="354.0" y1="225.0" x2="357.0" y2="241.0" stroke="#22303a" stroke-width="1" stroke-linecap="round"/>
+<rect x="630.0" y="160.0" width="14.0" height="140.0" rx="7" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="637.0" cy="160.0" r="10.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="637.0" cy="300.0" r="10.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="293" y1="76" x2="293" y2="130" stroke="#b4440e" stroke-width="1.5"/><circle cx="293" cy="130" r="3.5" fill="#b4440e"/><text x="350" y="70" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Spannbacken</text>
+<line x1="541" y1="333" x2="520" y2="241" stroke="#b4440e" stroke-width="1.5"/><circle cx="520" cy="241" r="3.5" fill="#b4440e"/><text x="590" y="340" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Spindel</text>
+<line x1="190" y1="320" x2="190" y2="300" stroke="#b4440e" stroke-width="1.5"/><circle cx="190" cy="300" r="3.5" fill="#b4440e"/><text x="190" y="340" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Grundplatte</text>
+<line x1="640" y1="116" x2="640" y2="170" stroke="#b4440e" stroke-width="1.5"/><circle cx="640" cy="170" r="3.5" fill="#b4440e"/><text x="670" y="110" text-anchor="end" font-size="21" font-weight="600" fill="#22303a">Handhebel</text>
+</svg>

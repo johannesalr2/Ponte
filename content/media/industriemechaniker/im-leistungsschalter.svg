@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Vakuum-Leistungsschalter (disjuntor a vácuo)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<rect x="130.0" y="230.0" width="460.0" height="100.0" rx="6" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="250.0" cy="280.0" r="22.0" fill="#3a9d5d" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="250.0" y="285.0" font-size="16" font-weight="600" text-anchor="middle" fill="#ffffff">I</text>
+<circle cx="320.0" cy="280.0" r="22.0" fill="#c0392b" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="320.0" y="285.0" font-size="16" font-weight="600" text-anchor="middle" fill="#ffffff">O</text>
+<rect x="400.0" y="262.0" width="120.0" height="36.0" rx="4" fill="#ffffff" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="460.0" y="286.0" font-size="16" font-weight="600" text-anchor="middle" fill="#22303a">AUS</text>
+<rect x="170.0" y="60.0" width="60.0" height="170.0" rx="10" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="180.0" y="40.0" width="40.0" height="22.0" rx="2" fill="#c97b4a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="180.0" y="130.0" width="40.0" height="18.0" rx="2" fill="#c97b4a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="330.0" y="60.0" width="60.0" height="170.0" rx="10" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="340.0" y="40.0" width="40.0" height="22.0" rx="2" fill="#c97b4a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="340.0" y="130.0" width="40.0" height="18.0" rx="2" fill="#c97b4a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="490.0" y="60.0" width="60.0" height="170.0" rx="10" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="500.0" y="40.0" width="40.0" height="22.0" rx="2" fill="#c97b4a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="500.0" y="130.0" width="40.0" height="18.0" rx="2" fill="#c97b4a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="634" y1="103" x2="550" y2="110" stroke="#b4440e" stroke-width="1.5"/><circle cx="550" cy="110" r="3.5" fill="#b4440e"/><text x="640" y="110" text-anchor="start" font-size="21" font-weight="600" fill="#22303a">Pol</text>
+<line x1="594" y1="293" x2="590" y2="300" stroke="#b4440e" stroke-width="1.5"/><circle cx="590" cy="300" r="3.5" fill="#b4440e"/><text x="600" y="300" text-anchor="start" font-size="21" font-weight="600" fill="#22303a">Antrieb</text>
+</svg>

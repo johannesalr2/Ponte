@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Magnetventil (válvula solenoide)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<rect x="200.0" y="210.0" width="260.0" height="80.0" rx="6" fill="#d8b45a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="140.0" y="230.0" width="60.0" height="40.0" rx="4" fill="#d8b45a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="460.0" y="230.0" width="60.0" height="40.0" rx="4" fill="#d8b45a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="270.0" y="190.0" width="120.0" height="20.0" rx="2" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="260.0" y="80.0" width="140.0" height="110.0" rx="8" fill="#3a4a56" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="400.0" y="110.0" width="50.0" height="50.0" rx="4" fill="#55656f" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="330.0" y="140.0" font-size="14" font-weight="600" text-anchor="middle" fill="#ffffff">24 V DC</text>
+<line x1="146" y1="63" x2="262" y2="120" stroke="#b4440e" stroke-width="1.5"/><circle cx="262" cy="120" r="3.5" fill="#b4440e"/><text x="140" y="70" text-anchor="end" font-size="21" font-weight="600" fill="#22303a">Magnetspule</text>
+<line x1="330" y1="320" x2="330" y2="290" stroke="#b4440e" stroke-width="1.5"/><circle cx="330" cy="290" r="3.5" fill="#b4440e"/><text x="330" y="340" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Ventilkörper</text>
+<line x1="529" y1="313" x2="500" y2="270" stroke="#b4440e" stroke-width="1.5"/><circle cx="500" cy="270" r="3.5" fill="#b4440e"/><text x="590" y="320" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Anschluss</text>
+</svg>

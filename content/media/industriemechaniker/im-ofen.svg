@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Wärmeschrank (estufa)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<rect x="140.0" y="40.0" width="440.0" height="290.0" rx="8" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="160.0" y="90.0" width="190.0" height="230.0" rx="4" fill="#e3e7eb" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="350.0" y="90.0" width="190.0" height="230.0" rx="4" fill="#e3e7eb" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="330.0" y="170.0" width="10.0" height="70.0" rx="4" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="360.0" y="170.0" width="10.0" height="70.0" rx="4" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="400.0" y="52.0" width="120.0" height="30.0" rx="4" fill="#3a4a56" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="460.0" y="73.0" font-size="16" font-weight="600" text-anchor="middle" fill="#7fe08a">140 °C</text>
+<rect x="200.0" y="56.0" width="60.0" height="20.0" rx="3" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="160.0" y="330.0" width="30.0" height="14.0" rx="0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="530.0" y="330.0" width="30.0" height="14.0" rx="0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="520" y1="36" x2="520" y2="66" stroke="#b4440e" stroke-width="1.5"/><circle cx="520" cy="66" r="3.5" fill="#b4440e"/><text x="640" y="30" text-anchor="end" font-size="21" font-weight="600" fill="#22303a">Temperaturregler</text>
+<line x1="106" y1="193" x2="160" y2="200" stroke="#b4440e" stroke-width="1.5"/><circle cx="160" cy="200" r="3.5" fill="#b4440e"/><text x="100" y="200" text-anchor="end" font-size="21" font-weight="600" fill="#22303a">Ofentür</text>
+</svg>

@@ -167,9 +167,9 @@ use `"status": "rascunho"`. Escreva em português do Brasil e preencha
 
 ## Fotos dos objetos
 
-Termos que são objetos (ferramentas, peças, equipamentos) podem ter uma foto,
-mostrada na ficha do termo e como miniatura no glossário. **Só são aceitas
-fotos sem direitos reservados: CC0 ou domínio público.** O validador recusa
+Termos que são objetos (ferramentas, peças, equipamentos) podem ter uma imagem,
+mostrada só na ficha do termo (não na lista do glossário). **Só são aceitas
+imagens sem direitos reservados: CC0 ou domínio público.** O validador recusa
 qualquer outra licença e confere se o arquivo existe.
 
 ```jsonc
@@ -196,6 +196,21 @@ A lista de termos que devem ter foto, com a busca usada, fica em
 `scripts/images/candidates.json`. Sempre olhe a candidata antes de aplicar:
 a busca pode trazer um objeto parecido, mas errado. No app, as fotos são
 guardadas no aparelho na primeira vez que aparecem (funcionam offline depois).
+
+### Ilustrações próprias (SVG)
+
+Os 62 objetos do Industriemechaniker usam ilustrações técnicas desenhadas para o
+projeto (CC0), com as partes legendadas em alemão. Cada desenho é uma função
+Python em `scripts/illustrations/tools*.py` (ajudantes em `lib.py`):
+
+```bash
+python3 scripts/illustrations/build.py            # gera content/media/<profissão>/<id>.svg
+python3 scripts/illustrations/build.py im-feile   # ou só alguns
+python3 scripts/illustrations/apply.py            # grava "image" nos termos sem imagem
+npx prettier --write content
+```
+
+O texto alternativo é montado a partir das legendas do desenho.
 
 ## Como adicionar um idioma de explicação
 

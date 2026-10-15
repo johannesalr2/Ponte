@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Innensechskantschlüssel (chave Allen)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<path d="M160.0 230.0 L520.0 230.0 L556.0 194.0 L556.0 110.0" fill="none" stroke="#22303a" stroke-width="28" stroke-linejoin="round" stroke-linecap="round"/><path d="M160.0 230.0 L520.0 230.0 L556.0 194.0 L556.0 110.0" fill="none" stroke="#cfd6dc" stroke-width="24" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="161.3,236.5 150.0,243.0 138.7,236.5 138.7,223.5 150.0,217.0 161.3,223.5" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="569.0,104.0 562.5,115.3 549.5,115.3 543.0,104.0 549.5,92.7 562.5,92.7" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="340.0" y="280.0" font-size="18" font-weight="600" text-anchor="middle" fill="#22303a">SW 6</text>
+</svg>

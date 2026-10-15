@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Trennschalter (seccionador, aberto)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<rect x="110.0" y="290.0" width="500.0" height="24.0" rx="3" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="184.0" y="140.0" width="32.0" height="150.0" rx="0" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="200" cy="152" rx="34" ry="8" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="200" cy="178" rx="34" ry="8" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="200" cy="204" rx="34" ry="8" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="200" cy="230" rx="34" ry="8" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="200" cy="256" rx="34" ry="8" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="200" cy="282" rx="34" ry="8" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="170.0" y="120.0" width="60.0" height="22.0" rx="3" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="504.0" y="140.0" width="32.0" height="150.0" rx="0" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="520" cy="152" rx="34" ry="8" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="520" cy="178" rx="34" ry="8" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="520" cy="204" rx="34" ry="8" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="520" cy="230" rx="34" ry="8" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="520" cy="256" rx="34" ry="8" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="520" cy="282" rx="34" ry="8" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="490.0" y="120.0" width="60.0" height="22.0" rx="3" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M200.0 128.0 L450.0 30.0" fill="none" stroke="#22303a" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/><path d="M200.0 128.0 L450.0 30.0" fill="none" stroke="#c97b4a" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="200.0" cy="128.0" r="10.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M500 104 H540 V120 H500 Z" fill="#c97b4a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="330" y1="140" x2="330" y2="78" stroke="#b4440e" stroke-width="1.5"/><circle cx="330" cy="78" r="3.5" fill="#b4440e"/><text x="380" y="160" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Trennmesser</text>
+<line x1="574" y1="223" x2="554" y2="230" stroke="#b4440e" stroke-width="1.5"/><circle cx="554" cy="230" r="3.5" fill="#b4440e"/><text x="580" y="230" text-anchor="start" font-size="21" font-weight="600" fill="#22303a">Isolator</text>
+<line x1="574" y1="63" x2="530" y2="104" stroke="#b4440e" stroke-width="1.5"/><circle cx="530" cy="104" r="3.5" fill="#b4440e"/><text x="580" y="70" text-anchor="start" font-size="21" font-weight="600" fill="#22303a">Kontakt</text>
+</svg>

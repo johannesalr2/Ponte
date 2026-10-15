@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Grenzrachenlehre (calibrador de boca)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<path d="M180 70 H540 Q600 70 600 130 V290 H500 V170 H220 V290 H120 V130 Q120 70 180 70 Z" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="482.0" y="172.0" width="18.0" height="116.0" rx="0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="220.0" y="236.0" width="18.0" height="52.0" rx="0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="220.0" y="172.0" width="30.0" height="52.0" rx="0" fill="#c0392b" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="420.0" y="128.0" font-size="22" font-weight="600" text-anchor="middle" fill="#22303a">25 g6</text>
+<line x1="305" y1="331" x2="232" y2="270" stroke="#b4440e" stroke-width="1.5"/><circle cx="232" cy="270" r="3.5" fill="#b4440e"/><text x="360" y="338" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Gutseite</text>
+<line x1="274" y1="243" x2="240" y2="200" stroke="#b4440e" stroke-width="1.5"/><circle cx="240" cy="200" r="3.5" fill="#b4440e"/><text x="365" y="250" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Ausschussseite</text>
+</svg>

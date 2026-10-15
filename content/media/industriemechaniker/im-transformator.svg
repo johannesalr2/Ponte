@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Gießharztransformator (transformador a resina)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<g transform="translate(-60 0)">
+<rect x="110.0" y="300.0" width="500.0" height="20.0" rx="3" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="150.0" cy="330.0" r="12.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="570.0" cy="330.0" r="12.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="130.0" y="60.0" width="460.0" height="36.0" rx="4" fill="#5f6b74" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="130.0" y="264.0" width="460.0" height="36.0" rx="4" fill="#5f6b74" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="160.0" y="96.0" width="120.0" height="168.0" rx="14" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="170.0" y="106.0" width="100.0" height="148.0" rx="10" fill="#c79a4f" stroke="#22303a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="300.0" y="96.0" width="120.0" height="168.0" rx="14" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="310.0" y="106.0" width="100.0" height="148.0" rx="10" fill="#c79a4f" stroke="#22303a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="440.0" y="96.0" width="120.0" height="168.0" rx="14" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="450.0" y="106.0" width="100.0" height="148.0" rx="10" fill="#c79a4f" stroke="#22303a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="200.0" y="40.0" width="40.0" height="22.0" rx="2" fill="#c97b4a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="340.0" y="40.0" width="40.0" height="22.0" rx="2" fill="#c97b4a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="480.0" y="40.0" width="40.0" height="22.0" rx="2" fill="#c97b4a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<line x1="80" y1="46" x2="80" y2="72" stroke="#b4440e" stroke-width="1.5"/><circle cx="80" cy="72" r="3.5" fill="#b4440e"/><text x="40" y="40" text-anchor="start" font-size="21" font-weight="600" fill="#22303a">Kern</text>
+<line x1="499" y1="193" x2="470" y2="200" stroke="#b4440e" stroke-width="1.5"/><circle cx="470" cy="200" r="3.5" fill="#b4440e"/><text x="700" y="200" text-anchor="end" font-size="21" font-weight="600" fill="#22303a">Gießharzwicklung</text>
+<line x1="532" y1="23" x2="460" y2="46" stroke="#b4440e" stroke-width="1.5"/><circle cx="460" cy="46" r="3.5" fill="#b4440e"/><text x="660" y="30" text-anchor="end" font-size="21" font-weight="600" fill="#22303a">Anschlüsse</text>
+</svg>

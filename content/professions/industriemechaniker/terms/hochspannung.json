@@ -121,6 +121,15 @@
           "technical": "Componente que sustenta mecanicamente um condutor e o isola eletricamente (porcelana, vidro, resina).",
           "simple": "A peça de porcelana ou resina que segura o fio sem deixar a eletricidade passar."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-isolator.svg",
+        "alt": {
+          "pt-BR": "Ilustração: isolador, com as partes indicadas em alemão: Schirm e Armatur."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -554,6 +563,15 @@
           "technical": "Máquina elétrica estática que transfere energia entre enrolamentos por indução, alterando tensão e corrente.",
           "simple": "O aparelho que aumenta ou diminui a tensão da eletricidade."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-transformator.svg",
+        "alt": {
+          "pt-BR": "Ilustração: transformador, com as partes indicadas em alemão: Kern, Gießharzwicklung e Anschlüsse."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -607,6 +625,15 @@
           "technical": "Transformador de medida que reduz correntes elevadas a valores padronizados (1 A ou 5 A) para medição e proteção.",
           "simple": "Um transformador pequeno que deixa medir correntes enormes com segurança."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-stromwandler.svg",
+        "alt": {
+          "pt-BR": "Ilustração: transformador de corrente (TC), com as partes indicadas em alemão: Primäranschluss, Sekundärklemmen e Gießharzkörper."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -947,6 +974,15 @@
           "technical": "Instrumento para verificar a presença de tensão; deve ser adequado à faixa de tensão e testado antes e depois do uso.",
           "simple": "O aparelho que mostra se o fio ainda tem energia."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-spannungspruefer.svg",
+        "alt": {
+          "pt-BR": "Ilustração: detector de tensão, com as partes indicadas em alemão: Anzeige e Prüfspitzen."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1577,6 +1613,15 @@
           "technical": "Descarga elétrica luminosa e muito quente através do ar entre condutores; pode causar queimaduras graves e explosões (arc flash). Plural também \"Lichtbögen\".",
           "simple": "Uma \"faísca\" enorme e quentíssima que salta entre fios."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-lichtbogen.svg",
+        "alt": {
+          "pt-BR": "Ilustração: arco elétrico, com as partes indicadas em alemão: Elektrode e Lichtbogen."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1683,6 +1728,15 @@
           "technical": "Instalação com disjuntores, seccionadores, barramentos e transformadores de medida para distribuir e proteger a energia.",
           "simple": "O armário grande onde a energia é ligada, desligada e distribuída."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-schaltanlage.svg",
+        "alt": {
+          "pt-BR": "Ilustração: conjunto de manobra (painel de média tensão), com as partes indicadas em alemão: Schaltfeld e Steuerung."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1739,6 +1793,15 @@
           "technical": "Dispositivo de manobra capaz de ligar, conduzir e interromper correntes normais e de curto-circuito.",
           "simple": "O interruptor forte que desliga sozinho quando há curto-circuito."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-leistungsschalter.svg",
+        "alt": {
+          "pt-BR": "Ilustração: disjuntor, com as partes indicadas em alemão: Pol e Antrieb."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1789,6 +1852,15 @@
           "technical": "Dispositivo que cria uma separação visível no circuito; só pode ser manobrado sem carga.",
           "simple": "A chave que separa o circuito de forma visível, depois que a corrente já foi desligada."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-trennschalter.svg",
+        "alt": {
+          "pt-BR": "Ilustração: seccionador, com as partes indicadas em alemão: Trennmesser, Isolator e Kontakt."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1848,6 +1920,15 @@
           "technical": "Transformador de medida que reduz tensões altas a valores padronizados (ex.: 100 V) para medição e proteção; o secundário nunca pode ser curto-circuitado.",
           "simple": "Um transformador pequeno que deixa medir tensões altas com segurança."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-spannungswandler.svg",
+        "alt": {
+          "pt-BR": "Ilustração: transformador de potencial (TP), com as partes indicadas em alemão: Oberspannungsanschluss e Sekundärklemmen."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
@@ -1982,6 +2063,15 @@
           "technical": "Persönliche Schutzausrüstung: capacete, óculos, luvas isolantes, roupa contra arco elétrico, calçado de segurança, conforme a avaliação de riscos.",
           "simple": "Os equipamentos que você veste para se proteger."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-psa.svg",
+        "alt": {
+          "pt-BR": "Ilustração: EPI (equipamento de proteção individual), com as partes indicadas em alemão: Schutzhelm, Schutzbrille, Schutzhandschuhe e Sicherheitsschuhe."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     }
   ]

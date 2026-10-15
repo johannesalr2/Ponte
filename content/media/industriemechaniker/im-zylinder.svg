@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Pneumatikzylinder (cilindro pneumático)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<rect x="120.0" y="140.0" width="300.0" height="80.0" rx="6" fill="#e3e7eb" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="100.0" y="130.0" width="34.0" height="100.0" rx="4" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="406.0" y="130.0" width="34.0" height="100.0" rx="4" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="117.0" cy="138.0" r="4.0" fill="#b9c2ca" stroke="#22303a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="117.0" cy="222.0" r="4.0" fill="#b9c2ca" stroke="#22303a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="433.0" cy="138.0" r="4.0" fill="#b9c2ca" stroke="#22303a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="433.0" cy="222.0" r="4.0" fill="#b9c2ca" stroke="#22303a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="440.0" y="168.0" width="180.0" height="24.0" rx="3" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="646.0,180.0 638.0,193.9 622.0,193.9 614.0,180.0 622.0,166.1 638.0,166.1" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="140.0" y="112.0" width="24.0" height="18.0" rx="2" fill="#d8b45a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="380.0" y="112.0" width="24.0" height="18.0" rx="2" fill="#d8b45a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="270" y1="280" x2="270" y2="220" stroke="#b4440e" stroke-width="1.5"/><circle cx="270" cy="220" r="3.5" fill="#b4440e"/><text x="270" y="300" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Zylinderrohr</text>
+<line x1="530" y1="280" x2="530" y2="192" stroke="#b4440e" stroke-width="1.5"/><circle cx="530" cy="192" r="3.5" fill="#b4440e"/><text x="530" y="300" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Kolbenstange</text>
+<line x1="209" y1="53" x2="152" y2="112" stroke="#b4440e" stroke-width="1.5"/><circle cx="152" cy="112" r="3.5" fill="#b4440e"/><text x="270" y="60" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Anschluss</text>
+</svg>

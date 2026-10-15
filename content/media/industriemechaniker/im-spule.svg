@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Spule (bobina)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<rect x="170.0" y="90.0" width="30.0" height="180.0" rx="4" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="500.0" y="90.0" width="30.0" height="180.0" rx="4" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="200.0" y="130.0" width="300.0" height="100.0" rx="2" fill="#c97b4a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="204.0" y1="136.0" x2="496.0" y2="138.0" stroke="#8a4b2a" stroke-width="1" stroke-linecap="round"/>
+<line x1="204.0" y1="144.0" x2="496.0" y2="146.0" stroke="#8a4b2a" stroke-width="1" stroke-linecap="round"/>
+<line x1="204.0" y1="152.0" x2="496.0" y2="154.0" stroke="#8a4b2a" stroke-width="1" stroke-linecap="round"/>
+<line x1="204.0" y1="160.0" x2="496.0" y2="162.0" stroke="#8a4b2a" stroke-width="1" stroke-linecap="round"/>
+<line x1="204.0" y1="168.0" x2="496.0" y2="170.0" stroke="#8a4b2a" stroke-width="1" stroke-linecap="round"/>
+<line x1="204.0" y1="176.0" x2="496.0" y2="178.0" stroke="#8a4b2a" stroke-width="1" stroke-linecap="round"/>
+<line x1="204.0" y1="184.0" x2="496.0" y2="186.0" stroke="#8a4b2a" stroke-width="1" stroke-linecap="round"/>
+<line x1="204.0" y1="192.0" x2="496.0" y2="194.0" stroke="#8a4b2a" stroke-width="1" stroke-linecap="round"/>
+<line x1="204.0" y1="200.0" x2="496.0" y2="202.0" stroke="#8a4b2a" stroke-width="1" stroke-linecap="round"/>
+<line x1="204.0" y1="208.0" x2="496.0" y2="210.0" stroke="#8a4b2a" stroke-width="1" stroke-linecap="round"/>
+<line x1="204.0" y1="216.0" x2="496.0" y2="218.0" stroke="#8a4b2a" stroke-width="1" stroke-linecap="round"/>
+<line x1="204.0" y1="224.0" x2="496.0" y2="226.0" stroke="#8a4b2a" stroke-width="1" stroke-linecap="round"/>
+<rect x="200.0" y="170.0" width="300.0" height="20.0" rx="0" fill="none" stroke="#22303a" stroke-width="0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M500.0 140.0 L600.0 110.0 L660.0 110.0" fill="none" stroke="#22303a" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/><path d="M500.0 140.0 L600.0 110.0 L660.0 110.0" fill="none" stroke="#c97b4a" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M500.0 220.0 L600.0 250.0 L660.0 250.0" fill="none" stroke="#22303a" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/><path d="M500.0 220.0 L600.0 250.0 L660.0 250.0" fill="none" stroke="#c97b4a" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="350" y1="300" x2="350" y2="230" stroke="#b4440e" stroke-width="1.5"/><circle cx="350" cy="230" r="3.5" fill="#b4440e"/><text x="350" y="320" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Wicklung</text>
+<line x1="185" y1="56" x2="185" y2="90" stroke="#b4440e" stroke-width="1.5"/><circle cx="185" cy="90" r="3.5" fill="#b4440e"/><text x="185" y="50" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Spulenkörper</text>
+<line x1="640" y1="310" x2="640" y2="250" stroke="#b4440e" stroke-width="1.5"/><circle cx="640" cy="250" r="3.5" fill="#b4440e"/><text x="620" y="330" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Anschlussdraht</text>
+</svg>

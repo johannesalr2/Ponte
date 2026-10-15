@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Parallelendmaße (blocos-padrão)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<rect x="80.0" y="200.0" width="100.0" height="60.0" rx="2" fill="#e3e7eb" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="180.0" y="190.0" width="14.0" height="60.0" rx="1" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="130.0" y="236.0" font-size="16" font-weight="600" text-anchor="middle" fill="#22303a">1,005</text>
+<rect x="180.0" y="170.0" width="100.0" height="90.0" rx="2" fill="#e3e7eb" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="280.0" y="160.0" width="14.0" height="90.0" rx="1" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="230.0" y="221.0" font-size="16" font-weight="600" text-anchor="middle" fill="#22303a">10</text>
+<rect x="300.0" y="130.0" width="100.0" height="130.0" rx="2" fill="#e3e7eb" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="400.0" y="120.0" width="14.0" height="130.0" rx="1" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="350.0" y="201.0" font-size="16" font-weight="600" text-anchor="middle" fill="#22303a">25</text>
+<rect x="460.0" y="90.0" width="100.0" height="170.0" rx="2" fill="#e3e7eb" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="560.0" y="80.0" width="14.0" height="170.0" rx="1" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="510.0" y="181.0" font-size="16" font-weight="600" text-anchor="middle" fill="#22303a">50</text>
+<line x1="60.0" y1="262.0" x2="660.0" y2="262.0" stroke="#22303a" stroke-width="2" stroke-linecap="round"/>
+</svg>

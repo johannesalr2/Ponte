@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Ringschlüssel (chave estrela)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<path d="M150 160 Q240 140 360 150 Q480 140 570 160 L570 196 Q480 220 360 210 Q240 220 150 196 Z" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="130.0" cy="178.0" r="46.0" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="156.0,178.0 151.3,183.7 152.5,191.0 145.6,193.6 143.0,200.5 135.7,199.3 130.0,204.0 124.3,199.3 117.0,200.5 114.4,193.6 107.5,191.0 108.7,183.7 104.0,178.0 108.7,172.3 107.5,165.0 114.4,162.4 117.0,155.5 124.3,156.7 130.0,152.0 135.7,156.7 143.0,155.5 145.6,162.4 152.5,165.0 151.3,172.3" fill="#ffffff" stroke="#22303a" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="590.0" cy="178.0" r="42.0" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="612.0,178.0 608.4,182.9 609.1,189.0 603.4,191.4 601.0,197.1 594.9,196.4 590.0,200.0 585.1,196.4 579.0,197.1 576.6,191.4 570.9,189.0 571.6,182.9 568.0,178.0 571.6,173.1 570.9,167.0 576.6,164.6 579.0,158.9 585.1,159.6 590.0,156.0 594.9,159.6 601.0,158.9 603.4,164.6 609.1,167.0 608.4,173.1" fill="#ffffff" stroke="#22303a" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="360.0" y="186.0" font-size="16" font-weight="600" text-anchor="middle" fill="#22303a">17 × 13</text>
+</svg>

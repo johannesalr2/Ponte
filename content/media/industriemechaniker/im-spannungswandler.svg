@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Spannungswandler (transformador de potencial)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<rect x="170.0" y="290.0" width="360.0" height="26.0" rx="3" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M220 290 V170 Q220 120 270 120 H430 Q480 120 480 170 V290 Z" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="330.0" y="60.0" width="40.0" height="60.0" rx="4" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="350" cy="74" rx="34" ry="7" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="350" cy="92" rx="34" ry="7" fill="#d9b26a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="335.0" y="36.0" width="30.0" height="24.0" rx="3" fill="#c97b4a" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="300.0" y="210.0" width="100.0" height="50.0" rx="6" fill="#3a4a56" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="330.0" y="241.0" font-size="14" font-weight="600" text-anchor="middle" fill="#ffffff">a</text>
+<text x="370.0" y="241.0" font-size="14" font-weight="600" text-anchor="middle" fill="#ffffff">n</text>
+<line x1="426" y1="33" x2="366" y2="48" stroke="#b4440e" stroke-width="1.5"/><circle cx="366" cy="48" r="3.5" fill="#b4440e"/><text x="700" y="40" text-anchor="end" font-size="21" font-weight="600" fill="#22303a">Oberspannungsanschluss</text>
+<line x1="511" y1="243" x2="400" y2="236" stroke="#b4440e" stroke-width="1.5"/><circle cx="400" cy="236" r="3.5" fill="#b4440e"/><text x="700" y="250" text-anchor="end" font-size="21" font-weight="600" fill="#22303a">Sekundärklemmen</text>
+</svg>

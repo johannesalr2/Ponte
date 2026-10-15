@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Rillenkugellager (rolamento de esferas)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<circle cx="300" cy="180" r="130" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="300" cy="180" r="100" fill="#ffffff" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="300" cy="180" r="86" fill="none" stroke="#d8b45a" stroke-width="10"/>
+<circle cx="386.0" cy="180.0" r="15.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="365.9" cy="235.3" r="15.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="314.9" cy="264.7" r="15.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="257.0" cy="254.5" r="15.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="219.2" cy="209.4" r="15.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="219.2" cy="150.6" r="15.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="257.0" cy="105.5" r="15.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="314.9" cy="95.3" r="15.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="365.9" cy="124.7" r="15.0" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="300" cy="180" r="70" fill="#e3e7eb" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="300" cy="180" r="45" fill="#ffffff" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="554" y1="53" x2="405" y2="114" stroke="#b4440e" stroke-width="1.5"/><circle cx="405" cy="114" r="3.5" fill="#b4440e"/><text x="560" y="60" text-anchor="start" font-size="21" font-weight="600" fill="#22303a">Außenring</text>
+<line x1="554" y1="123" x2="386" y2="180" stroke="#b4440e" stroke-width="1.5"/><circle cx="386" cy="180" r="3.5" fill="#b4440e"/><text x="560" y="130" text-anchor="start" font-size="21" font-weight="600" fill="#22303a">Kugel</text>
+<line x1="554" y1="253" x2="381" y2="209" stroke="#b4440e" stroke-width="1.5"/><circle cx="381" cy="209" r="3.5" fill="#b4440e"/><text x="560" y="260" text-anchor="start" font-size="21" font-weight="600" fill="#22303a">Käfig</text>
+<line x1="554" y1="323" x2="341" y2="221" stroke="#b4440e" stroke-width="1.5"/><circle cx="341" cy="221" r="3.5" fill="#b4440e"/><text x="560" y="330" text-anchor="start" font-size="21" font-weight="600" fill="#22303a">Innenring</text>
+</svg>

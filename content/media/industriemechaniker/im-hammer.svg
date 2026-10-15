@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title>Schlosserhammer (martelo)</title>
+<desc>Ilustração própria do Ponte Técnica (CC0).</desc>
+<path d="M335 150 H380 V330 Q380 340 370 340 H345 Q335 340 335 330 Z" fill="#d6a868" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M180 90 H470 L560 112 V138 L470 150 H180 Q170 150 170 140 V100 Q170 90 180 90 Z" fill="#cfd6dc" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="160.0" y="92.0" width="16.0" height="56.0" rx="2" fill="#b9c2ca" stroke="#22303a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="470.0" y1="90.0" x2="470.0" y2="150.0" stroke="#22303a" stroke-width="1.2" stroke-linecap="round"/>
+<rect x="350.0" y="90.0" width="16.0" height="60.0" rx="1" fill="#d6a868" stroke="#22303a" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="116" y1="53" x2="166" y2="104" stroke="#b4440e" stroke-width="1.5"/><circle cx="166" cy="104" r="3.5" fill="#b4440e"/><text x="110" y="60" text-anchor="end" font-size="21" font-weight="600" fill="#22303a">Bahn</text>
+<line x1="574" y1="63" x2="552" y2="122" stroke="#b4440e" stroke-width="1.5"/><circle cx="552" cy="122" r="3.5" fill="#b4440e"/><text x="610" y="70" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Finne</text>
+<line x1="280" y1="190" x2="280" y2="148" stroke="#b4440e" stroke-width="1.5"/><circle cx="280" cy="148" r="3.5" fill="#b4440e"/><text x="280" y="210" text-anchor="middle" font-size="21" font-weight="600" fill="#22303a">Kopf</text>
+<line x1="464" y1="273" x2="380" y2="280" stroke="#b4440e" stroke-width="1.5"/><circle cx="380" cy="280" r="3.5" fill="#b4440e"/><text x="470" y="280" text-anchor="start" font-size="21" font-weight="600" fill="#22303a">Stiel</text>
+</svg>

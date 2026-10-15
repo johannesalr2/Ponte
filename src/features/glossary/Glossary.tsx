@@ -9,7 +9,6 @@ import { savePrefs, useCards, usePrefs } from '@/db/hooks';
 import { search } from '@/lib/search';
 import { Icon } from '@/components/Icon';
 import { ArticleBadge, LevelBadge } from '@/components/term-bits';
-import { TermThumb } from '@/components/TermImage';
 import { Chip, PageHeader, Spinner } from '@/components/ui';
 import { cx } from '@/lib/cx';
 import { useTermIndex } from './useTermIndex';
@@ -189,7 +188,6 @@ export default function Glossary() {
                           {prefs.explanation === 'simple' ? tr?.simple : tr?.technical}
                         </span>
                       </span>
-                      <TermThumb term={term} />
                       <span className="flex shrink-0 flex-col items-end gap-1.5">
                         <LevelBadge level={term.level} />
                         {inReview.has(term.id) && (
