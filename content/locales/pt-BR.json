@@ -353,7 +353,8 @@
     "exercise.typeTranslation": "Termo em português",
     "term.sources": "Fontes consultadas",
     "term.sourcesHint": "Links externos: abrem fora do app e precisam de internet. A tradução e a explicação foram conferidas com essas fontes, mas ainda não por um profissional.",
-    "term.photoCredit": "Foto: {author} ({license})",
-    "term.photoSource": "origem"
+    "term.photoCredit": "Imagem: {author} ({license})",
+    "term.photoSource": "origem",
+    "term.imageZoom": "Ampliar"
   }
 }

@@ -22,7 +22,7 @@ const situationLoaders = import.meta.glob<SituationFile>('/content/professions/*
   import: 'default',
 });
 
-const mediaUrls = import.meta.glob<string>('/content/media/**/*.{webp,jpg,jpeg,png}', {
+const mediaUrls = import.meta.glob<string>('/content/media/**/*.{webp,jpg,jpeg,png,svg}', {
   eager: true,
   query: '?url',
   import: 'default',

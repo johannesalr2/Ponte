@@ -80,7 +80,7 @@ export const termSourceSchema = z
         file: z
           .string()
           .regex(
-            /^media\/[a-z0-9-]+\/[a-z0-9-]+\.(webp|jpg|jpeg|png)$/,
+            /^media\/[a-z0-9-]+\/[a-z0-9-]+\.(webp|jpg|jpeg|png|svg)$/,
             'use media/<profissão>/<id>.jpg',
           ),
         alt: localized(text),

@@ -35,7 +35,7 @@ export function listMedia(root: string): string[] {
     for (const name of names.sort()) {
       const full = join(dir, name);
       if (statSync(full).isDirectory()) walk(full);
-      else if (/\.(webp|jpe?g|png)$/i.test(name))
+      else if (/\.(webp|jpe?g|png|svg)$/i.test(name))
         out.push(relative(root, full).split(sep).join('/'));
     }
   };

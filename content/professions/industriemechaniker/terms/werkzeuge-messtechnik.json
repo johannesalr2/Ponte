@@ -49,6 +49,15 @@
           "technical": "Instrumento para medir dimensões externas, internas e profundidade, com nônio ou visor digital; resolução típica de 0,05 mm ou 0,01 mm.",
           "simple": "Uma régua com uma parte que desliza e \"abraça\" a peça para medir o tamanho dela com precisão."
         }
+      },
+      "image": {
+        "file": "media/industriemechaniker/im-messschieber.svg",
+        "alt": {
+          "pt-BR": "Ilustração de um paquímetro com as partes indicadas: bicos de medição externa e interna, escala principal, nônio, parafuso de fixação e haste de profundidade."
+        },
+        "author": "Ponte Técnica (ilustração própria)",
+        "license": "CC0",
+        "source": "https://github.com/johannesalr2/Ponte"
       }
     },
     {
