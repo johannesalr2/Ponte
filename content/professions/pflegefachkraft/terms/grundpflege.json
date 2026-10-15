@@ -11,6 +11,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "parts": [
         {
           "de": "Grund",
@@ -61,6 +62,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "parts": [
         {
           "de": "Körper",
@@ -111,6 +113,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "parts": [
         {
           "de": "Ganz",
@@ -167,6 +170,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["pf-druckgeschwuer", "pf-prophylaxe"],
       "esco": null,
@@ -209,6 +213,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "fenomeno",
       "parts": [
         {
           "de": "Druck",
@@ -262,6 +267,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["pf-druckgeschwuer", "pf-sturz"],
       "esco": null,
@@ -298,6 +304,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["pf-rollstuhl", "pf-grundpflege"],
       "esco": null,
@@ -334,6 +341,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["pf-grundpflege"],
       "esco": null,
@@ -370,6 +378,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Roll",
@@ -420,6 +429,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Bett",
@@ -473,6 +483,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Pflege",
@@ -523,6 +534,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "fenomeno",
       "synonyms": [],
       "related": ["pf-koerperpflege"],
       "esco": null,

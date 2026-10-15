@@ -11,6 +11,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "conceito",
       "parts": [
         {
           "de": "Hoch",
@@ -61,6 +62,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "material",
       "synonyms": [],
       "related": ["im-isolator", "im-durchschlagfestigkeit"],
       "esco": null,
@@ -97,6 +99,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["im-isolierung", "im-kriechstrecke"],
       "esco": null,
@@ -142,6 +145,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "fenomeno",
       "parts": [
         {
           "de": "Teil",
@@ -202,6 +206,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Durchschlag",
@@ -252,6 +257,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Prüf",
@@ -302,6 +308,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": [
         "im-elektrofachkraft",
@@ -359,6 +366,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["im-freischalten"],
       "esco": null,
@@ -408,6 +416,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Kriech",
@@ -461,6 +470,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "pessoa",
       "parts": [
         {
           "de": "Elektro",
@@ -533,6 +543,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": ["Trafo"],
       "related": ["im-stromwandler", "im-giessharz"],
       "esco": null,
@@ -584,6 +595,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Strom",
@@ -646,6 +658,7 @@
         "gender": null,
         "pos": "phrase"
       },
+      "kind": "conceito",
       "synonyms": [],
       "related": [
         "im-freischalten",
@@ -698,6 +711,7 @@
         "gender": null,
         "pos": "phrase"
       },
+      "kind": "acao",
       "synonyms": ["Lockout-Tagout"],
       "related": ["im-fuenf-sicherheitsregeln", "im-freischalten"],
       "esco": null,
@@ -744,6 +758,7 @@
         "gender": null,
         "pos": "phrase"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["im-fuenf-sicherheitsregeln", "im-spannungspruefer"],
       "esco": null,
@@ -790,6 +805,7 @@
         "gender": null,
         "pos": "phrase"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["im-fuenf-sicherheitsregeln", "im-erdung"],
       "esco": null,
@@ -836,6 +852,7 @@
         "gender": null,
         "pos": "phrase"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["im-fuenf-sicherheitsregeln"],
       "esco": null,
@@ -882,6 +899,7 @@
         "gender": null,
         "pos": "phrase"
       },
+      "kind": "pessoa",
       "synonyms": ["EuP"],
       "related": ["im-elektrofachkraft"],
       "esco": null,
@@ -924,6 +942,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Spannung",
@@ -995,6 +1014,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "conceito",
       "parts": [
         {
           "de": "Nieder",
@@ -1051,6 +1071,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "conceito",
       "parts": [
         {
           "de": "Mittel",
@@ -1107,6 +1128,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "synonyms": [],
       "related": ["im-strom", "im-widerstand"],
       "esco": null,
@@ -1149,6 +1171,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "synonyms": [],
       "related": ["im-spannung", "im-stromwandler"],
       "esco": null,
@@ -1191,6 +1214,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Wider",
@@ -1241,6 +1265,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Isolation",
@@ -1303,6 +1328,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Wechsel",
@@ -1353,6 +1379,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Gleich",
@@ -1403,6 +1430,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Stoß",
@@ -1459,6 +1487,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "parts": [
         {
           "de": "Stück",
@@ -1519,6 +1548,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "local",
       "parts": [
         {
           "de": "Prüf",
@@ -1569,6 +1599,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "fenomeno",
       "parts": [
         {
           "de": "Licht",
@@ -1634,6 +1665,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "fenomeno",
       "parts": [
         {
           "de": "Durch",
@@ -1690,6 +1722,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Schalt",
@@ -1749,6 +1782,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Leistung",
@@ -1814,6 +1848,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Trenn",
@@ -1873,6 +1908,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Spannung",
@@ -1941,6 +1977,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["im-erdung", "im-isolierung"],
       "esco": null,
@@ -1983,6 +2020,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Feld",
@@ -2033,6 +2071,7 @@
         "gender": "f",
         "pos": "abbreviation"
       },
+      "kind": "objeto",
       "synonyms": ["persönliche Schutzausrüstung"],
       "related": ["im-lichtbogen", "im-gefaehrdungsbeurteilung"],
       "esco": null,

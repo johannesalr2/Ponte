@@ -68,6 +68,16 @@ describe('regras do validador', () => {
     ).toMatch(/só substantivos/);
   });
 
+  it('exige tipo coerente com a classe gramatical', () => {
+    const verb = { word: 'feilen', article: null, plural: null, gender: null, pos: 'verb' };
+    expect(withTerm({ de: verb }).errors.join()).toMatch(/verbo ⇔ acao/);
+    expect(withTerm({ de: verb, kind: 'acao' }).errors).toEqual([]);
+    expect(withTerm({ kind: 'acao' }).errors.join()).toMatch(/verbo ⇔ acao/);
+    const adj = { word: 'steril', article: null, plural: null, gender: null, pos: 'adjective' };
+    expect(withTerm({ de: adj, kind: 'conceito' }).errors.join()).toMatch(/adjetivo/);
+    expect(withTerm({ kind: 'coisa' }).errors.join()).toMatch(/kind/);
+  });
+
   it('recusa plural com artigo', () => {
     const r = withTerm({
       de: { word: 'Feile', article: 'die', plural: 'die Feilen', gender: 'f', pos: 'noun' },

@@ -5,9 +5,9 @@ import { z } from 'zod';
  * o build falha se um JSON não respeitar estes esquemas (ver validate.ts).
  */
 
-import { ARTICLES, GENDERS, IMAGE_LICENSES, LEVELS, POS, REVIEW_STATUS } from './constants';
+import { ARTICLES, GENDERS, IMAGE_LICENSES, KINDS, LEVELS, POS, REVIEW_STATUS } from './constants';
 
-export { ARTICLES, GENDERS, IMAGE_LICENSES, LEVELS, POS, REVIEW_STATUS };
+export { ARTICLES, GENDERS, IMAGE_LICENSES, KINDS, LEVELS, POS, REVIEW_STATUS };
 
 export const levelSchema = z.enum(LEVELS);
 export const articleSchema = z.enum(ARTICLES);
@@ -68,6 +68,8 @@ export const termSourceSchema = z
     id,
     level: levelSchema,
     de: germanSchema,
+    /** tipo do termo (objeto, processo, conceito…), ver KINDS */
+    kind: z.enum(KINDS),
     parts: z.array(partSchema).min(2).optional(),
     synonyms: z.array(text).default([]),
     related: z.array(id).default([]),
@@ -173,6 +175,7 @@ export type Level = z.infer<typeof levelSchema>;
 export type Article = z.infer<typeof articleSchema>;
 export type ReviewStatus = z.infer<typeof reviewStatusSchema>;
 export type PartOfSpeech = (typeof POS)[number];
+export type TermKind = (typeof KINDS)[number];
 export type LocaleSource = z.infer<typeof localeSchema>;
 export type TermSource = z.infer<typeof termSourceSchema>;
 export type TermFile = z.infer<typeof termFileSchema>;

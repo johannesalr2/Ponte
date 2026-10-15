@@ -11,6 +11,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["ko-kochen"],
       "esco": null,
@@ -47,6 +48,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["ko-garmethode", "ko-schmoren"],
       "esco": null,
@@ -83,6 +85,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["ko-braten", "ko-fond"],
       "esco": null,
@@ -119,6 +122,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["ko-pfanne", "ko-schmoren"],
       "esco": null,
@@ -161,6 +165,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["ko-topf", "ko-blanchieren"],
       "esco": null,
@@ -197,6 +202,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["ko-wuerzen"],
       "esco": null,
@@ -233,6 +239,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["ko-abschmecken"],
       "esco": null,
@@ -269,6 +276,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "material",
       "synonyms": [],
       "related": ["ko-fond"],
       "esco": null,
@@ -305,6 +313,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "material",
       "synonyms": [],
       "related": ["ko-bruehe", "ko-schmoren"],
       "esco": null,
@@ -341,6 +350,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "conceito",
       "parts": [
         {
           "de": "Gar",
@@ -391,6 +401,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Kern",
@@ -441,6 +452,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["ko-stabmixer"],
       "esco": null,
@@ -483,6 +495,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["ko-speisekarte"],
       "esco": null,

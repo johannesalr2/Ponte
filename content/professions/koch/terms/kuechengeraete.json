@@ -11,6 +11,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["ko-topf", "ko-pfanne"],
       "esco": null,
@@ -47,6 +48,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Back",
@@ -97,6 +99,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Kombi",
@@ -147,6 +150,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["ko-braten", "ko-herd"],
       "esco": null,
@@ -183,6 +187,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["ko-herd", "ko-kochen"],
       "esco": null,
@@ -219,6 +224,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["ko-schneidebrett"],
       "esco": null,
@@ -255,6 +261,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Schneide",
@@ -305,6 +312,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Schnee",
@@ -355,6 +363,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": ["Schöpfkelle"],
       "related": ["ko-portion"],
       "esco": null,
@@ -391,6 +400,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Stab",
@@ -444,6 +454,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["ko-braten"],
       "esco": null,
@@ -480,6 +491,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "local",
       "parts": [
         {
           "de": "Kühl",

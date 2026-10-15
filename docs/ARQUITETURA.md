@@ -128,6 +128,7 @@ carregador e conferidas pelo validador.
         "gender": "f", // m | f | n | null (confere com o artigo)
         "pos": "noun", // noun | verb | adjective | adverb | phrase | abbreviation
       },
+      "kind": "objeto", // objeto | material | pessoa | local | documento | software | acao | processo | fenomeno | grandeza | caracteristica | conceito
       "parts": [
         // decomposição (opcional)
         { "de": "Bügel", "tr": { "pt-BR": "arco" } },

@@ -11,6 +11,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "local",
       "parts": [
         {
           "de": "Ware",
@@ -67,6 +68,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "documento",
       "parts": [
         {
           "de": "Liefer",
@@ -120,6 +122,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["ll-gabelstapler", "ll-hubwagen"],
       "esco": null,
@@ -156,6 +159,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["ll-lieferschein", "ll-packstueck"],
       "esco": null,
@@ -198,6 +202,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "parts": [
         {
           "de": "Ware",
@@ -266,6 +271,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "conceito",
       "synonyms": ["Strichcode"],
       "related": ["ll-scanner"],
       "esco": null,
@@ -302,6 +308,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": ["Handscanner"],
       "related": ["ll-barcode"],
       "esco": null,
@@ -338,6 +345,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "fenomeno",
       "synonyms": [],
       "related": ["ll-reklamation", "ll-wareneingangskontrolle"],
       "esco": null,
@@ -374,6 +382,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["ll-beschaedigung"],
       "esco": null,
@@ -410,6 +419,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "pessoa",
       "synonyms": ["Spedition"],
       "related": ["ll-frachtbrief", "ll-lkw"],
       "esco": null,
@@ -446,6 +456,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Stück",
@@ -496,6 +507,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["ll-lieferschein"],
       "esco": null,

@@ -11,6 +11,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Blut",
@@ -64,6 +65,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "synonyms": [],
       "related": ["pf-blutdruck"],
       "esco": null,
@@ -100,6 +102,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "fenomeno",
       "synonyms": [],
       "related": ["pf-infektion"],
       "esco": null,
@@ -136,6 +139,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "material",
       "synonyms": [],
       "related": ["pf-katheter", "pf-verabreichen"],
       "esco": null,
@@ -172,6 +176,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["pf-verabreichen", "pf-medikament"],
       "esco": null,
@@ -208,6 +213,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "material",
       "synonyms": ["Arzneimittel"],
       "related": ["pf-tablette", "pf-nebenwirkung", "pf-verabreichen"],
       "esco": null,
@@ -244,6 +250,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["pf-medikament"],
       "esco": null,
@@ -280,6 +287,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Blut",
@@ -330,6 +338,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["pf-wunde", "pf-steril"],
       "esco": null,
@@ -375,6 +384,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["pf-infusion", "pf-infektion"],
       "esco": null,
@@ -411,6 +421,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "fenomeno",
       "parts": [
         {
           "de": "Neben",
@@ -464,6 +475,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["pf-medikament", "pf-spritze"],
       "esco": null,
@@ -500,6 +512,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "fenomeno",
       "synonyms": [],
       "related": ["pf-verband", "pf-druckgeschwuer"],
       "esco": null,
@@ -536,6 +549,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "fenomeno",
       "synonyms": [],
       "related": ["pf-medikament"],
       "esco": null,

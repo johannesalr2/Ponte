@@ -11,6 +11,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "material",
       "parts": [
         {
           "de": "Gieß",
@@ -61,6 +62,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "material",
       "parts": [
         {
           "de": "Epoxid",
@@ -114,6 +116,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "material",
       "synonyms": [],
       "related": ["im-mischungsverhaeltnis", "im-aushaerten"],
       "esco": null,
@@ -156,6 +159,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["im-haerter", "im-topfzeit"],
       "esco": null,
@@ -192,6 +196,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Topf",
@@ -242,6 +247,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Gieß",
@@ -301,6 +307,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "material",
       "parts": [
         {
           "de": "Trenn",
@@ -351,6 +358,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "material",
       "parts": [
         {
           "de": "Verguss",
@@ -401,6 +409,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "fenomeno",
       "parts": [
         {
           "de": "Luft",
@@ -457,6 +466,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["im-lufteinschluss", "im-giessharz"],
       "esco": null,
@@ -493,6 +503,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "material",
       "parts": [
         {
           "de": "Füll",
@@ -543,6 +554,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Mischung",
@@ -599,6 +611,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "processo",
       "parts": [
         {
           "de": "Druck",
@@ -665,6 +678,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Gelier",
@@ -725,6 +739,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "synonyms": [],
       "related": ["im-fuellstoff", "im-vorwaermen", "im-entgasen"],
       "esco": null,
@@ -761,6 +776,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["im-aushaerten", "im-nachhaertung", "im-haerter"],
       "esco": null,
@@ -803,6 +819,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "parts": [
         {
           "de": "Nach",
@@ -863,6 +880,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "fenomeno",
       "synonyms": ["Schwund", "Schwindung"],
       "related": ["im-riss", "im-fuellstoff"],
       "esco": null,
@@ -905,6 +923,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "fenomeno",
       "synonyms": [],
       "related": ["im-schrumpf", "im-teilentladung"],
       "esco": null,
@@ -947,6 +966,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["im-trennmittel", "im-giessform", "im-nachhaertung"],
       "esco": null,
@@ -993,6 +1013,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["im-viskositaet", "im-ofen"],
       "esco": null,
@@ -1035,6 +1056,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["im-spule", "im-transformator", "im-vergussmasse"],
       "esco": null,
@@ -1077,6 +1099,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["im-wicklung"],
       "esco": null,
@@ -1128,6 +1151,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["im-nachhaertung", "im-vorwaermen"],
       "esco": null,
@@ -1173,6 +1197,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "conceito",
       "synonyms": [],
       "related": ["im-sicherheitsdatenblatt"],
       "esco": null,
@@ -1215,6 +1240,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "documento",
       "parts": [
         {
           "de": "Sicherheit",
@@ -1277,6 +1303,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "material",
       "parts": [
         {
           "de": "Quarz",
@@ -1327,6 +1354,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "material",
       "synonyms": [],
       "related": ["im-gelierzeit", "im-topfzeit", "im-haerter"],
       "esco": null,
@@ -1369,6 +1397,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Vakuum",
@@ -1425,6 +1454,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "conceito",
       "synonyms": [],
       "related": ["im-entgasen", "im-vakuumgiessanlage"],
       "esco": null,
@@ -1467,6 +1497,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Luft",
@@ -1517,6 +1548,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "parts": [
         {
           "de": "Sicht",
@@ -1567,6 +1599,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "parts": [
         {
           "de": "Röntgen",
@@ -1617,6 +1650,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "parts": [
         {
           "de": "Nach",
@@ -1667,6 +1701,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "conceito",
       "parts": [
         {
           "de": "Haut",
@@ -1717,6 +1752,7 @@
         "gender": null,
         "pos": "adjective"
       },
+      "kind": "caracteristica",
       "synonyms": [],
       "related": ["im-topfzeit", "im-riss"],
       "esco": null,
@@ -1753,6 +1789,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["im-giessform"],
       "esco": null,
@@ -1789,6 +1826,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "conceito",
       "parts": [
         {
           "de": "Wärme",

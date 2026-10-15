@@ -11,6 +11,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["ll-verpacken", "ll-rampe"],
       "esco": null,
@@ -47,6 +48,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["ll-verpackung"],
       "esco": null,
@@ -83,6 +85,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["ll-verpacken", "ll-beschaedigung"],
       "esco": null,
@@ -119,6 +122,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Pack",
@@ -169,6 +173,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["ll-ladungssicherung", "ll-lkw"],
       "esco": null,
@@ -211,6 +216,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "parts": [
         {
           "de": "Ladung",
@@ -267,6 +273,7 @@
         "gender": "m",
         "pos": "abbreviation"
       },
+      "kind": "objeto",
       "synonyms": ["Lastwagen"],
       "related": ["ll-rampe", "ll-ladung"],
       "esco": null,
@@ -306,6 +313,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "local",
       "synonyms": ["Laderampe"],
       "related": ["ll-lkw", "ll-versand"],
       "esco": null,
@@ -342,6 +350,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "synonyms": [],
       "related": ["ll-tragfaehigkeit"],
       "esco": null,
@@ -378,6 +387,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "documento",
       "parts": [
         {
           "de": "Fracht",
@@ -428,6 +438,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "conceito",
       "synonyms": ["Route"],
       "related": [],
       "esco": null,
@@ -464,6 +475,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "material",
       "parts": [
         {
           "de": "Gefahr",

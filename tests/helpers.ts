@@ -26,6 +26,7 @@ export function fixture() {
     id,
     level: 'A2',
     de: { word: 'Feile', article: 'die', plural: 'Feilen', gender: 'f', pos: 'noun' },
+    kind: 'objeto',
     status: 'rascunho',
     examples: [
       { de: 'a', tr: { 'pt-BR': 'a' } },

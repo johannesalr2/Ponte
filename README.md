@@ -126,6 +126,7 @@ Nenhuma linha de código precisa mudar.
            "gender": "f",
            "pos": "noun"
          },
+         "kind": "objeto",
          "parts": [
            { "de": "Abisolier", "tr": { "pt-BR": "desencapar" } },
            { "de": "zange", "tr": { "pt-BR": "alicate" } }

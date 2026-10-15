@@ -31,6 +31,8 @@ export interface ValidationReport {
     coverage: Record<string, number>;
     totalTerms: number;
     images: number;
+    /** termos por tipo (objeto, processo…) */
+    kinds: Record<string, number>;
   };
 }
 
@@ -59,6 +61,7 @@ export function validateContent(
     coverage: {},
     totalTerms: 0,
     images: 0,
+    kinds: {},
   };
 
   // ------------------------------------------------------------ idiomas
@@ -170,6 +173,15 @@ export function validateContent(
         }
       }
       stats.totalTerms++;
+      stats.kinds[t.kind] = (stats.kinds[t.kind] ?? 0) + 1;
+      if ((pos === 'verb') !== (t.kind === 'acao') && !(pos === 'phrase' && t.kind === 'acao')) {
+        errors.push(`${where}: tipo "${t.kind}" não combina com a classe "${pos}" (verbo ⇔ acao)`);
+      }
+      if ((pos === 'adjective') !== (t.kind === 'caracteristica')) {
+        errors.push(
+          `${where}: tipo "${t.kind}" não combina com a classe "${pos}" (adjetivo ⇔ caracteristica)`,
+        );
+      }
       stats.status[t.status] = (stats.status[t.status] ?? 0) + 1;
       if (pstats) {
         pstats.terms++;

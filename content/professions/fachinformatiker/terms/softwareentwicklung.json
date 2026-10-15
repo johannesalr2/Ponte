@@ -11,6 +11,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "software",
       "synonyms": ["Applikation", "Programm"],
       "related": ["fi-benutzeroberflaeche", "fi-datenbank"],
       "esco": null,
@@ -53,6 +54,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "software",
       "parts": [
         {
           "de": "Daten",
@@ -106,6 +108,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "software",
       "parts": [
         {
           "de": "Quell",
@@ -156,6 +159,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "conceito",
       "synonyms": [],
       "related": ["fi-variable", "fi-funktion"],
       "esco": null,
@@ -201,6 +205,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "conceito",
       "synonyms": [],
       "related": ["fi-schleife", "fi-funktion"],
       "esco": null,
@@ -237,6 +242,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "conceito",
       "synonyms": [],
       "related": ["fi-variable"],
       "esco": null,
@@ -273,6 +279,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "fenomeno",
       "synonyms": ["Bug"],
       "related": ["fi-fehlermeldung", "fi-testen"],
       "esco": null,
@@ -309,6 +316,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "documento",
       "parts": [
         {
           "de": "Lasten",
@@ -359,6 +367,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "documento",
       "parts": [
         {
           "de": "Pflichten",
@@ -409,6 +418,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "conceito",
       "synonyms": [],
       "related": ["fi-lastenheft"],
       "esco": null,
@@ -445,6 +455,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["fi-fehler"],
       "esco": null,
@@ -481,6 +492,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "software",
       "parts": [
         {
           "de": "Benutzer",
@@ -534,6 +546,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "software",
       "parts": [
         {
           "de": "Version",
@@ -593,6 +606,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["fi-quellcode"],
       "esco": null,
@@ -629,6 +643,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "pessoa",
       "synonyms": ["Softwareentwickler"],
       "related": ["fi-programmieren"],
       "esco": null,

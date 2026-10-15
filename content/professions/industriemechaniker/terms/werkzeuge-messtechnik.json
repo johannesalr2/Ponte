@@ -11,6 +11,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Mess",
@@ -70,6 +71,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Bügel",
@@ -138,6 +140,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Mess",
@@ -197,6 +200,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Dreh",
@@ -265,6 +269,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Gabel",
@@ -327,6 +332,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Innen",
@@ -398,6 +404,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["im-passung"],
       "esco": null,
@@ -443,6 +450,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Gewinde",
@@ -502,6 +510,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "synonyms": [],
       "related": ["im-passung", "im-messschieber"],
       "esco": null,
@@ -538,6 +547,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "conceito",
       "synonyms": [],
       "related": ["im-toleranz", "im-lager"],
       "esco": null,
@@ -574,6 +584,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Wasser",
@@ -633,6 +644,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Schrauben",
@@ -701,6 +713,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": ["Kombizange"],
       "related": ["im-schraubstock"],
       "esco": null,
@@ -746,6 +759,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["im-koerner", "im-meissel"],
       "esco": null,
@@ -791,6 +805,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Schraub",
@@ -856,6 +871,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Bügel",
@@ -915,6 +931,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["im-anreissen", "im-spiralbohrer"],
       "esco": null,
@@ -960,6 +977,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Reiß",
@@ -1019,6 +1037,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["im-reissnadel", "im-koerner"],
       "esco": null,
@@ -1055,6 +1074,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "fenomeno",
       "synonyms": [],
       "related": ["im-entgraten", "im-feile"],
       "esco": null,
@@ -1091,6 +1111,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["im-grat", "im-senker"],
       "esco": null,
@@ -1127,6 +1148,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["im-hammer"],
       "esco": null,
@@ -1172,6 +1194,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Reib",
@@ -1231,6 +1254,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": ["Kegelsenker"],
       "related": ["im-entgraten"],
       "esco": null,
@@ -1276,6 +1300,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Spiral",
@@ -1335,6 +1360,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Ring",
@@ -1397,6 +1423,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": ["Knarre"],
       "related": ["im-ringschluessel", "im-drehmomentschluessel"],
       "esco": null,
@@ -1445,6 +1472,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": ["Lagerabzieher"],
       "related": ["im-lager", "im-welle"],
       "esco": null,
@@ -1490,6 +1518,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Grenz",
@@ -1565,6 +1594,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Grenz",
@@ -1640,6 +1670,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Parallel",
@@ -1715,6 +1746,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Fühler",
@@ -1774,6 +1806,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Haar",
@@ -1824,6 +1857,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Universal",
@@ -1892,6 +1926,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Höhen",
@@ -1957,6 +1992,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Gewinde",
@@ -2016,6 +2052,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Prüf",
@@ -2066,6 +2103,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["im-pruefmittel", "im-parallelendmass"],
       "esco": null,
@@ -2108,6 +2146,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Mess",
@@ -2158,6 +2197,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["im-messschieber", "im-universalwinkelmesser"],
       "esco": null,
@@ -2197,6 +2237,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "documento",
       "parts": [
         {
           "de": "Mess",
@@ -2247,6 +2288,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["im-messschieber", "im-messprotokoll"],
       "esco": null,

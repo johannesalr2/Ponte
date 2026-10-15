@@ -11,6 +11,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "local",
       "synonyms": ["Lagerhalle"],
       "related": ["ll-lagerplatz", "ll-regal"],
       "esco": null,
@@ -53,6 +54,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "local",
       "parts": [
         {
           "de": "Lager",
@@ -103,6 +105,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": ["Palettenregal"],
       "related": ["ll-hochregallager", "ll-tragfaehigkeit"],
       "esco": null,
@@ -139,6 +142,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "local",
       "parts": [
         {
           "de": "Hoch",
@@ -195,6 +199,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["ll-kommissionierung"],
       "esco": null,
@@ -231,6 +236,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["ll-kommissionieren", "ll-versand"],
       "esco": null,
@@ -267,6 +273,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["ll-bestand"],
       "esco": null,
@@ -303,6 +310,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "synonyms": [],
       "related": ["ll-mindestbestand", "ll-inventur"],
       "esco": null,
@@ -342,6 +350,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "software",
       "parts": [
         {
           "de": "Lager",
@@ -404,6 +413,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["ll-auslagern", "ll-lagerplatz"],
       "esco": null,
@@ -440,6 +450,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["ll-einlagern", "ll-fifo"],
       "esco": null,
@@ -482,6 +493,7 @@
         "gender": null,
         "pos": "abbreviation"
       },
+      "kind": "conceito",
       "synonyms": [],
       "related": ["ll-auslagern"],
       "esco": null,
@@ -518,6 +530,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Mindest",

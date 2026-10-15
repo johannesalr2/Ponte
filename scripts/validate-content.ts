@@ -17,6 +17,12 @@ console.log(`\nIdiomas: ${stats.locales.join(', ')}`);
 for (const [code, pct] of Object.entries(stats.coverage))
   console.log(`  ${code}: ${pct}% dos termos`);
 console.log(`Termos: ${stats.totalTerms} (${stats.images} com foto)`);
+console.log(
+  `Tipos: ${Object.entries(stats.kinds)
+    .sort((a, b) => b[1] - a[1])
+    .map(([k, n]) => `${k} ${n}`)
+    .join(', ')}`,
+);
 for (const [id, p] of Object.entries(stats.professions)) {
   const areas = Object.entries(p.areas)
     .map(([a, n]) => `${a} ${n}`)

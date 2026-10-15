@@ -11,6 +11,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Gabel",
@@ -64,6 +65,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Hub",
@@ -117,6 +119,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Flur",
@@ -173,6 +176,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "documento",
       "parts": [
         {
           "de": "Stapler",
@@ -223,6 +227,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Sicherheit",
@@ -279,6 +284,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Warn",
@@ -332,6 +338,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Trag",
@@ -382,6 +389,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "fenomeno",
       "parts": [
         {
           "de": "Arbeit",
@@ -438,6 +446,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "local",
       "parts": [
         {
           "de": "Flucht",
@@ -488,6 +497,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["ll-arbeitsunfall", "ll-staplerschein"],
       "esco": null,
@@ -524,6 +534,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Feuer",
@@ -574,6 +585,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["ll-last"],
       "esco": null,
@@ -610,6 +622,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["ll-tragfaehigkeit", "ll-heben"],
       "esco": null,

@@ -36,14 +36,14 @@ for (const area of prof.areas) {
   if (!file) continue;
   lines.push('', `## ${area.de} — ${area.tr['pt-BR'] ?? ''} (${file.terms.length})`, '');
   lines.push(
-    '| Alemão | Plural | Português (BR) | Portugal | Nível | Revisão |',
-    '|---|---|---|---|---|---|',
+    '| Alemão | Plural | Português (BR) | Portugal | Tipo | Nível | Revisão |',
+    '|---|---|---|---|---|---|---|',
   );
   for (const t of [...file.terms].sort((a, b) => a.de.word.localeCompare(b.de.word, 'de'))) {
     const tr = t.tr['pt-BR'];
     const de = t.de.article ? `${t.de.article} **${t.de.word}**` : `**${t.de.word}**`;
     lines.push(
-      `| ${cell(de)} | ${t.de.plural ? `die ${t.de.plural}` : '—'} | ${cell(tr?.term ?? '')} | ${cell(tr?.variants?.['pt-PT'] ?? '')} | ${t.level} | ${STATUS[t.status]} |`,
+      `| ${cell(de)} | ${t.de.plural ? `die ${t.de.plural}` : '—'} | ${cell(tr?.term ?? '')} | ${cell(tr?.variants?.['pt-PT'] ?? '')} | ${t.kind} | ${t.level} | ${STATUS[t.status]} |`,
     );
     total++;
   }

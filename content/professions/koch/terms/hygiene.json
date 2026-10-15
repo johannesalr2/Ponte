@@ -11,6 +11,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "conceito",
       "parts": [
         {
           "de": "Lebensmittel",
@@ -61,6 +62,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "conceito",
       "parts": [
         {
           "de": "Mindest",
@@ -123,6 +125,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "conceito",
       "parts": [
         {
           "de": "Kühl",
@@ -173,6 +176,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "fenomeno",
       "parts": [
         {
           "de": "Kreuz",
@@ -223,6 +227,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "material",
       "synonyms": [],
       "related": ["ko-kreuzkontamination", "ko-speisekarte"],
       "esco": null,
@@ -262,6 +267,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "conceito",
       "synonyms": [],
       "related": ["ko-lebensmittelhygiene"],
       "esco": null,
@@ -298,6 +304,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["ko-desinfektionsmittel"],
       "esco": null,
@@ -340,6 +347,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "material",
       "parts": [
         {
           "de": "Desinfektion",
@@ -396,6 +404,7 @@
         "gender": null,
         "pos": "adjective"
       },
+      "kind": "caracteristica",
       "synonyms": [],
       "related": ["ko-kuehlkette", "ko-mindesthaltbarkeitsdatum"],
       "esco": null,
@@ -432,6 +441,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["ko-tiefgekuehlt"],
       "esco": null,
@@ -468,6 +478,7 @@
         "gender": null,
         "pos": "adjective"
       },
+      "kind": "caracteristica",
       "synonyms": ["gefroren"],
       "related": ["ko-auftauen", "ko-kuehlkette"],
       "esco": null,
@@ -507,6 +518,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Rückstell",

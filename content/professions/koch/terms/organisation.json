@@ -11,6 +11,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["ko-posten"],
       "esco": null,
@@ -47,6 +48,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "local",
       "synonyms": [],
       "related": ["ko-mise-en-place", "ko-kuechenchef"],
       "esco": null,
@@ -83,6 +85,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "pessoa",
       "parts": [
         {
           "de": "Küche",
@@ -139,6 +142,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "pessoa",
       "synonyms": [],
       "related": ["ko-kuechenchef", "ko-pass"],
       "esco": null,
@@ -175,6 +179,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "documento",
       "synonyms": [],
       "related": ["ko-pass", "ko-bestellung"],
       "esco": null,
@@ -211,6 +216,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["ko-bon", "ko-lieferschein"],
       "esco": null,
@@ -247,6 +253,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "documento",
       "parts": [
         {
           "de": "Liefer",
@@ -300,6 +307,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "documento",
       "synonyms": [],
       "related": ["ko-portion"],
       "esco": null,
@@ -342,6 +350,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "synonyms": [],
       "related": ["ko-rezept", "ko-kelle"],
       "esco": null,
@@ -378,6 +387,7 @@
         "gender": null,
         "pos": "verb"
       },
+      "kind": "acao",
       "synonyms": [],
       "related": ["ko-pass"],
       "esco": null,
@@ -420,6 +430,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "local",
       "synonyms": [],
       "related": ["ko-souschef", "ko-bon"],
       "esco": null,
@@ -462,6 +473,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "documento",
       "parts": [
         {
           "de": "Speise",
@@ -515,6 +527,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "conceito",
       "synonyms": [],
       "related": ["ko-speisekarte"],
       "esco": null,

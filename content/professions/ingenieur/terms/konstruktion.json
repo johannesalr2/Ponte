@@ -11,6 +11,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "documento",
       "synonyms": [],
       "related": ["ing-bemassung", "ing-massstab", "ing-schnitt"],
       "esco": null,
@@ -47,6 +48,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["ing-entwurf", "ing-bauteil"],
       "esco": null,
@@ -89,6 +91,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Bau",
@@ -139,6 +142,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Bau",
@@ -189,6 +193,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "documento",
       "parts": [
         {
           "de": "Stück",
@@ -239,6 +244,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "parts": [
         {
           "de": "Maß",
@@ -295,6 +301,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "conceito",
       "synonyms": [],
       "related": ["ing-zeichnung", "ing-abmessung"],
       "esco": null,
@@ -331,6 +338,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "conceito",
       "synonyms": [],
       "related": ["ing-zeichnung"],
       "esco": null,
@@ -373,6 +381,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Schweiß",
@@ -426,6 +435,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "objeto",
       "parts": [
         {
           "de": "Schraube",
@@ -482,6 +492,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["ing-schraubenverbindung"],
       "esco": null,
@@ -518,6 +529,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "documento",
       "synonyms": [],
       "related": ["ing-konstruktion", "ing-prototyp"],
       "esco": null,
@@ -554,6 +566,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "documento",
       "synonyms": [],
       "related": ["ing-pruefung"],
       "esco": null,
@@ -590,6 +603,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "grandeza",
       "synonyms": [],
       "related": ["ing-bemassung"],
       "esco": null,
@@ -626,6 +640,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "objeto",
       "synonyms": [],
       "related": ["ing-entwurf", "ing-simulation"],
       "esco": null,
@@ -662,6 +677,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["ing-spannung", "ing-prototyp"],
       "esco": null,

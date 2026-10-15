@@ -11,6 +11,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "conceito",
       "synonyms": [],
       "related": ["ing-meilenstein", "ing-termin"],
       "esco": null,
@@ -53,6 +54,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "conceito",
       "synonyms": [],
       "related": ["ing-frist", "ing-besprechung"],
       "esco": null,
@@ -95,6 +97,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "conceito",
       "synonyms": [],
       "related": ["ing-termin"],
       "esco": null,
@@ -131,6 +134,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "documento",
       "parts": [
         {
           "de": "Lasten",
@@ -181,6 +185,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "parts": [
         {
           "de": "Qualität",
@@ -237,6 +242,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["ing-qualitaetssicherung", "ing-norm"],
       "esco": null,
@@ -273,6 +279,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["ing-lastenheft", "ing-pruefung"],
       "esco": null,
@@ -315,6 +322,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "documento",
       "synonyms": [],
       "related": ["ing-pruefung"],
       "esco": null,
@@ -351,6 +359,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": ["Meeting"],
       "related": ["ing-termin"],
       "esco": null,
@@ -387,6 +396,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "pessoa",
       "parts": [
         {
           "de": "Ansprech",
@@ -437,6 +447,7 @@
         "gender": "n",
         "pos": "noun"
       },
+      "kind": "documento",
       "synonyms": [],
       "related": ["ing-frist"],
       "esco": null,
@@ -473,6 +484,7 @@
         "gender": "f",
         "pos": "noun"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["ing-abnahme", "ing-zeichnung"],
       "esco": null,
@@ -509,6 +521,7 @@
         "gender": "m",
         "pos": "noun"
       },
+      "kind": "conceito",
       "parts": [
         {
           "de": "Meilen",
@@ -559,6 +572,7 @@
         "gender": "f",
         "pos": "abbreviation"
       },
+      "kind": "processo",
       "synonyms": [],
       "related": ["ing-qualitaetssicherung"],
       "esco": null,
