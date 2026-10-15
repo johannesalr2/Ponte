@@ -4,19 +4,19 @@ import type { Focus } from '@/lib/exercises';
 import { cx } from '@/lib/cx';
 
 /**
- * Alterna o idioma em foco: o que o usuário quer aprender a produzir.
- * "DE" = treinar os termos em alemão; "PT" = treinar no idioma de explicação.
+ * Alterna o idioma em foco: o que o usuário quer aprender a produzir
+ * (os termos em alemão ou no idioma de explicação). Fica na aba Praticar e nos Ajustes.
  */
-export function FocusToggle({ compact = false }: { compact?: boolean }) {
+export function FocusToggle() {
   const { t } = useI18n();
   const prefs = usePrefs();
-  const options: { value: Focus; short: string; long: string }[] = [
-    { value: 'de', short: 'DE', long: t('focus.de') },
-    { value: 'locale', short: t('app.langShort'), long: t('focus.locale') },
+  const options: { value: Focus; label: string }[] = [
+    { value: 'de', label: t('focus.de') },
+    { value: 'locale', label: t('focus.locale') },
   ];
   return (
-    <div className={cx('flex items-center gap-2', compact ? '' : 'flex-col items-stretch')}>
-      {!compact && <span className="label-tech">{t('focus.label')}</span>}
+    <div className="flex flex-col gap-1.5">
+      <span className="label-tech">{t('focus.label')}</span>
       <div
         role="group"
         aria-label={t('focus.label')}
@@ -27,7 +27,6 @@ export function FocusToggle({ compact = false }: { compact?: boolean }) {
             key={o.value}
             type="button"
             aria-pressed={prefs.focus === o.value}
-            title={o.long}
             onClick={() => void savePrefs({ focus: o.value })}
             className={cx(
               'min-h-9 flex-1 rounded-md px-3 text-sm font-medium',
@@ -36,14 +35,7 @@ export function FocusToggle({ compact = false }: { compact?: boolean }) {
                 : 'text-ink hover:bg-surface-2',
             )}
           >
-            {compact ? (
-              <>
-                <span aria-hidden="true">{o.short}</span>
-                <span className="sr-only">{o.long}</span>
-              </>
-            ) : (
-              o.long
-            )}
+            {o.label}
           </button>
         ))}
       </div>

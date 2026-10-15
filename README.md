@@ -8,7 +8,7 @@ quem trabalha ou faz Ausbildung na Alemanha.
   trabalho, falsos amigos e a variante de Portugal quando ela existe.
 - **Revisão espaçada (FSRS-5)** com notas Errei/Difícil/Bom/Fácil e atalhos
   de teclado (espaço, 1 a 4).
-- **Idioma em foco**: alterne a qualquer momento (topo da tela) entre
+- **Idioma em foco**: alterne na aba Praticar (ou nos Ajustes) entre
   aprender os termos **em alemão** ou **em português**. A revisão e os
   exercícios passam a pedir a resposta no idioma escolhido.
 - **Praticar em 3 estilos**, e o app escolhe os termos (erros recentes →

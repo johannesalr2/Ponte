@@ -26,6 +26,7 @@ import {
 import { pickPracticeTerms, recommendMode } from '@/lib/practice';
 import { withArticle } from '@/lib/term';
 import { cx } from '@/lib/cx';
+import { FocusToggle } from '@/components/FocusToggle';
 import { Icon, type IconName } from '@/components/Icon';
 import { Button, Chip, PageHeader, Panel, Spinner } from '@/components/ui';
 import { ExerciseView, type Answer } from './ExerciseView';
@@ -208,7 +209,9 @@ export default function Practice() {
     );
     return (
       <>
-        <PageHeader kicker={t('practice.kicker')} title={t('practice.title')} />
+        <PageHeader kicker={t('practice.kicker')} title={t('practice.title')}>
+          <FocusToggle />
+        </PageHeader>
         <p className="text-muted mb-5 max-w-2xl">{t(`practice.focusHint.${focus}` as const)}</p>
 
         <ul className="grid gap-3 md:grid-cols-3">
