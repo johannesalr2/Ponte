@@ -4,13 +4,14 @@ import { useI18n } from '@/content/locale';
 import { locales, professions } from '@/content/loader';
 import { LEVELS } from '@/content/constants';
 import type { Level } from '@/content/schema';
-import { saveProfile } from '@/db/hooks';
+import { savePrefs, saveProfile } from '@/db/hooks';
 import { GOALS, type Goal } from '@/db/types';
+import type { Focus } from '@/lib/exercises';
 import { Icon } from '@/components/Icon';
 import { Button } from '@/components/ui';
 import { cx } from '@/lib/cx';
 
-type Step = 'locale' | 'profession' | 'industry' | 'level' | 'goal';
+type Step = 'locale' | 'profession' | 'industry' | 'level' | 'focus' | 'goal';
 
 function Option({
   selected,
@@ -57,6 +58,7 @@ export default function Onboarding() {
     'profession',
     'industry',
     'level',
+    'focus',
     'goal',
   ];
   const [index, setIndex] = useState(0);
@@ -64,6 +66,7 @@ export default function Onboarding() {
   const [profession, setProfession] = useState<string | null>(null);
   const [industry, setIndustry] = useState<string | null>(null);
   const [level, setLevel] = useState<Level | null>(null);
+  const [focus, setFocus] = useState<Focus>('de');
   const [goal, setGoal] = useState<Goal | null>(null);
   const headingId = useId();
 
@@ -74,10 +77,12 @@ export default function Onboarding() {
     (step === 'profession' && !!profession) ||
     step === 'industry' ||
     (step === 'level' && !!level) ||
+    step === 'focus' ||
     (step === 'goal' && !!goal);
 
   const finish = async () => {
     if (!profession || !level || !goal) return;
+    await savePrefs({ focus });
     await saveProfile({ profession, industry, level, goal, locale, createdAt: Date.now() });
   };
 
@@ -182,6 +187,19 @@ export default function Onboarding() {
                 onSelect={() => setLevel(l)}
                 title={<span className="font-mono">{l}</span>}
                 description={t(`level.${l}` as const)}
+              />
+            ))}
+
+          {step === 'focus' &&
+            (['de', 'locale'] as const).map((f) => (
+              <Option
+                key={f}
+                name="focus"
+                value={f}
+                selected={focus === f}
+                onSelect={() => setFocus(f)}
+                title={t(`focus.${f}` as const)}
+                description={t(`focus.${f}.hint` as const)}
               />
             ))}
 

@@ -65,7 +65,16 @@ export function StatusBadge({ status }: { status: ReviewStatus }) {
   );
 }
 
-export function SpeakButton({ text, className }: { text: string; className?: string }) {
+/** Ouvir em alemão (padrão) ou, com `lang`, no idioma de explicação. */
+export function SpeakButton({
+  text,
+  className,
+  lang = 'de-DE',
+}: {
+  text: string;
+  className?: string;
+  lang?: string;
+}) {
   const { t } = useI18n();
   if (!speechSupported()) return null;
   return (
@@ -73,7 +82,7 @@ export function SpeakButton({ text, className }: { text: string; className?: str
       type="button"
       onClick={(e) => {
         e.stopPropagation();
-        speak(text);
+        speak(text, lang);
       }}
       className={cx(
         'text-primary hover:bg-primary-soft inline-flex size-10 shrink-0 items-center justify-center rounded-full',

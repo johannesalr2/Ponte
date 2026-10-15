@@ -172,8 +172,16 @@ export default function Glossary() {
                         <ArticleBadge article={term.de.article} size="sm" />
                       </span>
                       <span className="min-w-0 flex-1">
+                        {prefs.focus === 'locale' && (
+                          <span className="block font-semibold">
+                            {tr?.term ?? t('term.noTranslation')}
+                          </span>
+                        )}
                         <span className="flex flex-wrap items-baseline gap-x-2">
-                          <span lang="de" className="font-semibold break-words">
+                          <span
+                            lang="de"
+                            className={cx('break-words', prefs.focus === 'de' && 'font-semibold')}
+                          >
                             {term.de.word}
                           </span>
                           {term.de.plural && (
@@ -182,7 +190,9 @@ export default function Glossary() {
                             </span>
                           )}
                         </span>
-                        <span className="block">{tr?.term ?? t('term.noTranslation')}</span>
+                        {prefs.focus === 'de' && (
+                          <span className="block">{tr?.term ?? t('term.noTranslation')}</span>
+                        )}
                         <span className="text-muted mt-1 line-clamp-2 block text-sm">
                           {prefs.explanation === 'simple' ? tr?.simple : tr?.technical}
                         </span>

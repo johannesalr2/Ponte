@@ -1,5 +1,7 @@
 import type { Level } from '@/content/schema';
+import type { ExerciseKind, Focus, PracticeMode } from '@/lib/exercises';
 import type { FsrsCard, Rating } from '@/lib/fsrs';
+import type { ModeStat } from '@/lib/practice';
 
 export const GOALS = ['ausbildung', 'trabalho', 'reconhecimento'] as const;
 export type Goal = (typeof GOALS)[number];
@@ -21,6 +23,8 @@ export interface Prefs {
   newPerDay: number;
   explanation: 'technical' | 'simple';
   showVariant: boolean;
+  /** idioma que o usuário quer produzir: alemão ou o idioma de explicação */
+  focus: Focus;
 }
 
 export const DEFAULT_PREFS: Prefs = {
@@ -28,9 +32,25 @@ export const DEFAULT_PREFS: Prefs = {
   newPerDay: 10,
   explanation: 'technical',
   showVariant: true,
+  focus: 'de',
 };
 
-export type SettingRow = { key: 'profile'; value: Profile } | { key: 'prefs'; value: Prefs };
+/** Último resultado de cada modo de prática, por foco (chave "de:grammar"). */
+export type PracticeStats = Partial<Record<`${Focus}:${PracticeMode}`, ModeStat>>;
+
+export type SettingRow =
+  | { key: 'profile'; value: Profile }
+  | { key: 'prefs'; value: Prefs }
+  | { key: 'practiceStats'; value: PracticeStats };
+
+/** Resultado de um termo num exercício (para "erros recentes"). */
+export interface PracticeRow {
+  id?: number;
+  termId: string;
+  kind: ExerciseKind;
+  correct: boolean;
+  at: number;
+}
 
 export interface CardRow extends FsrsCard {
   termId: string;

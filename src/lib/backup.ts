@@ -2,6 +2,7 @@ import { z } from 'zod';
 import { GOALS } from '@/db/types';
 import { LEVELS } from '@/content/schema';
 import type { PonteDB } from '@/db/db';
+import type { PracticeRow, SettingRow } from '@/db/types';
 
 /**
  * Backup manual: exporta todo o progresso local num JSON e importa de volta,
@@ -28,6 +29,12 @@ const prefs = z.object({
   newPerDay: z.number().int().min(0).max(200),
   explanation: z.enum(['technical', 'simple']),
   showVariant: z.boolean(),
+  focus: z.enum(['de', 'locale']).default('de'),
+});
+const modeStat = z.object({
+  correct: z.number().int().nonnegative(),
+  total: z.number().int().nonnegative(),
+  at: z.number(),
 });
 
 const entry = z.object({
@@ -47,6 +54,7 @@ export const backupSchema = z.object({
     z.discriminatedUnion('key', [
       z.object({ key: z.literal('profile'), value: profile }),
       z.object({ key: z.literal('prefs'), value: prefs }),
+      z.object({ key: z.literal('practiceStats'), value: z.record(z.string(), modeStat) }),
     ]),
   ),
   cards: z.array(
@@ -84,6 +92,17 @@ export const backupSchema = z.object({
       correct: z.number().int().nonnegative(),
     }),
   ),
+  practice: z
+    .array(
+      z.object({
+        id: z.number().optional(),
+        termId: z.string(),
+        kind: z.string(),
+        correct: z.boolean(),
+        at: z.number(),
+      }),
+    )
+    .default([]),
   cv: z.array(
     z.object({
       id: z.literal('main'),
@@ -104,11 +123,12 @@ export const backupSchema = z.object({
 export type Backup = z.infer<typeof backupSchema>;
 
 export async function exportBackup(db: PonteDB): Promise<Backup> {
-  const [settings, cards, reviews, days, cv] = await Promise.all([
+  const [settings, cards, reviews, days, practice, cv] = await Promise.all([
     db.settings.toArray(),
     db.cards.toArray(),
     db.reviews.toArray(),
     db.days.toArray(),
+    db.practice.toArray(),
     db.cv.toArray(),
   ]);
   return {
@@ -119,6 +139,7 @@ export async function exportBackup(db: PonteDB): Promise<Backup> {
     cards,
     reviews,
     days,
+    practice,
     cv,
   };
 }
@@ -134,20 +155,26 @@ export async function importBackup(db: PonteDB, raw: unknown): Promise<ImportRes
     return { ok: false, error: issue ? `${issue.path.join('.')}: ${issue.message}` : 'invalid' };
   }
   const data = parsed.data;
-  await db.transaction('rw', [db.settings, db.cards, db.reviews, db.days, db.cv], async () => {
-    await Promise.all([
-      db.settings.clear(),
-      db.cards.clear(),
-      db.reviews.clear(),
-      db.days.clear(),
-      db.cv.clear(),
-    ]);
-    await db.settings.bulkPut(data.settings);
-    await db.cards.bulkPut(data.cards);
-    await db.reviews.bulkPut(data.reviews);
-    await db.days.bulkPut(data.days);
-    await db.cv.bulkPut(data.cv);
-  });
+  await db.transaction(
+    'rw',
+    [db.settings, db.cards, db.reviews, db.days, db.practice, db.cv],
+    async () => {
+      await Promise.all([
+        db.settings.clear(),
+        db.cards.clear(),
+        db.reviews.clear(),
+        db.days.clear(),
+        db.practice.clear(),
+        db.cv.clear(),
+      ]);
+      await db.cards.bulkPut(data.cards);
+      await db.reviews.bulkPut(data.reviews);
+      await db.days.bulkPut(data.days);
+      await db.practice.bulkPut(data.practice as PracticeRow[]);
+      await db.settings.bulkPut(data.settings as SettingRow[]);
+      await db.cv.bulkPut(data.cv);
+    },
+  );
   return { ok: true, cards: data.cards.length, reviews: data.reviews.length };
 }
 

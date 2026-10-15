@@ -41,6 +41,11 @@ describe('backup', () => {
       scheduledDays: 0,
     });
     await a.days.put({ date: '2026-10-14', reviews: 1, newCards: 1, exercises: 2, correct: 1 });
+    await a.practice.add({ termId: 'ko-herd', kind: 'typing-pt', correct: false, at: 3000 });
+    await a.settings.put({
+      key: 'practiceStats',
+      value: { 'locale:recall': { correct: 7, total: 10, at: 1 } },
+    });
 
     const backup = JSON.parse(JSON.stringify(await exportBackup(a)));
     const b = freshDb();
@@ -49,6 +54,24 @@ describe('backup', () => {
     expect(await b.cards.get('ko-herd')).toMatchObject({ profession: 'koch', state: 'new' });
     expect(await b.days.get('2026-10-14')).toMatchObject({ exercises: 2 });
     expect((await b.settings.get('profile'))?.value).toMatchObject({ profession: 'koch' });
+    expect(await b.practice.toArray()).toMatchObject([{ termId: 'ko-herd', kind: 'typing-pt' }]);
+    expect((await b.settings.get('practiceStats'))?.value).toMatchObject({
+      'locale:recall': { correct: 7 },
+    });
+  });
+
+  it('aceita backup antigo, sem idioma em foco nem histórico de exercícios', async () => {
+    const db = freshDb();
+    const old = JSON.parse(JSON.stringify(await exportBackup(db)));
+    delete old.practice;
+    old.settings = [
+      {
+        key: 'prefs',
+        value: { theme: 'dark', newPerDay: 5, explanation: 'simple', showVariant: false },
+      },
+    ];
+    expect((await importBackup(db, old)).ok).toBe(true);
+    expect((await db.settings.get('prefs'))?.value).toMatchObject({ theme: 'dark', focus: 'de' });
   });
 
   it('recusa arquivo inválido sem apagar o progresso atual', async () => {

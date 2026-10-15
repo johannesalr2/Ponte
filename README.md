@@ -8,9 +8,17 @@ quem trabalha ou faz Ausbildung na Alemanha.
   trabalho, falsos amigos e a variante de Portugal quando ela existe.
 - **Revisão espaçada (FSRS-5)** com notas Errei/Difícil/Bom/Fácil e atalhos
   de teclado (espaço, 1 a 4).
-- **8 tipos de exercício**: múltipla escolha nos dois sentidos, der/die/das,
-  plural, completar a frase, escrever a palavra (tolera acentos e trema),
-  associar pares e ouvir e escolher.
+- **Idioma em foco**: alterne a qualquer momento (topo da tela) entre
+  aprender os termos **em alemão** ou **em português**. A revisão e os
+  exercícios passam a pedir a resposta no idioma escolhido.
+- **Praticar em 3 estilos**, e o app escolhe os termos (erros recentes →
+  termos mais fracos → novos do seu nível):
+  - foco em alemão: **Entender** (múltipla escolha, ouvir, pares),
+    **Lembrar** (escrever, completar a frase) e **Gramática** (der/die/das, plural);
+  - foco em português: **Entender**, **Lembrar** (escrever e completar frases
+    em português) e **Explicar** (ligar o termo à explicação).
+  - "Personalizar" (escondido) mantém a escolha manual de termos e tipos.
+  - Errar um termo nos exercícios antecipa a revisão dele para no máximo o dia seguinte.
 - **Situações de trabalho**: diálogos curtos com os termos destacados.
 - **Carreira**: equivalência Brasil ↔ Alemanha, regulamentação, passos do
   reconhecimento (Anerkennung) e gerador de currículo bilíngue.
@@ -200,7 +208,7 @@ Observações honestas sobre idiomas futuros:
 
 ## Qualidade (último resultado)
 
-- Vitest: 73 testes passando.
+- Vitest: 86 testes passando.
 - ESLint e Prettier sem erros ou avisos.
 - Lighthouse (celular, build local com `npm run preview`): primeira visita
   em 98 de desempenho e 100 em acessibilidade, boas práticas e SEO; páginas

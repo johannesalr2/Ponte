@@ -1,9 +1,16 @@
-import { useCallback, useEffect, useMemo, useRef, useState, type FormEvent } from 'react';
+import { useCallback, useEffect, useRef, useState, type FormEvent } from 'react';
 import { useI18n } from '@/content/locale';
 import { ARTICLES } from '@/content/constants';
 import type { Article, Term } from '@/content/schema';
-import { checkTyped, isCorrect, type Exercise, type Verdict } from '@/lib/exercises';
+import {
+  checkTyped,
+  checkTypedTranslation,
+  isCorrect,
+  type Exercise,
+  type Verdict,
+} from '@/lib/exercises';
 import { speak } from '@/lib/speech';
+import { useExerciseContext } from './useExerciseContext';
 import { Icon } from '@/components/Icon';
 import { ArticleBadge } from '@/components/term-bits';
 import { withArticle } from '@/lib/term';
@@ -93,16 +100,19 @@ function Options({
 
 function TypedAnswer({
   expected,
-  article,
+  check,
   onAnswer,
   disabled,
   label,
+  lang,
 }: {
+  /** resposta mostrada na correção */
   expected: string;
-  article: Term['de']['article'];
+  check: (value: string) => Verdict;
   onAnswer: (a: Answer) => void;
   disabled: boolean;
   label: string;
+  lang?: string;
 }) {
   const { t } = useI18n();
   const [value, setValue] = useState('');
@@ -113,12 +123,12 @@ function TypedAnswer({
     accent: t('exercise.accentNote', { expected }),
     typo: t('exercise.typoNote', { expected }),
     wrong: t('exercise.wrongNote', { expected }),
-    'wrong-article': t('exercise.articleNote', { expected: `${article ?? ''} ${expected}` }),
+    'wrong-article': t('exercise.articleNote', { expected }),
   };
   const submit = (e: FormEvent) => {
     e.preventDefault();
     if (!value.trim() || disabled) return;
-    const v = checkTyped(value, expected, article);
+    const v = check(value);
     onAnswer({ correct: isCorrect(v), note: messages[v] || undefined });
   };
   return (
@@ -127,7 +137,7 @@ function TypedAnswer({
         <span className="sr-only">{label}</span>
         <input
           ref={input}
-          lang="de"
+          lang={lang}
           value={value}
           onChange={(e) => setValue(e.target.value)}
           disabled={disabled}
@@ -230,90 +240,119 @@ function MatchPairs({
 
 /** Enunciado + interação de cada tipo de exercício. */
 export function ExerciseView({ exercise, onAnswer, answered }: Props) {
-  const { t, termTr } = useI18n();
-  const tr = (term: Term) => termTr(term)?.term ?? term.de.word;
+  const { t, locale } = useI18n();
+  const ctx = useExerciseContext();
   const disabled = !!answered;
-
-  const prompt = useMemo(() => {
-    switch (exercise.kind) {
-      case 'mc-de':
-        return t('exercise.prompt.mc-de');
-      case 'mc-pt':
-        return t('exercise.prompt.mc-pt');
-      case 'article':
-        return t('exercise.prompt.article');
-      case 'plural':
-        return t('exercise.prompt.plural');
-      case 'cloze':
-        return t('exercise.prompt.cloze');
-      case 'typing':
-        return t('exercise.prompt.typing');
-      case 'match':
-        return t('exercise.prompt.match');
-      case 'listen':
-        return t('exercise.prompt.listen');
-    }
-  }, [exercise.kind, t]);
+  const term = exercise.kind === 'match' ? null : exercise.term;
+  /** tradução falada/escrita sem os parênteses explicativos */
+  const spoken = term ? (ctx.answers(term)[0] ?? ctx.tr(term)) : '';
 
   useEffect(() => {
     if (exercise.kind === 'listen') speak(withArticle(exercise.term));
-  }, [exercise]);
+    if (exercise.kind === 'listen-pt') speak(spoken, locale.speechLang);
+  }, [exercise, spoken, locale.speechLang]);
+
+  const pickAnswer = (o: Term) => onAnswer({ correct: o.id === term?.id });
+  const german = (tm: Term) => (
+    <p lang="de" className="flex flex-wrap items-center gap-3 text-3xl font-semibold">
+      <ArticleBadge article={tm.de.article} size="lg" />
+      <span className="break-all">{tm.de.word}</span>
+    </p>
+  );
 
   return (
     <div className="flex flex-col gap-5">
-      <p className="label-tech">{prompt}</p>
+      <p className="label-tech">{t(`exercise.prompt.${exercise.kind}` as const)}</p>
 
       {exercise.kind === 'mc-de' && (
         <>
-          <p lang="de" className="flex flex-wrap items-center gap-3 text-3xl font-semibold">
-            <ArticleBadge article={exercise.term.de.article} size="lg" />
-            {exercise.term.de.word}
-          </p>
+          {german(exercise.term)}
           <Options
             options={exercise.options}
-            render={tr}
+            render={ctx.tr}
             correctId={exercise.term.id}
             disabled={disabled}
-            onPick={(o) => onAnswer({ correct: o.id === exercise.term.id })}
+            onPick={pickAnswer}
           />
         </>
       )}
 
       {exercise.kind === 'mc-pt' && (
         <>
-          <p className="text-3xl font-semibold">{tr(exercise.term)}</p>
+          <p className="text-3xl font-semibold">{ctx.tr(exercise.term)}</p>
           <Options
             options={exercise.options}
             render={withArticle}
             lang="de"
             correctId={exercise.term.id}
             disabled={disabled}
-            onPick={(o) => onAnswer({ correct: o.id === exercise.term.id })}
+            onPick={pickAnswer}
           />
         </>
       )}
 
-      {exercise.kind === 'listen' && (
+      {(exercise.kind === 'listen' || exercise.kind === 'listen-pt') && (
         <>
           <Button
             size="lg"
             variant="primary"
             className="self-start"
-            onClick={() => speak(withArticle(exercise.term))}
+            onClick={() =>
+              exercise.kind === 'listen'
+                ? speak(withArticle(exercise.term))
+                : speak(spoken, locale.speechLang)
+            }
           >
             <Icon name="speaker" /> {t('exercise.listenAgain')}
           </Button>
           {answered && (
-            <p lang="de" className="text-2xl font-semibold">
+            <p
+              lang={exercise.kind === 'listen' ? 'de' : undefined}
+              className="text-2xl font-semibold"
+            >
+              {exercise.kind === 'listen' ? withArticle(exercise.term) : ctx.tr(exercise.term)}
+            </p>
+          )}
+          <Options
+            options={exercise.options}
+            render={exercise.kind === 'listen' ? ctx.tr : withArticle}
+            lang={exercise.kind === 'listen' ? undefined : 'de'}
+            correctId={exercise.term.id}
+            disabled={disabled}
+            onPick={pickAnswer}
+          />
+        </>
+      )}
+
+      {exercise.kind === 'explain' && (
+        <>
+          {german(exercise.term)}
+          <Options
+            options={exercise.options}
+            render={ctx.simple}
+            correctId={exercise.term.id}
+            disabled={disabled}
+            onPick={pickAnswer}
+          />
+        </>
+      )}
+
+      {exercise.kind === 'define' && (
+        <>
+          <blockquote className="border-primary border-l-4 pl-4 text-lg leading-relaxed">
+            {exercise.definition}
+          </blockquote>
+          {answered && (
+            <p lang="de" className="text-muted">
               {withArticle(exercise.term)}
             </p>
           )}
           <Options
             options={exercise.options}
-            render={tr}
+            render={ctx.tr}
             correctId={exercise.term.id}
             disabled={disabled}
-            onPick={(o) => onAnswer({ correct: o.id === exercise.term.id })}
+            onPick={pickAnswer}
           />
         </>
       )}
@@ -324,14 +363,22 @@ export function ExerciseView({ exercise, onAnswer, answered }: Props) {
 
       {exercise.kind === 'plural' && (
         <>
-          <p className="text-muted">{tr(exercise.term)}</p>
+          <p className="text-muted">{ctx.tr(exercise.term)}</p>
           <p lang="de" className="flex flex-wrap items-center gap-3 text-2xl font-semibold">
             <ArticleBadge article={exercise.term.de.article} />
             {exercise.term.de.word} → <span className="font-mono">die …</span>
           </p>
           <TypedAnswer
             expected={exercise.term.de.plural ?? ''}
-            article={null}
+            check={(v) => {
+              const verdict = checkTyped(v, exercise.term.de.plural ?? '');
+              // no plural, o trema é justamente o que se treina (Mutter → Mütter)
+              return verdict === 'accent' &&
+                v.trim().toLowerCase() !== (exercise.term.de.plural ?? '').toLowerCase()
+                ? 'typo'
+                : verdict;
+            }}
+            lang="de"
             disabled={disabled}
             label={t('exercise.typePlural')}
             onAnswer={onAnswer}
@@ -341,13 +388,14 @@ export function ExerciseView({ exercise, onAnswer, answered }: Props) {
 
       {exercise.kind === 'typing' && (
         <>
-          <p className="text-3xl font-semibold">{tr(exercise.term)}</p>
+          <p className="text-3xl font-semibold">{ctx.tr(exercise.term)}</p>
           {exercise.term.de.article && (
             <p className="text-muted text-sm">{t('exercise.typingHint')}</p>
           )}
           <TypedAnswer
-            expected={exercise.term.de.word}
-            article={exercise.term.de.article}
+            expected={withArticle(exercise.term)}
+            check={(v) => checkTyped(v, exercise.term.de.word, exercise.term.de.article)}
+            lang="de"
             disabled={disabled}
             label={t('exercise.typeGerman')}
             onAnswer={onAnswer}
@@ -355,23 +403,42 @@ export function ExerciseView({ exercise, onAnswer, answered }: Props) {
         </>
       )}
 
-      {exercise.kind === 'cloze' && (
+      {exercise.kind === 'typing-pt' && (
         <>
-          <p lang="de" className="text-2xl leading-relaxed font-medium">
+          {german(exercise.term)}
+          <p className="text-muted text-sm">{t('exercise.typingPtHint')}</p>
+          <TypedAnswer
+            expected={ctx.tr(exercise.term)}
+            check={(v) => checkTypedTranslation(v, ctx.answers(exercise.term))}
+            disabled={disabled}
+            label={t('exercise.typeTranslation')}
+            onAnswer={onAnswer}
+          />
+        </>
+      )}
+
+      {(exercise.kind === 'cloze' || exercise.kind === 'cloze-pt') && (
+        <>
+          <p
+            lang={exercise.kind === 'cloze' ? 'de' : undefined}
+            className="text-2xl leading-relaxed font-medium"
+          >
             {exercise.before}
             <span className="border-primary text-primary mx-1 inline-block min-w-24 border-b-2 text-center">
-              {answered ? exercise.gap : ' ? '}
+              {answered ? exercise.gap : '\u2003?\u2003'}
             </span>
             {exercise.after}
           </p>
-          <p className="text-muted">{exercise.translation}</p>
+          <p lang={exercise.kind === 'cloze-pt' ? 'de' : undefined} className="text-muted">
+            {exercise.translation}
+          </p>
           <Options
             options={exercise.options}
-            render={(o) => o.de.word}
-            lang="de"
+            render={exercise.kind === 'cloze' ? (o) => o.de.word : ctx.tr}
+            lang={exercise.kind === 'cloze' ? 'de' : undefined}
             correctId={exercise.term.id}
             disabled={disabled}
-            onPick={(o) => onAnswer({ correct: o.id === exercise.term.id })}
+            onPick={pickAnswer}
           />
         </>
       )}

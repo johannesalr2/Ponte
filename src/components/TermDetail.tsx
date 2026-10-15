@@ -49,7 +49,10 @@ export function TermDetail({ term, related }: { term: Term; related: Term[] }) {
             </h1>
             <SpeakButton text={withArticle(term)} />
           </div>
-          <p className="text-xl">{tr?.term ?? t('term.noTranslation')}</p>
+          <p className="flex items-center gap-1 text-xl">
+            {tr?.term ?? t('term.noTranslation')}
+            {tr && <SpeakButton text={tr.term} lang={locale.speechLang} />}
+          </p>
           {prefs.showVariant &&
             Object.entries(tr?.variants ?? {}).map(([code, value]) => (
               <p key={code} className="text-muted text-sm">

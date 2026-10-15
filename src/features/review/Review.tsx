@@ -25,7 +25,7 @@ const RATING_STYLE: Record<Rating, string> = {
 export default function Review() {
   const profile = useActiveProfile();
   const prefs = usePrefs();
-  const { t, tp, termTr, pick, number } = useI18n();
+  const { t, tp, termTr, pick, number, locale } = useI18n();
   const content = useProfessionContent(profile.profession);
   const cards = useCards();
   const days = useDays();
@@ -169,16 +169,23 @@ export default function Review() {
               <LevelBadge level={term.level} />
             </div>
             <div className="flex flex-col items-center gap-3 px-5 py-10 text-center">
-              <div className="flex flex-wrap items-center justify-center gap-3">
-                <ArticleBadge article={term.de.article} size="lg" />
-                <p
-                  lang="de"
-                  className="text-3xl font-semibold tracking-tight break-all sm:text-4xl"
-                >
-                  {term.de.word}
-                </p>
-              </div>
-              <SpeakButton text={withArticle(term)} />
+              <p className="label-tech">{t(`review.ask.${prefs.focus}` as const)}</p>
+              {prefs.focus === 'locale' ? (
+                <>
+                  <div className="flex flex-wrap items-center justify-center gap-3">
+                    <ArticleBadge article={term.de.article} size="lg" />
+                    <p
+                      lang="de"
+                      className="text-3xl font-semibold tracking-tight break-all sm:text-4xl"
+                    >
+                      {term.de.word}
+                    </p>
+                  </div>
+                  <SpeakButton text={withArticle(term)} />
+                </>
+              ) : (
+                <p className="text-3xl font-semibold tracking-tight sm:text-4xl">{tr?.term}</p>
+              )}
             </div>
 
             {flipped ? (
@@ -186,7 +193,20 @@ export default function Review() {
                 className="border-line-strong flex flex-col gap-3 border-t border-dashed px-5 py-6"
                 aria-live="polite"
               >
-                <p className="text-center text-2xl font-semibold">{tr?.term}</p>
+                {prefs.focus === 'locale' ? (
+                  <p className="flex items-center justify-center gap-1 text-center text-2xl font-semibold">
+                    {tr?.term}
+                    <SpeakButton text={tr?.term ?? ''} lang={locale.speechLang} />
+                  </p>
+                ) : (
+                  <div className="flex flex-wrap items-center justify-center gap-3">
+                    <ArticleBadge article={term.de.article} size="lg" />
+                    <p lang="de" className="text-3xl font-semibold tracking-tight break-all">
+                      {term.de.word}
+                    </p>
+                    <SpeakButton text={withArticle(term)} />
+                  </div>
+                )}
                 {term.de.plural && (
                   <p lang="de" className="text-muted text-center text-sm">
                     {t('term.pluralShort', { plural: term.de.plural })}

@@ -1,5 +1,5 @@
 import Dexie, { type Table } from 'dexie';
-import type { CardRow, CvRow, DayRow, ReviewRow, SettingRow } from './types';
+import type { CardRow, CvRow, DayRow, PracticeRow, ReviewRow, SettingRow } from './types';
 
 /** IndexedDB local. Nada sai do aparelho. */
 export class PonteDB extends Dexie {
@@ -8,6 +8,7 @@ export class PonteDB extends Dexie {
   reviews!: Table<ReviewRow, number>;
   days!: Table<DayRow, string>;
   cv!: Table<CvRow, string>;
+  practice!: Table<PracticeRow, number>;
 
   constructor(name = 'ponte-tecnica') {
     super(name);
@@ -18,6 +19,8 @@ export class PonteDB extends Dexie {
       days: 'date',
       cv: 'id',
     });
+    // v2: histórico dos exercícios por termo
+    this.version(2).stores({ practice: '++id, termId, at' });
   }
 }
 

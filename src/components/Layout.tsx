@@ -1,6 +1,7 @@
 import { useState, type ReactNode } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { useI18n, type UiKey } from '@/content/locale';
+import { FocusToggle } from './FocusToggle';
 import { Icon, type IconName } from './Icon';
 import {} from './ui';
 import { cx } from '@/lib/cx';
@@ -74,6 +75,7 @@ export function Layout({ children }: { children: ReactNode }) {
       {/* barra lateral (desktop) */}
       <aside className="border-line bg-surface/80 sticky top-0 hidden h-dvh w-64 shrink-0 flex-col gap-6 border-r p-4 backdrop-blur md:flex">
         <Brand />
+        <FocusToggle />
         <nav aria-label={t('nav.label')} className="flex flex-col gap-1">
           {[...MAIN, ...MORE].map((item) => (
             <SideLink key={item.to} item={item} />
@@ -85,6 +87,7 @@ export function Layout({ children }: { children: ReactNode }) {
       {/* topo (celular) */}
       <header className="border-line bg-surface/90 flex items-center justify-between border-b px-4 py-2.5 backdrop-blur md:hidden">
         <Brand />
+        <FocusToggle compact />
       </header>
 
       <main

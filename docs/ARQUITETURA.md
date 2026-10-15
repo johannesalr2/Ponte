@@ -225,3 +225,21 @@ palavra. Indexa alemão, plural, tradução, variante pt-PT e sinônimos.
 - Artigos: **der** azul, **die** vermelho, **das** verde, sempre com o texto do
   artigo e um formato diferente (borda reta, arredondada, chanfrada).
 - Tokens de cor em CSS para tema claro e escuro, ambos verificados para AA.
+
+## 8. Idioma em foco e estilos de prática
+
+`prefs.focus` (`de` | `locale`) diz qual idioma o usuário quer produzir:
+
+- **Revisão**: com foco `de` a frente do cartão mostra a tradução e a
+  resposta é o alemão; com foco `locale`, o contrário. O estado FSRS do
+  cartão é um só por termo (trocar o foco não reinicia o agendamento).
+- **Prática** (`src/lib/exercises.ts`, `MODES`): três estilos por foco.
+
+| Foco     | Entender                | Lembrar                    | 3º estilo                  |
+| -------- | ----------------------- | -------------------------- | -------------------------- |
+| `de`     | mc-de, listen, match    | mc-pt, cloze, typing       | Gramática: article, plural |
+| `locale` | mc-pt, listen-pt, match | mc-de, cloze-pt, typing-pt | Explicar: explain, define  |
+
+Os termos de cada treino vêm de `pickPracticeTerms` (`src/lib/practice.ts`):
+erros recentes (14 dias) → cartões mais fracos (sorteados entre os 30 piores)
+→ termos novos do nível. O modo recomendado é o de menor acerto no último treino.

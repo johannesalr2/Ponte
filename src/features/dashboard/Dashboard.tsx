@@ -20,7 +20,7 @@ function hash(s: string): number {
 export default function Dashboard() {
   const profile = useActiveProfile();
   const prefs = usePrefs();
-  const { t, tp, pick, termTr, number } = useI18n();
+  const { t, tp, pick, termTr, number, locale } = useI18n();
   const content = useProfessionContent(profile.profession);
   const cards = useCards();
   const days = useDays();
@@ -98,7 +98,18 @@ export default function Dashboard() {
               </span>
               <SpeakButton text={withArticle(termOfDay)} />
             </div>
-            <p className="mt-2 text-lg">{termTrans.term}</p>
+            <p
+              className={
+                prefs.focus === 'locale'
+                  ? 'mt-2 flex items-center gap-1 text-2xl font-semibold'
+                  : 'mt-2 text-lg'
+              }
+            >
+              {termTrans.term}
+              {prefs.focus === 'locale' && (
+                <SpeakButton text={termTrans.term} lang={locale.speechLang} />
+              )}
+            </p>
             <p className="text-muted mt-1">
               {prefs.explanation === 'simple' ? termTrans.simple : termTrans.technical}
             </p>

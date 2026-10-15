@@ -1,8 +1,18 @@
 import { useLiveQuery } from 'dexie-react-hooks';
 import { dayKey, endOfDay } from '@/lib/dates';
-import { newCard, schedule, type Rating } from '@/lib/fsrs';
+import type { ExerciseKind } from '@/lib/exercises';
+import { DAY, newCard, schedule, type Rating } from '@/lib/fsrs';
+import type { ModeStat } from '@/lib/practice';
 import { db } from './db';
-import { DEFAULT_PREFS, type CardRow, type DayRow, type Prefs, type Profile } from './types';
+import {
+  DEFAULT_PREFS,
+  type CardRow,
+  type DayRow,
+  type PracticeRow,
+  type PracticeStats,
+  type Prefs,
+  type Profile,
+} from './types';
 
 // ------------------------------------------------------------ configurações
 
@@ -54,8 +64,51 @@ async function bumpDay(patch: Partial<Omit<DayRow, 'date'>>, now = Date.now()) {
   });
 }
 
-export function recordExercise(correct: boolean) {
-  return bumpDay({ exercises: 1, correct: correct ? 1 : 0 });
+/**
+ * Registra a resposta de um exercício: conta para o mapa de calor, guarda o
+ * resultado por termo e, se errou um termo em revisão, antecipa a próxima
+ * revisão dele para no máximo amanhã.
+ */
+export async function recordPractice(
+  termIds: string[],
+  kind: ExerciseKind,
+  correct: boolean,
+  now = Date.now(),
+) {
+  await db.transaction('rw', db.days, db.practice, db.cards, async () => {
+    await bumpDay({ exercises: 1, correct: correct ? 1 : 0 }, now);
+    await db.practice.bulkAdd(termIds.map((termId) => ({ termId, kind, correct, at: now })));
+    if (correct) return;
+    for (const termId of termIds) {
+      const card = await db.cards.get(termId);
+      if (card && card.state === 'review' && card.due > now + DAY) {
+        await db.cards.update(termId, { due: now + DAY });
+      }
+    }
+  });
+}
+
+/** Resultados dos exercícios nos últimos 30 dias. */
+export function useRecentPractice(): PracticeRow[] | undefined {
+  return useLiveQuery(() =>
+    db.practice
+      .where('at')
+      .above(Date.now() - 30 * DAY)
+      .toArray(),
+  );
+}
+
+export function usePracticeStats(): PracticeStats | undefined {
+  return useLiveQuery(async () => {
+    const row = await db.settings.get('practiceStats');
+    return row?.key === 'practiceStats' ? row.value : {};
+  });
+}
+
+export async function savePracticeStat(key: keyof PracticeStats, stat: ModeStat) {
+  const row = await db.settings.get('practiceStats');
+  const current = row?.key === 'practiceStats' ? row.value : {};
+  await db.settings.put({ key: 'practiceStats', value: { ...current, [key]: stat } });
 }
 
 export function useDays(): DayRow[] | undefined {

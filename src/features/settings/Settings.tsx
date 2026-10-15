@@ -8,6 +8,7 @@ import { savePrefs, saveProfile, usePrefs } from '@/db/hooks';
 import { GOALS, type Profile, type ThemePref } from '@/db/types';
 import { dayKey } from '@/lib/dates';
 import { downloadJson, exportBackup, importBackup } from '@/lib/backup';
+import { FocusToggle } from '@/components/FocusToggle';
 import { Icon } from '@/components/Icon';
 import { StatusBadge } from '@/components/term-bits';
 import { Button, PageHeader, Panel } from '@/components/ui';
@@ -151,6 +152,10 @@ export default function Settings() {
         </Section>
 
         <Section title={t('settings.study')}>
+          <div>
+            <FocusToggle />
+            <p className="text-muted mt-1 text-sm">{t('settings.focusHint')}</p>
+          </div>
           <fieldset>
             <legend className="mb-2 text-sm font-medium">{t('settings.theme')}</legend>
             <div className="flex flex-wrap gap-2">
