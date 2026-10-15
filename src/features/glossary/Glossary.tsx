@@ -172,16 +172,9 @@ export default function Glossary() {
                         <ArticleBadge article={term.de.article} size="sm" />
                       </span>
                       <span className="min-w-0 flex-1">
-                        {prefs.focus === 'locale' && (
-                          <span className="block font-semibold">
-                            {tr?.term ?? t('term.noTranslation')}
-                          </span>
-                        )}
+                        {/* o alemão é sempre o título do card, qualquer que seja o idioma em foco */}
                         <span className="flex flex-wrap items-baseline gap-x-2">
-                          <span
-                            lang="de"
-                            className={cx('break-words', prefs.focus === 'de' && 'font-semibold')}
-                          >
+                          <span lang="de" className="font-semibold break-words">
                             {term.de.word}
                           </span>
                           {term.de.plural && (
@@ -190,9 +183,7 @@ export default function Glossary() {
                             </span>
                           )}
                         </span>
-                        {prefs.focus === 'de' && (
-                          <span className="block">{tr?.term ?? t('term.noTranslation')}</span>
-                        )}
+                        <span className="block">{tr?.term ?? t('term.noTranslation')}</span>
                         <span className="text-muted mt-1 line-clamp-2 block text-sm">
                           {prefs.explanation === 'simple' ? tr?.simple : tr?.technical}
                         </span>
