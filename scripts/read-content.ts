@@ -21,3 +21,24 @@ export function readContentDir(root: string): Record<string, unknown> {
   walk(root);
   return files;
 }
+
+/** Lista os arquivos de imagem em /content/media (caminhos relativos a /content). */
+export function listMedia(root: string): string[] {
+  const out: string[] = [];
+  const walk = (dir: string) => {
+    let names: string[];
+    try {
+      names = readdirSync(dir);
+    } catch {
+      return; // pasta ainda não existe
+    }
+    for (const name of names.sort()) {
+      const full = join(dir, name);
+      if (statSync(full).isDirectory()) walk(full);
+      else if (/\.(webp|jpe?g|png)$/i.test(name))
+        out.push(relative(root, full).split(sep).join('/'));
+    }
+  };
+  walk(join(root, 'media'));
+  return out;
+}

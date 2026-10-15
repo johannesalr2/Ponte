@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import { VitePWA } from 'vite-plugin-pwa';
 import { validateContent } from './src/content/validate';
-import { readContentDir } from './scripts/read-content';
+import { listMedia, readContentDir } from './scripts/read-content';
 
 const contentDir = fileURLToPath(new URL('./content', import.meta.url));
 
@@ -13,7 +13,7 @@ const contentDir = fileURLToPath(new URL('./content', import.meta.url));
 function contentValidation(): Plugin {
   let isBuild = false;
   const run = (fail: (msg: string) => void, warn: (msg: string) => void) => {
-    const report = validateContent(readContentDir(contentDir));
+    const report = validateContent(readContentDir(contentDir), listMedia(contentDir));
     report.warnings.forEach((w) => warn(`conteúdo: ${w}`));
     if (report.errors.length) fail(`Conteúdo inválido:\n${report.errors.join('\n')}`);
   };
@@ -74,6 +74,17 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,woff2,json}'],
         navigateFallback: '/index.html',
+        // fotos do glossário: guardadas no aparelho na primeira vez que aparecem
+        runtimeCaching: [
+          {
+            urlPattern: /\/assets\/.*\.(?:webp|jpe?g)$/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'ponte-fotos',
+              expiration: { maxEntries: 600, maxAgeSeconds: 60 * 60 * 24 * 365 },
+            },
+          },
+        ],
         cleanupOutdatedCaches: true,
       },
     }),

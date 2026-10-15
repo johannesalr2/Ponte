@@ -5,6 +5,7 @@ import type { Term } from '@/content/schema';
 import { addCard, removeCard, savePrefs, useCard, usePrefs } from '@/db/hooks';
 import { formatInterval } from '@/lib/fsrs';
 import { Icon } from './Icon';
+import { TermImage } from './TermImage';
 import { ArticleBadge, LevelBadge, SpeakButton, StatusBadge } from './term-bits';
 import { withArticle } from '@/lib/term';
 import { Button, Panel } from './ui';
@@ -61,6 +62,7 @@ export function TermDetail({ term, related }: { term: Term; related: Term[] }) {
               </p>
             ))}
         </div>
+        <TermImage term={term} />
         <dl className="border-line grid grid-cols-2 border-t sm:grid-cols-4 [&>div]:border-b sm:[&>div]:border-r [&>div:nth-child(odd)]:border-r">
           <Cell label={t('term.article')}>
             {term.de.article

@@ -165,6 +165,38 @@ use `"status": "rascunho"`. Escreva em português do Brasil e preencha
 `variants["pt-PT"]` só quando Portugal usa outra palavra. `revisado-profissional`
 é reservado para termos conferidos por alguém que trabalha na área.
 
+## Fotos dos objetos
+
+Termos que são objetos (ferramentas, peças, equipamentos) podem ter uma foto,
+mostrada na ficha do termo e como miniatura no glossário. **Só são aceitas
+fotos sem direitos reservados: CC0 ou domínio público.** O validador recusa
+qualquer outra licença e confere se o arquivo existe.
+
+```jsonc
+"image": {
+  "file": "media/industriemechaniker/im-messschieber.jpg",   // em /content/media
+  "alt": { "pt-BR": "Foto: paquímetro" },
+  "author": "Nome do autor",
+  "license": "CC0",                                          // ou "Public Domain"
+  "source": "https://commons.wikimedia.org/wiki/File:..."
+}
+```
+
+Para buscar fotos no Wikimedia Commons (requer acesso de rede a
+`commons.wikimedia.org` e `upload.wikimedia.org`):
+
+```bash
+npm run images:fetch                  # baixa até 3 candidatas por termo pendente
+npm run images:fetch -- im-feile      # ou só alguns termos
+# confira as imagens em scripts/images/staging/<id>/ e escolha a certa:
+npm run images:apply -- im-feile 2    # copia para content/media e grava "image"
+```
+
+A lista de termos que devem ter foto, com a busca usada, fica em
+`scripts/images/candidates.json`. Sempre olhe a candidata antes de aplicar:
+a busca pode trazer um objeto parecido, mas errado. No app, as fotos são
+guardadas no aparelho na primeira vez que aparecem (funcionam offline depois).
+
 ## Como adicionar um idioma de explicação
 
 O app descobre os idiomas sozinho a partir de `content/locales/`. Exemplo para

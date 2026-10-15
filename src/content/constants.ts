@@ -4,3 +4,5 @@ export const ARTICLES = ['der', 'die', 'das'] as const;
 export const GENDERS = ['m', 'f', 'n'] as const;
 export const POS = ['noun', 'verb', 'adjective', 'adverb', 'phrase', 'abbreviation'] as const;
 export const REVIEW_STATUS = ['rascunho', 'revisado-ia', 'revisado-profissional'] as const;
+/** Licenças aceitas para fotos: só material sem direitos autorais reservados. */
+export const IMAGE_LICENSES = ['CC0', 'Public Domain'] as const;

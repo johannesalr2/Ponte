@@ -22,6 +22,17 @@ const situationLoaders = import.meta.glob<SituationFile>('/content/professions/*
   import: 'default',
 });
 
+const mediaUrls = import.meta.glob<string>('/content/media/**/*.{webp,jpg,jpeg,png}', {
+  eager: true,
+  query: '?url',
+  import: 'default',
+});
+
+/** URL final (com hash) de uma foto declarada como "media/<profissão>/<arquivo>". */
+export function mediaUrl(file: string): string | undefined {
+  return mediaUrls[`/content/${file}`];
+}
+
 export const professions: Profession[] = Object.values(professionModules).sort(
   (a, b) => a.order - b.order,
 );

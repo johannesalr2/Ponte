@@ -5,9 +5,9 @@ import { z } from 'zod';
  * o build falha se um JSON não respeitar estes esquemas (ver validate.ts).
  */
 
-import { ARTICLES, GENDERS, LEVELS, POS, REVIEW_STATUS } from './constants';
+import { ARTICLES, GENDERS, IMAGE_LICENSES, LEVELS, POS, REVIEW_STATUS } from './constants';
 
-export { ARTICLES, GENDERS, LEVELS, POS, REVIEW_STATUS };
+export { ARTICLES, GENDERS, IMAGE_LICENSES, LEVELS, POS, REVIEW_STATUS };
 
 export const levelSchema = z.enum(LEVELS);
 export const articleSchema = z.enum(ARTICLES);
@@ -74,6 +74,22 @@ export const termSourceSchema = z
     esco: z.object({ uri: z.string().url(), label: text }).strict().nullable().default(null),
     /** fontes consultadas para o termo (normas, glossários, literatura técnica) */
     sources: z.array(z.object({ label: text, url: z.string().url() }).strict()).optional(),
+    /** foto do objeto, só com licença livre de direitos (CC0 ou domínio público) */
+    image: z
+      .object({
+        file: z
+          .string()
+          .regex(
+            /^media\/[a-z0-9-]+\/[a-z0-9-]+\.(webp|jpg|jpeg|png)$/,
+            'use media/<profissão>/<id>.jpg',
+          ),
+        alt: localized(text),
+        author: text,
+        license: z.enum(IMAGE_LICENSES),
+        source: z.string().url(),
+      })
+      .strict()
+      .optional(),
     status: reviewStatusSchema,
     examples: z.array(exampleSchema).length(2),
     tr: localized(termTranslationSchema),

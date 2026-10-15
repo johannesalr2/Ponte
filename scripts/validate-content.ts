@@ -4,10 +4,10 @@
  */
 import { fileURLToPath } from 'node:url';
 import { validateContent } from '../src/content/validate';
-import { readContentDir } from './read-content';
+import { listMedia, readContentDir } from './read-content';
 
 const root = fileURLToPath(new URL('../content', import.meta.url));
-const report = validateContent(readContentDir(root));
+const report = validateContent(readContentDir(root), listMedia(root));
 
 for (const w of report.warnings) console.warn(`aviso: ${w}`);
 for (const e of report.errors) console.error(`ERRO: ${e}`);
@@ -16,7 +16,7 @@ const { stats } = report;
 console.log(`\nIdiomas: ${stats.locales.join(', ')}`);
 for (const [code, pct] of Object.entries(stats.coverage))
   console.log(`  ${code}: ${pct}% dos termos`);
-console.log(`Termos: ${stats.totalTerms}`);
+console.log(`Termos: ${stats.totalTerms} (${stats.images} com foto)`);
 for (const [id, p] of Object.entries(stats.professions)) {
   const areas = Object.entries(p.areas)
     .map(([a, n]) => `${a} ${n}`)

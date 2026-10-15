@@ -30,6 +30,7 @@ export interface ValidationReport {
     /** porcentagem de termos traduzidos por idioma */
     coverage: Record<string, number>;
     totalTerms: number;
+    images: number;
   };
 }
 
@@ -40,7 +41,15 @@ function zodMessages(file: string, error: ZodError): string[] {
   return error.issues.map((i) => `${file}: ${i.path.join('.') || '(raiz)'} — ${i.message}`);
 }
 
-export function validateContent(files: Record<string, unknown>): ValidationReport {
+/**
+ * `media` é a lista de arquivos de imagem em /content/media (caminhos relativos a
+ * /content). Se omitida, a existência dos arquivos de foto não é conferida.
+ */
+export function validateContent(
+  files: Record<string, unknown>,
+  media?: string[],
+): ValidationReport {
+  const mediaSet = media ? new Set(media) : null;
   const errors: string[] = [];
   const warnings: string[] = [];
   const stats: ValidationReport['stats'] = {
@@ -49,6 +58,7 @@ export function validateContent(files: Record<string, unknown>): ValidationRepor
     status: {},
     coverage: {},
     totalTerms: 0,
+    images: 0,
   };
 
   // ------------------------------------------------------------ idiomas
@@ -152,6 +162,13 @@ export function validateContent(files: Record<string, unknown>): ValidationRepor
     for (const t of data.terms) {
       const where = `${path} [${t.id}]`;
       const { word, article, plural, gender, pos } = t.de;
+      if (t.image) {
+        stats.images++;
+        checkLocalized(`${where} image.alt`, t.image.alt);
+        if (mediaSet && !mediaSet.has(t.image.file)) {
+          errors.push(`${where}: foto "${t.image.file}" não existe em /content`);
+        }
+      }
       stats.totalTerms++;
       stats.status[t.status] = (stats.status[t.status] ?? 0) + 1;
       if (pstats) {
