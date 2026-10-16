@@ -213,6 +213,39 @@ npx prettier --write content
 
 O texto alternativo é montado a partir das legendas do desenho.
 
+## Área experimental /second (ESCO)
+
+Em `/second` fica uma versão do app que busca profissões, habilidades e
+conhecimentos direto da [ESCO](https://esco.ec.europa.eu), a classificação
+europeia de profissões, em qualquer par dos 28 idiomas dela. Ela não usa o
+perfil nem o conteúdo de `/content`. O par de idiomas fica salvo no aparelho e
+pode ser trocado no botão do cabeçalho (ex.: `DE ↔ PT`).
+
+- **Profissão:** nome e descrição nos dois idiomas, outros nomes, grupo ISCO,
+  habilidades essenciais e opcionais separadas em conhecimentos e habilidades,
+  profissões relacionadas.
+- **Habilidade:** descrição nos dois idiomas, alcance (transversal, setorial…) e
+  em quais profissões ela é essencial ou opcional.
+- **Praticar:** 10 perguntas de múltipla escolha com os rótulos da ESCO, nas
+  duas direções.
+
+A ESCO tem só o português de Portugal (`pt`), não pt-BR.
+
+### Trocar a API por um servidor próprio
+
+Todo o acesso passa por uma interface (`src/second/esco/source.ts`). A ESCO
+oferece a mesma API para instalação local, com os mesmos endpoints, então basta
+apontar a URL (copie `.env.example` para `.env`):
+
+```bash
+VITE_ESCO_API_URL=https://meu-servidor/esco/api
+VITE_ESCO_VERSION=v1.2.0   # opcional
+```
+
+Para um backend com formato diferente, crie outra implementação de
+`EscoSource` e troque a exportação `esco` em `src/second/esco/config.ts`. As
+respostas ficam guardadas pelo service worker (`ponte-esco`) para uso offline.
+
 ## Como adicionar um idioma de explicação
 
 O app descobre os idiomas sozinho a partir de `content/locales/`. Exemplo para

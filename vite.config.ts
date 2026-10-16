@@ -1,6 +1,6 @@
 /// <reference types="vitest/config" />
 import { fileURLToPath } from 'node:url';
-import { defineConfig, type Plugin } from 'vite';
+import { defineConfig, loadEnv, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import { VitePWA } from 'vite-plugin-pwa';
@@ -8,6 +8,13 @@ import { validateContent } from './src/content/validate';
 import { listMedia, readContentDir } from './scripts/read-content';
 
 const contentDir = fileURLToPath(new URL('./content', import.meta.url));
+
+/** API da ESCO usada pela área /second (ver src/second/esco/config.ts). */
+const escoApi = (
+  loadEnv(process.env.NODE_ENV === 'production' ? 'production' : 'development', process.cwd())
+    .VITE_ESCO_API_URL || 'https://ec.europa.eu/esco/api'
+).replace(/\/+$/, '');
+const escapeRegex = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
 /** Valida /content com Zod: falha o build; no dev mostra erros no terminal. */
 function contentValidation(): Plugin {
@@ -76,6 +83,16 @@ export default defineConfig({
         navigateFallback: '/index.html',
         // fotos do glossário: guardadas no aparelho na primeira vez que aparecem
         runtimeCaching: [
+          // respostas da ESCO: mostra a cópia guardada na hora e atualiza em segundo plano
+          {
+            urlPattern: new RegExp(`^${escapeRegex(escoApi)}/`),
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'ponte-esco',
+              expiration: { maxEntries: 2000, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              cacheableResponse: { statuses: [200] },
+            },
+          },
           {
             urlPattern: /\/assets\/.*\.(?:webp|jpe?g)$/,
             handler: 'CacheFirst',

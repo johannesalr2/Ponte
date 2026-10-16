@@ -20,6 +20,10 @@ const Situations = lazy(() => import('@/features/situations/Situations'));
 const SituationPage = lazy(() => import('@/features/situations/SituationPage'));
 const Career = lazy(() => import('@/features/career/Career'));
 const Settings = lazy(() => import('@/features/settings/Settings'));
+const SecondApp = lazy(() => import('@/second/SecondApp'));
+
+/** /second é uma área separada (dados da ESCO), sem onboarding nem perfil. */
+const isSecond = () => /^\/second(\/|$)/.test(window.location.pathname);
 
 /** Ajusta lang/dir do documento ao idioma de explicação. */
 function DocumentLocale() {
@@ -51,6 +55,15 @@ export default function App() {
   const prefs = usePrefs();
   useTheme(prefs.theme);
 
+  if (isSecond())
+    return (
+      <I18nProvider code={DEFAULT_LOCALE}>
+        <DocumentLocale />
+        <Suspense fallback={null}>
+          <SecondApp />
+        </Suspense>
+      </I18nProvider>
+    );
   if (profile === undefined) return null; // IndexedDB abrindo (alguns ms)
 
   return (

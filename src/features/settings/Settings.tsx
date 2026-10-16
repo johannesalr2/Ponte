@@ -245,6 +245,15 @@ export default function Settings() {
           </ul>
         </Section>
 
+        <Section title={t('settings.esco')} hint={t('settings.escoHint')}>
+          <a
+            href="/second"
+            className="border-line-strong hover:bg-surface-2 inline-flex min-h-11 items-center gap-2 self-start rounded-lg border px-4 font-medium"
+          >
+            <Icon name="layers" /> {t('settings.escoOpen')}
+          </a>
+        </Section>
+
         <Section title={t('settings.privacy')} hint={t('settings.privacyHint')}>
           <Button variant="danger" className="self-start" onClick={() => void reset()}>
             {t('settings.reset')}

@@ -6,3 +6,5 @@ coverage
 .DS_Store
 lighthouse-*.json
 scripts/images/staging
+.env
+.env.local
